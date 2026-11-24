@@ -1,0 +1,27 @@
+name: Hunter and Tannersville
+state: NY
+region: catskills
+blurb: The heart of the northern Catskills, with Kaaterskill Falls, the escarpment lakes and a major ski resort, all within about 20 minutes of each other.
+nearby:
+  - place: hunter-mountain
+    minutes: 10
+  - place: kaaterskill-falls
+    minutes: 15
+  - place: north-south-lake
+    minutes: 20
+  - place: olana
+    minutes: 50
+  - place: windham-mountain
+    minutes: 20
+  - place: belleayre-mountain
+    minutes: 40
+checkBefore:
+  - type: conditions
+    label: "NYS DEC: Catskill backcountry info"
+    url: https://dec.ny.gov/things-to-do/hiking/catskill-backcountry-information
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org
+  - type: official
+    label: Hunter Mountain snow report
+    url: https://www.huntermtn.com/mountain-info/snow-report

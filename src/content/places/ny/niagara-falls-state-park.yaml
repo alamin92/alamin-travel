@@ -1,0 +1,44 @@
+name: Niagara Falls State Park
+state: NY
+region: western-ny
+area: Niagara Falls
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/niagara-falls-state-park
+links:
+  - type: state-park
+    label: "NY State Parks: Niagara Falls State Park"
+    url: https://parks.ny.gov/visit/state-parks/niagara-falls-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Niagara%20Falls%20State%20Park
+mapQuery: Niagara Falls State Park, Niagara Falls, NY
+lat: 43.08
+lon: -79.07
+kind: waterfall
+interests:
+  - family
+  - views
+  - photo
+  - adventure
+  - short-time
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: varies
+costNote: Park access has little or no charge beyond parking. Boat tours and Cave of the Winds are separate paid attractions.
+highlight: true
+summary: The American side of Niagara Falls, in the oldest state park in the country, with close viewpoints, walking paths and boat and walkway attractions.
+details: You can see the falls from many free viewpoints. Paid attractions such as the boat tour and the Cave of the Winds walkways put you closer. Allow half a day.
+warnings:
+  - type: crowds
+    text: Summer, holidays and weekends are very busy, and lines for the paid attractions can be long.
+    verify: true
+  - type: reservation
+    text: Book paid attractions from their official sites. Operating dates and schedules are seasonal.
+    verify: true

@@ -1,0 +1,20 @@
+name: New Paltz
+state: NY
+region: hudson-valley
+blurb: The village at the foot of the Shawangunk Ridge, close to Minnewaska, Sam's Point and the Walkway Over the Hudson.
+nearby:
+  - place: minnewaska
+    minutes: 20
+  - place: walkway-over-the-hudson
+    minutes: 20
+  - place: sams-point
+    minutes: 30
+  - place: mohonk-preserve
+    minutes: 15
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: Minnewaska alerts and status"
+    url: https://parks.ny.gov/visit/state-parks/minnewaska-state-park-preserve
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

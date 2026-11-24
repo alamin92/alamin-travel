@@ -1,0 +1,43 @@
+name: Letchworth State Park
+state: NY
+region: western-ny
+area: Castile
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/letchworth-state-park
+links:
+  - type: state-park
+    label: "NY State Parks: Letchworth"
+    url: https://parks.ny.gov/visit/state-parks/letchworth-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Letchworth%20State%20Park
+mapQuery: Letchworth State Park, Castile, NY
+lat: 42.58
+lon: -78.05
+kind: park
+interests:
+  - nature
+  - views
+  - photo
+  - family
+  - relax
+difficulty: moderate
+timeMinutes: 360
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+costNote: A vehicle entry or parking fee usually applies in season. Check the park page for the current amount.
+highlight: true
+summary: 'Often called the "Grand Canyon of the East": a long Genesee River gorge with three major waterfalls and many overlooks.'
+details: The park runs about 17 miles along the gorge, so you can drive between overlooks and short trails. Middle Falls, with its railroad bridge, is the classic stop. Hot-air balloon rides and whitewater rafting are offered by outside operators in season.
+warnings:
+  - type: crowds
+    text: Fall foliage weekends and summer weekends are the busiest. Arrive early and expect fuller lots by midday.
+    verify: true
+  - type: fees
+    text: A vehicle entry fee applies. Outside activities (balloon rides, rafting) are separate and usually need booking ahead.
+    verify: true

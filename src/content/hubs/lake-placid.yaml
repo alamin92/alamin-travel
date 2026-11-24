@@ -1,0 +1,25 @@
+name: Lake Placid
+state: NY
+region: adirondacks
+blurb: The Adirondacks' best-known village, with Olympic sites, Whiteface Mountain and gorges close by.
+nearby:
+  - place: lake-placid-village
+    minutes: 5
+  - place: mt-van-hoevenberg
+    minutes: 10
+  - place: whiteface-mountain
+    minutes: 20
+  - place: high-falls-gorge
+    minutes: 20
+  - place: ausable-chasm
+    minutes: 60
+checkBefore:
+  - type: official
+    label: Lake Placid visitor site
+    url: https://www.lakeplacid.com/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org
+  - type: official
+    label: "Whiteface Mountain: status and conditions"
+    url: https://whiteface.com/

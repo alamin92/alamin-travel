@@ -1,0 +1,41 @@
+name: Storm King Art Center
+state: NY
+region: hudson-valley
+area: Mountainville
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://stormking.org/
+links:
+  - type: official
+    label: Storm King Art Center official site
+    url: https://stormking.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Storm%20King%20Art%20Center%2C%20Mountainville%2C%20NY
+mapQuery: Storm King Art Center, Mountainville, NY
+lat: 41.42
+lon: -74.06
+kind: museum
+interests:
+  - culture
+  - relax
+  - photo
+  - family
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A large outdoor sculpture park set in rolling fields and woods, good for a relaxed walk among big works of art.
+details: The grounds are big, so wear comfortable shoes. There are tram and bike options on the site. Check the official page for what is offered.
+warnings:
+  - type: reservation
+    text: Entry is often by timed ticket, and tickets may need to be bought in advance. Check the official site.
+    verify: true
+  - type: closure
+    text: It is seasonal. Check the opening dates before you plan.
+    verify: true

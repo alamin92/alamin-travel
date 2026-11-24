@@ -1,0 +1,47 @@
+name: Storm King Mountain (Storm King State Park)
+state: NY
+region: hudson-valley
+area: Cornwall-on-Hudson
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/storm-king-state-park
+links:
+  - type: state-park
+    label: "NY State Parks: Storm King State Park"
+    url: https://parks.ny.gov/visit/state-parks/storm-king-state-park
+  - type: other
+    label: Official trail map (PDF)
+    url: https://www.parks.ny.gov/documents/parks/StormKingTrailMap.pdf
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Storm%20King%20State%20Park
+mapQuery: Storm King State Park, Cornwall-on-Hudson, NY
+lat: 41.43
+lon: -74.01
+kind: hike
+interests:
+  - views
+  - adventure
+  - nature
+  - rough
+  - photo
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - fall
+familyFriendly: false
+cost: free
+highlight: true
+summary: A steep ridge hike above the Hudson River in the Hudson Highlands, with open ledges and river views.
+details: Several loops are possible, from a shorter steep loop of about 2.5 miles to a longer one of about 4 miles. Trails are rocky and steep in places, so plan for a workout.
+warnings:
+  - type: parking
+    text: Parking is limited and the park is undeveloped, with no toilets (per the official park description).
+    verify: false
+  - type: safety
+    text: Stay on marked trails. There are warnings about unexploded shells from neighboring military land off the trails in the south part of the park.
+    verify: true
+  - type: other
+    text: Dogs are allowed on a leash of no more than 6 feet.
+    verify: false

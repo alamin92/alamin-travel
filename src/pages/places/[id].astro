@@ -1,0 +1,64 @@
+---
+import Base from '../../layouts/Base.astro';
+import Badge from '../../components/Badge.astro';
+import { getCollection, getEntry } from 'astro:content';
+import { formatMinutes, mapLinks } from '../../lib/maps';
+import { difficultyLabels, costLabels, seasonLabels, warningLabels, regionLabels } from '../../lib/labels';
+
+export async function getStaticPaths() {
+  const places = await getCollection('places');
+  return places.map((p) => ({ params: { id: p.id } }));
+}
+const place = (await getEntry('places', Astro.params.id!))!;
+const d = place.data;
+const m = mapLinks(d.mapQuery);
+const checked = d.lastChecked.toISOString().slice(0, 10);
+---
+<Base title={d.name} description={d.summary}>
+  <p class="crumb"><a href="/browse">← Browse</a></p>
+  <Badge source={d.source} />
+  <h1 style="margin-top:10px">{d.name}</h1>
+  <p class="muted">{d.area}, {d.state} · {regionLabels[d.region]}</p>
+  <p class="lead">{d.summary}</p>
+
+  <dl class="facts">
+    <div><dt>Typical visit</dt><dd>About {formatMinutes(d.timeMinutes)}</dd></div>
+    <div><dt>Difficulty</dt><dd>{difficultyLabels[d.difficulty]}</dd></div>
+    <div><dt>Family friendly</dt><dd>{d.familyFriendly ? 'Yes' : 'Not ideal'}</dd></div>
+    <div><dt>Cost</dt><dd>{costLabels[d.cost]}</dd></div>
+    {d.bestSeason.length > 0 && <div><dt>Best season</dt><dd>{d.bestSeason.map((x) => seasonLabels[x]).join(', ')}</dd></div>}
+  </dl>
+  {d.costNote && <p class="muted">{d.costNote}</p>}
+
+  {d.warnings.length > 0 && (
+    <>
+      <h2>Things to know</h2>
+      {d.warnings.map((w) => (
+        <div class="warning">
+          <strong>{warningLabels[w.type]}:</strong> {w.text}
+          {w.verify && <div class="verify">Verify before you go.</div>}
+        </div>
+      ))}
+    </>
+  )}
+
+  {d.details && <><h2>About this place</h2><p>{d.details}</p></>}
+
+  {d.tips.length > 0 && (
+    <>
+      <h2>Alamin's notes</h2>
+      <ul>{d.tips.map((t) => <li>{t}</li>)}</ul>
+    </>
+  )}
+
+  <h2>Directions</h2>
+  <p class="maps"><a href={m.google}>Google Maps</a><a href={m.apple}>Apple Maps</a><a href={m.waze}>Waze</a></p>
+
+  <h2>Official and helpful links</h2>
+  <ul class="plain">
+    <li><a href={d.officialUrl} rel="noopener">Official page</a></li>
+    {d.links.filter((l) => l.url !== d.officialUrl).map((l) => <li><a href={l.url} rel="noopener">{l.label}</a> <span class="muted">({l.type})</span></li>)}
+  </ul>
+
+  <p class="muted" style="margin-top:28px">Last checked {checked}. {d.source === 'researched' ? 'Written from public information, not a first-hand visit.' : 'Includes first-hand notes from a visit.'}</p>
+</Base>

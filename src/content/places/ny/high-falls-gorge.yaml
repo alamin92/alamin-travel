@@ -1,0 +1,40 @@
+name: High Falls Gorge
+state: NY
+region: adirondacks
+area: Wilmington
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://highfallsgorge.com/
+links:
+  - type: official
+    label: High Falls Gorge official site
+    url: https://highfallsgorge.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=High%20Falls%20Gorge%2C%20Wilmington%2C%20NY
+mapQuery: High Falls Gorge, Wilmington, NY
+lat: 44.36
+lon: -73.86
+kind: waterfall
+interests:
+  - nature
+  - family
+  - photo
+  - short-time
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A privately run gorge on the AuSable River with boardwalks and bridges that bring you close to several waterfalls.
+details: Short, well-built walkways make this an easy stop for families, and it pairs well with Whiteface Mountain nearby.
+warnings:
+  - type: fees
+    text: Admission is charged. Check the official site for prices and seasonal hours.
+    verify: true
+  - type: closure
+    text: Operating dates are seasonal. Confirm they are open before you drive there.
+    verify: true

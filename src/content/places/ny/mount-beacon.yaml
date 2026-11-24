@@ -1,0 +1,44 @@
+name: Mount Beacon (Casino Trail and fire tower)
+state: NY
+region: hudson-valley
+area: Beacon
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.scenichudson.org/explore-the-valley/scenic-hudson-parks/mount-beacon-park/
+links:
+  - type: official
+    label: "Scenic Hudson: Mount Beacon Park"
+    url: https://www.scenichudson.org/explore-the-valley/scenic-hudson-parks/mount-beacon-park/
+  - type: other
+    label: "Hike the Hudson Valley: Mt. Beacon"
+    url: https://hikethehudsonvalley.com/mt-beacon/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mount%20Beacon%20Park%2C%20Beacon%2C%20NY
+mapQuery: Mount Beacon Park, Beacon, NY
+lat: 41.49
+lon: -73.95
+kind: hike
+interests:
+  - views
+  - adventure
+  - nature
+  - rough
+  - photo
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - fall
+familyFriendly: false
+cost: free
+highlight: true
+summary: A steep, popular climb to a restored fire tower with 360-degree views over the Hudson River and Highlands.
+details: The route goes up a gravel road to the old incline railway, then up the Casino Trail. Most guides describe a round trip of about 4 miles with a few hours of steady climbing.
+warnings:
+  - type: crowds
+    text: One of the most popular hikes in the region. Weekends and clear fall days are busy, and the parking area can fill.
+    verify: true
+  - type: safety
+    text: The climb is steep and rocky. Bring water and good shoes, and check conditions after rain or in winter.
+    verify: true

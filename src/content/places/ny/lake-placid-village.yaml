@@ -1,0 +1,40 @@
+name: Lake Placid (village)
+state: NY
+region: adirondacks
+area: Lake Placid
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.lakeplacid.com/
+links:
+  - type: official
+    label: Lake Placid official visitor site
+    url: https://www.lakeplacid.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Lake%20Placid%2C%20NY
+mapQuery: Lake Placid, NY
+lat: 44.28
+lon: -73.98
+kind: town
+interests:
+  - family
+  - relax
+  - winter
+  - history
+  - culture
+  - adventure
+difficulty: easy
+timeMinutes: 300
+bestSeason:
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: varies
+highlight: true
+summary: A mountain village on Mirror Lake that hosted the 1932 and 1980 Winter Olympics, with shops, restaurants and a base for High Peaks adventures.
+details: A good home base for the Adirondack High Peaks. In town you can walk Main Street and Mirror Lake and see the Olympic sites. Many activities in the area are run by separate operators.
+warnings:
+  - type: parking
+    text: Parking in the village is tight on peak summer and winter weekends and during events.
+    verify: true

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+.env
+.env.*
+.DS_Store
+*.log
+
+# Private source material: raw itineraries with addresses and names. NEVER commit.
+/notes/

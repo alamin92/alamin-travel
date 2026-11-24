@@ -1,0 +1,45 @@
+name: Watkins Glen State Park
+state: NY
+region: finger-lakes
+area: Watkins Glen
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/watkins-glen-state-park
+links:
+  - type: state-park
+    label: "NY State Parks: Watkins Glen"
+    url: https://parks.ny.gov/visit/state-parks/watkins-glen-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Watkins%20Glen%20State%20Park
+mapQuery: Watkins Glen State Park, Watkins Glen, NY
+lat: 42.37
+lon: -76.88
+kind: waterfall
+interests:
+  - nature
+  - photo
+  - views
+  - family
+  - adventure
+difficulty: moderate
+timeMinutes: 150
+bestSeason:
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+costNote: A vehicle entry or parking fee usually applies in season. Check the park page for the current amount.
+highlight: true
+summary: A famous gorge with about 19 waterfalls along a 1.5-mile trail of stone bridges, tunnels and steps.
+details: The Gorge Trail is one of the best-known walks in the Finger Lakes. It climbs a lot of stone steps, so allow time and wear shoes with grip. Walk one way and return by the rim trail, or the reverse.
+warnings:
+  - type: closure
+    text: The Gorge Trail is seasonal (typically late spring to early winter) and closes when icy. Check the park page for dates and any closures.
+    verify: true
+  - type: crowds
+    text: Summer and fall weekends are busy, and the lots can fill. Go early.
+    verify: true
+  - type: safety
+    text: Steps and bridges are wet and slippery. Wear shoes with good grip.
+    verify: true

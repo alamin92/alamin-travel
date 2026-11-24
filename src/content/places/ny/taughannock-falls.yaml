@@ -1,0 +1,43 @@
+name: Taughannock Falls State Park
+state: NY
+region: finger-lakes
+area: Trumansburg
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/taughannock-falls-state-park
+links:
+  - type: state-park
+    label: "NY State Parks: Taughannock Falls"
+    url: https://parks.ny.gov/visit/state-parks/taughannock-falls-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Taughannock%20Falls%20State%20Park
+mapQuery: Taughannock Falls State Park, Trumansburg, NY
+lat: 42.55
+lon: -76.6
+kind: waterfall
+interests:
+  - nature
+  - family
+  - photo
+  - relax
+  - views
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+costNote: A vehicle entry or parking fee usually applies in season. Check the park page for the current amount.
+highlight: true
+summary: A 215-foot waterfall, taller than Niagara Falls, at the end of a mostly flat gorge walk beside Cayuga Lake.
+details: The gorge trail is a gentle walk of under a mile each way to the base of the falls, which suits kids and most ability levels. There is also an overlook you can reach from the rim, plus a beach, picnic areas and lake views.
+warnings:
+  - type: closure
+    text: The gorge trail can close in winter or after rockfall. Check the park page before you go.
+    verify: true
+  - type: fees
+    text: Vehicle fee in season. Check the park page.
+    verify: true

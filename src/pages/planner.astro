@@ -1,0 +1,107 @@
+---
+import Base from '../layouts/Base.astro';
+import PlanControls from '../components/PlanControls.astro';
+import { loadPlaces, loadHubs } from '../lib/data';
+import { interestLabels, regionLabels } from '../lib/labels';
+
+const places = await loadPlaces();
+const hubs = await loadHubs();
+const data = JSON.stringify({ places, hubs }).replace(/</g, '\\u003c');
+const grouped = Object.entries(regionLabels)
+  .map(([id, label]) => ({ label, hubs: hubs.filter((h) => h.region === id) }))
+  .filter((g) => g.hubs.length);
+---
+<Base title="Build and download a plan" description="Pick a base town, days and interests. Get an editable plan to download as Word, text or PDF.">
+  <h1 class="no-print">Build and download a plan</h1>
+  <p class="lead no-print">Choose a few options and get a day-by-day plan. Nothing is saved or sent anywhere: it exists only in this tab until you download it.</p>
+
+  <form id="planner-form" class="card form no-print">
+    <label>Base town
+      <select name="hub" required>
+        {grouped.map((g) => (
+          <optgroup label={g.label}>{g.hubs.map((h) => <option value={h.id}>{h.name}</option>)}</optgroup>
+        ))}
+      </select>
+    </label>
+    <label>Days
+      <input type="number" name="days" min="1" max="14" value="3" required />
+    </label>
+    <label>Pace
+      <select name="pace">
+        <option value="relaxed">Relaxed (about 6 hours a day)</option>
+        <option value="normal" selected>Normal (about 8 hours a day)</option>
+        <option value="packed">Packed (about 10 hours a day)</option>
+      </select>
+    </label>
+    <fieldset>
+      <legend>Interests <span class="muted">(optional: pick any)</span></legend>
+      <div class="chips-input">
+        {Object.entries(interestLabels).map(([id, label]) => (
+          <label class="chipcheck"><input type="checkbox" name="interest" value={id} /> <span>{label}</span></label>
+        ))}
+      </div>
+    </fieldset>
+    <label class="inline"><input type="checkbox" name="family" /> Family-friendly places only</label>
+    <button type="submit" class="primary">Build my plan</button>
+  </form>
+
+  <div id="result" hidden>
+    <div class="save-warning no-print" id="save-warning" role="status">
+      <strong>This plan is not saved.</strong> Download it before you close this tab, or it will be lost.
+    </div>
+    <PlanControls />
+    <article class="plan" id="plan-out"></article>
+  </div>
+  <p id="empty" class="muted" hidden>No places match those options near this town. Try removing an interest or the family filter.</p>
+
+  <script type="application/json" id="planner-data" set:html={data} />
+  <script>
+    import { buildPlan, type PlaceData, type HubData, type Plan, type Pace } from '../lib/planner';
+    import { wirePlanView } from '../scripts/plan-ui';
+
+    const { places, hubs } = JSON.parse(document.getElementById('planner-data')!.textContent!) as { places: PlaceData[]; hubs: HubData[] };
+    const byId = Object.fromEntries(places.map((p) => [p.id, p]));
+    const form = document.getElementById('planner-form') as HTMLFormElement;
+    const result = document.getElementById('result')!;
+    const empty = document.getElementById('empty')!;
+    const warning = document.getElementById('save-warning')!;
+
+    let plan: Plan | null = null;
+    let unsaved = false;
+    window.addEventListener('beforeunload', (e) => {
+      if (unsaved) { e.preventDefault(); e.returnValue = ''; }
+    });
+
+    const view = wirePlanView(result, document.getElementById('plan-out')!, () => plan, () => {
+      unsaved = false;
+      warning.innerHTML = '<strong>Saved to your device.</strong> You can still change the options above and download again.';
+    });
+
+    function generate() {
+      const fd = new FormData(form);
+      const hub = hubs.find((h) => h.id === fd.get('hub'));
+      if (!hub) return;
+      plan = buildPlan(hub, byId, {
+        days: Math.min(14, Math.max(1, parseInt(String(fd.get('days')), 10) || 1)),
+        interests: fd.getAll('interest').map(String),
+        pace: String(fd.get('pace')) as Pace,
+        familyOnly: fd.get('family') === 'on',
+      });
+      const hasStops = plan.days.some((d) => !d.free);
+      empty.hidden = hasStops;
+      result.hidden = !hasStops;
+      if (!hasStops) { plan = null; return; }
+      unsaved = true;
+      warning.innerHTML = '<strong>This plan is not saved.</strong> Download it before you close this tab, or it will be lost.';
+      view.render();
+      result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    form.addEventListener('submit', (e) => { e.preventDefault(); generate(); });
+
+    // Preselect from the URL (for example, coming from a "3 days near Albany" page).
+    const q = new URLSearchParams(location.search);
+    if (q.get('hub') && hubs.some((h) => h.id === q.get('hub'))) (form.elements.namedItem('hub') as HTMLSelectElement).value = q.get('hub')!;
+    if (q.get('days')) (form.elements.namedItem('days') as HTMLInputElement).value = q.get('days')!;
+    if (q.get('hub')) generate();
+  </script>
+</Base>

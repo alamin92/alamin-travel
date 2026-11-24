@@ -1,0 +1,4 @@
+---
+const { source } = Astro.props;
+---
+<span class={`badge ${source}`}>{source === 'visited' ? 'Alamin visited' : 'Researched guide'}</span>

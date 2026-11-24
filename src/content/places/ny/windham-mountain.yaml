@@ -1,0 +1,40 @@
+name: Windham Mountain and Windham village
+state: NY
+region: catskills
+area: Windham
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://windhammountain.com/
+links:
+  - type: official
+    label: Windham Mountain official site
+    url: https://windhammountain.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Windham%20Mountain%2C%20Windham%2C%20NY
+mapQuery: Windham Mountain, Windham, NY
+lat: 42.31
+lon: -74.26
+kind: activity
+interests:
+  - winter
+  - family
+  - adventure
+  - relax
+difficulty: moderate
+timeMinutes: 240
+bestSeason:
+  - winter
+  - summer
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A Catskills ski area with a village nearby for shops and cafes, and activities that depend on the season.
+details: A good winter alternative to Hunter, with a village to stroll after. Check the official site for which lifts, tubing or scenic rides are running on your dates.
+warnings:
+  - type: reservation
+    text: Tickets for lifts, tubing or rides may need advance purchase. Confirm on the official site.
+    verify: true
+  - type: closure
+    text: Operations depend on season, snow and weather.
+    verify: true

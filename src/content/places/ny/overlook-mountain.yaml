@@ -1,0 +1,48 @@
+name: Overlook Mountain (Woodstock)
+state: NY
+region: catskills
+area: Woodstock
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://dec.ny.gov/places/overlook-mountain-wild-forest
+links:
+  - type: official
+    label: "NYS DEC: Overlook Mountain Wild Forest"
+    url: https://dec.ny.gov/places/overlook-mountain-wild-forest
+  - type: other
+    label: "Scenic Hudson: hike Overlook Mountain"
+    url: https://www.scenichudson.org/experience/hike-overlook-mountain/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Overlook%20Mountain%20Trailhead%2C%20Woodstock%2C%20NY
+mapQuery: Overlook Mountain Trailhead, Woodstock, NY
+lat: 42.07
+lon: -74.12
+kind: hike
+interests:
+  - views
+  - adventure
+  - nature
+  - history
+  - rough
+difficulty: moderate
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: false
+cost: free
+highlight: true
+summary: A just-under-5-mile round trip up an old carriage road to a historic fire tower, hotel ruins and wide views of the Hudson Valley and central Catskills.
+details: The climb is steady, gaining roughly 1,400 feet, so it suits people comfortable with a long uphill. Allow a half day with time at the top.
+warnings:
+  - type: safety
+    text: The DEC advises people to look at the old hotel ruins from the outside and not to enter, because they are unstable.
+    verify: false
+  - type: weather
+    text: The summit is cooler and windier than the trailhead. Carry water and layers.
+    verify: true
+  - type: closure
+    text: Fire tower access and the summit cabin depend on volunteer staffing and season. Check the DEC page.
+    verify: true

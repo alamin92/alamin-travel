@@ -1,0 +1,123 @@
+---
+import Base from '../layouts/Base.astro';
+import Badge from '../components/Badge.astro';
+import { loadPlaces } from '../lib/data';
+import { formatMinutes } from '../lib/maps';
+import { interestLabels, regionLabels, kindLabels, difficultyLabels } from '../lib/labels';
+
+const places = await loadPlaces();
+const regions = Object.entries(regionLabels).filter(([id]) => places.some((p) => p.region === id));
+const timeBucket = (m: number) => (m <= 60 ? 'quick' : m <= 180 ? 'half' : 'full');
+---
+<Base title="Browse places" description="Browse New York places by interest, region, difficulty and time. Family friendly, adventure, relaxing, views and more.">
+  <h1>Browse by interest</h1>
+  <p class="lead">Pick what you like and the list narrows down. Filters work in your browser, nothing is sent anywhere.</p>
+
+  <form id="filters" class="card form" onsubmit="return false">
+    <input type="search" id="q" placeholder="Search by name or town" aria-label="Search places" />
+    <fieldset>
+      <legend>Interests <span class="muted">(shows places matching any you pick)</span></legend>
+      <div class="chips-input">
+        {Object.entries(interestLabels).map(([id, label]) => (
+          <label class="chipcheck"><input type="checkbox" name="interest" value={id} /> <span>{label}</span></label>
+        ))}
+      </div>
+    </fieldset>
+    <div class="row">
+      <label>Region
+        <select id="region"><option value="">All</option>{regions.map(([id, l]) => <option value={id}>{l}</option>)}</select>
+      </label>
+      <label>Type
+        <select id="kind"><option value="">All</option>{Object.entries(kindLabels).map(([id, l]) => <option value={id}>{l}</option>)}</select>
+      </label>
+      <label>Difficulty
+        <select id="difficulty"><option value="">Any</option>{['easy', 'moderate', 'hard'].map((d) => <option value={d}>{difficultyLabels[d]}</option>)}</select>
+      </label>
+      <label>Time needed
+        <select id="time"><option value="">Any</option><option value="quick">About an hour or less</option><option value="half">Up to half a day</option><option value="full">A full day</option></select>
+      </label>
+      <label>Source
+        <select id="source"><option value="">All</option><option value="visited">Alamin visited</option><option value="researched">Researched guide</option></select>
+      </label>
+    </div>
+    <div class="row">
+      <label class="inline"><input type="checkbox" id="family" /> Family friendly</label>
+      <label class="inline"><input type="checkbox" id="free" /> Free only</label>
+      <button type="button" id="clear">Clear filters</button>
+    </div>
+  </form>
+
+  <p id="count" class="muted" role="status"></p>
+  <div class="grid" id="results">
+    {places.map((p) => (
+      <a class="card place-card" href={`/places/${p.id}`}
+        data-name={`${p.name} ${p.area}`.toLowerCase()}
+        data-interests={p.interests.join(' ')} data-region={p.region} data-kind={p.kind}
+        data-difficulty={p.difficulty} data-time={timeBucket(p.timeMinutes)} data-source={p.source}
+        data-family={String(p.familyFriendly)} data-free={String(p.cost === 'free')}>
+        <Badge source={p.source} />
+        <h3 style="margin-top:8px">{p.name}</h3>
+        <p class="muted">{p.area} · {regionLabels[p.region]} · about {formatMinutes(p.timeMinutes)}</p>
+        <p>{p.summary}</p>
+        <div class="chips">{p.interests.map((i) => <span class="chip">{interestLabels[i]}</span>)}</div>
+        {p.warnings.some((w) => w.type === 'reservation') && <p class="verify">Reservation or ticket rules apply</p>}
+      </a>
+    ))}
+  </div>
+  <p id="none" class="muted" hidden>No places match. Try clearing a filter.</p>
+
+  <script>
+    const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
+    const cards = Array.from(document.querySelectorAll<HTMLElement>('#results .place-card'));
+    const boxes = Array.from(document.querySelectorAll<HTMLInputElement>('input[name="interest"]'));
+    const sel = { region: $<HTMLSelectElement>('region'), kind: $<HTMLSelectElement>('kind'), difficulty: $<HTMLSelectElement>('difficulty'), time: $<HTMLSelectElement>('time'), source: $<HTMLSelectElement>('source') };
+    const q = $<HTMLInputElement>('q'), family = $<HTMLInputElement>('family'), free = $<HTMLInputElement>('free');
+
+    function apply() {
+      const text = q.value.trim().toLowerCase();
+      const picked = boxes.filter((b) => b.checked).map((b) => b.value);
+      let shown = 0;
+      for (const c of cards) {
+        const d = c.dataset;
+        const ok =
+          (!text || d.name!.includes(text)) &&
+          (!picked.length || picked.some((i) => d.interests!.split(' ').includes(i))) &&
+          (!sel.region.value || d.region === sel.region.value) &&
+          (!sel.kind.value || d.kind === sel.kind.value) &&
+          (!sel.difficulty.value || d.difficulty === sel.difficulty.value) &&
+          (!sel.time.value || d.time === sel.time.value) &&
+          (!sel.source.value || d.source === sel.source.value) &&
+          (!family.checked || d.family === 'true') &&
+          (!free.checked || d.free === 'true');
+        c.hidden = !ok;
+        if (ok) shown++;
+      }
+      $('count').textContent = `Showing ${shown} of ${cards.length} places`;
+      $('none').hidden = shown > 0;
+
+      const p = new URLSearchParams();
+      if (text) p.set('q', text);
+      if (picked.length) p.set('interest', picked.join(','));
+      for (const [k, el] of Object.entries(sel)) if (el.value) p.set(k, el.value);
+      if (family.checked) p.set('family', '1');
+      if (free.checked) p.set('free', '1');
+      history.replaceState(null, '', p.toString() ? `?${p}` : location.pathname);
+    }
+
+    // Read filters from the URL, so links like /browse?interest=family work.
+    const url = new URLSearchParams(location.search);
+    q.value = url.get('q') ?? '';
+    const want = (url.get('interest') ?? '').split(',');
+    boxes.forEach((b) => (b.checked = want.includes(b.value)));
+    for (const [k, el] of Object.entries(sel)) el.value = url.get(k) ?? '';
+    family.checked = url.get('family') === '1';
+    free.checked = url.get('free') === '1';
+
+    document.getElementById('filters')!.addEventListener('input', apply);
+    $('clear').addEventListener('click', () => {
+      q.value = ''; boxes.forEach((b) => (b.checked = false)); Object.values(sel).forEach((el) => (el.value = ''));
+      family.checked = false; free.checked = false; apply();
+    });
+    apply();
+  </script>
+</Base>

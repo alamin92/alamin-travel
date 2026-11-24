@@ -1,0 +1,36 @@
+name: Sam's Point Area (Minnewaska State Park Preserve)
+state: NY
+region: hudson-valley
+area: Cragsmoor
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/minnewaska-state-park-preserve-sams-point-area
+links:
+  - type: state-park
+    label: "NY State Parks: Sam's Point Area"
+    url: https://parks.ny.gov/visit/state-parks/minnewaska-state-park-preserve-sams-point-area
+mapQuery: Sam's Point Preserve, Cragsmoor, NY
+lat: 41.69
+lon: -74.36
+kind: hike
+interests:
+  - nature
+  - views
+  - adventure
+difficulty: moderate
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+summary: The high, rocky southern end of the Shawangunks, known for far-reaching views and the Ice Caves Trail.
+details: A separate entrance and separate rules from the Lake Minnewaska side. Check the park page for which trails are open.
+warnings:
+  - type: reservation
+    text: A parking reservation system covers weekends and holidays (the 2026 page lists April 18 to November 15). Reserve ahead and confirm the rules for your date on the park page.
+    verify: false
+  - type: closure
+    text: The Ice Caves Trail has a winter closure, so check the park page in cold months.
+    verify: true

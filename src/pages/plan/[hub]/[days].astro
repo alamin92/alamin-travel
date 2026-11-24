@@ -1,0 +1,40 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PlanControls from '../../../components/PlanControls.astro';
+import { loadPlaces, loadHubs, SCENARIO_DAYS, scenarioSlug } from '../../../lib/data';
+import { buildPlan, buildDoc, docToHtml } from '../../../lib/planner';
+
+export async function getStaticPaths() {
+  const hubs = await loadHubs();
+  return hubs.flatMap((h) => SCENARIO_DAYS.map((n) => ({ params: { hub: h.id, days: scenarioSlug(n) } })));
+}
+
+const places = await loadPlaces();
+const hubs = await loadHubs();
+const hub = hubs.find((h) => h.id === Astro.params.hub)!;
+const n = parseInt(Astro.params.days!, 10);
+const byId = Object.fromEntries(places.map((p) => [p.id, p]));
+const plan = buildPlan(hub, byId, { days: n, interests: [], pace: 'normal', familyOnly: false });
+const html = docToHtml(buildDoc(plan, 'medium'));
+const json = JSON.stringify(plan).replace(/</g, '\\u003c');
+const label = `${n} ${n === 1 ? 'day' : 'days'}`;
+---
+<Base title={`${label} near ${hub.name}: things to do and a sample plan`} description={`A ${label} sample plan near ${hub.name}, NY with approximate drive times, warnings and official links. Free to download and edit.`}>
+  <p class="crumb no-print"><a href={`/hubs/${hub.id}`}>← Near {hub.name}</a></p>
+  <p class="lead no-print">
+    A sample plan for {label} near {hub.name}, built from the places data on this site.
+    Want it your way? <a href={`/planner?hub=${hub.id}&days=${n}`}>Customize it in the planner</a>.
+  </p>
+  <div id="scenario">
+    <PlanControls />
+    <article class="plan" id="plan-out" set:html={html} />
+  </div>
+  <script type="application/json" id="plan-data" set:html={json} />
+  <script>
+    import { wirePlanView } from '../../../scripts/plan-ui';
+    const root = document.getElementById('scenario')!;
+    const out = document.getElementById('plan-out')!;
+    const plan = JSON.parse(document.getElementById('plan-data')!.textContent!);
+    wirePlanView(root, out, () => plan);
+  </script>
+</Base>

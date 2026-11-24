@@ -1,0 +1,20 @@
+name: Watkins Glen
+state: NY
+region: finger-lakes
+blurb: A small town at the south end of Seneca Lake, best known for the gorge at its edge. A good base for the central Finger Lakes.
+nearby:
+  - place: watkins-glen-state-park
+    minutes: 5
+  - place: taughannock-falls
+    minutes: 30
+  - place: robert-h-treman
+    minutes: 45
+  - place: buttermilk-falls
+    minutes: 45
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: Watkins Glen status"
+    url: https://parks.ny.gov/visit/state-parks/watkins-glen-state-park
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

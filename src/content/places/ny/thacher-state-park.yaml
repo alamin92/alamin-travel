@@ -1,0 +1,39 @@
+name: John Boyd Thacher State Park
+state: NY
+region: capital-region
+area: Voorheesville
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/thacher-state-park
+links:
+  - type: state-park
+    label: "NY State Parks: Thacher State Park"
+    url: https://parks.ny.gov/visit/state-parks/thacher-state-park
+mapQuery: John Boyd Thacher State Park, Voorheesville, NY
+lat: 42.66
+lon: -74.02
+kind: park
+interests:
+  - nature
+  - views
+  - family
+  - short-time
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+costNote: A vehicle entry fee may apply in season. Check the park page.
+summary: A park on top of the Helderberg Escarpment, close to Albany, with cliff-edge views and the Indian Ladder Trail beneath the cliffs.
+details: The easiest big-view stop near Albany, and a good fit for a free half day. The escarpment is rich in fossils, which are fun to look for but must be left where they are.
+warnings:
+  - type: closure
+    text: The Indian Ladder Trail has seasonal and maintenance closures. Check its current status on the park page before you plan around it.
+    verify: true
+  - type: other
+    text: Fossil collecting is prohibited in state parks. Looking and photographing is fine.
+    verify: false
+highlight: true

@@ -1,0 +1,50 @@
+---
+import Base from '../../layouts/Base.astro';
+import Badge from '../../components/Badge.astro';
+import { getCollection, getEntry } from 'astro:content';
+import { formatMinutes, mapLinks } from '../../lib/maps';
+import { SCENARIO_DAYS, scenarioSlug } from '../../lib/data';
+
+export async function getStaticPaths() {
+  const hubs = await getCollection('hubs');
+  return hubs.map((h) => ({ params: { id: h.id } }));
+}
+const hub = (await getEntry('hubs', Astro.params.id!))!;
+const items = await Promise.all(
+  hub.data.nearby.map(async (n) => ({ ...n, place: (await getEntry('places', n.place))! }))
+);
+items.sort((a, b) => a.minutes - b.minutes);
+---
+<Base title={`Things to do near ${hub.data.name}`} description={hub.data.blurb}>
+  <p class="crumb"><a href="/">← Home</a></p>
+  <h1>Near {hub.data.name}</h1>
+  <p class="lead">{hub.data.blurb}</p>
+
+  <h2>Sample plans</h2>
+  <p class="maps">
+    {SCENARIO_DAYS.map((n) => <a href={`/plan/${hub.id}/${scenarioSlug(n)}`}>{n} {n === 1 ? 'day' : 'days'}</a>)}
+    <a href={`/planner?hub=${hub.id}`}>Customize in the planner</a>
+  </p>
+
+  <h2>Places nearby</h2>
+  <p class="muted">Drive times are about, rounded, from the center of {hub.data.name}. Use the map links for current traffic.</p>
+  <ul class="plain">
+    {items.map((i) => {
+      const d = i.place.data;
+      const m = mapLinks(d.mapQuery);
+      return (
+        <li>
+          <Badge source={d.source} />
+          <strong><a href={`/places/${i.place.id}`}> {d.name}</a></strong>
+          <div class="muted">About {formatMinutes(i.minutes)} drive · visit about {formatMinutes(d.timeMinutes)} · {d.summary}</div>
+          <div class="maps"><a href={m.google}>Google</a><a href={m.apple}>Apple</a><a href={m.waze}>Waze</a></div>
+        </li>
+      );
+    })}
+  </ul>
+
+  <h2>Check before you go</h2>
+  <ul class="plain">
+    {hub.data.checkBefore.map((l) => <li><a href={l.url} rel="noopener">{l.label}</a></li>)}
+  </ul>
+</Base>

@@ -1,0 +1,42 @@
+name: Buttermilk Falls State Park
+state: NY
+region: finger-lakes
+area: Ithaca
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/buttermilk-falls-state-park
+links:
+  - type: state-park
+    label: "NY State Parks: Buttermilk Falls"
+    url: https://parks.ny.gov/visit/state-parks/buttermilk-falls-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Buttermilk%20Falls%20State%20Park
+mapQuery: Buttermilk Falls State Park, Ithaca, NY
+lat: 42.42
+lon: -76.52
+kind: waterfall
+interests:
+  - nature
+  - family
+  - photo
+  - short-time
+difficulty: moderate
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+costNote: A vehicle entry or parking fee usually applies in season. Check the park page for the current amount.
+highlight: true
+summary: A state park on the edge of Ithaca with a string of waterfalls tumbling down a steep gorge.
+details: The Gorge Trail climbs beside the falls on stone steps, and a rim trail makes a loop back. It is short and scenic, and easy to pair with a stroll in downtown Ithaca.
+warnings:
+  - type: closure
+    text: Gorge trails close seasonally and after rockfall or ice. Check which trails are open on the park page.
+    verify: true
+  - type: other
+    text: Swimming rules change from year to year, so check the park page before you bring swimwear.
+    verify: true

@@ -1,0 +1,44 @@
+name: Mt Van Hoevenberg (Cliffside Coaster)
+state: NY
+region: adirondacks
+area: Lake Placid
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://mtvanhoevenberg.com/todo/cliffside-coaster/
+links:
+  - type: official
+    label: "Mt Van Hoevenberg: Cliffside Coaster"
+    url: https://mtvanhoevenberg.com/todo/cliffside-coaster/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mt%20Van%20Hoevenberg%2C%20Lake%20Placid%2C%20NY
+mapQuery: Mt Van Hoevenberg Olympic Sports Complex, Lake Placid, NY
+lat: 44.19
+lon: -73.9
+kind: activity
+interests:
+  - adventure
+  - family
+  - winter
+  - history
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A long mountain coaster built on a former Olympic bobsled track, at the Olympic sports complex near Lake Placid.
+details: You ride a sled down the track at your own braking control. The complex also has other seasonal activities, so check the official site for what is open.
+warnings:
+  - type: reservation
+    text: Tickets are sold online and are meant to be bought in advance. Check the official page.
+    verify: false
+  - type: closure
+    text: It is weather dependent. Check the daily update before you drive, even with a reservation.
+    verify: false
+  - type: safety
+    text: There is a combined weight limit per sled, and age and height rules apply. Check the official page.
+    verify: true

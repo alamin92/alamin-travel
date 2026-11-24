@@ -1,0 +1,39 @@
+name: Belleayre Mountain
+state: NY
+region: catskills
+area: Highmount
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://belleayre.com/
+links:
+  - type: official
+    label: Belleayre Mountain official site
+    url: https://belleayre.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Belleayre%20Mountain%2C%20Highmount%2C%20NY
+mapQuery: Belleayre Mountain, Highmount, NY
+lat: 42.14
+lon: -74.5
+kind: activity
+interests:
+  - winter
+  - adventure
+  - family
+  - views
+difficulty: moderate
+timeMinutes: 240
+bestSeason:
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A state-owned ski area in the Catskills with lift-served trails for different skill levels and scenic views.
+details: Best in winter for skiing and riding. Check the official site for which lifts and activities run on your dates, since operations differ by season and conditions.
+warnings:
+  - type: reservation
+    text: Lift tickets and lessons may need advance purchase on busy days. Check the official site.
+    verify: true
+  - type: closure
+    text: Lifts and activities depend on snow and weather. Check status before driving.
+    verify: true

@@ -1,0 +1,44 @@
+name: Minnewaska State Park Preserve (Lake Minnewaska area)
+state: NY
+region: hudson-valley
+area: Kerhonkson
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/minnewaska-state-park-preserve
+links:
+  - type: state-park
+    label: "NY State Parks: Minnewaska State Park Preserve"
+    url: https://parks.ny.gov/visit/state-parks/minnewaska-state-park-preserve
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Minnewaska+State+Park+Preserve
+mapQuery: Lake Minnewaska parking area, Minnewaska State Park Preserve, NY
+lat: 41.73
+lon: -74.24
+kind: park
+interests:
+  - nature
+  - views
+  - family
+  - photo
+difficulty: moderate
+timeMinutes: 300
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+costNote: A per-vehicle entry fee applies. The amount differed across the official pages I saw, so confirm before you go.
+summary: A large preserve on the Shawangunk Ridge with a glacial lake, cliff-top views, waterfalls and miles of easy carriage roads.
+details: Much of it is wide, gentle carriage road, good for families. Harder rocky routes and cliff viewpoints are there for stronger hikers. It is one of the most popular outings in the Hudson Valley, so plan around crowds.
+tips:
+  - We could not get in on a fall weekend because the park was full. Go very early, go midweek, or have a backup such as the Walkway Over the Hudson.
+warnings:
+  - type: parking
+    text: Lake Minnewaska and Sam's Point get heavy congestion on good-weather days and close for periods when the lots reach capacity. Roadside parking is prohibited and cars are ticketed and towed.
+    verify: false
+  - type: closure
+    text: The park page says a section of the Lake Awosting Carriage Road is closed through 2026 for trail restoration.
+    verify: true
+highlight: true

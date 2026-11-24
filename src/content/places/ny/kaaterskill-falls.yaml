@@ -1,0 +1,47 @@
+name: Kaaterskill Falls
+state: NY
+region: catskills
+area: Haines Falls
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://dec.ny.gov/things-to-do/hiking/catskill-backcountry-information
+links:
+  - type: conditions
+    label: "NYS DEC: Catskill backcountry info and trail conditions"
+    url: https://dec.ny.gov/things-to-do/hiking/catskill-backcountry-information
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Kaaterskill+Falls+NY
+mapQuery: Kaaterskill Falls trailhead, Haines Falls, NY
+lat: 42.2
+lon: -74.06
+kind: waterfall
+interests:
+  - nature
+  - photo
+  - views
+  - family
+difficulty: moderate
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+summary: One of the tallest waterfalls in New York State, dropping in two tiers through a rocky clove in the Catskills.
+details: A short but steep trail leads down from the parking area to viewing spots. The distance is small, but expect stairs, rock and wet footing near the base, so wear real shoes, not sandals.
+tips:
+  - On peak fall foliage weekends we found no parking and heavy traffic. Go very early on a weekday, or pick another season.
+  - Have a backup plan nearby, such as the lakes at North-South Lake, in case the lots are full.
+warnings:
+  - type: parking
+    text: DEC recommends parking at the Laurel House Road, Schutt Road or South Lake lots. The first two fill early in summer, and roadside parking on Route 23A near the falls is not allowed.
+    verify: false
+  - type: crowds
+    text: Very crowded in peak fall foliage (first-hand). Expect traffic on the roads leading in.
+    verify: false
+  - type: safety
+    text: The trail is steep and slippery when wet or icy. In winter bring traction (microspikes) and check current conditions first.
+    verify: true
+highlight: true

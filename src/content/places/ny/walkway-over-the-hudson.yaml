@@ -1,0 +1,42 @@
+name: Walkway Over the Hudson
+state: NY
+region: hudson-valley
+area: Poughkeepsie and Highland
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/walkway-over-hudson-state-historic-park
+links:
+  - type: state-park
+    label: "NY State Parks: Walkway Over the Hudson"
+    url: https://parks.ny.gov/visit/state-parks/walkway-over-hudson-state-historic-park
+  - type: official
+    label: "Walkway Over the Hudson: plan your visit"
+    url: https://walkway.org/visit/
+mapQuery: Walkway Over the Hudson State Historic Park, Poughkeepsie, NY
+lat: 41.71
+lon: -73.94
+kind: bridge
+interests:
+  - family
+  - relax
+  - views
+  - photo
+  - short-time
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+summary: A former railroad bridge turned flat pedestrian park, high above the Hudson River, with long views up and down the valley.
+details: Flat and paved, so it suits strollers, kids and anyone who wants a view without a hike. You can start from either the Poughkeepsie or the Highland side.
+warnings:
+  - type: closure
+    text: Hours are listed as dawn to dusk on the state page and 7 a.m. to sunset on the Walkway's own site. Hours change for events and weather, so check before you go.
+    verify: true
+  - type: other
+    text: The waterfront elevator has limited hours and can close for maintenance or weather.
+    verify: true
+highlight: true

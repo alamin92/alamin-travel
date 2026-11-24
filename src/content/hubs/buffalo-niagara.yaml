@@ -1,0 +1,16 @@
+name: Buffalo and Niagara Falls
+state: NY
+region: western-ny
+blurb: Western New York's big city and its famous waterfall, with the Genesee gorge at Letchworth within a drive.
+nearby:
+  - place: niagara-falls-state-park
+    minutes: 25
+  - place: letchworth
+    minutes: 70
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

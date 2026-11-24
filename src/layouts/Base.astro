@@ -1,0 +1,33 @@
+---
+import '../styles/global.css';
+interface Props { title?: string; description?: string; }
+const { title, description = 'Free trip ideas and plan templates, starting with New York State. Written from first-hand trips and researched guides.' } = Astro.props;
+const fullTitle = title ? `${title} · Alamin's Travel Guide` : "Alamin's Travel Guide";
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <header class="site">
+      <div class="container">
+        <a class="brand" href="/">Alamin's Travel Guide</a>
+        <nav><a href="/#days">X days</a><a href="/browse">Browse</a><a href="/planner">Plan</a></nav>
+      </div>
+    </header>
+    <main><div class="container"><slot /></div></main>
+    <footer class="site">
+      <div class="container">
+        <p><strong>Check the official page before you go.</strong> Hours, prices and reservation rules change often, and outdoor activities carry risk. Drive times are approximate: use the map links for current directions.</p>
+        <p>"Alamin visited" places include first-hand notes. "Researched guide" places are written from public information and checked on the date shown.</p>
+      </div>
+    </footer>
+  </body>
+</html>

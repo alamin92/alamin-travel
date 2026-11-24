@@ -1,0 +1,69 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadHubs, SCENARIO_DAYS, scenarioSlug } from '../lib/data';
+import { interestLabels, regionLabels } from '../lib/labels';
+
+const hubs = await loadHubs();
+const grouped = Object.entries(regionLabels)
+  .map(([id, label]) => ({ label, hubs: hubs.filter((h) => h.region === id) }))
+  .filter((g) => g.hubs.length);
+---
+<Base>
+  <h1>Plan a trip, your way</h1>
+  <p class="lead">Free ideas, warnings and plan templates for places worth visiting. No sign-up, nothing saved. We're starting with New York State.</p>
+
+  <div class="grid three">
+    <a class="card entry" href="#days">
+      <span class="num">1</span>
+      <h3>I have X days in a place</h3>
+      <p class="muted">Pick a base town and how many days. See what fits, with approximate drive times.</p>
+    </a>
+    <a class="card entry" href="#interests">
+      <span class="num">2</span>
+      <h3>Browse by interest</h3>
+      <p class="muted">Family, adventure, relax, views, winter and more.</p>
+    </a>
+    <a class="card entry" href="/planner">
+      <span class="num">3</span>
+      <h3>Build and download a plan</h3>
+      <p class="muted">Choose days and interests, then download an editable plan.</p>
+    </a>
+  </div>
+
+  <h2 id="days">I have X days in a place</h2>
+  <form id="days-form" class="card form row" onsubmit="return false">
+    <label>Where will you stay?
+      <select id="hub">
+        {grouped.map((g) => <optgroup label={g.label}>{g.hubs.map((h) => <option value={h.id}>{h.name}</option>)}</optgroup>)}
+      </select>
+    </label>
+    <label>For how many days?
+      <select id="n">{SCENARIO_DAYS.map((n) => <option value={scenarioSlug(n)}>{n} {n === 1 ? 'day' : 'days'}</option>)}</select>
+    </label>
+    <button type="submit" class="primary" id="go">Show me</button>
+  </form>
+  <p class="muted">Working in a city with a day free, or on vacation with kids? Start here. Need something longer or more specific? Use the <a href="/planner">planner</a>.</p>
+
+  <h2 id="interests">Browse by interest</h2>
+  <div class="tiles">
+    {Object.entries(interestLabels).map(([id, label]) => <a class="tile" href={`/browse?interest=${id}`}>{label}</a>)}
+  </div>
+
+  <h2>Base towns</h2>
+  <div class="grid">
+    {hubs.map((h) => (
+      <a class="card" href={`/hubs/${h.id}`}>
+        <h3>{h.name}</h3>
+        <p class="muted">{h.blurb}</p>
+      </a>
+    ))}
+  </div>
+
+  <script>
+    document.getElementById('days-form')!.addEventListener('submit', () => {
+      const hub = (document.getElementById('hub') as HTMLSelectElement).value;
+      const n = (document.getElementById('n') as HTMLSelectElement).value;
+      location.href = `/plan/${hub}/${n}`;
+    });
+  </script>
+</Base>

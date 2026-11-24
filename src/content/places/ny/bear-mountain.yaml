@@ -1,0 +1,43 @@
+name: Bear Mountain State Park
+state: NY
+region: hudson-valley
+area: Bear Mountain
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/bear-mountain-state-park
+links:
+  - type: state-park
+    label: "NY State Parks: Bear Mountain State Park"
+    url: https://parks.ny.gov/visit/state-parks/bear-mountain-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Bear%20Mountain%20State%20Park
+mapQuery: Bear Mountain State Park, Bear Mountain, NY
+lat: 41.31
+lon: -73.99
+kind: park
+interests:
+  - views
+  - family
+  - nature
+  - adventure
+  - photo
+difficulty: moderate
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+costNote: A vehicle fee usually applies. Check the park page.
+highlight: true
+summary: A large park on the Hudson with a summit tower, a lake, a small zoo and miles of trails, including a stretch of the Appalachian Trail.
+details: You can drive or hike to the summit area for river views, then walk around Hessian Lake. It suits families and active hikers alike.
+warnings:
+  - type: parking
+    text: Lots fill early on nice weekends and in fall, and entry can be restricted when they are full.
+    verify: true
+  - type: closure
+    text: Summit road and trail closures happen seasonally. Check the park page.
+    verify: true

@@ -1,0 +1,44 @@
+name: Mohonk Preserve
+state: NY
+region: hudson-valley
+area: Gardiner and New Paltz
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.mohonkpreserve.org/visit
+links:
+  - type: official
+    label: "Mohonk Preserve: plan your visit"
+    url: https://www.mohonkpreserve.org/visit
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mohonk%20Preserve%2C%20Gardiner%2C%20NY
+mapQuery: Mohonk Preserve Visitor Center, Gardiner, NY
+lat: 41.75
+lon: -74.17
+kind: hike
+interests:
+  - adventure
+  - rough
+  - views
+  - nature
+difficulty: hard
+timeMinutes: 300
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: false
+cost: paid
+highlight: true
+summary: A nonprofit preserve on the Shawangunk Ridge with cliff-top views, carriage roads and some of the region's best scrambles.
+details: Popular routes include Gertrude's Nose and a rock-scramble route through narrow passages. Some routes are physically demanding and not suitable for everyone.
+warnings:
+  - type: fees
+    text: A day-use pass or membership is required. Check the official page for current prices and any purchase rules.
+    verify: true
+  - type: safety
+    text: Scrambles involve tight passages and climbing. They are not recommended for small children, people with a fear of tight spaces, or in wet or icy conditions.
+    verify: true
+  - type: crowds
+    text: Weekends and fall are very busy.
+    verify: true

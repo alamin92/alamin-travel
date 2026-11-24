@@ -1,0 +1,23 @@
+name: Ithaca
+state: NY
+region: finger-lakes
+blurb: A lively college town at the south end of Cayuga Lake, famous for its gorges and waterfalls, all within minutes of town.
+nearby:
+  - place: buttermilk-falls
+    minutes: 5
+  - place: robert-h-treman
+    minutes: 10
+  - place: taughannock-falls
+    minutes: 15
+  - place: watkins-glen-state-park
+    minutes: 40
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org
+  - type: official
+    label: Visit Ithaca
+    url: https://www.visitithaca.com/

@@ -1,0 +1,39 @@
+name: Hunter Mountain
+state: NY
+region: catskills
+area: Hunter
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.huntermtn.com/
+links:
+  - type: official
+    label: Hunter Mountain official site
+    url: https://www.huntermtn.com/
+  - type: conditions
+    label: Hunter Mountain snow report
+    url: https://www.huntermtn.com/mountain-info/snow-report
+mapQuery: Hunter Mountain, Hunter, NY
+lat: 42.2
+lon: -74.23
+kind: activity
+interests:
+  - family
+  - winter
+  - adventure
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - winter
+familyFriendly: true
+cost: paid
+costNote: Tickets for skiing, tubing and rides are sold by the resort. Prices vary by date.
+summary: A major Catskills ski resort. In winter it also has snow tubing, which makes it a family-friendly snow option.
+details: A good pick if you want near-certain snow for play or photos, since ski areas make their own. Check the resort page for which activities are running on your dates.
+warnings:
+  - type: reservation
+    text: Tubing and lift tickets are often sold in timed sessions. I could not confirm the current booking rules, so check whether you need to reserve ahead for your date.
+    verify: true
+  - type: crowds
+    text: Winter weekends and holidays are typically busy.
+    verify: true
+highlight: true

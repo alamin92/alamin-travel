@@ -1,0 +1,42 @@
+name: Whiteface Mountain
+state: NY
+region: adirondacks
+area: Wilmington
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://whiteface.com/
+links:
+  - type: official
+    label: Whiteface Mountain official site
+    url: https://whiteface.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Whiteface%20Mountain%2C%20Wilmington%2C%20NY
+mapQuery: Whiteface Mountain Veterans Memorial Highway, Wilmington, NY
+lat: 44.36
+lon: -73.9
+kind: viewpoint
+interests:
+  - views
+  - photo
+  - adventure
+  - winter
+  - family
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: true
+summary: One of the Adirondack High Peaks (about 4,867 feet), with a scenic summit highway in warm months and a major ski area in winter.
+details: In season, the Veterans Memorial Highway climbs most of the way up, and a short walk or an elevator leads to the summit for wide views. In winter it is a downhill ski area.
+warnings:
+  - type: closure
+    text: The summit highway is a toll road that is open only in the warm season and can close for weather. Check the official site for dates and status.
+    verify: true
+  - type: weather
+    text: The summit is cold, windy and often foggy even in summer. Bring layers.
+    verify: true

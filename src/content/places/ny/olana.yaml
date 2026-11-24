@@ -1,0 +1,37 @@
+name: Olana State Historic Site
+state: NY
+region: hudson-valley
+area: Hudson
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://olana.org
+links:
+  - type: official
+    label: Olana official site
+    url: https://olana.org
+mapQuery: Olana State Historic Site, Hudson, NY
+lat: 42.22
+lon: -73.83
+kind: museum
+interests:
+  - culture
+  - history
+  - views
+  - photo
+  - relax
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: varies
+costNote: Check the official site for what is free (such as grounds access) and what needs a ticket (such as house tours).
+summary: The hilltop home of the painter Frederic Church, with Hudson River views and landscaped grounds to walk.
+details: Good for a relaxed half day. The grounds make an easy walk, and the house is the main draw if you like art and history.
+warnings:
+  - type: reservation
+    text: House tours may need advance tickets. Confirm availability and times on the official site.
+    verify: true
+highlight: true

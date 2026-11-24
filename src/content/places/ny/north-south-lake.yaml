@@ -1,0 +1,40 @@
+name: North-South Lake Campground and Day Use Area
+state: NY
+region: catskills
+area: Haines Falls
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://dec.ny.gov/places/north-south-lake-campground-and-day-use-area
+links:
+  - type: official
+    label: "NYS DEC: campground and day use area"
+    url: https://dec.ny.gov/places/north-south-lake-campground-and-day-use-area
+  - type: conditions
+    label: "NYS DEC: campground day-use schedule"
+    url: https://dec.ny.gov/things-to-do/camping/campground-day-use-schedule
+mapQuery: North-South Lake Campground and Day Use Area, Haines Falls, NY
+lat: 42.21
+lon: -74.04
+kind: park
+interests:
+  - family
+  - relax
+  - nature
+  - views
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+costNote: A day-use fee applies in season. Check the DEC page for the current amount.
+summary: Two lakes on the Catskill escarpment with beaches, a boat ramp, picnic areas and trailheads onto longer hikes.
+details: A good relaxed stop that pairs with Kaaterskill Falls nearby. Swimming is allowed in summer when lifeguards are on duty. Motorized boats are not allowed, but rowboats and canoes are.
+warnings:
+  - type: fees
+    text: Day-use fee in season. Hours, fees and season dates change, so confirm on the DEC page.
+    verify: true
+  - type: closure
+    text: Access can be limited in winter depending on conditions.
+    verify: true

@@ -1,0 +1,39 @@
+name: Empire State Plaza and the New York State Museum
+state: NY
+region: capital-region
+area: Albany
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://empirestateplaza.ny.gov
+links:
+  - type: official
+    label: Empire State Plaza
+    url: https://empirestateplaza.ny.gov
+  - type: official
+    label: New York State Museum
+    url: https://nysm.nysed.gov/
+  - type: official
+    label: "Visit Albany: things to do"
+    url: https://www.albany.org/
+mapQuery: Empire State Plaza, Albany, NY
+lat: 42.65
+lon: -73.76
+kind: museum
+interests:
+  - culture
+  - history
+  - family
+  - short-time
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: varies
+costNote: Check each site for current admission and parking.
+summary: Albany's large state government complex, with a wide plaza, public art and the State Museum next door. A reliable indoor option in bad weather.
+details: Works as a rainy-day or winter plan. Pair it with a walk through nearby downtown Albany.
+warnings: []

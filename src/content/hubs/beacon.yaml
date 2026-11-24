@@ -1,0 +1,29 @@
+name: Beacon
+state: NY
+region: hudson-valley
+blurb: A Hudson River town with an arts scene and a train to New York City, close to the Hudson Highlands hikes and several historic sites.
+nearby:
+  - place: mount-beacon
+    minutes: 10
+  - place: walkway-over-the-hudson
+    minutes: 25
+  - place: storm-king-mountain
+    minutes: 25
+  - place: storm-king-art-center
+    minutes: 30
+  - place: bear-mountain
+    minutes: 30
+  - place: vanderbilt-mansion
+    minutes: 30
+  - place: mohonk-preserve
+    minutes: 45
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org
+  - type: official
+    label: "Scenic Hudson: parks and trails"
+    url: https://www.scenichudson.org/

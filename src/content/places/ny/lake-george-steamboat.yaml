@@ -1,0 +1,40 @@
+name: Lake George Steamboat Company cruises
+state: NY
+region: adirondacks
+area: Lake George Village
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://lakegeorgesteamboat.com/
+links:
+  - type: official
+    label: Lake George Steamboat Company
+    url: https://lakegeorgesteamboat.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Lake%20George%20Steamboat%20Company%2C%20Lake%20George%2C%20NY
+mapQuery: Lake George Steamboat Company, Lake George, NY
+lat: 43.42
+lon: -73.71
+kind: activity
+interests:
+  - family
+  - relax
+  - views
+  - photo
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: true
+summary: Sightseeing cruises on Lake George from the village, a relaxed way to see the lake and its mountains from the water.
+details: Good for a low-effort outing, especially with kids or older relatives. Cruise types and times vary, so pick one on the official site.
+warnings:
+  - type: reservation
+    text: Popular cruises (sunset, special themes) can sell out in peak season. Check whether to book ahead.
+    verify: true
+  - type: closure
+    text: Cruises run seasonally and may be cancelled for weather.
+    verify: true

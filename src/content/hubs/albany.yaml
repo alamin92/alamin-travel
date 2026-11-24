@@ -1,0 +1,33 @@
+name: Albany
+state: NY
+region: capital-region
+blurb: The state capital, with museums and a walkable downtown, and the gateway to the Helderbergs and the northern Catskills. Good for a work trip with one free day.
+nearby:
+  - place: empire-state-plaza
+    minutes: 5
+  - place: thacher-state-park
+    minutes: 25
+  - place: olana
+    minutes: 40
+  - place: hunter-mountain
+    minutes: 70
+  - place: kaaterskill-falls
+    minutes: 75
+  - place: north-south-lake
+    minutes: 80
+  - place: walkway-over-the-hudson
+    minutes: 80
+  - place: lake-george-steamboat
+    minutes: 70
+  - place: windham-mountain
+    minutes: 70
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org
+  - type: official
+    label: Visit Albany
+    url: https://www.albany.org/

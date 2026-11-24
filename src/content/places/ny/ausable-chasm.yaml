@@ -1,0 +1,40 @@
+name: AuSable Chasm
+state: NY
+region: adirondacks
+area: Keeseville
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.ausablechasm.com/
+links:
+  - type: official
+    label: AuSable Chasm official site
+    url: https://www.ausablechasm.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=AuSable%20Chasm%2C%20Keeseville%2C%20NY
+mapQuery: AuSable Chasm, Keeseville, NY
+lat: 44.53
+lon: -73.47
+kind: park
+interests:
+  - nature
+  - adventure
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A sandstone gorge nicknamed the "Grand Canyon of the Adirondacks", with walkways, bridges and seasonal river trips.
+details: You can walk the rim and gorge paths, and in season there are tube and raft trips on the river. Plan extra time if you want one of the river experiences.
+warnings:
+  - type: closure
+    text: Operation is seasonal and some activities depend on water levels and weather. Check the official site.
+    verify: true
+  - type: reservation
+    text: Guided river trips are limited. Check whether you need to book ahead for your date.
+    verify: true

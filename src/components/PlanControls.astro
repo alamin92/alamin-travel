@@ -1,0 +1,17 @@
+---
+// Detail switch plus download buttons. Wired up by src/scripts/plan-ui.ts.
+---
+<div class="controls no-print">
+  <div class="seg" role="group" aria-label="Level of detail">
+    <span class="muted">Detail:</span>
+    <button type="button" data-detail-btn="short" aria-pressed="false">Short</button>
+    <button type="button" data-detail-btn="medium" aria-pressed="true">Medium</button>
+    <button type="button" data-detail-btn="detailed" aria-pressed="false">Detailed</button>
+  </div>
+  <div class="seg" role="group" aria-label="Download">
+    <span class="muted">Download:</span>
+    <button type="button" data-dl="docx">Word (editable)</button>
+    <button type="button" data-dl="txt">Text (editable)</button>
+    <button type="button" data-dl="print">Print or save as PDF</button>
+  </div>
+</div>
