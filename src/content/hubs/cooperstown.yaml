@@ -1,0 +1,20 @@
+name: Cooperstown
+state: NY
+region: central-ny
+county: Otsego
+blurb: A small lakeside village in the hills of Central New York, best known for baseball, with a cave to tour about an hour away.
+nearby:
+  - place: baseball-hall-of-fame
+    minutes: 5
+  - place: howe-caverns
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org
+  - type: official
+    label: This Is Cooperstown
+    url: https://thisiscooperstown.com/

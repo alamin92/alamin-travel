@@ -1,0 +1,40 @@
+name: Chittenango Falls State Park
+state: NY
+region: central-ny
+county: Madison
+area: Cazenovia
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/chittenango-falls-state-park
+links:
+  - type: state-park
+    label: "NY State Parks: Chittenango Falls"
+    url: https://parks.ny.gov/visit/state-parks/chittenango-falls-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Chittenango%20Falls%20State%20Park%2C%20Cazenovia%2C%20NY
+mapQuery: Chittenango Falls State Park, Cazenovia, NY
+lat: 42.98
+lon: -75.84
+kind: waterfall
+interests:
+  - nature
+  - family
+  - photo
+  - short-time
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+costNote: A parking or entry fee may apply in season. Check the park page.
+highlight: false
+summary: A tall, ribbon-like waterfall of about 167 feet in a small gorge park near Cazenovia.
+details: "A short walk with a viewing area near the base. Stay on the trail: the area protects a rare snail."
+warnings:
+  - type: closure
+    text: Trails and stairs can close for ice, high water or maintenance. Check the park page.
+    verify: true

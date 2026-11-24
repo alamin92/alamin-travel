@@ -10,13 +10,13 @@ export interface Link { type: string; label: string; url: string }
 export interface Warning { type: string; text: string; verify: boolean }
 export interface PlaceData {
   id: string; name: string; region: string; area: string; source: 'visited' | 'researched';
-  lastChecked: string; officialUrl: string; links: Link[]; mapQuery: string; lat: number; lon: number; kind: string;
+  county: string; alsoRegions: string[]; lastChecked: string; officialUrl: string; links: Link[]; mapQuery: string; lat: number; lon: number; kind: string;
   interests: string[]; difficulty: string; timeMinutes: number; bestSeason: string[];
   familyFriendly: boolean; cost: string; costNote?: string; highlight: boolean;
   summary: string; details?: string; tips: string[]; warnings: Warning[];
 }
 export interface HubData {
-  id: string; name: string; region: string; blurb: string;
+  id: string; name: string; region: string; county: string; alsoRegions: string[]; mode: 'drive' | 'transit'; blurb: string;
   nearby: { place: string; minutes: number }[]; checkBefore: Link[];
 }
 
@@ -181,7 +181,7 @@ export function buildDoc(plan: Plan, detail: Detail): Block[] {
   b.push({ t: 'h1', text: `${o.days} ${o.days === 1 ? 'day' : 'days'} near ${hub.name}` });
   const interests = o.interests.length ? o.interests.map((i) => interestLabels[i] ?? i).join(', ') : 'any';
   b.push({ t: 'p', cls: 'muted', parts: [`Base: ${hub.name} · ${paceLabels[o.pace]} pace · Interests: ${interests}${o.familyOnly ? ' · Family-friendly places only' : ''}`] });
-  b.push({ t: 'p', cls: 'muted', parts: ['Drive times are approximate. Check the official page for each place before you go, since hours, prices and reservation rules change.'] });
+  b.push({ t: 'p', cls: 'muted', parts: [`${hub.mode === 'transit' ? 'Travel' : 'Drive'} times are approximate. Check the official page for each place before you go, since hours, prices and reservation rules change.`] });
 
   if (plan.mustBook.length) {
     b.push({ t: 'h2', text: 'Book or check first' });
@@ -213,7 +213,7 @@ export function buildDoc(plan: Plan, detail: Detail): Block[] {
         continue;
       }
       const p = i.place;
-      b.push({ t: 'p', cls: 'muted', parts: [`Drive about ${formatMinutes(i.drive)} from ${i.driveFrom}.`] });
+      b.push({ t: 'p', cls: 'muted', parts: [`${hub.mode === 'transit' ? 'Travel' : 'Drive'} about ${formatMinutes(i.drive)} from ${i.driveFrom}.`] });
       b.push({ t: 'h3', text: `${formatClock(i.start)}  ${p.name} (about ${formatMinutes(i.visit)})` });
       b.push({ t: 'p', cls: 'muted', parts: [`${p.source === 'visited' ? 'Alamin visited' : 'Researched guide'} · ${p.area} · last checked ${p.lastChecked}`] });
       b.push({ t: 'p', parts: [p.summary] });

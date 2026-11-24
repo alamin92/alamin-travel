@@ -1,0 +1,22 @@
+name: New York City (Manhattan)
+state: NY
+region: nyc
+county: New York
+mode: transit
+blurb: In the city, subway, ferry and walking beat driving. Times shown are rough travel times from midtown.
+nearby:
+  - place: central-park
+    minutes: 10
+  - place: high-line
+    minutes: 15
+  - place: brooklyn-bridge-park
+    minutes: 25
+  - place: statue-of-liberty
+    minutes: 40
+checkBefore:
+  - type: official
+    label: "NYC: official tourism site"
+    url: https://www.nyctourism.com/
+  - type: conditions
+    label: "MTA: subway and bus service status"
+    url: https://www.mta.info/

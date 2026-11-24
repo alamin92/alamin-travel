@@ -1,0 +1,39 @@
+name: Barton Orchards
+state: NY
+region: hudson-valley
+county: Dutchess
+area: Poughquag
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.bartonorchards.com/
+links:
+  - type: official
+    label: "Barton Orchards: official site"
+    url: https://www.bartonorchards.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Barton%20Orchards%2C%20Poughquag%2C%20NY
+mapQuery: Barton Orchards, Poughquag, NY
+lat: 41.62
+lon: -73.69
+kind: farm
+interests:
+  - seasonal
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - fall
+familyFriendly: true
+cost: varies
+highlight: false
+summary: A family orchard in Dutchess County with fall apple and pumpkin picking and a farm market.
+details: A good stop on a fall Hudson Valley day. Check the site for current activities and festivals.
+warnings:
+  - type: closure
+    text: "Seasonal: what is open (apples, pumpkins, festivals) changes week to week with the crops and weather. Check the farm site or call the day you go."
+    verify: true
+  - type: crowds
+    text: Fall weekends can be busy.
+    verify: true

@@ -1,0 +1,43 @@
+name: Saratoga Race Course
+state: NY
+region: capital-saratoga
+county: Saratoga
+area: Saratoga Springs
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nyra.com/saratoga
+links:
+  - type: official
+    label: "NYRA: Saratoga Race Course"
+    url: https://www.nyra.com/saratoga
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Saratoga%20Race%20Course%2C%20Saratoga%20Springs%2C%20NY
+mapQuery: Saratoga Race Course, Saratoga Springs, NY
+lat: 43.07
+lon: -73.77
+kind: activity
+interests:
+  - culture
+  - history
+  - family
+  - seasonal
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - summer
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A historic horse racing track in Saratoga Springs with a summer meet that draws big crowds.
+details: The racing season is in summer. Many visitors come just for the atmosphere, the morning workouts, or a day at the track.
+warnings:
+  - type: closure
+    text: Racing runs only during the summer meet. Check the NYRA site for dates and days.
+    verify: true
+  - type: crowds
+    text: Weekends and big race days are very busy and lodging in town is expensive.
+    verify: true
+  - type: fees
+    text: Admission and seating are priced separately. Check the NYRA site.
+    verify: true

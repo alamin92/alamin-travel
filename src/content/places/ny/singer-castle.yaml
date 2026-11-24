@@ -1,0 +1,41 @@
+name: Singer Castle on Dark Island
+state: NY
+region: thousand-islands-seaway
+county: Jefferson
+area: Thousand Islands (Dark Island)
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.singercastle.com/
+links:
+  - type: official
+    label: "Singer Castle: official site"
+    url: https://www.singercastle.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Singer%20Castle%2C%20Dark%20Island%2C%20NY
+mapQuery: Singer Castle, Dark Island, NY
+lat: 44.37
+lon: -75.86
+kind: landmark
+interests:
+  - history
+  - photo
+  - culture
+  - adventure
+difficulty: easy
+timeMinutes: 210
+bestSeason:
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A castle on a small island in the St. Lawrence River, visited on a guided tour that includes a boat ride.
+details: Check the official site for how tours are booked, where the boats leave from, and the season.
+warnings:
+  - type: reservation
+    text: Tours are guided and booked ahead. Check the official site for how to book and which dates are offered.
+    verify: true
+  - type: closure
+    text: Open seasonally.
+    verify: true

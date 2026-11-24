@@ -1,6 +1,7 @@
 name: Albany
 state: NY
-region: capital-region
+region: capital-saratoga
+county: Albany
 blurb: The state capital, with museums and a walkable downtown, and the gateway to the Helderbergs and the northern Catskills. Good for a work trip with one free day.
 nearby:
   - place: empire-state-plaza
@@ -21,6 +22,16 @@ nearby:
     minutes: 70
   - place: windham-mountain
     minutes: 70
+  - place: indian-ladder-farms
+    minutes: 25
+  - place: saratoga-spa-state-park
+    minutes: 40
+  - place: saratoga-race-course
+    minutes: 40
+  - place: saratoga-national-historical-park
+    minutes: 45
+  - place: samascott-orchards
+    minutes: 35
 checkBefore:
   - type: state-park
     label: "NY State Parks: park status and alerts"

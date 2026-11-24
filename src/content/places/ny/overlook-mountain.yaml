@@ -1,6 +1,9 @@
 name: Overlook Mountain (Woodstock)
 state: NY
-region: catskills
+region: hudson-valley
+county: Ulster
+alsoRegions:
+  - catskills
 area: Woodstock
 source: visited
 lastChecked: 2026-11-24

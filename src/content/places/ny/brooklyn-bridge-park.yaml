@@ -1,0 +1,40 @@
+name: Brooklyn Bridge Park
+state: NY
+region: nyc
+county: Kings
+area: Brooklyn
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.brooklynbridgepark.org/
+links:
+  - type: official
+    label: "Brooklyn Bridge Park: official site"
+    url: https://www.brooklynbridgepark.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Brooklyn%20Bridge%20Park%2C%20Brooklyn%2C%20NY
+mapQuery: Brooklyn Bridge Park, Brooklyn, NY
+lat: 40.7
+lon: -73.99
+kind: park
+interests:
+  - relax
+  - photo
+  - family
+  - views
+  - short-time
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A waterfront park along the East River with piers, playgrounds and a classic view of the Manhattan skyline and the Brooklyn Bridge.
+details: A good evening stop, and you can pair it with a walk across the Brooklyn Bridge if you want more.
+warnings:
+  - type: crowds
+    text: Sunset on summer weekends is busy.
+    verify: true

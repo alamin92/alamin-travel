@@ -1,0 +1,42 @@
+name: Boldt Castle
+state: NY
+region: thousand-islands-seaway
+county: Jefferson
+area: Alexandria Bay (Heart Island)
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.boldtcastle.com/
+links:
+  - type: official
+    label: "Boldt Castle: official site"
+    url: https://www.boldtcastle.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Boldt%20Castle%2C%20Alexandria%20Bay%2C%20NY
+mapQuery: Boldt Castle, Alexandria Bay, NY
+lat: 44.34
+lon: -75.92
+kind: landmark
+interests:
+  - history
+  - family
+  - photo
+  - culture
+  - views
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A grand early-1900s castle on Heart Island in the St. Lawrence River, reached by boat from Alexandria Bay.
+details: Many people combine it with a Thousand Islands boat tour. The castle is open only in the warm season.
+warnings:
+  - type: closure
+    text: Open seasonally, roughly late spring through early fall. Confirm dates on the official site.
+    verify: true
+  - type: other
+    text: The island is reached by boat. If you travel by boat from Canada, check the official site for border and customs rules.
+    verify: true

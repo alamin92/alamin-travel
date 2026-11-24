@@ -1,0 +1,36 @@
+name: Beak & Skiff Apple Orchards
+state: NY
+region: finger-lakes
+county: Onondaga
+area: LaFayette
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.beakandskiff.com/
+links:
+  - type: official
+    label: "Beak & Skiff: official site"
+    url: https://www.beakandskiff.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Beak%20%26%20Skiff%20Apple%20Orchards%2C%20LaFayette%2C%20NY
+mapQuery: Beak & Skiff Apple Orchards, LaFayette, NY
+lat: 42.9
+lon: -76.1
+kind: farm
+interests:
+  - seasonal
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - fall
+familyFriendly: true
+cost: varies
+highlight: false
+summary: A large Finger Lakes orchard south of Syracuse with fall apple picking and seasonal events.
+details: A good fall stop near Syracuse. Check the site for varieties, picking rules and events.
+warnings:
+  - type: closure
+    text: "Seasonal: what is open (apples, pumpkins, festivals) changes week to week with the crops and weather. Check the farm site or call the day you go."
+    verify: true

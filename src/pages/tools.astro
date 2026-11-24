@@ -1,0 +1,70 @@
+---
+import Base from '../layouts/Base.astro';
+
+// Tools I actually use to plan trips. Edit this list to add or remove.
+const planning = [
+  {
+    group: 'Parks & trails',
+    links: [
+      { name: 'National Park Service', href: 'https://www.nps.gov', note: 'Parks, passes, alerts and trip planning.' },
+      { name: 'AllTrails', href: 'https://www.alltrails.com', note: 'Find and compare hikes, with reviews and maps.' },
+      { name: 'I LOVE NY', href: 'https://www.iloveny.com', note: 'New York State trips, parks and events.' },
+      { name: 'Recreation.gov', href: 'https://www.recreation.gov', note: 'Permits, timed entry, lotteries and campsites on federal land.' },
+      { name: 'Bureau of Land Management', href: 'https://www.blm.gov', note: 'Public lands in the West, including permit and lottery areas.' },
+      { name: 'US Forest Service', href: 'https://www.fs.usda.gov', note: 'National forests, trails and recreation sites.' },
+      { name: 'NY State Parks', href: 'https://parks.ny.gov', note: 'State park status, fees, maps and alerts.' },
+      { name: 'NYS DEC', href: 'https://dec.ny.gov', note: 'Catskill and Adirondack trails, conditions and rules.' },
+    ],
+  },
+  {
+    group: 'Conditions, weather & roads',
+    links: [
+      { name: 'National Weather Service', href: 'https://www.weather.gov', note: 'Forecasts and alerts by location.' },
+      { name: '511NY', href: 'https://511ny.org', note: 'New York road conditions and closures.' },
+    ],
+  },
+  {
+    group: 'Farms & seasonal fun',
+    links: [
+      { name: 'PickYourOwn.org', href: 'https://pickyourown.org', note: 'Find pick-your-own farms and orchards by area.' },
+    ],
+  },
+  {
+    group: 'Flights, stays & booking',
+    links: [
+      { name: 'Kayak', href: 'https://www.kayak.com', note: 'Compare flights, hotels and cars.' },
+      { name: 'Expedia', href: 'https://www.expedia.com', note: 'Flights, hotels and bundles.' },
+      { name: 'Priceline', href: 'https://www.priceline.com', note: 'Deals on hotels and flights.' },
+      { name: 'Airbnb', href: 'https://www.airbnb.com', note: 'Homes and unique stays.' },
+    ],
+  },
+];
+---
+
+<Base title="Planning tools" description="Official sites and tools to plan hikes and trips: NPS, BLM, AllTrails, state parks and more.">
+
+      <p class="crumb"><a href="/">← Home</a></p>
+      <h1>Planning tools</h1>
+      <p class="lead">The tools I use to plan hikes and trips, in case they're useful to you too.</p>
+
+      {planning.map((p) => (
+        <section>
+          <h2>{p.group}</h2>
+          <div class="grid">
+            {p.links.map((l) => (
+              <a class="card tool" href={l.href} rel="noopener">
+                <h3>{l.name}</h3>
+                <p class="muted">{l.note}</p>
+              </a>
+            ))}
+          </div>
+        </section>
+      ))}
+</Base>
+
+<style>
+  .crumb { margin: 0 0 12px; font-size: 0.95rem; }
+  .tool { display: block; color: var(--text); }
+  .tool:hover { text-decoration: none; }
+  .tool p { margin: 0; }
+</style>

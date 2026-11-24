@@ -1,0 +1,24 @@
+name: Long Island (central, near Islip)
+state: NY
+region: long-island
+county: Suffolk
+blurb: A base in central Suffolk County, between the south shore beaches and the North Fork farms, with Montauk a long drive east.
+nearby:
+  - place: fire-island-lighthouse
+    minutes: 25
+  - place: jones-beach
+    minutes: 30
+  - place: harbes-family-farm
+    minutes: 70
+  - place: montauk-point
+    minutes: 105
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org
+  - type: official
+    label: Discover Long Island
+    url: https://www.discoverlongisland.com/

@@ -1,0 +1,40 @@
+name: The Great Jack O'Lantern Blaze (Van Cortlandt Manor)
+state: NY
+region: hudson-valley
+county: Westchester
+area: Croton-on-Hudson
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.pumpkinblaze.org/
+links:
+  - type: official
+    label: "The Great Jack O'Lantern Blaze: official site"
+    url: https://www.pumpkinblaze.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Van%20Cortlandt%20Manor%2C%20Croton-on-Hudson%2C%20NY
+mapQuery: Van Cortlandt Manor, Croton-on-Hudson, NY
+lat: 41.21
+lon: -73.88
+kind: farm
+interests:
+  - seasonal
+  - family
+  - photo
+  - culture
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - fall
+familyFriendly: true
+cost: paid
+highlight: true
+summary: An evening trail of thousands of carved, lit pumpkins at a historic Hudson River estate, running on select nights each fall.
+details: It is a night-time walk, so dress warmly and bring a flashlight for the parking area.
+warnings:
+  - type: reservation
+    text: Tickets are timed and sell out, especially for October weekends. Book online well ahead.
+    verify: true
+  - type: closure
+    text: 2026 listings give select nights from mid-September to early November. Confirm exact dates on the official site.
+    verify: true

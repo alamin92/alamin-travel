@@ -1,18 +1,25 @@
 ---
 import Base from '../layouts/Base.astro';
-import { loadHubs, SCENARIO_DAYS, scenarioSlug } from '../lib/data';
-import { interestLabels, regionLabels } from '../lib/labels';
+import NYMap from '../components/NYMap.astro';
+import Doors from '../components/Doors.astro';
+import { loadHubs, loadPlaces, SCENARIO_DAYS, scenarioSlug } from '../lib/data';
+import { interestLabels } from '../lib/labels';
+import { regions } from '../lib/regions';
 
 const hubs = await loadHubs();
-const grouped = Object.entries(regionLabels)
-  .map(([id, label]) => ({ label, hubs: hubs.filter((h) => h.region === id) }))
-  .filter((g) => g.hubs.length);
+const places = await loadPlaces();
+const counts = Object.fromEntries(regions.map((r) => [r.id, places.filter((p) => p.region === r.id).length]));
+const grouped = regions.map((r) => ({ label: r.name, hubs: hubs.filter((h) => h.region === r.id) })).filter((g) => g.hubs.length);
 ---
 <Base>
-  <h1>Plan a trip, your way</h1>
-  <p class="lead">Free ideas, warnings and plan templates for places worth visiting. No sign-up, nothing saved. We're starting with New York State.</p>
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Plan a trip, your way</h1>
+      <p class="lead">Free ideas, warnings and plan templates for places worth visiting. No sign-up, nothing saved. We're starting with New York State.</p>
+    </div>
+  </section>
 
-  <div class="grid three">
+  <div class="grid three entries">
     <a class="card entry" href="#days">
       <span class="num">1</span>
       <h3>I have X days in a place</h3>
@@ -21,13 +28,24 @@ const grouped = Object.entries(regionLabels)
     <a class="card entry" href="#interests">
       <span class="num">2</span>
       <h3>Browse by interest</h3>
-      <p class="muted">Family, adventure, relax, views, winter and more.</p>
+      <p class="muted">Family, adventure, relax, views, winter, farms and more.</p>
     </a>
     <a class="card entry" href="/planner">
       <span class="num">3</span>
       <h3>Build and download a plan</h3>
       <p class="muted">Choose days and interests, then download an editable plan.</p>
     </a>
+  </div>
+
+  <h2 id="regions">Explore New York by region</h2>
+  <p class="muted">The 11 official I LOVE NY vacation regions. Tap a region to see its places and base towns.</p>
+  <div class="map-wrap">
+    <NYMap counts={counts} />
+    <ul class="region-list">
+      {regions.map((r) => (
+        <li><a href={`/regions/${r.id}`}><strong>{r.name}</strong><span class="muted"> · {counts[r.id]} {counts[r.id] === 1 ? 'place' : 'places'}</span></a></li>
+      ))}
+    </ul>
   </div>
 
   <h2 id="days">I have X days in a place</h2>
@@ -49,15 +67,8 @@ const grouped = Object.entries(regionLabels)
     {Object.entries(interestLabels).map(([id, label]) => <a class="tile" href={`/browse?interest=${id}`}>{label}</a>)}
   </div>
 
-  <h2>Base towns</h2>
-  <div class="grid">
-    {hubs.map((h) => (
-      <a class="card" href={`/hubs/${h.id}`}>
-        <h3>{h.name}</h3>
-        <p class="muted">{h.blurb}</p>
-      </a>
-    ))}
-  </div>
+  <h2>More from my travels</h2>
+  <Doors />
 
   <script>
     document.getElementById('days-form')!.addEventListener('submit', () => {

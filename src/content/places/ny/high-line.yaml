@@ -1,0 +1,43 @@
+name: The High Line
+state: NY
+region: nyc
+county: New York
+area: Manhattan (West Side)
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.thehighline.org/visit/
+links:
+  - type: official
+    label: "The High Line: plan your visit"
+    url: https://www.thehighline.org/visit/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=The%20High%20Line%2C%20New%20York%2C%20NY
+mapQuery: The High Line, New York, NY
+lat: 40.75
+lon: -74
+kind: park
+interests:
+  - relax
+  - photo
+  - culture
+  - short-time
+  - family
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A former elevated railway turned into a long, narrow park with gardens, art and city views.
+details: An easy, flat walk that connects several neighborhoods and attractions on the West Side.
+warnings:
+  - type: crowds
+    text: Midday and weekends can be very crowded. Early morning is calmer.
+    verify: true
+  - type: closure
+    text: Hours and entrances change by season and event. Check the website.
+    verify: true

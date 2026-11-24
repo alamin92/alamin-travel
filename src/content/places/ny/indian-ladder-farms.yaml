@@ -1,0 +1,39 @@
+name: Indian Ladder Farms
+state: NY
+region: capital-saratoga
+county: Albany
+area: Altamont
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.indianladderfarms.com/
+links:
+  - type: official
+    label: "Indian Ladder Farms: official site"
+    url: https://www.indianladderfarms.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Indian%20Ladder%20Farms%2C%20Altamont%2C%20NY
+mapQuery: Indian Ladder Farms, Altamont, NY
+lat: 42.71
+lon: -74.07
+kind: farm
+interests:
+  - seasonal
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - fall
+familyFriendly: true
+cost: varies
+highlight: true
+summary: A big farm below the Helderberg escarpment with fall apple and pumpkin picking, a farm market and a cidery.
+details: A popular fall outing near Albany. It combines well with a visit to nearby Thacher State Park.
+warnings:
+  - type: closure
+    text: "Seasonal: what is open (apples, pumpkins, festivals) changes week to week with the crops and weather. Check the farm site or call the day you go."
+    verify: true
+  - type: crowds
+    text: Fall weekends are very busy. Go early or on a weekday.
+    verify: false

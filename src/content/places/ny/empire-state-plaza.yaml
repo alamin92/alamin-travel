@@ -1,6 +1,7 @@
 name: Empire State Plaza and the New York State Museum
 state: NY
-region: capital-region
+region: capital-saratoga
+county: Albany
 area: Albany
 source: researched
 lastChecked: 2026-11-24

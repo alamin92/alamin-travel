@@ -1,6 +1,9 @@
 name: Belleayre Mountain
 state: NY
-region: catskills
+region: hudson-valley
+county: Ulster
+alsoRegions:
+  - catskills
 area: Highmount
 source: researched
 lastChecked: 2026-11-24

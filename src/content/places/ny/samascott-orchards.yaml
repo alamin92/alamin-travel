@@ -1,0 +1,36 @@
+name: Samascott Orchards
+state: NY
+region: hudson-valley
+county: Columbia
+area: Kinderhook
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.samascottorchards.com/
+links:
+  - type: official
+    label: "Samascott Orchards: official site"
+    url: https://www.samascottorchards.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Samascott%20Orchards%2C%20Kinderhook%2C%20NY
+mapQuery: Samascott Orchards, Kinderhook, NY
+lat: 42.4
+lon: -73.7
+kind: farm
+interests:
+  - seasonal
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - fall
+familyFriendly: true
+cost: varies
+highlight: false
+summary: A Columbia County orchard in Kinderhook with pick-your-own fruit in season and a farm market.
+details: Check the site for which crops are ready and for any pick-your-own rules.
+warnings:
+  - type: closure
+    text: "Seasonal: what is open (apples, pumpkins, festivals) changes week to week with the crops and weather. Check the farm site or call the day you go."
+    verify: true

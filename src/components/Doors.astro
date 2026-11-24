@@ -1,0 +1,37 @@
+---
+import { albums } from '../data/photos';
+import { placeCategories } from '../data/saved-places';
+
+const photoCount = albums.reduce((n, a) => n + a.photos.length, 0);
+const placeCount = placeCategories.reduce((n, c) => n + c.items.length, 0);
+const preview = albums.flatMap((a) => a.photos.slice(0, 1)).slice(0, 4);
+---
+<div class="doors">
+  <a class="card door" href="/photos">
+    <div class="thumbs" aria-hidden="true">
+      {preview.map((p) => <img src={p.thumb} width={p.tw} height={p.th} alt="" loading="lazy" />)}
+    </div>
+    <h3>Photos</h3>
+    <p class="muted">{photoCount} photos from {albums.length} albums.</p>
+    <span class="go">Browse →</span>
+  </a>
+  <a class="card door" href="/places-list">
+    <h3>Places I love</h3>
+    <p class="muted">{placeCount} places in {placeCategories.length} categories: national parks, state parks, hikes, waterfalls, hidden gems and more. Each opens in Google Maps.</p>
+    <span class="go">Explore →</span>
+  </a>
+  <a class="card door" href="/tools">
+    <h3>Planning tools</h3>
+    <p class="muted">NPS, BLM, AllTrails, state parks, I LOVE NY, booking sites and more.</p>
+    <span class="go">See the list →</span>
+  </a>
+</div>
+<style>
+  .doors { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+  .door { display: flex; flex-direction: column; }
+  .door h3 { font-size: 1.3rem; margin: 0 0 6px; }
+  .door p { margin: 0 0 14px; flex: 1; }
+  .go { color: var(--accent); font-weight: 600; }
+  .thumbs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px; margin-bottom: 14px; border-radius: 8px; overflow: hidden; }
+  .thumbs img { width: 100%; height: 80px; object-fit: cover; display: block; }
+</style>

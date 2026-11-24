@@ -1,0 +1,44 @@
+name: Jones Beach State Park
+state: NY
+region: long-island
+county: Nassau
+area: Wantagh
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/jones-beach-state-park
+links:
+  - type: state-park
+    label: "NY State Parks: Jones Beach"
+    url: https://parks.ny.gov/visit/state-parks/jones-beach-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Jones%20Beach%20State%20Park%2C%20Wantagh%2C%20NY
+mapQuery: Jones Beach State Park, Wantagh, NY
+lat: 40.6
+lon: -73.51
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+  - seasonal
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+costNote: A parking fee usually applies in season. Check the park page.
+highlight: true
+summary: A big Atlantic barrier-island state park with miles of ocean beach, a long boardwalk, bathhouses and summer concerts.
+details: The classic Long Island beach day. Bring sun protection and plan around tides and parking. Swimming is generally allowed only where and when lifeguards are on duty.
+warnings:
+  - type: parking
+    text: On hot summer weekends the lots can fill and entry can be restricted. Go early or on a weekday.
+    verify: true
+  - type: safety
+    text: Swim only in areas with lifeguards on duty. Rip currents are possible on ocean beaches.
+    verify: true
+  - type: fees
+    text: Parking fee in season. Hours and fees change, so check the park page.
+    verify: true

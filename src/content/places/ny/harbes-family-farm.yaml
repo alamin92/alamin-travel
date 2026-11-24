@@ -1,0 +1,43 @@
+name: Harbes Family Farm (Mattituck)
+state: NY
+region: long-island
+county: Suffolk
+area: Mattituck
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.harbesfamilyfarm.com/
+links:
+  - type: official
+    label: "Harbes Family Farm: official site"
+    url: https://www.harbesfamilyfarm.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Harbes%20Family%20Farm%2C%20Mattituck%2C%20NY
+mapQuery: Harbes Family Farm, Mattituck, NY
+lat: 40.99
+lon: -72.57
+kind: farm
+interests:
+  - seasonal
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - fall
+familyFriendly: true
+cost: varies
+costNote: Pumpkin picking and the barnyard adventure are priced separately. Check the farm site.
+highlight: true
+summary: A North Fork family farm known for its large fall pumpkin patch, a barnyard activity area and seasonal festivals.
+details: Plan for fall. The farm has more than one location, and apple picking is at a different one from the Mattituck pumpkin patch, so check which site offers what.
+warnings:
+  - type: reservation
+    text: Barnyard adventure tickets are sold online for set fall weekends and holidays. Check dates and whether you need a ticket for the pumpkin patch.
+    verify: true
+  - type: crowds
+    text: Fall weekends are very busy, with heavy traffic on the North Fork roads.
+    verify: true
+  - type: closure
+    text: Seasonal. Dates and hours change each year.
+    verify: true

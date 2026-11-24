@@ -1,6 +1,9 @@
 name: Kingston
 state: NY
 region: hudson-valley
+county: Ulster
+alsoRegions:
+  - catskills
 blurb: A historic Hudson River city that works as a base between the Catskills and the Shawangunk Ridge.
 nearby:
   - place: walkway-over-the-hudson
@@ -21,6 +24,8 @@ nearby:
     minutes: 25
   - place: vanderbilt-mansion
     minutes: 30
+  - place: samascott-orchards
+    minutes: 45
 checkBefore:
   - type: state-park
     label: "NY State Parks: park status and alerts"

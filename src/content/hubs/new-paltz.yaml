@@ -1,6 +1,9 @@
 name: New Paltz
 state: NY
 region: hudson-valley
+county: Ulster
+alsoRegions:
+  - catskills
 blurb: The village at the foot of the Shawangunk Ridge, close to Minnewaska, Sam's Point and the Walkway Over the Hudson.
 nearby:
   - place: minnewaska

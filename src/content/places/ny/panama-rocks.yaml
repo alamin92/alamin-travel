@@ -1,0 +1,45 @@
+name: Panama Rocks Scenic Park
+state: NY
+region: chautauqua-allegheny
+county: Chautauqua
+area: Panama
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.panamarocks.com/
+links:
+  - type: official
+    label: "Panama Rocks: official site"
+    url: https://www.panamarocks.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Panama%20Rocks%20Scenic%20Park%2C%20Panama%2C%20NY
+mapQuery: Panama Rocks Scenic Park, Panama, NY
+lat: 42.09
+lon: -79.48
+kind: hike
+interests:
+  - adventure
+  - family
+  - nature
+  - photo
+difficulty: moderate
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A privately run forest of huge rock formations with narrow crevices and passageways to explore on foot.
+details: A fun, scrambly walk for kids and adventurous adults. The paths are rocky and can be wet.
+warnings:
+  - type: fees
+    text: Admission is charged. Check the official site for prices and dates.
+    verify: true
+  - type: closure
+    text: Open seasonally.
+    verify: true
+  - type: safety
+    text: Uneven rock and tight spots. Wear sturdy shoes.
+    verify: true

@@ -10,16 +10,11 @@ export const interestLabels: Record<string, string> = {
   views: 'Scenic views',
   winter: 'Winter fun',
   'short-time': 'Short on time',
+  beach: 'Beach and coast',
+  seasonal: 'Farms and seasonal fun',
 };
 
-export const regionLabels: Record<string, string> = {
-  'capital-region': 'Capital Region (Albany)',
-  catskills: 'Catskills',
-  'hudson-valley': 'Hudson Valley',
-  'finger-lakes': 'Finger Lakes',
-  'western-ny': 'Western New York',
-  adirondacks: 'Adirondacks',
-};
+export { regionNames as regionLabels } from './regions';
 
 export const kindLabels: Record<string, string> = {
   hike: 'Hike',
@@ -31,6 +26,9 @@ export const kindLabels: Record<string, string> = {
   museum: 'Museum or historic site',
   drive: 'Scenic drive',
   bridge: 'Bridge or walkway',
+  farm: 'Farm, orchard or pumpkin patch',
+  beach: 'Beach',
+  landmark: 'Landmark or lighthouse',
 };
 
 export const difficultyLabels: Record<string, string> = { easy: 'Easy', moderate: 'Moderate', hard: 'Hard', 'n/a': 'Not applicable' };

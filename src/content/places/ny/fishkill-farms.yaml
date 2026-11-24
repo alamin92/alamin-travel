@@ -1,0 +1,40 @@
+name: Fishkill Farms
+state: NY
+region: hudson-valley
+county: Dutchess
+area: Hopewell Junction
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.fishkillfarms.com/
+links:
+  - type: official
+    label: "Fishkill Farms: official site"
+    url: https://www.fishkillfarms.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Fishkill%20Farms%2C%20Hopewell%20Junction%2C%20NY
+mapQuery: Fishkill Farms, Hopewell Junction, NY
+lat: 41.52
+lon: -73.82
+kind: farm
+interests:
+  - seasonal
+  - family
+  - photo
+  - relax
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - fall
+familyFriendly: true
+cost: varies
+highlight: true
+summary: A century-old Hudson Valley orchard with fall apple picking, pumpkins, cider and a farm market.
+details: Apple picking has been run by reservation in recent seasons. Book your slot before you drive out.
+warnings:
+  - type: reservation
+    text: Pick-your-own apples have required a reservation, per group, in recent seasons. Check the farm site for when reservations open.
+    verify: true
+  - type: closure
+    text: "Seasonal: what is open (apples, pumpkins, festivals) changes week to week with the crops and weather. Check the farm site or call the day you go."
+    verify: true

@@ -1,10 +1,17 @@
 :root {
+  --surface: #ffffff; --border: #e3e0d8; --area: var(--accent); --radius: 12px;
   --bg: #fbfaf7; --card: #ffffff; --text: #1d2521; --muted: #5d6a63; --line: #e3e0d8;
   --accent: #1f6b4f; --accent-soft: #e4f1ea; --warn: #8a4b0f; --warn-soft: #fdf1e0;
   --visited: #1f6b4f; --researched: #3b5a8a;
 }
 * { box-sizing: border-box; }
-body { margin: 0; font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--text); background: var(--bg); }
+body {
+  margin: 0; font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--text);
+  background-color: var(--bg);
+  /* Faint topographic contour lines, so the page feels like a map without hurting readability. */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='520' height='520' viewBox='0 0 520 520' fill='none' stroke='%231f6b4f' stroke-opacity='0.07' stroke-width='1.4'%3E%3Cpath d='M-20 120C60 60 140 150 230 110S400 40 540 120'/%3E%3Cpath d='M-20 160C70 105 150 190 235 150S395 85 540 160'/%3E%3Cpath d='M-20 200C80 150 160 230 240 190S390 130 540 200'/%3E%3Cpath d='M-20 360C70 300 170 400 260 350S420 290 540 370'/%3E%3Cpath d='M-20 400C75 345 175 440 265 390S415 335 540 410'/%3E%3Cpath d='M-20 440C85 390 180 480 270 430S410 380 540 450'/%3E%3Cellipse cx='400' cy='260' rx='60' ry='34'/%3E%3Cellipse cx='400' cy='260' rx='40' ry='22'/%3E%3Cellipse cx='400' cy='260' rx='20' ry='11'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+}
 a { color: var(--accent); }
 .container { max-width: 880px; margin: 0 auto; padding: 0 18px; }
 header.site { border-bottom: 1px solid var(--line); background: var(--card); }
@@ -85,3 +92,31 @@ button[aria-pressed="true"] { background: var(--accent-soft); border-color: var(
   a { color: inherit; }
   h2, h3 { break-after: avoid; }
 }
+
+/* ---------- region map ---------- */
+.nymap { width: 100%; height: auto; display: block; }
+.nymap .region path { fill: #8fb0b3; stroke: #fff; stroke-width: 2.5; stroke-linejoin: round; transition: fill .15s; cursor: pointer; }
+.nymap .region:hover path, .nymap .region:focus path { fill: #2f6f73; }
+.nymap .region.active path { fill: #1f5559; }
+.nymap .labels text { font: 700 15px/1.1 system-ui, sans-serif; fill: #10201f; text-transform: uppercase; pointer-events: none; paint-order: stroke; stroke: rgba(255,255,255,.55); stroke-width: 2.5px; }
+
+/* ---------- hero, entries, map layout ---------- */
+.hero {
+  margin: -28px calc(50% - 50vw) 0; padding: 72px 18px 64px; color: #fff; text-align: center;
+  background: linear-gradient(180deg, rgba(10,30,24,.62), rgba(10,30,24,.72)), url('/photos/grand-canyon-arizona/03.jpg') center / cover no-repeat;
+}
+.hero-inner { max-width: 760px; margin: 0 auto; }
+.hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 10px; color: #fff; }
+.hero .lead { color: rgba(255,255,255,.9); margin: 0; font-size: 1.15rem; }
+.entries { margin-top: -34px; position: relative; }
+.entries .card { box-shadow: 0 8px 24px rgba(20,40,30,.12); }
+.map-wrap { display: grid; gap: 20px; grid-template-columns: minmax(0, 1.5fr) minmax(220px, 1fr); align-items: center; }
+.region-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.region-list a { display: block; padding: 8px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); text-decoration: none; color: var(--text); }
+.region-list a:hover { border-color: var(--accent); background: var(--accent-soft); }
+.region-head { display: grid; gap: 24px; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: start; }
+.btn { display: inline-block; padding: 8px 16px; border-radius: 8px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; }
+@media (max-width: 720px) { .map-wrap, .region-head { grid-template-columns: 1fr; } }
+.nymap .region path { fill: #8fb0b3; }
+.nymap .region:hover path, .nymap .region:focus path { fill: #5f9aa0; }
+.nymap .region.active path { fill: #3f7f86; }

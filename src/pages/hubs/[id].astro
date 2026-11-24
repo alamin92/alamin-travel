@@ -4,6 +4,7 @@ import Badge from '../../components/Badge.astro';
 import { getCollection, getEntry } from 'astro:content';
 import { formatMinutes, mapLinks } from '../../lib/maps';
 import { SCENARIO_DAYS, scenarioSlug } from '../../lib/data';
+import { regionNames } from '../../lib/regions';
 
 export async function getStaticPaths() {
   const hubs = await getCollection('hubs');
@@ -19,6 +20,7 @@ items.sort((a, b) => a.minutes - b.minutes);
   <p class="crumb"><a href="/">← Home</a></p>
   <h1>Near {hub.data.name}</h1>
   <p class="lead">{hub.data.blurb}</p>
+  <p class="muted">Region: <a href={`/regions/${hub.data.region}`}>{regionNames[hub.data.region]}</a></p>
 
   <h2>Sample plans</h2>
   <p class="maps">
@@ -27,7 +29,7 @@ items.sort((a, b) => a.minutes - b.minutes);
   </p>
 
   <h2>Places nearby</h2>
-  <p class="muted">Drive times are about, rounded, from the center of {hub.data.name}. Use the map links for current traffic.</p>
+  <p class="muted">{hub.data.mode === 'transit' ? 'Travel times are about, by subway, ferry or car, from midtown.' : `Drive times are about, rounded, from the center of ${hub.data.name}. Use the map links for current traffic.`}</p>
   <ul class="plain">
     {items.map((i) => {
       const d = i.place.data;
@@ -36,7 +38,7 @@ items.sort((a, b) => a.minutes - b.minutes);
         <li>
           <Badge source={d.source} />
           <strong><a href={`/places/${i.place.id}`}> {d.name}</a></strong>
-          <div class="muted">About {formatMinutes(i.minutes)} drive · visit about {formatMinutes(d.timeMinutes)} · {d.summary}</div>
+          <div class="muted">About {formatMinutes(i.minutes)} {hub.data.mode === 'transit' ? 'travel' : 'drive'} · visit about {formatMinutes(d.timeMinutes)} · {d.summary}</div>
           <div class="maps"><a href={m.google}>Google</a><a href={m.apple}>Apple</a><a href={m.waze}>Waze</a></div>
         </li>
       );

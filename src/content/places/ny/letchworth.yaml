@@ -1,6 +1,9 @@
 name: Letchworth State Park
 state: NY
-region: western-ny
+region: greater-niagara
+county: Wyoming
+alsoRegions:
+  - finger-lakes
 area: Castile
 source: visited
 lastChecked: 2026-11-24

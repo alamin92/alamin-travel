@@ -1,0 +1,17 @@
+name: Syracuse
+state: NY
+region: finger-lakes
+county: Onondaga
+blurb: A central city with a waterfall park and orchards close by.
+nearby:
+  - place: chittenango-falls
+    minutes: 25
+  - place: beak-and-skiff
+    minutes: 25
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

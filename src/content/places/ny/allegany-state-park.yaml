@@ -1,0 +1,47 @@
+name: Allegany State Park
+state: NY
+region: chautauqua-allegheny
+county: Cattaraugus
+area: Salamanca
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/allegany-state-park-quaker-area
+links:
+  - type: state-park
+    label: "NY State Parks: Allegany (Quaker Area)"
+    url: https://parks.ny.gov/visit/state-parks/allegany-state-park-quaker-area
+  - type: state-park
+    label: "NY State Parks: Allegany (Red House Area)"
+    url: https://parks.ny.gov/visit/state-parks/allegany-state-park-red-house-area
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Allegany%20State%20Park%2C%20Salamanca%2C%20NY
+mapQuery: Allegany State Park, Salamanca, NY
+lat: 42.09
+lon: -78.75
+kind: park
+interests:
+  - nature
+  - family
+  - adventure
+  - relax
+  - winter
+difficulty: moderate
+timeMinutes: 360
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: low
+highlight: true
+summary: New York's largest state park, about 65,000 acres of forest with lakes, hiking, camping and winter trails.
+details: The park has two main areas, Red House and Quaker Run, with separate lakes and facilities. Pick one for a day trip.
+warnings:
+  - type: fees
+    text: A vehicle fee may apply. Check the park pages.
+    verify: true
+  - type: closure
+    text: Some facilities and roads are seasonal. Check the park page.
+    verify: true

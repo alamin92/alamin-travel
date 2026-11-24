@@ -1,0 +1,42 @@
+name: National Baseball Hall of Fame and Museum
+state: NY
+region: central-ny
+county: Otsego
+area: Cooperstown
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://baseballhall.org/planyourvisit
+links:
+  - type: official
+    label: "Baseball Hall of Fame: plan your visit"
+    url: https://baseballhall.org/planyourvisit
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=National%20Baseball%20Hall%20of%20Fame%2C%20Cooperstown%2C%20NY
+mapQuery: National Baseball Hall of Fame, Cooperstown, NY
+lat: 42.7
+lon: -74.92
+kind: museum
+interests:
+  - history
+  - culture
+  - family
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: true
+summary: The museum of baseball history in the village of Cooperstown, with plaques for the sport's greats and many displays.
+details: Cooperstown is small and walkable. Pair the museum with the village and Otsego Lake.
+warnings:
+  - type: crowds
+    text: Summer and the Hall of Fame induction weekend are very busy, and lodging fills early.
+    verify: true
+  - type: fees
+    text: Admission is charged. Check the site for hours, tickets and any timed entry.
+    verify: true

@@ -1,0 +1,40 @@
+name: Chautauqua Institution
+state: NY
+region: chautauqua-allegheny
+county: Chautauqua
+area: Chautauqua
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://chq.org/
+links:
+  - type: official
+    label: "Chautauqua Institution: official site"
+    url: https://chq.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Chautauqua%20Institution%2C%20Chautauqua%2C%20NY
+mapQuery: Chautauqua Institution, Chautauqua, NY
+lat: 42.21
+lon: -79.47
+kind: town
+interests:
+  - culture
+  - relax
+  - family
+  - history
+difficulty: easy
+timeMinutes: 300
+bestSeason:
+  - summer
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A historic lakeside community on Chautauqua Lake known for its summer season of lectures, concerts, theater and classes.
+details: It is a gated community with a summer program. Check the official site for gate passes and the schedule before you plan a visit.
+warnings:
+  - type: fees
+    text: A gate pass is generally needed to enter during the summer season. Check the official site for what is required and what it costs.
+    verify: true
+  - type: closure
+    text: Programs are mostly seasonal. Outside the season, the grounds may be quiet.
+    verify: true

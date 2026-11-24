@@ -18,7 +18,7 @@ const checked = d.lastChecked.toISOString().slice(0, 10);
   <p class="crumb"><a href="/browse">← Browse</a></p>
   <Badge source={d.source} />
   <h1 style="margin-top:10px">{d.name}</h1>
-  <p class="muted">{d.area}, {d.state} · {regionLabels[d.region]}</p>
+  <p class="muted">{d.area}, {d.county} County, {d.state} · <a href={`/regions/${d.region}`}>{regionLabels[d.region]}</a></p>
   <p class="lead">{d.summary}</p>
 
   <dl class="facts">

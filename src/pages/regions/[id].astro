@@ -1,0 +1,80 @@
+---
+import Base from '../../layouts/Base.astro';
+import Badge from '../../components/Badge.astro';
+import NYMap from '../../components/NYMap.astro';
+import { loadPlaces, loadHubs, SCENARIO_DAYS, scenarioSlug } from '../../lib/data';
+import { regions, regionById } from '../../lib/regions';
+import { interestLabels, kindLabels } from '../../lib/labels';
+import { formatMinutes } from '../../lib/maps';
+
+export function getStaticPaths() {
+  return regions.map((r) => ({ params: { id: r.id } }));
+}
+const region = regionById[Astro.params.id!];
+const all = await loadPlaces();
+const hubsAll = await loadHubs();
+const inRegion = (x: { region: string; alsoRegions: string[] }) => x.region === region.id || x.alsoRegions.includes(region.id);
+const places = all.filter(inRegion).sort((a, b) => Number(b.highlight) - Number(a.highlight) || a.name.localeCompare(b.name));
+const hubs = hubsAll.filter(inRegion);
+const farms = places.filter((p) => p.interests.includes('seasonal'));
+const rest = places.filter((p) => !p.interests.includes('seasonal'));
+const counts = Object.fromEntries(regions.map((r) => [r.id, all.filter((p) => p.region === r.id).length]));
+---
+<Base title={`${region.name}: places to go and plan a trip`} description={`${region.blurb} Places, warnings, approximate drive times and official links.`}>
+  <p class="crumb"><a href="/#regions">← All regions</a></p>
+  <div class="region-head">
+    <div>
+      <h1>{region.name}</h1>
+      <p class="lead">{region.blurb}</p>
+      <p class="muted">Regions follow the official <a href={region.official} rel="noopener">I LOVE NY vacation regions</a>. Counties: {region.counties.join(', ')}.</p>
+      <p><a class="btn" href={`/browse?region=${region.id}`}>Filter {region.name} places</a></p>
+    </div>
+    <NYMap active={region.id} counts={counts} />
+  </div>
+
+  {hubs.length > 0 && (
+    <>
+      <h2>Pick a base town</h2>
+      <p class="muted">See what fits nearby, and get a sample plan for 1 to 7 days.</p>
+      <div class="grid">
+        {hubs.map((h) => (
+          <div class="card">
+            <h3><a href={`/hubs/${h.id}`}>{h.name}</a></h3>
+            <p class="muted">{h.blurb}</p>
+            <p class="maps">{SCENARIO_DAYS.slice(0, 4).map((n) => <a href={`/plan/${h.id}/${scenarioSlug(n)}`}>{n} {n === 1 ? 'day' : 'days'}</a>)}</p>
+          </div>
+        ))}
+      </div>
+    </>
+  )}
+
+  <h2>Places in {region.name}</h2>
+  {rest.length === 0 && <p class="muted">No full guides here yet. Check the official site above, and the <a href="/places-list">places list</a>.</p>}
+  <div class="grid">
+    {rest.map((p) => (
+      <a class="card place-card" href={`/places/${p.id}`}>
+        <Badge source={p.source} />
+        <h3 style="margin-top:8px">{p.name}</h3>
+        <p class="muted">{p.area} · {kindLabels[p.kind]} · about {formatMinutes(p.timeMinutes)}</p>
+        <p>{p.summary}</p>
+      </a>
+    ))}
+  </div>
+
+  {farms.length > 0 && (
+    <>
+      <h2>Farms and seasonal fun</h2>
+      <p class="muted">Apple and pumpkin picking, festivals and more. These are seasonal: dates and what is open change every year, so check the farm's site before you go.</p>
+      <div class="grid">
+        {farms.map((p) => (
+          <a class="card place-card" href={`/places/${p.id}`}>
+            <Badge source={p.source} />
+            <h3 style="margin-top:8px">{p.name}</h3>
+            <p class="muted">{p.area} · best in {p.bestSeason.join(', ')}</p>
+            <p>{p.summary}</p>
+          </a>
+        ))}
+      </div>
+    </>
+  )}
+</Base>

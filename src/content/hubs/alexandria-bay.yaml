@@ -1,0 +1,17 @@
+name: Alexandria Bay
+state: NY
+region: thousand-islands-seaway
+county: Jefferson
+blurb: The main village on the Thousand Islands stretch of the St. Lawrence River, with boat tours and island castles.
+nearby:
+  - place: boldt-castle
+    minutes: 5
+  - place: singer-castle
+    minutes: 20
+checkBefore:
+  - type: official
+    label: "1000 Islands Region: official site"
+    url: https://www.visit1000islands.com/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

@@ -6,7 +6,7 @@ import { formatMinutes } from '../lib/maps';
 import { interestLabels, regionLabels, kindLabels, difficultyLabels } from '../lib/labels';
 
 const places = await loadPlaces();
-const regions = Object.entries(regionLabels).filter(([id]) => places.some((p) => p.region === id));
+const regions = Object.entries(regionLabels).filter(([id]) => places.some((p) => p.region === id || p.alsoRegions.includes(id)));
 const timeBucket = (m: number) => (m <= 60 ? 'quick' : m <= 180 ? 'half' : 'full');
 ---
 <Base title="Browse places" description="Browse New York places by interest, region, difficulty and time. Family friendly, adventure, relaxing, views and more.">
@@ -52,7 +52,7 @@ const timeBucket = (m: number) => (m <= 60 ? 'quick' : m <= 180 ? 'half' : 'full
     {places.map((p) => (
       <a class="card place-card" href={`/places/${p.id}`}
         data-name={`${p.name} ${p.area}`.toLowerCase()}
-        data-interests={p.interests.join(' ')} data-region={p.region} data-kind={p.kind}
+        data-interests={p.interests.join(' ')} data-region={[p.region, ...p.alsoRegions].join(' ')} data-kind={p.kind}
         data-difficulty={p.difficulty} data-time={timeBucket(p.timeMinutes)} data-source={p.source}
         data-family={String(p.familyFriendly)} data-free={String(p.cost === 'free')}>
         <Badge source={p.source} />
@@ -82,7 +82,7 @@ const timeBucket = (m: number) => (m <= 60 ? 'quick' : m <= 180 ? 'half' : 'full
         const ok =
           (!text || d.name!.includes(text)) &&
           (!picked.length || picked.some((i) => d.interests!.split(' ').includes(i))) &&
-          (!sel.region.value || d.region === sel.region.value) &&
+          (!sel.region.value || d.region!.split(' ').includes(sel.region.value)) &&
           (!sel.kind.value || d.kind === sel.kind.value) &&
           (!sel.difficulty.value || d.difficulty === sel.difficulty.value) &&
           (!sel.time.value || d.time === sel.time.value) &&

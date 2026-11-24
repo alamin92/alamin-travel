@@ -1,0 +1,42 @@
+name: Howe Caverns
+state: NY
+region: central-ny
+county: Schoharie
+area: Howes Cave
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.howecaverns.com/
+links:
+  - type: official
+    label: "Howe Caverns: official site"
+    url: https://www.howecaverns.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Howe%20Caverns%2C%20Howes%20Cave%2C%20NY
+mapQuery: Howe Caverns, Howes Cave, NY
+lat: 42.69
+lon: -74.4
+kind: activity
+interests:
+  - adventure
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A show cave you tour on foot, with an underground boat ride, plus more adventurous tours and outdoor attractions.
+details: A good rainy-day or hot-day plan, since the cave stays cool all year. Bring a light jacket.
+warnings:
+  - type: reservation
+    text: Tours run on set schedules and adventure tours may need advance booking. Check the official site.
+    verify: true
+  - type: safety
+    text: Expect wet, uneven steps and low ceilings in places.
+    verify: true
