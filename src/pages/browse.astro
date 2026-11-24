@@ -1,20 +1,35 @@
 ---
 import Base from '../layouts/Base.astro';
-import Badge from '../components/Badge.astro';
 import { loadPlaces } from '../lib/data';
-import { formatMinutes } from '../lib/maps';
-import { interestLabels, regionLabels, kindLabels, difficultyLabels } from '../lib/labels';
+import { interestLabels, kindLabels, difficultyLabels } from '../lib/labels';
+import { countries } from '../lib/areas';
 
 const places = await loadPlaces();
-const regions = Object.entries(regionLabels).filter(([id]) => places.some((p) => p.region === id || p.alsoRegions.includes(id)));
 const timeBucket = (m: number) => (m <= 60 ? 'quick' : m <= 180 ? 'half' : 'full');
+// Compact search index. Cards are drawn in the browser, so the page stays small as places are added.
+const index = places.map((p) => ({
+  id: p.id, n: p.name, a: p.area, c: p.country, s: p.state, r: p.region, ar: p.alsoRegions, k: p.kind, i: p.interests,
+  d: p.difficulty, t: timeBucket(p.timeMinutes), tm: p.timeMinutes, src: p.source, f: p.familyFriendly, fr: p.cost === 'free',
+  h: p.highlight, sum: p.summary, res: p.warnings.some((w) => w.type === 'reservation'),
+}));
+const tree = countries.map((c) => ({ id: c.id, name: c.name, states: c.states.map((s) => ({ code: s.code, name: s.name, regions: s.regions.map((r) => ({ id: r.id, name: r.name })) })) }));
+const data = JSON.stringify({ index, tree, labels: { interest: interestLabels, kind: kindLabels } }).replace(/</g, '\\u003c');
 ---
-<Base title="Browse places" description="Browse New York places by interest, region, difficulty and time. Family friendly, adventure, relaxing, views and more.">
-  <h1>Browse by interest</h1>
-  <p class="lead">Pick what you like and the list narrows down. Filters work in your browser, nothing is sent anywhere.</p>
+<Base title="Browse places" description="Search and filter places by country, state, region, interest, difficulty and time. Family friendly, adventure, relaxing, views and more.">
+  <h1>Browse places</h1>
+  <p class="lead">Start with a place, an area or an interest. We show the major places first, and you can narrow down from there. Nothing is sent anywhere.</p>
 
-  <form id="filters" class="card form" onsubmit="return false">
-    <input type="search" id="q" placeholder="Search by name or town" aria-label="Search places" />
+  <form id="filters" class="card form" autocomplete="off">
+    <div class="combo">
+      <label for="q" class="sr">Search by place, state, region or country</label>
+      <input type="search" id="q" placeholder="Search by place, state, region or country" role="combobox" aria-expanded="false" aria-controls="suggest" aria-autocomplete="list" />
+      <ul id="suggest" class="suggest" role="listbox" hidden></ul>
+    </div>
+    <div class="row">
+      <label>Country<select id="country"></select></label>
+      <label>State<select id="state"></select></label>
+      <label>Region<select id="region"></select></label>
+    </div>
     <fieldset>
       <legend>Interests <span class="muted">(shows places matching any you pick)</span></legend>
       <div class="chips-input">
@@ -24,9 +39,6 @@ const timeBucket = (m: number) => (m <= 60 ? 'quick' : m <= 180 ? 'half' : 'full
       </div>
     </fieldset>
     <div class="row">
-      <label>Region
-        <select id="region"><option value="">All</option>{regions.map(([id, l]) => <option value={id}>{l}</option>)}</select>
-      </label>
       <label>Type
         <select id="kind"><option value="">All</option>{Object.entries(kindLabels).map(([id, l]) => <option value={id}>{l}</option>)}</select>
       </label>
@@ -43,81 +55,238 @@ const timeBucket = (m: number) => (m <= 60 ? 'quick' : m <= 180 ? 'half' : 'full
     <div class="row">
       <label class="inline"><input type="checkbox" id="family" /> Family friendly</label>
       <label class="inline"><input type="checkbox" id="free" /> Free only</label>
-      <button type="button" id="clear">Clear filters</button>
+      <button type="submit" class="primary">Show places</button>
+      <button type="button" id="clear">Clear</button>
     </div>
   </form>
 
-  <p id="count" class="muted" role="status"></p>
-  <div class="grid" id="results">
-    {places.map((p) => (
-      <a class="card place-card" href={`/places/${p.id}`}
-        data-name={`${p.name} ${p.area}`.toLowerCase()}
-        data-interests={p.interests.join(' ')} data-region={[p.region, ...p.alsoRegions].join(' ')} data-kind={p.kind}
-        data-difficulty={p.difficulty} data-time={timeBucket(p.timeMinutes)} data-source={p.source}
-        data-family={String(p.familyFriendly)} data-free={String(p.cost === 'free')}>
-        <Badge source={p.source} />
-        <h3 style="margin-top:8px">{p.name}</h3>
-        <p class="muted">{p.area} · {regionLabels[p.region]} · about {formatMinutes(p.timeMinutes)}</p>
-        <p>{p.summary}</p>
-        <div class="chips">{p.interests.map((i) => <span class="chip">{interestLabels[i]}</span>)}</div>
-        {p.warnings.some((w) => w.type === 'reservation') && <p class="verify">Reservation or ticket rules apply</p>}
-      </a>
-    ))}
+  <section id="start" class="card start">
+    <h2>Where to start?</h2>
+    <p class="muted">Choose an area or an interest above and press <strong>Show places</strong>, or try one of these.</p>
+    <div class="chips" id="start-areas"></div>
+    <div class="chips" id="start-interests"></div>
+  </section>
+
+  <div id="out" hidden>
+    <p id="count" class="muted" role="status"></p>
+    <p id="note" class="note" hidden></p>
+    <div class="grid" id="results"></div>
+    <p><button type="button" id="more" hidden>Show more</button></p>
+    <p id="none" class="muted" hidden>No places match. Try clearing a filter.</p>
   </div>
-  <p id="none" class="muted" hidden>No places match. Try clearing a filter.</p>
 
+  <script type="application/json" id="browse-data" set:html={data} />
   <script>
+    interface P { id: string; n: string; a: string; c: string; s: string; r: string; ar: string[]; k: string; i: string[]; d: string; t: string; tm: number; src: string; f: boolean; fr: boolean; h: boolean; sum: string; res: boolean }
+    interface Tree { id: string; name: string; states: { code: string; name: string; regions: { id: string; name: string }[] }[] }
+    const { index, tree, labels } = JSON.parse(document.getElementById('browse-data')!.textContent!) as { index: P[]; tree: Tree[]; labels: { interest: Record<string, string>; kind: Record<string, string> } };
     const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
-    const cards = Array.from(document.querySelectorAll<HTMLElement>('#results .place-card'));
+    const PAGE = 12;
+
+    const q = $<HTMLInputElement>('q'), box = $<HTMLUListElement>('suggest');
+    const country = $<HTMLSelectElement>('country'), state = $<HTMLSelectElement>('state'), region = $<HTMLSelectElement>('region');
+    const sel = { kind: $<HTMLSelectElement>('kind'), difficulty: $<HTMLSelectElement>('difficulty'), time: $<HTMLSelectElement>('time'), source: $<HTMLSelectElement>('source') };
+    const family = $<HTMLInputElement>('family'), free = $<HTMLInputElement>('free');
     const boxes = Array.from(document.querySelectorAll<HTMLInputElement>('input[name="interest"]'));
-    const sel = { region: $<HTMLSelectElement>('region'), kind: $<HTMLSelectElement>('kind'), difficulty: $<HTMLSelectElement>('difficulty'), time: $<HTMLSelectElement>('time'), source: $<HTMLSelectElement>('source') };
-    const q = $<HTMLInputElement>('q'), family = $<HTMLInputElement>('family'), free = $<HTMLInputElement>('free');
+    const regionName: Record<string, string> = {};
+    tree.forEach((c) => c.states.forEach((s) => s.regions.forEach((r) => (regionName[r.id] = r.name))));
+    const stateName = (c: string, s: string) => tree.find((x) => x.id === c)?.states.find((x) => x.code === s)?.name ?? s;
 
-    function apply() {
-      const text = q.value.trim().toLowerCase();
-      const picked = boxes.filter((b) => b.checked).map((b) => b.value);
-      let shown = 0;
-      for (const c of cards) {
-        const d = c.dataset;
-        const ok =
-          (!text || d.name!.includes(text)) &&
-          (!picked.length || picked.some((i) => d.interests!.split(' ').includes(i))) &&
-          (!sel.region.value || d.region!.split(' ').includes(sel.region.value)) &&
-          (!sel.kind.value || d.kind === sel.kind.value) &&
-          (!sel.difficulty.value || d.difficulty === sel.difficulty.value) &&
-          (!sel.time.value || d.time === sel.time.value) &&
-          (!sel.source.value || d.source === sel.source.value) &&
-          (!family.checked || d.family === 'true') &&
-          (!free.checked || d.free === 'true');
-        c.hidden = !ok;
-        if (ok) shown++;
+    // ----- area selects (country > state > region) -----
+    const fill = (el: HTMLSelectElement, anyLabel: string, opts: [string, string][], want: string) => {
+      el.replaceChildren(new Option(anyLabel, ''), ...opts.map(([v, l]) => new Option(l, v)));
+      el.value = opts.some(([v]) => v === want) ? want : '';
+    };
+    function areas(want: { country?: string; state?: string; region?: string } = {}) {
+      fill(country, 'All countries', tree.map((c) => [c.id, c.name]), want.country ?? country.value);
+      const c = tree.find((x) => x.id === country.value);
+      fill(state, c ? 'All states' : 'Pick a country first', (c?.states ?? []).map((s) => [s.code, s.name]), want.state ?? state.value);
+      state.disabled = !c;
+      const s = c?.states.find((x) => x.code === state.value);
+      fill(region, s ? 'All regions' : 'Pick a state first', (s?.regions ?? []).map((r) => [r.id, r.name]), want.region ?? region.value);
+      region.disabled = !s;
+    }
+    country.addEventListener('change', () => areas({ state: '', region: '' }));
+    state.addEventListener('change', () => areas({ region: '' }));
+
+    // ----- search suggestions -----
+    type Sug = { label: string; sub: string; kind: 'country' | 'state' | 'region' | 'place'; apply: () => void };
+    let sugs: Sug[] = [], active = -1;
+    const norm = (s: string) => s.toLowerCase();
+    function buildSuggestions(text: string): Sug[] {
+      const t = norm(text.trim());
+      if (t.length < 1) return [];
+      const rank = (name: string) => (norm(name).startsWith(t) ? 0 : norm(name).split(/[\s-]+/).some((w) => w.startsWith(t)) ? 1 : norm(name).includes(t) ? 2 : 9);
+      const out: Sug[] = [];
+      for (const c of tree) {
+        if (rank(c.name) < 9) out.push({ label: c.name, sub: 'Country', kind: 'country', apply: () => { q.value = ''; areas({ country: c.id, state: '', region: '' }); } });
+        for (const s of c.states) {
+          if (rank(s.name) < 9 || (t.length === 2 && norm(s.code) === t)) out.push({ label: s.name, sub: `State · ${c.name}`, kind: 'state', apply: () => { q.value = ''; areas({ country: c.id, state: s.code, region: '' }); } });
+          for (const r of s.regions) if (rank(r.name) < 9) out.push({ label: r.name, sub: `Region · ${s.name}`, kind: 'region', apply: () => { q.value = ''; areas({ country: c.id, state: s.code, region: r.id }); } });
+        }
       }
-      $('count').textContent = `Showing ${shown} of ${cards.length} places`;
-      $('none').hidden = shown > 0;
+      const areaPart = out.sort((a, b) => rank(a.label) - rank(b.label)).slice(0, 4);
+      const placePart = index
+        .map((p) => ({ p, r: Math.min(rank(p.n), rank(p.a) + 1) }))
+        .filter((x) => x.r < 9)
+        .sort((a, b) => a.r - b.r || Number(b.p.h) - Number(a.p.h) || a.p.n.localeCompare(b.p.n))
+        .slice(0, 6)
+        .map(({ p }) => ({ label: p.n, sub: `${p.a}, ${stateName(p.c, p.s)}`, kind: 'place' as const, apply: () => { location.href = `/places/${p.id}`; } }));
+      return [...areaPart, ...placePart];
+    }
+    function showSuggestions() {
+      sugs = buildSuggestions(q.value); active = -1;
+      box.replaceChildren(...sugs.map((s, i) => {
+        const li = document.createElement('li');
+        li.setAttribute('role', 'option'); li.id = `sug-${i}`;
+        const a = document.createElement('strong'); a.textContent = s.label;
+        const b = document.createElement('span'); b.className = 'muted'; b.textContent = ` ${s.sub}`;
+        li.append(a, b);
+        li.addEventListener('mousedown', (e) => { e.preventDefault(); choose(i); });
+        return li;
+      }));
+      box.hidden = sugs.length === 0; q.setAttribute('aria-expanded', String(sugs.length > 0));
+    }
+    function hideSuggestions() { box.hidden = true; q.setAttribute('aria-expanded', 'false'); }
+    function choose(i: number) {
+      const s = sugs[i]; if (!s) return;
+      hideSuggestions(); s.apply();
+      if (s.kind !== 'place') run();
+    }
+    function highlightRow(i: number) {
+      Array.from(box.children).forEach((li, n) => li.classList.toggle('on', n === i));
+      if (i >= 0) q.setAttribute('aria-activedescendant', `sug-${i}`); else q.removeAttribute('aria-activedescendant');
+    }
+    q.addEventListener('input', showSuggestions);
+    q.addEventListener('focus', showSuggestions);
+    q.addEventListener('blur', hideSuggestions);
+    q.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowDown' && sugs.length) { e.preventDefault(); active = (active + 1) % sugs.length; highlightRow(active); }
+      else if (e.key === 'ArrowUp' && sugs.length) { e.preventDefault(); active = (active - 1 + sugs.length) % sugs.length; highlightRow(active); }
+      else if (e.key === 'Escape') hideSuggestions();
+      else if (e.key === 'Enter' && active >= 0) { e.preventDefault(); choose(active); }
+    });
 
-      const p = new URLSearchParams();
-      if (text) p.set('q', text);
-      if (picked.length) p.set('interest', picked.join(','));
-      for (const [k, el] of Object.entries(sel)) if (el.value) p.set(k, el.value);
-      if (family.checked) p.set('family', '1');
-      if (free.checked) p.set('free', '1');
-      history.replaceState(null, '', p.toString() ? `?${p}` : location.pathname);
+    // ----- results -----
+    let list: P[] = [], shown = 0;
+    const esc = (s: string) => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!));
+    const card = (p: P) => `<a class="card place-card" href="/places/${esc(p.id)}">
+      <span class="badge ${p.src}">${p.src === 'visited' ? 'Alamin visited' : 'Researched guide'}</span>
+      <h3 style="margin-top:8px">${esc(p.n)}</h3>
+      <p class="muted">${esc(p.a)} · ${esc(stateName(p.c, p.s))}${regionName[p.r] ? ' · ' + esc(regionName[p.r]) : ''} · about ${p.tm >= 90 ? Math.round(p.tm / 60 * 2) / 2 + ' hours' : p.tm + ' min'}</p>
+      <p>${esc(p.sum)}</p>
+      <div class="chips">${p.i.map((i) => `<span class="chip">${esc(labels.interest[i] ?? i)}</span>`).join('')}</div>
+      ${p.res ? '<p class="verify">Reservation or ticket rules apply</p>' : ''}</a>`;
+
+    function drawMore() {
+      const next = list.slice(shown, shown + PAGE);
+      $('results').insertAdjacentHTML('beforeend', next.map(card).join(''));
+      shown += next.length;
+      $('more').hidden = shown >= list.length;
+      if (shown < list.length) $('more').textContent = `Show ${Math.min(PAGE, list.length - shown)} more`;
     }
 
-    // Read filters from the URL, so links like /browse?interest=family work.
-    const url = new URLSearchParams(location.search);
-    q.value = url.get('q') ?? '';
-    const want = (url.get('interest') ?? '').split(',');
-    boxes.forEach((b) => (b.checked = want.includes(b.value)));
-    for (const [k, el] of Object.entries(sel)) el.value = url.get(k) ?? '';
-    family.checked = url.get('family') === '1';
-    free.checked = url.get('free') === '1';
+    function run() {
+      hideSuggestions();
+      // Typing an exact area name ("United States", "Hudson Valley") counts as choosing that area.
+      const typed = norm(q.value.trim());
+      if (typed) {
+        for (const c of tree) {
+          if (norm(c.name) === typed) { areas({ country: c.id, state: '', region: '' }); q.value = ''; }
+          for (const s of c.states) {
+            if (norm(s.name) === typed) { areas({ country: c.id, state: s.code, region: '' }); q.value = ''; }
+            for (const r of s.regions) if (norm(r.name) === typed) { areas({ country: c.id, state: s.code, region: r.id }); q.value = ''; }
+          }
+        }
+      }
+      const text = norm(q.value.trim());
+      const picked = boxes.filter((b) => b.checked).map((b) => b.value);
+      const scope = { c: country.value, s: state.value, r: region.value };
+      const narrowing = !!(text || picked.length || sel.kind.value || sel.difficulty.value || sel.time.value || family.checked || free.checked);
+      const anything = narrowing || scope.c || scope.s || scope.r || sel.source.value;
 
-    document.getElementById('filters')!.addEventListener('input', apply);
+      const url = new URLSearchParams();
+      if (q.value.trim()) url.set('q', q.value.trim());
+      if (scope.c) url.set('country', scope.c);
+      if (scope.s) url.set('state', scope.s);
+      if (scope.r) url.set('region', scope.r);
+      if (picked.length) url.set('interest', picked.join(','));
+      for (const [k, el] of Object.entries(sel)) if (el.value) url.set(k, el.value);
+      if (family.checked) url.set('family', '1');
+      if (free.checked) url.set('free', '1');
+      history.replaceState(null, '', url.toString() ? `?${url}` : location.pathname);
+
+      $('start').hidden = !!anything; $('out').hidden = !anything;
+      if (!anything) return;
+
+      const inArea = index.filter((p) =>
+        (!scope.c || p.c === scope.c) && (!scope.s || p.s === scope.s) &&
+        (!scope.r || p.r === scope.r || p.ar.includes(scope.r)) && (!sel.source.value || p.src === sel.source.value));
+      let matches = inArea.filter((p) =>
+        (!text || norm(`${p.n} ${p.a} ${stateName(p.c, p.s)} ${regionName[p.r] ?? ''}`).includes(text)) &&
+        (!picked.length || picked.some((i) => p.i.includes(i))) &&
+        (!sel.kind.value || p.k === sel.kind.value) && (!sel.difficulty.value || p.d === sel.difficulty.value) &&
+        (!sel.time.value || p.t === sel.time.value) && (!family.checked || p.f) && (!free.checked || p.fr));
+      matches.sort((a, b) => Number(b.h) - Number(a.h) || Number(b.src === 'visited') - Number(a.src === 'visited') || a.n.localeCompare(b.n));
+
+      // Area only, nothing narrower: show the major places, and say there are more.
+      const note = $('note');
+      note.hidden = true;
+      let total = matches.length;
+      if (!narrowing && matches.some((p) => p.h)) {
+        const major = matches.filter((p) => p.h);
+        if (major.length < matches.length) {
+          note.hidden = false;
+          note.textContent = `Showing the ${major.length} major places of ${matches.length} here. Pick an interest, type, difficulty or a smaller region, or search by name, to see more.`;
+        }
+        matches = major;
+      } else if (matches.length > PAGE) {
+        note.hidden = false;
+        note.textContent = `${matches.length} places match. Major places come first. Add a filter to narrow it down.`;
+      }
+      list = matches; shown = 0;
+      $('results').replaceChildren();
+      $('count').textContent = narrowing || total === matches.length ? `${matches.length} ${matches.length === 1 ? 'place' : 'places'}` : `${matches.length} major places (of ${total})`;
+      $('none').hidden = matches.length > 0;
+      $('more').hidden = true;
+      drawMore();
+    }
+
+    // ----- quick starts -----
+    const startAreas = $('start-areas'), startInterests = $('start-interests');
+    for (const c of tree) for (const s of c.states) {
+      const b = document.createElement('button'); b.type = 'button'; b.className = 'chip big'; b.textContent = s.name;
+      b.addEventListener('click', () => { areas({ country: c.id, state: s.code, region: '' }); run(); });
+      startAreas.append(b);
+    }
+    for (const [id, label] of Object.entries(labels.interest)) {
+      const b = document.createElement('button'); b.type = 'button'; b.className = 'chip big ghost'; b.textContent = label;
+      b.addEventListener('click', () => { boxes.forEach((x) => (x.checked = x.value === id)); run(); });
+      startInterests.append(b);
+    }
+
+    // ----- wiring -----
+    $('filters').addEventListener('submit', (e) => { e.preventDefault(); run(); });
+    $('more').addEventListener('click', drawMore);
     $('clear').addEventListener('click', () => {
       q.value = ''; boxes.forEach((b) => (b.checked = false)); Object.values(sel).forEach((el) => (el.value = ''));
-      family.checked = false; free.checked = false; apply();
+      family.checked = false; free.checked = false; areas({ country: '', state: '', region: '' }); run();
     });
-    apply();
+
+    // Links like /browse?interest=family or /browse?state=NY open with that filter applied.
+    const params = new URLSearchParams(location.search);
+    // A link may give only a region or a state (for example ?region=catskills): fill in the levels above it.
+    let wc = params.get('country') ?? '', ws = params.get('state') ?? '';
+    const wr = params.get('region') ?? '';
+    if (wr && !ws) for (const c of tree) for (const s of c.states) if (s.regions.some((r) => r.id === wr)) { wc = c.id; ws = s.code; }
+    if (ws && !wc) for (const c of tree) if (c.states.some((s) => s.code === ws)) wc = c.id;
+    areas({ country: wc, state: ws, region: wr });
+    q.value = params.get('q') ?? '';
+    const want = (params.get('interest') ?? '').split(',');
+    boxes.forEach((b) => (b.checked = want.includes(b.value)));
+    for (const [k, el] of Object.entries(sel)) el.value = params.get(k) ?? '';
+    family.checked = params.get('family') === '1';
+    free.checked = params.get('free') === '1';
+    run();
   </script>
 </Base>

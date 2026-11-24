@@ -5,18 +5,19 @@ import { placeCategories } from '../data/saved-places';
 const total = placeCategories.reduce((n, c) => n + c.items.length, 0);
 ---
 
-<Base title="Places" description="National parks, state parks, hikes, waterfalls and hidden gems Alamin Hossain loves or wants to visit.">
+<Base title="My lists" description="Alamin's saved lists of national parks, state parks, hikes, waterfalls and hidden gems: favorites and places still to visit.">
 
       <p class="crumb"><a href="/">← Home</a></p>
-      <h1>Places</h1>
+      <h1>My lists</h1>
       <p class="lead">
-        My favorite places and the ones still on my list: {total} spots across the U.S. and a few
-        beyond. Each link opens the place in Google Maps.
+        My personal saved lists: favorites and places still on my wish list, {total} spots across the U.S. and a few
+        beyond. These are quick pins, not full guides. Each link opens the place in Google Maps. For guides with
+        warnings, drive times and official links, use <a href="/browse">Browse</a>.
       </p>
 
       <label class="search">
-        <span class="sr">Search places</span>
-        <input id="q" type="search" placeholder="Search: Zion, waterfall, Iceland, NY…" autocomplete="off" />
+        <span class="sr">Search my lists</span>
+        <input id="q" type="search" placeholder="Search my lists: Zion, waterfall, Iceland, NY…" autocomplete="off" />
       </label>
       <p id="count" class="muted" aria-live="polite"></p>
 

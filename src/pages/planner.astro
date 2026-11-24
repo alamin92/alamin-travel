@@ -1,28 +1,20 @@
 ---
 import Base from '../layouts/Base.astro';
 import PlanControls from '../components/PlanControls.astro';
+import AreaPicker from '../components/AreaPicker.astro';
 import { loadPlaces, loadHubs } from '../lib/data';
-import { interestLabels, regionLabels } from '../lib/labels';
+import { interestLabels } from '../lib/labels';
 
 const places = await loadPlaces();
 const hubs = await loadHubs();
 const data = JSON.stringify({ places, hubs }).replace(/</g, '\\u003c');
-const grouped = Object.entries(regionLabels)
-  .map(([id, label]) => ({ label, hubs: hubs.filter((h) => h.region === id) }))
-  .filter((g) => g.hubs.length);
 ---
 <Base title="Build and download a plan" description="Pick a base town, days and interests. Get an editable plan to download as Word, text or PDF.">
   <h1 class="no-print">Build and download a plan</h1>
   <p class="lead no-print">Choose a few options and get a day-by-day plan. Nothing is saved or sent anywhere: it exists only in this tab until you download it.</p>
 
   <form id="planner-form" class="card form no-print">
-    <label>Base town
-      <select name="hub" required>
-        {grouped.map((g) => (
-          <optgroup label={g.label}>{g.hubs.map((h) => <option value={h.id}>{h.name}</option>)}</optgroup>
-        ))}
-      </select>
-    </label>
+    <AreaPicker hubs={hubs} />
     <label>Days
       <input type="number" name="days" min="1" max="14" value="3" required />
     </label>
@@ -58,6 +50,7 @@ const grouped = Object.entries(regionLabels)
   <script>
     import { buildPlan, type PlaceData, type HubData, type Plan, type Pace } from '../lib/planner';
     import { wirePlanView } from '../scripts/plan-ui';
+    import { wireAreaPicker } from '../scripts/area-picker';
 
     const { places, hubs } = JSON.parse(document.getElementById('planner-data')!.textContent!) as { places: PlaceData[]; hubs: HubData[] };
     const byId = Object.fromEntries(places.map((p) => [p.id, p]));
@@ -65,6 +58,7 @@ const grouped = Object.entries(regionLabels)
     const result = document.getElementById('result')!;
     const empty = document.getElementById('empty')!;
     const warning = document.getElementById('save-warning')!;
+    const picker = wireAreaPicker(form.querySelector<HTMLElement>('.area-picker')!);
 
     let plan: Plan | null = null;
     let unsaved = false;
@@ -100,7 +94,7 @@ const grouped = Object.entries(regionLabels)
 
     // Preselect from the URL (for example, coming from a "3 days near Albany" page).
     const q = new URLSearchParams(location.search);
-    if (q.get('hub') && hubs.some((h) => h.id === q.get('hub'))) (form.elements.namedItem('hub') as HTMLSelectElement).value = q.get('hub')!;
+    if (q.get('hub') && hubs.some((h) => h.id === q.get('hub'))) picker.setHub(q.get('hub')!);
     if (q.get('days')) (form.elements.namedItem('days') as HTMLInputElement).value = q.get('days')!;
     if (q.get('hub')) generate();
   </script>

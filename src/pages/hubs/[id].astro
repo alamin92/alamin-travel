@@ -5,6 +5,7 @@ import { getCollection, getEntry } from 'astro:content';
 import { formatMinutes, mapLinks } from '../../lib/maps';
 import { SCENARIO_DAYS, scenarioSlug } from '../../lib/data';
 import { regionNames } from '../../lib/regions';
+import { regionArea, findState } from '../../lib/areas';
 
 export async function getStaticPaths() {
   const hubs = await getCollection('hubs');
@@ -14,13 +15,15 @@ const hub = (await getEntry('hubs', Astro.params.id!))!;
 const items = await Promise.all(
   hub.data.nearby.map(async (n) => ({ ...n, place: (await getEntry('places', n.place))! }))
 );
+const area = regionArea[hub.data.region];
+const stateName = findState(area.country, area.state)!.name;
 items.sort((a, b) => a.minutes - b.minutes);
 ---
 <Base title={`Things to do near ${hub.data.name}`} description={hub.data.blurb}>
   <p class="crumb"><a href="/">← Home</a></p>
   <h1>Near {hub.data.name}</h1>
   <p class="lead">{hub.data.blurb}</p>
-  <p class="muted">Region: <a href={`/regions/${hub.data.region}`}>{regionNames[hub.data.region]}</a></p>
+  <p class="muted"><a href={`/explore/${area.country}/${area.stateId}`}>{stateName}</a> › <a href={`/regions/${hub.data.region}`}>{regionNames[hub.data.region]}</a></p>
 
   <h2>Sample plans</h2>
   <p class="maps">

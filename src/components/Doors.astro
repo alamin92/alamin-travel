@@ -15,9 +15,9 @@ const preview = albums.flatMap((a) => a.photos.slice(0, 1)).slice(0, 4);
     <p class="muted">{photoCount} photos from {albums.length} albums.</p>
     <span class="go">Browse →</span>
   </a>
-  <a class="card door" href="/places-list">
-    <h3>Places I love</h3>
-    <p class="muted">{placeCount} places in {placeCategories.length} categories: national parks, state parks, hikes, waterfalls, hidden gems and more. Each opens in Google Maps.</p>
+  <a class="card door" href="/my-lists">
+    <h3>My lists</h3>
+    <p class="muted">My saved lists: {placeCount} places in {placeCategories.length} categories, from national parks to hidden gems. Each opens in Google Maps.</p>
     <span class="go">Explore →</span>
   </a>
   <a class="card door" href="/tools">

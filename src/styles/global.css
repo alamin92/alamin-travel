@@ -102,10 +102,19 @@ button[aria-pressed="true"] { background: var(--accent-soft); border-color: var(
 
 /* ---------- hero, entries, map layout ---------- */
 .hero {
+  position: relative; overflow: hidden; background: #243b36;
   margin: -28px calc(50% - 50vw) 0; padding: 72px 18px 64px; color: #fff; text-align: center;
-  background: linear-gradient(180deg, rgba(10,30,24,.62), rgba(10,30,24,.72)), url('/photos/grand-canyon-arizona/03.jpg') center / cover no-repeat;
 }
-.hero-inner { max-width: 760px; margin: 0 auto; }
+/* Slideshow: photos stacked, one visible at a time, cross-faded. The first shows without JavaScript. */
+.hero-slides { position: absolute; inset: 0; }
+.hero-slides .slide { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0; transition: opacity 1.8s ease-in-out; }
+.hero-slides .slide.on { opacity: 1; }
+.hero-slides .slide:first-child { opacity: 1; }
+.hero-slides.ready .slide:first-child:not(.on) { opacity: 0; }
+.hero::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,30,24,.55), rgba(10,30,24,.72)); }
+.hero-caption { position: absolute; right: 14px; bottom: 10px; z-index: 2; font-size: .8rem; color: rgba(255,255,255,.8); transition: opacity .6s; }
+@media (prefers-reduced-motion: reduce) { .hero-slides .slide { transition: none; } }
+.hero-inner { position: relative; z-index: 1; max-width: 760px; margin: 0 auto; }
 .hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 10px; color: #fff; }
 .hero .lead { color: rgba(255,255,255,.9); margin: 0; font-size: 1.15rem; }
 .entries { margin-top: -34px; position: relative; }
@@ -120,3 +129,23 @@ button[aria-pressed="true"] { background: var(--accent-soft); border-color: var(
 .nymap .region path { fill: #8fb0b3; }
 .nymap .region:hover path, .nymap .region:focus path { fill: #5f9aa0; }
 .nymap .region.active path { fill: #3f7f86; }
+
+/* ---------- area band, explore pages, browse ---------- */
+.area-band .chips { margin-top: 6px; }
+.chip.big { padding: 8px 14px; font-size: 1rem; text-decoration: none; }
+.chip.ghost { background: transparent; }
+.area-picker { display: contents; }
+.area-picker label[hidden] { display: none; }
+.combo { position: relative; }
+.combo input { width: 100%; }
+.suggest { position: absolute; z-index: 20; left: 0; right: 0; top: 100%; margin: 4px 0 0; padding: 4px; list-style: none; background: #fff; border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 8px 24px rgba(20,40,30,.15); }
+.suggest li { padding: 8px 10px; border-radius: 6px; cursor: pointer; }
+.suggest li:hover, .suggest li.on { background: var(--accent-soft); }
+.note { background: var(--accent-soft); border-radius: 8px; padding: 8px 12px; margin: 0 0 12px; }
+.start .chips { margin-top: 10px; }
+.start h2 { margin-top: 0; }
+button.chip { border: 1px solid transparent; cursor: pointer; font-family: inherit; }
+button.chip.ghost { border-color: var(--line); color: var(--text); }
+.area-card h2 { margin-top: 0; }
+.crumb a { text-decoration: none; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

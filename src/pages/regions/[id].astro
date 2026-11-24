@@ -4,6 +4,7 @@ import Badge from '../../components/Badge.astro';
 import NYMap from '../../components/NYMap.astro';
 import { loadPlaces, loadHubs, SCENARIO_DAYS, scenarioSlug } from '../../lib/data';
 import { regions, regionById } from '../../lib/regions';
+import { regionArea, findState } from '../../lib/areas';
 import { interestLabels, kindLabels } from '../../lib/labels';
 import { formatMinutes } from '../../lib/maps';
 
@@ -11,6 +12,8 @@ export function getStaticPaths() {
   return regions.map((r) => ({ params: { id: r.id } }));
 }
 const region = regionById[Astro.params.id!];
+const area = regionArea[region.id];
+const stateArea = findState(area.country, area.state)!;
 const all = await loadPlaces();
 const hubsAll = await loadHubs();
 const inRegion = (x: { region: string; alsoRegions: string[] }) => x.region === region.id || x.alsoRegions.includes(region.id);
@@ -21,7 +24,7 @@ const rest = places.filter((p) => !p.interests.includes('seasonal'));
 const counts = Object.fromEntries(regions.map((r) => [r.id, all.filter((p) => p.region === r.id).length]));
 ---
 <Base title={`${region.name}: places to go and plan a trip`} description={`${region.blurb} Places, warnings, approximate drive times and official links.`}>
-  <p class="crumb"><a href="/#regions">← All regions</a></p>
+  <p class="crumb"><a href="/explore">Explore</a> › <a href={`/explore/${area.country}/${area.stateId}`}>{stateArea.name}</a></p>
   <div class="region-head">
     <div>
       <h1>{region.name}</h1>
@@ -49,7 +52,7 @@ const counts = Object.fromEntries(regions.map((r) => [r.id, all.filter((p) => p.
   )}
 
   <h2>Places in {region.name}</h2>
-  {rest.length === 0 && <p class="muted">No full guides here yet. Check the official site above, and the <a href="/places-list">places list</a>.</p>}
+  {rest.length === 0 && <p class="muted">No full guides here yet. Check the official site above, and the <a href="/my-lists">saved lists</a>.</p>}
   <div class="grid">
     {rest.map((p) => (
       <a class="card place-card" href={`/places/${p.id}`}>

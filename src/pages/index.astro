@@ -1,22 +1,35 @@
 ---
 import Base from '../layouts/Base.astro';
-import NYMap from '../components/NYMap.astro';
 import Doors from '../components/Doors.astro';
+import AreaPicker from '../components/AreaPicker.astro';
 import { loadHubs, loadPlaces, SCENARIO_DAYS, scenarioSlug } from '../lib/data';
 import { interestLabels } from '../lib/labels';
-import { regions } from '../lib/regions';
+import { countries } from '../lib/areas';
 
 const hubs = await loadHubs();
 const places = await loadPlaces();
-const counts = Object.fromEntries(regions.map((r) => [r.id, places.filter((p) => p.region === r.id).length]));
-const grouped = regions.map((r) => ({ label: r.name, hubs: hubs.filter((h) => h.region === r.id) })).filter((g) => g.hubs.length);
+// Only my own photos. Resized copies live in public/hero.
+const slides = [
+  { src: '/hero/grand-canyon.jpg', caption: 'Grand Canyon, Arizona' },
+  { src: '/hero/monument-valley.jpg', caption: 'Monument Valley, Arizona' },
+  { src: '/hero/zion.jpg', caption: 'Zion, Utah' },
+  { src: '/hero/grand-teton.jpg', caption: 'Grand Teton, Wyoming' },
+  { src: '/hero/yellowstone.jpg', caption: 'Yellowstone, Wyoming' },
+  { src: '/hero/acadia.jpg', caption: 'Acadia, Maine' },
+  { src: '/hero/mount-washington.jpg', caption: 'Mount Washington, New Hampshire' },
+];
+const live = countries.flatMap((c) => c.states.map((s) => ({ ...s, country: c.id, n: places.filter((p) => p.country === c.id && p.state === s.code).length })));
 ---
 <Base>
   <section class="hero">
+    <div class="hero-slides" id="hero-slides" aria-hidden="true">
+      {slides.map((s, i) => <div class="slide" data-src={s.src} data-caption={s.caption} style={i === 0 ? `background-image:url(${s.src})` : undefined}></div>)}
+    </div>
     <div class="hero-inner">
       <h1>Plan a trip, your way</h1>
       <p class="lead">Free ideas, warnings and plan templates for places worth visiting. No sign-up, nothing saved. We're starting with New York State.</p>
     </div>
+    <span class="hero-caption" id="hero-caption">{slides[0].caption}</span>
   </section>
 
   <div class="grid three entries">
@@ -37,24 +50,9 @@ const grouped = regions.map((r) => ({ label: r.name, hubs: hubs.filter((h) => h.
     </a>
   </div>
 
-  <h2 id="regions">Explore New York by region</h2>
-  <p class="muted">The 11 official I LOVE NY vacation regions. Tap a region to see its places and base towns.</p>
-  <div class="map-wrap">
-    <NYMap counts={counts} />
-    <ul class="region-list">
-      {regions.map((r) => (
-        <li><a href={`/regions/${r.id}`}><strong>{r.name}</strong><span class="muted"> · {counts[r.id]} {counts[r.id] === 1 ? 'place' : 'places'}</span></a></li>
-      ))}
-    </ul>
-  </div>
-
   <h2 id="days">I have X days in a place</h2>
   <form id="days-form" class="card form row" onsubmit="return false">
-    <label>Where will you stay?
-      <select id="hub">
-        {grouped.map((g) => <optgroup label={g.label}>{g.hubs.map((h) => <option value={h.id}>{h.name}</option>)}</optgroup>)}
-      </select>
-    </label>
+    <AreaPicker hubs={hubs} label="Where will you stay?" />
     <label>For how many days?
       <select id="n">{SCENARIO_DAYS.map((n) => <option value={scenarioSlug(n)}>{n} {n === 1 ? 'day' : 'days'}</option>)}</select>
     </label>
@@ -67,14 +65,47 @@ const grouped = regions.map((r) => ({ label: r.name, hubs: hubs.filter((h) => h.
     {Object.entries(interestLabels).map(([id, label]) => <a class="tile" href={`/browse?interest=${id}`}>{label}</a>)}
   </div>
 
+  <h2 id="areas">Explore by area</h2>
+  <div class="card area-band">
+    <p class="muted">Start from a country, state or region and see its places and base towns.</p>
+    <div class="chips">
+      {live.map((s) => <a class="chip big" href={`/explore/${s.country}/${s.id}`}>{s.name} · {s.n} places</a>)}
+      <a class="chip big ghost" href="/explore">All areas →</a>
+    </div>
+  </div>
+
   <h2>More from my travels</h2>
   <Doors />
 
   <script>
+    import { wireAreaPicker } from '../scripts/area-picker';
+    wireAreaPicker(document.querySelector<HTMLElement>('.area-picker')!);
     document.getElementById('days-form')!.addEventListener('submit', () => {
       const hub = (document.getElementById('hub') as HTMLSelectElement).value;
       const n = (document.getElementById('n') as HTMLSelectElement).value;
-      location.href = `/plan/${hub}/${n}`;
+      if (hub) location.href = `/plan/${hub}/${n}`;
     });
+
+    // Hero slideshow: fade from one photo to the next every 7 seconds.
+    const box = document.getElementById('hero-slides')!;
+    const slides = Array.from(box.querySelectorAll<HTMLElement>('.slide'));
+    const caption = document.getElementById('hero-caption')!;
+    const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (slides.length > 1 && !still) {
+      box.classList.add('ready');
+      slides[0].classList.add('on');
+      let i = 0;
+      // Load the other photos after the page, so the first view stays fast.
+      const load = () => slides.forEach((s) => { if (!s.style.backgroundImage) s.style.backgroundImage = `url(${s.dataset.src})`; });
+      if (document.readyState === 'complete') load(); else window.addEventListener('load', load);
+      setInterval(() => {
+        if (document.hidden) return;
+        slides[i].classList.remove('on');
+        i = (i + 1) % slides.length;
+        slides[i].classList.add('on');
+        caption.style.opacity = '0';
+        setTimeout(() => { caption.textContent = slides[i].dataset.caption!; caption.style.opacity = '1'; }, 900);
+      }, 7000);
+    }
   </script>
 </Base>

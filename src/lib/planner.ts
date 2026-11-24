@@ -9,14 +9,14 @@ export type Pace = 'relaxed' | 'normal' | 'packed';
 export interface Link { type: string; label: string; url: string }
 export interface Warning { type: string; text: string; verify: boolean }
 export interface PlaceData {
-  id: string; name: string; region: string; area: string; source: 'visited' | 'researched';
+  id: string; name: string; country: string; state: string; region: string; area: string; source: 'visited' | 'researched';
   county: string; alsoRegions: string[]; lastChecked: string; officialUrl: string; links: Link[]; mapQuery: string; lat: number; lon: number; kind: string;
   interests: string[]; difficulty: string; timeMinutes: number; bestSeason: string[];
   familyFriendly: boolean; cost: string; costNote?: string; highlight: boolean;
   summary: string; details?: string; tips: string[]; warnings: Warning[];
 }
 export interface HubData {
-  id: string; name: string; region: string; county: string; alsoRegions: string[]; mode: 'drive' | 'transit'; blurb: string;
+  id: string; name: string; country: string; state: string; region: string; county: string; alsoRegions: string[]; mode: 'drive' | 'transit'; blurb: string;
   nearby: { place: string; minutes: number }[]; checkBefore: Link[];
 }
 

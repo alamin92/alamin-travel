@@ -25,7 +25,8 @@ const places = defineCollection({
   schema: z
     .object({
       name: z.string(),
-      state: z.string().length(2),
+      country: z.string().default('us'), // see src/lib/areas.ts
+      state: z.string().min(2).max(6), // state or province code, for example NY
       region: z.enum(regionIds), // I LOVE NY vacation region, derived from the county
       county: z.string(), // must belong to the region (checked below)
       alsoRegions: z.array(z.enum(regionIds)).default([]), // shown on those region pages too
@@ -66,7 +67,8 @@ const hubs = defineCollection({
   loader: glob({ pattern: '**/*.yaml', base: './src/content/hubs' }),
   schema: z.object({
     name: z.string(),
-    state: z.string().length(2),
+    country: z.string().default('us'),
+    state: z.string().min(2).max(6),
     region: z.enum(regionIds),
     county: z.string(),
     alsoRegions: z.array(z.enum(regionIds)).default([]),

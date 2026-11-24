@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import { countries } from '../../lib/areas';
+import { loadPlaces } from '../../lib/data';
+
+const places = await loadPlaces();
+const stat = (country: string, state?: string) => places.filter((p) => p.country === country && (!state || p.state === state)).length;
+---
+<Base title="Explore by area" description="Pick a country, state and region, then see its places and base towns.">
+  <p class="crumb"><a href="/">← Home</a></p>
+  <h1>Explore by area</h1>
+  <p class="lead">Start big and zoom in: country, then state, then region, then a base town. We're starting with New York State, and more states and countries will be added here.</p>
+
+  {countries.map((c) => (
+    <section class="card area-card">
+      <h2><a href={`/explore/${c.id}`}>{c.name}</a> <span class="muted n">{stat(c.id)} places</span></h2>
+      <div class="chips">
+        {c.states.map((s) => <a class="chip big" href={`/explore/${c.id}/${s.id}`}>{s.name} · {stat(c.id, s.code)} places · {s.regions.length} regions</a>)}
+      </div>
+    </section>
+  ))}
+  <p class="muted">Looking for something specific? <a href="/browse">Search and filter all places</a>.</p>
+</Base>

@@ -1,0 +1,20 @@
+---
+// Markup and data for the cascading area picker. The page calls wireAreaPicker(root) from
+// src/scripts/area-picker.ts. Levels with a single choice hide themselves.
+import { countries } from '../lib/areas';
+import type { HubData } from '../lib/planner';
+interface Props { hubs: HubData[]; label?: string }
+const { hubs, label = 'Base town' } = Astro.props;
+const tree = countries.map((c) => ({ id: c.id, name: c.name, states: c.states.map((s) => ({ code: s.code, name: s.name, regions: s.regions.map((r) => ({ id: r.id, name: r.name })) })) }));
+const data = JSON.stringify({
+  tree,
+  hubs: hubs.map((h) => ({ id: h.id, name: h.name, country: h.country, state: h.state, region: h.region, alsoRegions: h.alsoRegions })),
+}).replace(/</g, '\\u003c');
+---
+<div class="area-picker row">
+  <label>Country<select data-level="country"></select></label>
+  <label>State<select data-level="state"></select></label>
+  <label>Region<select data-level="region"></select></label>
+  <label>{label}<select data-level="hub" name="hub" id="hub" required></select></label>
+  <script type="application/json" class="area-data" set:html={data} />
+</div>

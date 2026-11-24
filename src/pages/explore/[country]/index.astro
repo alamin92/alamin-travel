@@ -1,0 +1,24 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { countries, countryById } from '../../../lib/areas';
+import { loadPlaces } from '../../../lib/data';
+
+export function getStaticPaths() {
+  return countries.map((c) => ({ params: { country: c.id } }));
+}
+const country = countryById[Astro.params.country!];
+const places = await loadPlaces();
+---
+<Base title={`${country.name}: explore by state`} description={`Pick a state in ${country.name} to see its regions, places and base towns.`}>
+  <p class="crumb"><a href="/explore">← Explore by area</a></p>
+  <h1>{country.name}</h1>
+  <p class="lead">Choose a state. More states are added over time.</p>
+  <div class="grid">
+    {country.states.map((s) => (
+      <a class="card" href={`/explore/${country.id}/${s.id}`}>
+        <h3>{s.name}</h3>
+        <p class="muted">{s.regions.length} regions · {places.filter((p) => p.country === country.id && p.state === s.code).length} places</p>
+      </a>
+    ))}
+  </div>
+</Base>
