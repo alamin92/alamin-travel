@@ -1,0 +1,39 @@
+name: Cradle of Aviation Museum
+state: NY
+region: long-island
+county: Nassau
+area: Garden City
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nassaucountyny.gov/2937/Cradle-of-Aviation-Museum
+links:
+  - type: official
+    label: "Cradle of Aviation Museum: official page"
+    url: https://www.nassaucountyny.gov/2937/Cradle-of-Aviation-Museum
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Cradle%20of%20Aviation%20Museum%2C%20Garden%20City%2C%20NY
+mapQuery: Cradle of Aviation Museum, Garden City, NY
+lat: 40.726
+lon: -73.589
+kind: museum
+interests:
+  - family
+  - history
+  - culture
+difficulty: n/a
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: An aviation and space museum on the old Roosevelt Field grounds, with aircraft, spacecraft and a dome theater.
+details: A good indoor option for kids and a good rainy-day pick.
+warnings:
+  - type: fees
+    text: Admission is charged and some shows cost extra. Check the museum page.
+    verify: true

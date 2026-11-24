@@ -1,0 +1,39 @@
+name: Welwyn Preserve
+state: NY
+region: long-island
+county: Nassau
+area: Glen Cove
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nassaucountyny.gov/2927/Welwyn-Preserve
+links:
+  - type: official
+    label: "Welwyn Preserve: official page"
+    url: https://www.nassaucountyny.gov/2927/Welwyn-Preserve
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Welwyn%20Preserve%2C%20Glen%20Cove%2C%20NY
+mapQuery: Welwyn Preserve, Glen Cove, NY
+lat: 40.87
+lon: -73.64
+kind: hike
+interests:
+  - nature
+  - relax
+  - history
+  - family
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A Nassau County preserve of woods and trails on a former estate, home to a Holocaust memorial center.
+details: An easy walk. The memorial center has its own schedule.
+warnings:
+  - type: safety
+    text: Ticks are common on Long Island trails. Wear long pants, use repellent and check yourself afterward.
+    verify: false

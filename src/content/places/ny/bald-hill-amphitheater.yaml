@@ -1,0 +1,37 @@
+name: Bald Hill Cultural Center and Amphitheater
+state: NY
+region: long-island
+county: Suffolk
+area: Farmingville
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://suffolkcountyny.gov/Departments/Parks
+links:
+  - type: official
+    label: "Bald Hill Cultural Center and Amphitheater: official page"
+    url: https://suffolkcountyny.gov/Departments/Parks
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Bald%20Hill%20Cultural%20Center%20and%20Amphitheater%2C%20Farmingville%2C%20NY
+mapQuery: Bald Hill Cultural Center and Amphitheater, Farmingville, NY
+lat: 40.8617
+lon: -73.0268
+kind: activity
+interests:
+  - culture
+  - family
+difficulty: n/a
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: false
+cost: paid
+highlight: false
+summary: A Suffolk County cultural center and an outdoor amphitheater used for concerts and events.
+details: Go for a show. The event calendar decides what is happening.
+warnings:
+  - type: fees
+    text: Events are ticketed. Check the venue or county page.
+    verify: true

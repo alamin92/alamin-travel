@@ -1,0 +1,39 @@
+name: Manorhaven Beach Park
+state: NY
+region: long-island
+county: Nassau
+area: Port Washington
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.manorhaven.org/
+links:
+  - type: official
+    label: "Manorhaven Beach Park: official page"
+    url: https://www.manorhaven.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Manorhaven%20Beach%20Park%2C%20Port%20Washington%2C%20NY
+mapQuery: Manorhaven Beach Park, Port Washington, NY
+lat: 40.8407
+lon: -73.7143
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: A village-run beach park on Manhasset Bay with a sandy beach, a pool and a playground.
+details: Facilities and access depend on the village, and the beach often gives priority to residents.
+warnings:
+  - type: fees
+    text: Entry and parking rules favor village residents. Check the village page.
+    verify: true
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: true

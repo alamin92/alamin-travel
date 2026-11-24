@@ -1,0 +1,42 @@
+name: Southaven County Park
+state: NY
+region: long-island
+county: Suffolk
+area: Yaphank
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://suffolkcountyny.gov/Departments/Parks/Our-Parks/Southaven-County-Park
+links:
+  - type: official
+    label: "Southaven County Park: official page"
+    url: https://suffolkcountyny.gov/Departments/Parks/Our-Parks/Southaven-County-Park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Southaven%20County%20Park%2C%20Yaphank%2C%20NY
+mapQuery: Southaven County Park, Yaphank, NY
+lat: 40.84
+lon: -72.825
+kind: park
+interests:
+  - nature
+  - family
+  - relax
+  - adventure
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Suffolk County park on the Carmans River with trails, fishing, boat rentals and a campground.
+details: One of the first county parks. A good spot for a calm paddle.
+warnings:
+  - type: reservation
+    text: Camping and some activities need a county reservation or permit. Check the county page.
+    verify: true
+  - type: safety
+    text: Ticks are common on Long Island trails. Wear long pants, use repellent and check yourself afterward.
+    verify: false

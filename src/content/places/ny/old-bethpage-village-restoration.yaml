@@ -1,0 +1,42 @@
+name: Old Bethpage Village Restoration
+state: NY
+region: long-island
+county: Nassau
+area: Old Bethpage
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nassaucountyny.gov/2850/Old-Bethpage-Village-Restoration
+links:
+  - type: official
+    label: "Old Bethpage Village Restoration: official page"
+    url: https://www.nassaucountyny.gov/2850/Old-Bethpage-Village-Restoration
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Old%20Bethpage%20Village%20Restoration%2C%20Old%20Bethpage%2C%20NY
+mapQuery: Old Bethpage Village Restoration, Old Bethpage, NY
+lat: 40.771
+lon: -73.444
+kind: museum
+interests:
+  - history
+  - family
+  - culture
+  - seasonal
+difficulty: n/a
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: true
+summary: An outdoor living-history village with restored 19th-century buildings, costumed interpreters and seasonal events.
+details: It runs seasonal events such as the Fall Festival and Candlelight Evenings. Check the page for what is on.
+warnings:
+  - type: closure
+    text: The village has seasonal opening dates and event days. Check before you go.
+    verify: true
+  - type: fees
+    text: Admission is charged. Check the county page.
+    verify: true

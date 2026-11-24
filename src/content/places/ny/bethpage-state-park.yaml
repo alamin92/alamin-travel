@@ -1,0 +1,39 @@
+name: Bethpage State Park
+state: NY
+region: long-island
+county: Nassau
+area: Farmingdale
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/bethpage-state-park
+links:
+  - type: state-park
+    label: "Bethpage State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/bethpage-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Bethpage%20State%20Park%2C%20Farmingdale%2C%20NY
+mapQuery: Bethpage State Park, Farmingdale, NY
+lat: 40.744
+lon: -73.456
+kind: park
+interests:
+  - adventure
+  - family
+  - nature
+  - relax
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A large state park known for its public golf courses, including the Black Course that has hosted U.S. Opens, plus a bikeway, trails and picnic areas.
+details: "Not only for golfers: there are walking and cycling paths and open space. The Bethpage Bikeway runs nearby."
+warnings:
+  - type: reservation
+    text: Golf tee times are booked through the state parks system, and the Black Course has special rules. Check the park page.
+    verify: true

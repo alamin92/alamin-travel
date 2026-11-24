@@ -1,0 +1,36 @@
+name: Hempstead Lake State Park
+state: NY
+region: long-island
+county: Nassau
+area: West Hempstead
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/hempstead-lake-state-park
+links:
+  - type: state-park
+    label: "Hempstead Lake State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/hempstead-lake-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Hempstead%20Lake%20State%20Park%2C%20West%20Hempstead%2C%20NY
+mapQuery: Hempstead Lake State Park, West Hempstead, NY
+lat: 40.685
+lon: -73.637
+kind: park
+interests:
+  - relax
+  - family
+  - nature
+  - photo
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A state park around a long lake with wide paths for walking, jogging, cycling and horseback riding, plus fishing and picnic areas.
+details: A calm, flat spot for an easy loop. There may be a vehicle entry fee in season, so check the park page.
+warnings: []

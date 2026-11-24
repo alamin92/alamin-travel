@@ -1,0 +1,42 @@
+name: Heckscher State Park
+state: NY
+region: long-island
+county: Suffolk
+area: East Islip
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/heckscher-state-park
+links:
+  - type: state-park
+    label: "Heckscher State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/heckscher-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Heckscher%20State%20Park%2C%20East%20Islip%2C%20NY
+mapQuery: Heckscher State Park, East Islip, NY
+lat: 40.7092
+lon: -73.1653
+kind: park
+interests:
+  - beach
+  - family
+  - nature
+  - relax
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A state park on Great South Bay with a beach, picnic areas, marshes, fishing and a campground.
+details: A good family park on the south shore, close to the Islip area. The ocean is farther south.
+warnings:
+  - type: fees
+    text: A vehicle entry fee applies in season.
+    verify: true
+  - type: reservation
+    text: Camping needs a reservation.
+    verify: true

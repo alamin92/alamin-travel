@@ -1,0 +1,39 @@
+name: North Hempstead Beach Park (Bar Beach)
+state: NY
+region: long-island
+county: Nassau
+area: Port Washington
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.northhempsteadny.gov/
+links:
+  - type: official
+    label: "North Hempstead Beach Park: official page"
+    url: https://www.northhempsteadny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=North%20Hempstead%20Beach%20Park%2C%20Port%20Washington%2C%20NY
+mapQuery: North Hempstead Beach Park, Port Washington, NY
+lat: 40.828
+lon: -73.656
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Town of North Hempstead beach park on Hempstead Harbor with a sandy beach, a pool and a playground.
+details: A calm-water beach good for young kids. Entry is usually for residents or has a fee for others.
+warnings:
+  - type: fees
+    text: Access is often resident-priority with non-resident fees. Check the town page.
+    verify: true
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: true

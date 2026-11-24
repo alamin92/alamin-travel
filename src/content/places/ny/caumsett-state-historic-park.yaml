@@ -1,0 +1,43 @@
+name: Caumsett State Historic Park Preserve
+state: NY
+region: long-island
+county: Suffolk
+area: Lloyd Harbor
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/caumsett-state-historic-park-preserve
+links:
+  - type: state-park
+    label: "Caumsett State Historic Park Preserve: official page"
+    url: https://parks.ny.gov/visit/state-parks/caumsett-state-historic-park-preserve
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Caumsett%20State%20Historic%20Park%20Preserve%2C%20Lloyd%20Harbor%2C%20NY
+mapQuery: Caumsett State Historic Park Preserve, Lloyd Harbor, NY
+lat: 40.9305
+lon: -73.4735
+kind: park
+interests:
+  - nature
+  - relax
+  - views
+  - history
+  - family
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: true
+summary: A large former estate on Lloyd Neck with miles of flat trails, open fields, Long Island Sound shoreline and historic buildings.
+details: Wide, gentle paths make it good for walking, cycling and cross-country skiing in snow.
+warnings:
+  - type: fees
+    text: A vehicle entry fee may apply. Check the park page.
+    verify: true
+  - type: safety
+    text: Ticks are common on Long Island trails. Wear long pants, use repellent and check yourself afterward.
+    verify: false

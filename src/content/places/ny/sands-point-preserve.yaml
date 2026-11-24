@@ -1,0 +1,43 @@
+name: Sands Point Preserve (Hempstead House)
+state: NY
+region: long-island
+county: Nassau
+area: Sands Point
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.sandspointpreserve.org/
+links:
+  - type: official
+    label: "Sands Point Preserve: official page"
+    url: https://www.sandspointpreserve.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Sands%20Point%20Preserve%2C%20Sands%20Point%2C%20NY
+mapQuery: Sands Point Preserve, Sands Point, NY
+lat: 40.8637
+lon: -73.7
+kind: park
+interests:
+  - history
+  - nature
+  - views
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: true
+summary: A Gold Coast preserve of woods, meadows and Long Island Sound shoreline with the Hempstead House mansion, a castle and trails.
+details: Come for the mansions and the water views, and walk the trails while you are there. Tours of the buildings are offered on a schedule.
+warnings:
+  - type: reservation
+    text: Mansion tours and special events can need tickets or set times. Check the preserve site.
+    verify: true
+  - type: fees
+    text: There is a parking or entry fee on many days. Check the site.
+    verify: true

@@ -1,0 +1,43 @@
+name: Nickerson Beach Park
+state: NY
+region: long-island
+county: Nassau
+area: Lido Beach
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nassaucountyny.gov/2802/Nickerson-Beach-Park
+links:
+  - type: official
+    label: "Nickerson Beach Park: official page"
+    url: https://www.nassaucountyny.gov/2802/Nickerson-Beach-Park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Nickerson%20Beach%20Park%2C%20Lido%20Beach%2C%20NY
+mapQuery: Nickerson Beach Park, Lido Beach, NY
+lat: 40.589
+lon: -73.603
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+  - seasonal
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Nassau County ocean beach on the barrier island with a long beach, a pool, a playground and a boardwalk.
+details: A popular alternative to Jones Beach for a south shore beach day. Parts of the beach are closed in nesting season for shorebirds.
+warnings:
+  - type: parking
+    text: Lots can fill on summer weekends. Go early or on a weekday.
+    verify: true
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: true
+  - type: fees
+    text: Parking and some facilities charge fees. Nassau County may require a resident ID for entry or give residents a lower rate. Check the county page.
+    verify: true

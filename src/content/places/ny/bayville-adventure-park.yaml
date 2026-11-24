@@ -1,0 +1,40 @@
+name: Bayville Adventure Park
+state: NY
+region: long-island
+county: Nassau
+area: Bayville
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.bayvilleadventurepark.com/
+links:
+  - type: official
+    label: "Bayville Adventure Park: official page"
+    url: https://www.bayvilleadventurepark.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Bayville%20Adventure%20Park%2C%20Bayville%2C%20NY
+mapQuery: Bayville Adventure Park, Bayville, NY
+lat: 40.907
+lon: -73.582
+kind: activity
+interests:
+  - family
+  - adventure
+difficulty: n/a
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A family amusement park near the Long Island Sound with mini golf, rides and games.
+details: A casual family outing near Oyster Bay. It is mostly a seasonal, pay-per-activity park.
+warnings:
+  - type: closure
+    text: The park is seasonal and hours change. Check the official site.
+    verify: true
+  - type: fees
+    text: Activities are priced separately. Check the site.
+    verify: true

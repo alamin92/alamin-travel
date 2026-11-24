@@ -1,0 +1,41 @@
+name: Oheka Castle
+state: NY
+region: long-island
+county: Suffolk
+area: Huntington
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.oheka.com/
+links:
+  - type: official
+    label: "Oheka Castle: official page"
+    url: https://www.oheka.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Oheka%20Castle%2C%20Huntington%2C%20NY
+mapQuery: Oheka Castle, Huntington, NY
+lat: 40.8285
+lon: -73.4483
+kind: landmark
+interests:
+  - history
+  - photo
+  - culture
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: false
+cost: paid
+highlight: false
+summary: A huge Gold Coast mansion built in the 1910s, now a hotel and event venue, with formal gardens.
+details: It is best seen on a tour or at an event. Check the site for tour dates, since the grounds are not always open to drop-in visitors.
+warnings:
+  - type: reservation
+    text: The castle is a hotel and event venue. Tours need to be booked, and the grounds may be closed to walk-ins.
+    verify: true
+  - type: fees
+    text: Tours and events are ticketed. Check the site.
+    verify: true

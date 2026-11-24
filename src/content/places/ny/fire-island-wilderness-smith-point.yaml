@@ -1,0 +1,45 @@
+name: Fire Island Wilderness and Smith Point
+state: NY
+region: long-island
+county: Suffolk
+area: Shirley
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nps.gov/fiis/index.htm
+links:
+  - type: nps
+    label: "Fire Island Wilderness and Smith Point: official page"
+    url: https://www.nps.gov/fiis/index.htm
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Fire%20Island%20Wilderness%20and%20Smith%20Point%2C%20Shirley%2C%20NY
+mapQuery: Fire Island Wilderness and Smith Point, Shirley, NY
+lat: 40.7324
+lon: -72.8669
+kind: beach
+interests:
+  - beach
+  - nature
+  - family
+  - adventure
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: The eastern end of Fire Island National Seashore, with Smith Point County Park, a long ocean beach and a wilderness visitor center.
+details: It is reached by a bridge, so no ferry is needed. Parts of the wilderness area have limited services and boardwalk access.
+warnings:
+  - type: fees
+    text: Smith Point County Park charges a parking fee in season.
+    verify: true
+  - type: parking
+    text: Lots can fill on summer weekends. Go early or on a weekday.
+    verify: true
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: true

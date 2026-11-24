@@ -1,0 +1,42 @@
+name: Vanderbilt Museum and Planetarium
+state: NY
+region: long-island
+county: Suffolk
+area: Centerport
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.vanderbiltmuseum.org/
+links:
+  - type: official
+    label: "Vanderbilt Museum and Planetarium: official page"
+    url: https://www.vanderbiltmuseum.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Vanderbilt%20Museum%20and%20Planetarium%2C%20Centerport%2C%20NY
+mapQuery: Vanderbilt Museum and Planetarium, Centerport, NY
+lat: 40.9051
+lon: -73.3674
+kind: museum
+interests:
+  - history
+  - culture
+  - views
+  - family
+difficulty: n/a
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: true
+summary: The Spanish-style waterfront estate of William K. Vanderbilt II, with a marine museum, a planetarium and gardens.
+details: Includes a mansion tour and a planetarium show, each ticketed separately in many cases.
+warnings:
+  - type: fees
+    text: Admission is charged and tours and shows are often priced separately. Check the site.
+    verify: true
+  - type: reservation
+    text: Tours and planetarium shows can sell out. Check the site for times.
+    verify: true

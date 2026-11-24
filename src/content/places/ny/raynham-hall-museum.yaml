@@ -1,0 +1,39 @@
+name: Raynham Hall Museum
+state: NY
+region: long-island
+county: Nassau
+area: Oyster Bay
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.raynhamhallmuseum.org/
+links:
+  - type: official
+    label: "Raynham Hall Museum: official page"
+    url: https://www.raynhamhallmuseum.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Raynham%20Hall%20Museum%2C%20Oyster%20Bay%2C%20NY
+mapQuery: Raynham Hall Museum, Oyster Bay, NY
+lat: 40.87
+lon: -73.532
+kind: museum
+interests:
+  - history
+  - culture
+  - family
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A historic house museum in Oyster Bay tied to Revolutionary War spies and the Townsend family.
+details: A short guided stop in the village. Tours run on a schedule.
+warnings:
+  - type: fees
+    text: Admission is charged. Check the museum site.
+    verify: true

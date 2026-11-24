@@ -1,0 +1,36 @@
+name: Clark Botanic Garden
+state: NY
+region: long-island
+county: Nassau
+area: Albertson
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nassaucountyny.gov/Facilities
+links:
+  - type: official
+    label: "Clark Botanic Garden: official page"
+    url: https://www.nassaucountyny.gov/Facilities
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Clark%20Botanic%20Garden%2C%20Albertson%2C%20NY
+mapQuery: Clark Botanic Garden, Albertson, NY
+lat: 40.77
+lon: -73.64
+kind: park
+interests:
+  - relax
+  - photo
+  - family
+  - nature
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A small Nassau County botanic garden with themed gardens, a pond and lawns.
+details: A quiet garden stop. Check hours since this is a small, seasonal site.
+warnings: []

@@ -1,0 +1,40 @@
+name: West Meadow Wetlands Reserve
+state: NY
+region: long-island
+county: Suffolk
+area: Stony Brook
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.brookhavenny.gov/
+links:
+  - type: official
+    label: "West Meadow Wetlands Reserve: official page"
+    url: https://www.brookhavenny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=West%20Meadow%20Wetlands%20Reserve%2C%20Stony%20Brook%2C%20NY
+mapQuery: West Meadow Wetlands Reserve, Stony Brook, NY
+lat: 40.9373
+lon: -73.1424
+kind: beach
+interests:
+  - beach
+  - nature
+  - family
+  - relax
+  - photo
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Town of Brookhaven beach and wetland reserve on Long Island Sound with a boardwalk and a nature trail.
+details: It is known for its calm water and sunsets. Beach entry may be limited to residents in season.
+warnings:
+  - type: fees
+    text: Beach entry usually needs a town permit or a non-resident fee. Check the town page.
+    verify: true

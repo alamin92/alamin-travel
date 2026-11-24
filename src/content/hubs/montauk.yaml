@@ -1,0 +1,50 @@
+name: Montauk
+state: NY
+region: long-island
+county: Suffolk
+blurb: The far eastern tip of Long Island, with the lighthouse, bluffs, surf beaches, camping and ranch rides.
+nearby:
+  - place: hither-woods-preserve
+    minutes: 5
+  - place: ditch-plains-beach
+    minutes: 5
+  - place: montauk-downs-state-park
+    minutes: 5
+  - place: shadmoor-state-park
+    minutes: 5
+  - place: hither-hills-state-park
+    minutes: 10
+  - place: deep-hollow-ranch
+    minutes: 10
+  - place: camp-hero-state-park
+    minutes: 10
+  - place: montauk-point
+    minutes: 10
+  - place: napeague-state-park
+    minutes: 15
+  - place: amagansett-main-beach
+    minutes: 20
+  - place: cedar-point-county-park
+    minutes: 30
+  - place: orient-beach-state-park
+    minutes: 35
+  - place: orient-point-ferry
+    minutes: 35
+  - place: sag-harbor-village
+    minutes: 35
+  - place: shelter-island-mashomack
+    minutes: 40
+  - place: greenport-village
+    minutes: 45
+  - place: parrish-art-museum
+    minutes: 45
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org
+  - type: official
+    label: Discover Long Island
+    url: https://www.discoverlongisland.com/

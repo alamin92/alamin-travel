@@ -1,0 +1,41 @@
+name: Rocky Point Pine Barrens Preserve
+state: NY
+region: long-island
+county: Suffolk
+area: Rocky Point
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://pb.state.ny.us/central-pine-barrens/explore/overview/
+links:
+  - type: official
+    label: "Rocky Point Pine Barrens Preserve: official page"
+    url: https://pb.state.ny.us/central-pine-barrens/explore/overview/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Rocky%20Point%20Pine%20Barrens%20Preserve%2C%20Rocky%20Point%2C%20NY
+mapQuery: Rocky Point Pine Barrens Preserve, Rocky Point, NY
+lat: 40.92
+lon: -72.933
+kind: hike
+interests:
+  - nature
+  - adventure
+  - relax
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A large state preserve in the Central Pine Barrens with wide sandy trails, used for hiking, mountain biking and horseback riding.
+details: A good place to see the pine barrens habitat. The trails are shared, so look out for bikes and horses.
+warnings:
+  - type: safety
+    text: Ticks are common on Long Island trails. Wear long pants, use repellent and check yourself afterward.
+    verify: false
+  - type: safety
+    text: Trails can be sandy, and the area is dry in summer. Carry water and check for fire restrictions.
+    verify: true

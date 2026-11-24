@@ -1,0 +1,88 @@
+name: Riverhead and the North Fork
+state: NY
+region: long-island
+county: Suffolk
+blurb: "The gateway to the North Fork: farms, wineries, an aquarium, pine barrens and Sound beaches."
+nearby:
+  - place: the-big-duck
+    minutes: 5
+  - place: long-island-aquarium
+    minutes: 5
+  - place: briermere-farms
+    minutes: 5
+  - place: hallockville-museum-farm
+    minutes: 5
+  - place: iron-pier-beach
+    minutes: 10
+  - place: hallock-state-park-preserve
+    minutes: 10
+  - place: splish-splash
+    minutes: 10
+  - place: dwarf-pine-plains-preserve
+    minutes: 10
+  - place: wildwood-state-park
+    minutes: 15
+  - place: long-island-game-farm
+    minutes: 15
+  - place: harbes-family-farm
+    minutes: 15
+  - place: southaven-county-park
+    minutes: 20
+  - place: north-fork-wine-country
+    minutes: 20
+  - place: cupsogue-beach-county-park
+    minutes: 20
+  - place: ponquogue-beach
+    minutes: 20
+  - place: wickhams-fruit-farm
+    minutes: 25
+  - place: rocky-point-pine-barrens
+    minutes: 30
+  - place: shoreham-beach
+    minutes: 30
+  - place: wertheim-national-wildlife-refuge
+    minutes: 30
+  - place: prosser-pines
+    minutes: 30
+  - place: cathedral-pines-county-park
+    minutes: 30
+  - place: william-floyd-estate
+    minutes: 30
+  - place: coopers-beach
+    minutes: 30
+  - place: shinnecock-nation-cultural-center-and-museum
+    minutes: 30
+  - place: overton-preserve
+    minutes: 35
+  - place: fire-island-wilderness-smith-point
+    minutes: 35
+  - place: parrish-art-museum
+    minutes: 35
+  - place: bald-hill-amphitheater
+    minutes: 40
+  - place: sag-harbor-village
+    minutes: 40
+  - place: port-jefferson-village-and-harbor
+    minutes: 45
+  - place: bridgeport-port-jefferson-ferry
+    minutes: 45
+  - place: mcallister-county-park
+    minutes: 45
+  - place: shorefront-park-patchogue
+    minutes: 45
+  - place: brookhaven-ecology-site
+    minutes: 45
+  - place: greenport-village
+    minutes: 45
+  - place: shelter-island-mashomack
+    minutes: 45
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org
+  - type: official
+    label: Discover Long Island
+    url: https://www.discoverlongisland.com/

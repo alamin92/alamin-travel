@@ -1,0 +1,39 @@
+name: Massapequa Preserve
+state: NY
+region: long-island
+county: Nassau
+area: Massapequa
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nassaucountyny.gov/2905/Peter-J-Schmitt-Massapequa-Preserve
+links:
+  - type: official
+    label: "Massapequa Preserve: official page"
+    url: https://www.nassaucountyny.gov/2905/Peter-J-Schmitt-Massapequa-Preserve
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Massapequa%20Preserve%2C%20Massapequa%2C%20NY
+mapQuery: Massapequa Preserve, Massapequa, NY
+lat: 40.68
+lon: -73.46
+kind: hike
+interests:
+  - nature
+  - relax
+  - family
+  - short-time
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A Nassau County preserve with a lake, woodland paths and fishing.
+details: A short, easy outing. Check the county page for rules and hours.
+warnings:
+  - type: safety
+    text: Ticks are common on Long Island trails. Wear long pants, use repellent and check yourself afterward.
+    verify: false

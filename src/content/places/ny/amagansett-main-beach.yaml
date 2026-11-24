@@ -1,0 +1,40 @@
+name: Amagansett Main Beach
+state: NY
+region: long-island
+county: Suffolk
+area: Amagansett
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.ehamptonny.gov/
+links:
+  - type: official
+    label: "Amagansett Main Beach: official page"
+    url: https://www.ehamptonny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Amagansett%20Main%20Beach%2C%20Amagansett%2C%20NY
+mapQuery: Amagansett Main Beach, Amagansett, NY
+lat: 40.971
+lon: -72.133
+kind: beach
+interests:
+  - beach
+  - relax
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: An East Hampton town ocean beach with wide sand and dunes in Amagansett.
+details: Beach parking uses permits in summer.
+warnings:
+  - type: fees
+    text: Parking needs a permit or a daily non-resident fee. Check the town page.
+    verify: true
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: true

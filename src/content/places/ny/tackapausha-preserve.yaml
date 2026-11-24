@@ -1,0 +1,39 @@
+name: Tackapausha Preserve
+state: NY
+region: long-island
+county: Nassau
+area: Seaford
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nassaucountyny.gov/2951/Tackapausha-Museum-and-Preserve
+links:
+  - type: official
+    label: "Tackapausha Preserve: official page"
+    url: https://www.nassaucountyny.gov/2951/Tackapausha-Museum-and-Preserve
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Tackapausha%20Preserve%2C%20Seaford%2C%20NY
+mapQuery: Tackapausha Preserve, Seaford, NY
+lat: 40.674
+lon: -73.49
+kind: hike
+interests:
+  - nature
+  - relax
+  - family
+  - short-time
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A Nassau County preserve with woodland trails, a pond and a small natural-history museum.
+details: A short, easy walk, good with kids. Check the page for museum hours.
+warnings:
+  - type: safety
+    text: Ticks are common on Long Island trails. Wear long pants, use repellent and check yourself afterward.
+    verify: false

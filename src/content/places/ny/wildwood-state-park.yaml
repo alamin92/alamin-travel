@@ -1,0 +1,42 @@
+name: Wildwood State Park
+state: NY
+region: long-island
+county: Suffolk
+area: Wading River
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/wildwood-state-park
+links:
+  - type: state-park
+    label: "Wildwood State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/wildwood-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Wildwood%20State%20Park%2C%20Wading%20River%2C%20NY
+mapQuery: Wildwood State Park, Wading River, NY
+lat: 40.959
+lon: -72.7919
+kind: beach
+interests:
+  - beach
+  - nature
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Long Island Sound state park with a beach on high bluffs, wooded trails and a large campground.
+details: The beach is reached by stairs down the bluff. Camping is popular, so book ahead.
+warnings:
+  - type: reservation
+    text: Camping needs a reservation, and summer sites go fast. Check the park page.
+    verify: true
+  - type: fees
+    text: A vehicle entry fee applies in season.
+    verify: true

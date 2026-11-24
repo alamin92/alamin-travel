@@ -1,0 +1,37 @@
+name: Theodore Roosevelt Memorial Park
+state: NY
+region: long-island
+county: Nassau
+area: Oyster Bay
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://oysterbaytown.com/
+links:
+  - type: official
+    label: "Theodore Roosevelt Memorial Park: official page"
+    url: https://oysterbaytown.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Theodore%20Roosevelt%20Memorial%20Park%2C%20Oyster%20Bay%2C%20NY
+mapQuery: Theodore Roosevelt Memorial Park, Oyster Bay, NY
+lat: 40.877
+lon: -73.534
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+  - history
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Town of Oyster Bay waterfront park with a beach, a pool, a playground and views of Oyster Bay harbor.
+details: Pair it with the Sagamore Hill and Theodore Roosevelt sites in Oyster Bay. Access is usually priced by residency.
+warnings:
+  - type: fees
+    text: Beach and pool entry usually need a town permit or a non-resident fee. Check the town page.
+    verify: true

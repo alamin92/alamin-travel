@@ -1,0 +1,39 @@
+name: Long Island Game Farm
+state: NY
+region: long-island
+county: Suffolk
+area: Manorville
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.longislandgamefarm.com/
+links:
+  - type: official
+    label: "Long Island Game Farm: official page"
+    url: https://www.longislandgamefarm.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Long%20Island%20Game%20Farm%2C%20Manorville%2C%20NY
+mapQuery: Long Island Game Farm, Manorville, NY
+lat: 40.868
+lon: -72.784
+kind: activity
+interests:
+  - family
+difficulty: n/a
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A small zoo and children's park in Manorville with animals, a train and rides.
+details: Best for young kids on a warm day.
+warnings:
+  - type: fees
+    text: Admission is charged. Check the site.
+    verify: true
+  - type: closure
+    text: Seasonal hours. Check before you go.
+    verify: true

@@ -1,0 +1,39 @@
+name: Theodore Roosevelt Sanctuary and Audubon Center
+state: NY
+region: long-island
+county: Nassau
+area: Oyster Bay
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://audubon.org/theodore-roosevelt/visit
+links:
+  - type: official
+    label: "Theodore Roosevelt Sanctuary and Audubon Center: official page"
+    url: https://audubon.org/theodore-roosevelt/visit
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Theodore%20Roosevelt%20Sanctuary%20and%20Audubon%20Center%2C%20Oyster%20Bay%2C%20NY
+mapQuery: Theodore Roosevelt Sanctuary and Audubon Center, Oyster Bay, NY
+lat: 40.892
+lon: -73.516
+kind: hike
+interests:
+  - nature
+  - family
+  - history
+  - relax
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A small Audubon bird sanctuary in Oyster Bay with trails, a pond and a nature center.
+details: A quiet bird-watching spot. Check the site for trail and center hours.
+warnings:
+  - type: safety
+    text: Ticks are common on Long Island trails. Wear long pants, use repellent and check yourself afterward.
+    verify: false

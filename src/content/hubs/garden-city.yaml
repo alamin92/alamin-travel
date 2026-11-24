@@ -1,0 +1,99 @@
+name: Garden City and central Nassau
+state: NY
+region: long-island
+county: Nassau
+blurb: A base in the middle of Nassau County, with big parks, museums and the south shore beaches within a short drive.
+nearby:
+  - place: hempstead-lake-state-park
+    minutes: 5
+  - place: eisenhower-park
+    minutes: 5
+  - place: clark-botanic-garden
+    minutes: 5
+  - place: cradle-of-aviation-museum
+    minutes: 5
+  - place: long-island-childrens-museum
+    minutes: 5
+  - place: old-westbury-gardens
+    minutes: 10
+  - place: sea-cliff-village-boardwalk
+    minutes: 15
+  - place: north-hempstead-beach-park
+    minutes: 15
+  - place: wantagh-park
+    minutes: 15
+  - place: norman-j-levy-park
+    minutes: 15
+  - place: tackapausha-preserve
+    minutes: 15
+  - place: marine-nature-study-area
+    minutes: 15
+  - place: nassau-county-museum-of-art
+    minutes: 15
+  - place: sands-point-preserve
+    minutes: 20
+  - place: bethpage-state-park
+    minutes: 20
+  - place: nickerson-beach-park
+    minutes: 20
+  - place: morgan-memorial-park
+    minutes: 20
+  - place: planting-fields-arboretum
+    minutes: 20
+  - place: manorhaven-beach-park
+    minutes: 20
+  - place: muttontown-preserve
+    minutes: 20
+  - place: old-bethpage-village-restoration
+    minutes: 20
+  - place: garvies-point-museum-and-preserve
+    minutes: 20
+  - place: long-beach-boardwalk
+    minutes: 20
+  - place: welwyn-preserve
+    minutes: 20
+  - place: massapequa-preserve
+    minutes: 20
+  - place: bayville-adventure-park
+    minutes: 25
+  - place: theodore-roosevelt-memorial-park
+    minutes: 25
+  - place: theodore-roosevelt-sanctuary
+    minutes: 25
+  - place: raynham-hall-museum
+    minutes: 25
+  - place: bailey-arboretum
+    minutes: 25
+  - place: tobay-beach
+    minutes: 25
+  - place: oheka-castle
+    minutes: 25
+  - place: pinelawn-memorial-park-and-arboretum
+    minutes: 25
+  - place: white-post-farms
+    minutes: 25
+  - place: walt-whitman-birthplace
+    minutes: 25
+  - place: west-hills-county-park
+    minutes: 25
+  - place: jones-beach
+    minutes: 25
+  - place: sagamore-hill
+    minutes: 30
+  - place: cold-spring-harbor-state-park
+    minutes: 30
+  - place: heckscher-museum-of-art
+    minutes: 30
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org
+  - type: official
+    label: Discover Long Island
+    url: https://www.discoverlongisland.com/
+  - type: official
+    label: "LIRR: train schedules (many places still need a car)"
+    url: https://www.mta.info/lirr

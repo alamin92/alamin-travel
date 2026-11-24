@@ -1,0 +1,39 @@
+name: Bayard Cutting Arboretum
+state: NY
+region: long-island
+county: Suffolk
+area: Great River
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/bayard-cutting-arboretum-state-park
+links:
+  - type: state-park
+    label: "Bayard Cutting Arboretum: official page"
+    url: https://parks.ny.gov/visit/state-parks/bayard-cutting-arboretum-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Bayard%20Cutting%20Arboretum%2C%20Great%20River%2C%20NY
+mapQuery: Bayard Cutting Arboretum, Great River, NY
+lat: 40.7397
+lon: -73.1589
+kind: park
+interests:
+  - relax
+  - nature
+  - photo
+  - family
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: true
+summary: A state arboretum on the Connetquot River with conifers, flowering trees, a Tudor-style house and short paths.
+details: A calm, beautiful short outing. Check the park page for the entry fee and hours.
+warnings:
+  - type: fees
+    text: An entry fee may apply. Check the park page.
+    verify: true

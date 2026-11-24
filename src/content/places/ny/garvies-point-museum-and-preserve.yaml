@@ -1,0 +1,39 @@
+name: Garvies Point Museum and Preserve
+state: NY
+region: long-island
+county: Nassau
+area: Glen Cove
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nassaucountyny.gov/2821/Garvies-Point-Museum-and-Preserve
+links:
+  - type: official
+    label: "Garvies Point Museum and Preserve: official page"
+    url: https://www.nassaucountyny.gov/2821/Garvies-Point-Museum-and-Preserve
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Garvies%20Point%20Museum%20and%20Preserve%2C%20Glen%20Cove%2C%20NY
+mapQuery: Garvies Point Museum and Preserve, Glen Cove, NY
+lat: 40.854
+lon: -73.649
+kind: hike
+interests:
+  - nature
+  - history
+  - family
+  - views
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A preserve on Hempstead Harbor with trails, a rocky shoreline and a museum about geology and Native American archaeology.
+details: The shoreline has views of the harbor, and the museum is a good rainy-day add-on.
+warnings:
+  - type: safety
+    text: Stay off the unstable bluffs and follow posted shoreline rules.
+    verify: true

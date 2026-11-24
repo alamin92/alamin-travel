@@ -1,0 +1,45 @@
+name: Cupsogue Beach County Park
+state: NY
+region: long-island
+county: Suffolk
+area: Westhampton Beach
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://suffolkcountyny.gov/Departments/Parks/Our-Parks/Cupsogue-Beach-County-Park
+links:
+  - type: official
+    label: "Cupsogue Beach County Park: official page"
+    url: https://suffolkcountyny.gov/Departments/Parks/Our-Parks/Cupsogue-Beach-County-Park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Cupsogue%20Beach%20County%20Park%2C%20Westhampton%20Beach%2C%20NY
+mapQuery: Cupsogue Beach County Park, Westhampton Beach, NY
+lat: 40.796
+lon: -72.733
+kind: beach
+interests:
+  - beach
+  - family
+  - nature
+  - relax
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Suffolk County ocean beach on the barrier island with dunes and a quieter feel.
+details: Parts of the beach close for nesting shorebirds in season.
+warnings:
+  - type: parking
+    text: Lots can fill on summer weekends. Go early or on a weekday.
+    verify: true
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: true
+  - type: fees
+    text: Parking may have a fee in season, and may favor residents.
+    verify: true

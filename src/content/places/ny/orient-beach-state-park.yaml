@@ -1,0 +1,45 @@
+name: Orient Beach State Park
+state: NY
+region: long-island
+county: Suffolk
+area: Orient
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/orient-beach-state-park
+links:
+  - type: state-park
+    label: "Orient Beach State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/orient-beach-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Orient%20Beach%20State%20Park%2C%20Orient%2C%20NY
+mapQuery: Orient Beach State Park, Orient, NY
+lat: 41.138
+lon: -72.27
+kind: beach
+interests:
+  - beach
+  - nature
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: true
+summary: A state park on a long, narrow spit at the end of the North Fork, with a beach, a maritime forest and a bird-watching trail.
+details: One of the few places with a maritime red cedar forest on the island.
+warnings:
+  - type: fees
+    text: A vehicle entry fee applies in season.
+    verify: true
+  - type: safety
+    text: Poison ivy is common. Stay on trails.
+    verify: false
+  - type: parking
+    text: Lots can fill on summer weekends. Go early or on a weekday.
+    verify: true

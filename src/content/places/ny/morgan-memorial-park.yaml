@@ -1,0 +1,36 @@
+name: Morgan Memorial Park
+state: NY
+region: long-island
+county: Nassau
+area: Glen Cove
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.glencoveny.gov/
+links:
+  - type: official
+    label: "Morgan Memorial Park: official page"
+    url: https://www.glencoveny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Morgan%20Memorial%20Park%2C%20Glen%20Cove%2C%20NY
+mapQuery: Morgan Memorial Park, Glen Cove, NY
+lat: 40.8663
+lon: -73.6242
+kind: park
+interests:
+  - relax
+  - family
+  - nature
+  - photo
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A city park in Glen Cove with a pond, a playground and walking paths.
+details: A quiet short stop in Glen Cove. Facilities and access rules are set by the city.
+warnings: []

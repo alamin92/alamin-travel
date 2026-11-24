@@ -1,0 +1,37 @@
+name: Crab Meadow Beach
+state: NY
+region: long-island
+county: Suffolk
+area: Northport
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://huntingtonny.gov/
+links:
+  - type: official
+    label: "Crab Meadow Beach: official page"
+    url: https://huntingtonny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Crab%20Meadow%20Beach%2C%20Northport%2C%20NY
+mapQuery: Crab Meadow Beach, Northport, NY
+lat: 40.9273
+lon: -73.3242
+kind: beach
+interests:
+  - beach
+  - relax
+  - family
+  - views
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Town of Huntington beach on Long Island Sound, next to a large nature area.
+details: It is next to Sunken Meadow State Park, so you can combine them.
+warnings:
+  - type: fees
+    text: Beach entry usually needs a town permit or a non-resident fee. Check the town page.
+    verify: true

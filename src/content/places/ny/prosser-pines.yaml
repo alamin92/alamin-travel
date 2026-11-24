@@ -1,0 +1,38 @@
+name: Prosser Pines Nature Preserve
+state: NY
+region: long-island
+county: Suffolk
+area: Middle Island
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://suffolkcountyny.gov/Departments/Parks/Things-To-Do/Hiking
+links:
+  - type: official
+    label: "Prosser Pines Nature Preserve: official page"
+    url: https://suffolkcountyny.gov/Departments/Parks/Things-To-Do/Hiking
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Prosser%20Pines%20Nature%20Preserve%2C%20Middle%20Island%2C%20NY
+mapQuery: Prosser Pines Nature Preserve, Middle Island, NY
+lat: 40.896
+lon: -72.954
+kind: hike
+interests:
+  - nature
+  - relax
+  - family
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A small preserve with a grove of tall planted white pines and trails.
+details: A short, easy walk with tall pines. Check the county hiking page for rules.
+warnings:
+  - type: safety
+    text: Ticks are common on Long Island trails. Wear long pants, use repellent and check yourself afterward.
+    verify: false

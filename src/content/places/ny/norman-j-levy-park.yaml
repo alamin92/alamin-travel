@@ -1,0 +1,39 @@
+name: Norman J. Levy Park and Preserve
+state: NY
+region: long-island
+county: Nassau
+area: Merrick
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.hempsteadny.gov/
+links:
+  - type: official
+    label: "Norman J. Levy Park and Preserve: official page"
+    url: https://www.hempsteadny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Norman%20J.%20Levy%20Park%20and%20Preserve%2C%20Merrick%2C%20NY
+mapQuery: Norman J. Levy Park and Preserve, Merrick, NY
+lat: 40.6446
+lon: -73.5617
+kind: park
+interests:
+  - nature
+  - relax
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A small Town of Hempstead park and preserve on the south shore marshes with a short boardwalk and views of the bay.
+details: A good birding and sunset stop. Access rules are set by the town.
+warnings:
+  - type: fees
+    text: Some Town of Hempstead parks need a resident permit. Check the town page.
+    verify: true

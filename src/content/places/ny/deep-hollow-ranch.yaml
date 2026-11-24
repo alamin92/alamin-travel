@@ -1,0 +1,41 @@
+name: Deep Hollow Ranch
+state: NY
+region: long-island
+county: Suffolk
+area: Montauk
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://suffolkcountyny.gov/Departments/Parks/Historic-Sites/Deep-Hollow-Guest-Cattle-Ranch
+links:
+  - type: official
+    label: "Deep Hollow Ranch: official page"
+    url: https://suffolkcountyny.gov/Departments/Parks/Historic-Sites/Deep-Hollow-Guest-Cattle-Ranch
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Deep%20Hollow%20Ranch%2C%20Montauk%2C%20NY
+mapQuery: Deep Hollow Ranch, Montauk, NY
+lat: 41.0062
+lon: -72.0218
+kind: activity
+interests:
+  - family
+  - adventure
+  - history
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A historic ranch in Montauk billed as one of the oldest cattle ranches in the United States, with trail rides.
+details: Horseback rides are the main draw. Reservations are likely needed.
+warnings:
+  - type: reservation
+    text: Trail rides need a reservation. Check the ranch.
+    verify: true
+  - type: fees
+    text: Rides are priced separately.
+    verify: true

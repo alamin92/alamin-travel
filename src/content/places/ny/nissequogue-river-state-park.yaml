@@ -1,0 +1,39 @@
+name: Nissequogue River State Park
+state: NY
+region: long-island
+county: Suffolk
+area: Kings Park
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/nissequogue-river-state-park
+links:
+  - type: state-park
+    label: "Nissequogue River State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/nissequogue-river-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Nissequogue%20River%20State%20Park%2C%20Kings%20Park%2C%20NY
+mapQuery: Nissequogue River State Park, Kings Park, NY
+lat: 40.8993
+lon: -73.2318
+kind: park
+interests:
+  - nature
+  - relax
+  - family
+  - views
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A state park on the Nissequogue River, on the former grounds of a psychiatric hospital, with paths, a boat launch and river views.
+details: Kayaking and walking along the river are popular. The old hospital buildings are fenced and not open.
+warnings:
+  - type: safety
+    text: Do not enter the old hospital buildings. They are closed, unsafe and patrolled.
+    verify: true

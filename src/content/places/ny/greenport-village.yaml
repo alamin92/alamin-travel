@@ -1,0 +1,42 @@
+name: Greenport Village
+state: NY
+region: long-island
+county: Suffolk
+area: Greenport
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.villageofgreenport.org/
+links:
+  - type: official
+    label: "Greenport Village: official page"
+    url: https://www.villageofgreenport.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Greenport%20Village%2C%20Greenport%2C%20NY
+mapQuery: Greenport Village, Greenport, NY
+lat: 41.103
+lon: -72.359
+kind: town
+interests:
+  - relax
+  - family
+  - photo
+  - views
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A North Fork harbor village with shops, restaurants, a carousel and a working waterfront.
+details: It is a base for the North Fork and the Shelter Island ferry. The LIRR runs to Greenport.
+warnings:
+  - type: crowds
+    text: Summer and fall weekends are busy, and parking is tight.
+    verify: true
+  - type: parking
+    text: Lots can fill on summer weekends. Go early or on a weekday.
+    verify: true

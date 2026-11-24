@@ -1,0 +1,36 @@
+name: Sweetbriar Nature Center
+state: NY
+region: long-island
+county: Suffolk
+area: Smithtown
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.sweetbriarnc.org/
+links:
+  - type: official
+    label: "Sweetbriar Nature Center: official page"
+    url: https://www.sweetbriarnc.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Sweetbriar%20Nature%20Center%2C%20Smithtown%2C%20NY
+mapQuery: Sweetbriar Nature Center, Smithtown, NY
+lat: 40.8669
+lon: -73.2071
+kind: hike
+interests:
+  - nature
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: low
+highlight: false
+summary: A nature center with trails, a small animal exhibit and programs for children.
+details: A good rainy-day or kids stop. Check the site for hours and programs.
+warnings: []

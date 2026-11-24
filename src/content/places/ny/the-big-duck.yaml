@@ -1,0 +1,37 @@
+name: The Big Duck
+state: NY
+region: long-island
+county: Suffolk
+area: Flanders
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://suffolkcountyny.gov/Departments/Parks/Historic-Sites/The-Big-Duck
+links:
+  - type: official
+    label: "The Big Duck: official page"
+    url: https://suffolkcountyny.gov/Departments/Parks/Historic-Sites/The-Big-Duck
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=The%20Big%20Duck%2C%20Flanders%2C%20NY
+mapQuery: The Big Duck, Flanders, NY
+lat: 40.917
+lon: -72.597
+kind: landmark
+interests:
+  - family
+  - photo
+  - short-time
+  - history
+difficulty: n/a
+timeMinutes: 20
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: free
+highlight: true
+summary: A roadside building shaped like a giant duck, built in 1931 and now a landmark with a small gift shop.
+details: A fun quick photo stop on the way to the East End.
+warnings: []

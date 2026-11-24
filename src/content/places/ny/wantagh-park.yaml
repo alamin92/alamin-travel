@@ -1,0 +1,38 @@
+name: Wantagh Park
+state: NY
+region: long-island
+county: Nassau
+area: Wantagh
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nassaucountyny.gov/2805/Wantagh-Park
+links:
+  - type: official
+    label: "Wantagh Park: official page"
+    url: https://www.nassaucountyny.gov/2805/Wantagh-Park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Wantagh%20Park%2C%20Wantagh%2C%20NY
+mapQuery: Wantagh Park, Wantagh, NY
+lat: 40.656
+lon: -73.516
+kind: park
+interests:
+  - family
+  - relax
+  - beach
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Nassau County park on the Bay at the north end of the Wantagh Parkway with a pool, a playground, a boat ramp and picnic areas.
+details: Often used as a quiet base before Jones Beach. County facilities can have resident-only rules.
+warnings:
+  - type: fees
+    text: Nassau County may use residency rules for entry. Check the county page.
+    verify: true

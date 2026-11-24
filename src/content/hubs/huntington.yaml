@@ -1,0 +1,99 @@
+name: Huntington and the North Shore
+state: NY
+region: long-island
+county: Suffolk
+blurb: A lively village base with museums, mansions, harbor beaches and state park trails on the Suffolk North Shore.
+nearby:
+  - place: cold-spring-harbor-state-park
+    minutes: 5
+  - place: heckscher-museum-of-art
+    minutes: 5
+  - place: centerport-beach-park
+    minutes: 5
+  - place: oheka-castle
+    minutes: 5
+  - place: west-hills-county-park
+    minutes: 5
+  - place: theodore-roosevelt-memorial-park
+    minutes: 10
+  - place: sagamore-hill
+    minutes: 10
+  - place: muttontown-preserve
+    minutes: 10
+  - place: theodore-roosevelt-sanctuary
+    minutes: 10
+  - place: raynham-hall-museum
+    minutes: 10
+  - place: caumsett-state-historic-park
+    minutes: 10
+  - place: vanderbilt-museum
+    minutes: 10
+  - place: hobart-beach-park
+    minutes: 10
+  - place: white-post-farms
+    minutes: 10
+  - place: walt-whitman-birthplace
+    minutes: 10
+  - place: planting-fields-arboretum
+    minutes: 15
+  - place: old-bethpage-village-restoration
+    minutes: 15
+  - place: crab-meadow-beach
+    minutes: 15
+  - place: bethpage-state-park
+    minutes: 20
+  - place: morgan-memorial-park
+    minutes: 20
+  - place: bayville-adventure-park
+    minutes: 20
+  - place: bailey-arboretum
+    minutes: 20
+  - place: belmont-lake-state-park
+    minutes: 20
+  - place: nissequogue-river-state-park
+    minutes: 20
+  - place: sunken-meadow-state-park
+    minutes: 20
+  - place: caleb-smith-state-park-preserve
+    minutes: 20
+  - place: kings-park-psychiatric-center
+    minutes: 20
+  - place: geiger-lake-memorial-park
+    minutes: 20
+  - place: pinelawn-memorial-park-and-arboretum
+    minutes: 20
+  - place: sea-cliff-village-boardwalk
+    minutes: 25
+  - place: eisenhower-park
+    minutes: 25
+  - place: old-westbury-gardens
+    minutes: 25
+  - place: north-hempstead-beach-park
+    minutes: 25
+  - place: clark-botanic-garden
+    minutes: 25
+  - place: garvies-point-museum-and-preserve
+    minutes: 25
+  - place: cradle-of-aviation-museum
+    minutes: 25
+  - place: long-island-childrens-museum
+    minutes: 25
+  - place: nassau-county-museum-of-art
+    minutes: 25
+  - place: welwyn-preserve
+    minutes: 25
+  - place: massapequa-preserve
+    minutes: 25
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org
+  - type: official
+    label: Discover Long Island
+    url: https://www.discoverlongisland.com/
+  - type: official
+    label: "LIRR: train schedules (many places still need a car)"
+    url: https://www.mta.info/lirr

@@ -1,0 +1,36 @@
+name: Walt Whitman Birthplace State Historic Site
+state: NY
+region: long-island
+county: Suffolk
+area: West Hills
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/historic-sites/walt-whitman-birthplace-state-historic-site
+links:
+  - type: state-park
+    label: "Walt Whitman Birthplace State Historic Site: official page"
+    url: https://parks.ny.gov/visit/historic-sites/walt-whitman-birthplace-state-historic-site
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Walt%20Whitman%20Birthplace%20State%20Historic%20Site%2C%20West%20Hills%2C%20NY
+mapQuery: Walt Whitman Birthplace State Historic Site, West Hills, NY
+lat: 40.81
+lon: -73.417
+kind: museum
+interests:
+  - history
+  - culture
+  - family
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: low
+highlight: false
+summary: The farmhouse where the poet Walt Whitman was born, with a small museum and a visitor center.
+details: A short stop with tours and exhibits. Check the page for hours.
+warnings: []

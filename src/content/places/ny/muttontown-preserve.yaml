@@ -1,0 +1,42 @@
+name: Muttontown Preserve
+state: NY
+region: long-island
+county: Nassau
+area: East Norwich
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nassaucountyny.gov/2839/Muttontown-Preserve
+links:
+  - type: official
+    label: "Muttontown Preserve: official page"
+    url: https://www.nassaucountyny.gov/2839/Muttontown-Preserve
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Muttontown%20Preserve%2C%20East%20Norwich%2C%20NY
+mapQuery: Muttontown Preserve, East Norwich, NY
+lat: 40.85
+lon: -73.535
+kind: hike
+interests:
+  - nature
+  - history
+  - relax
+  - photo
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A large Nassau County preserve with woods, fields, ponds and the ruins of a former estate, linked by easy trails.
+details: A good hidden gem in the Gold Coast. Stay on marked trails and respect the old buildings, which can be unstable.
+warnings:
+  - type: safety
+    text: Ticks are common on Long Island trails. Wear long pants, use repellent and check yourself afterward.
+    verify: false
+  - type: safety
+    text: Stay out of the estate ruins and fenced areas.
+    verify: true

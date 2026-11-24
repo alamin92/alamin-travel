@@ -1,0 +1,38 @@
+name: Pinelawn Memorial Park and Arboretum
+state: NY
+region: long-island
+county: Suffolk
+area: Farmingdale
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.pinelawn.com/
+links:
+  - type: official
+    label: "Pinelawn Memorial Park and Arboretum: official page"
+    url: https://www.pinelawn.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Pinelawn%20Memorial%20Park%20and%20Arboretum%2C%20Farmingdale%2C%20NY
+mapQuery: Pinelawn Memorial Park and Arboretum, Farmingdale, NY
+lat: 40.7457
+lon: -73.4008
+kind: park
+interests:
+  - relax
+  - nature
+  - photo
+difficulty: easy
+timeMinutes: 60
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: An active cemetery with an arboretum of mature trees on its grounds.
+details: Visit quietly and respectfully. It is an active cemetery, and arboretum visits are secondary to its main use.
+warnings:
+  - type: other
+    text: This is an active cemetery. Be quiet, stay on roads and paths, and follow posted rules.
+    verify: false

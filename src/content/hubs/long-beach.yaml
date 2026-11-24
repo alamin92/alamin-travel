@@ -1,0 +1,99 @@
+name: Long Beach and the Nassau south shore
+state: NY
+region: long-island
+county: Nassau
+blurb: A beach city reachable by train from New York City, with a long boardwalk and ocean beaches to the east.
+nearby:
+  - place: nickerson-beach-park
+    minutes: 5
+  - place: marine-nature-study-area
+    minutes: 5
+  - place: long-beach-boardwalk
+    minutes: 5
+  - place: hempstead-lake-state-park
+    minutes: 15
+  - place: norman-j-levy-park
+    minutes: 15
+  - place: jones-beach
+    minutes: 15
+  - place: wantagh-park
+    minutes: 20
+  - place: tackapausha-preserve
+    minutes: 20
+  - place: cradle-of-aviation-museum
+    minutes: 20
+  - place: long-island-childrens-museum
+    minutes: 20
+  - place: eisenhower-park
+    minutes: 25
+  - place: clark-botanic-garden
+    minutes: 25
+  - place: tobay-beach
+    minutes: 25
+  - place: massapequa-preserve
+    minutes: 25
+  - place: fort-tilden
+    minutes: 25
+  - place: bethpage-state-park
+    minutes: 30
+  - place: old-westbury-gardens
+    minutes: 30
+  - place: gilgo-state-park
+    minutes: 30
+  - place: sea-cliff-village-boardwalk
+    minutes: 35
+  - place: north-hempstead-beach-park
+    minutes: 35
+  - place: manorhaven-beach-park
+    minutes: 35
+  - place: old-bethpage-village-restoration
+    minutes: 35
+  - place: nassau-county-museum-of-art
+    minutes: 35
+  - place: pinelawn-memorial-park-and-arboretum
+    minutes: 35
+  - place: sands-point-preserve
+    minutes: 40
+  - place: morgan-memorial-park
+    minutes: 40
+  - place: planting-fields-arboretum
+    minutes: 40
+  - place: muttontown-preserve
+    minutes: 40
+  - place: garvies-point-museum-and-preserve
+    minutes: 40
+  - place: welwyn-preserve
+    minutes: 40
+  - place: oheka-castle
+    minutes: 40
+  - place: belmont-lake-state-park
+    minutes: 40
+  - place: geiger-lake-memorial-park
+    minutes: 40
+  - place: white-post-farms
+    minutes: 40
+  - place: walt-whitman-birthplace
+    minutes: 40
+  - place: west-hills-county-park
+    minutes: 40
+  - place: democrat-point
+    minutes: 40
+  - place: bayville-adventure-park
+    minutes: 45
+  - place: theodore-roosevelt-memorial-park
+    minutes: 45
+  - place: sagamore-hill
+    minutes: 45
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org
+  - type: official
+    label: Discover Long Island
+    url: https://www.discoverlongisland.com/
+  - type: official
+    label: "LIRR: train schedules (many places still need a car)"
+    url: https://www.mta.info/lirr

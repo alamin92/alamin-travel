@@ -19,8 +19,11 @@ const hubsAll = await loadHubs();
 const inRegion = (x: { region: string; alsoRegions: string[] }) => x.region === region.id || x.alsoRegions.includes(region.id);
 const places = all.filter(inRegion).sort((a, b) => Number(b.highlight) - Number(a.highlight) || a.name.localeCompare(b.name));
 const hubs = hubsAll.filter(inRegion);
-const farms = places.filter((p) => p.interests.includes('seasonal'));
-const rest = places.filter((p) => !p.interests.includes('seasonal'));
+const MAX = 12; // a region can have hundreds of places, so show the major ones and link to the full filterable list
+const farmsAll = places.filter((p) => p.interests.includes('seasonal'));
+const restAll = places.filter((p) => !p.interests.includes('seasonal'));
+const rest = restAll.slice(0, MAX);
+const farms = farmsAll.slice(0, 6);
 const counts = Object.fromEntries(regions.map((r) => [r.id, all.filter((p) => p.region === r.id).length]));
 ---
 <Base title={`${region.name}: places to go and plan a trip`} description={`${region.blurb} Places, warnings, approximate drive times and official links.`}>
@@ -51,7 +54,7 @@ const counts = Object.fromEntries(regions.map((r) => [r.id, all.filter((p) => p.
     </>
   )}
 
-  <h2>Places in {region.name}</h2>
+  <h2>{restAll.length > MAX ? `Major places in ${region.name}` : `Places in ${region.name}`}</h2>
   {rest.length === 0 && <p class="muted">No full guides here yet. Check the official site above, and the <a href="/my-lists">saved lists</a>.</p>}
   <div class="grid">
     {rest.map((p) => (
@@ -63,6 +66,10 @@ const counts = Object.fromEntries(regions.map((r) => [r.id, all.filter((p) => p.
       </a>
     ))}
   </div>
+
+  {restAll.length > MAX && (
+    <p class="note">Showing {rest.length} of {restAll.length} places, major ones first. <a href={`/browse?region=${region.id}`}>Filter all {region.name} places</a> by interest, type or difficulty to see the rest.</p>
+  )}
 
   {farms.length > 0 && (
     <>
@@ -78,6 +85,7 @@ const counts = Object.fromEntries(regions.map((r) => [r.id, all.filter((p) => p.
           </a>
         ))}
       </div>
+      {farmsAll.length > farms.length && <p class="muted"><a href={`/browse?region=${region.id}&interest=seasonal`}>See all {farmsAll.length} farms and seasonal places</a></p>}
     </>
   )}
 </Base>

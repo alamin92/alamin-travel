@@ -1,0 +1,41 @@
+name: Cathedral Pines County Park
+state: NY
+region: long-island
+county: Suffolk
+area: Middle Island
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://suffolkcountyny.gov/Departments/Parks/Our-Parks/Cathedral-Pines-County-Park
+links:
+  - type: official
+    label: "Cathedral Pines County Park: official page"
+    url: https://suffolkcountyny.gov/Departments/Parks/Our-Parks/Cathedral-Pines-County-Park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Cathedral%20Pines%20County%20Park%2C%20Middle%20Island%2C%20NY
+mapQuery: Cathedral Pines County Park, Middle Island, NY
+lat: 40.884
+lon: -72.938
+kind: hike
+interests:
+  - nature
+  - adventure
+  - relax
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A Suffolk County park in the pine barrens with a grove of tall pines, trails and mountain-bike routes.
+details: A quiet, shaded park good for a walk. It links to nearby preserves by trail.
+warnings:
+  - type: safety
+    text: Ticks are common on Long Island trails. Wear long pants, use repellent and check yourself afterward.
+    verify: false
+  - type: safety
+    text: Trails are shared with mountain bikers. Stay alert.
+    verify: true

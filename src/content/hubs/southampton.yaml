@@ -1,0 +1,72 @@
+name: Southampton and the Hamptons
+state: NY
+region: long-island
+county: Suffolk
+blurb: The South Fork towns and ocean beaches, with museums, villages and farm stands. Beach parking rules matter here.
+nearby:
+  - place: coopers-beach
+    minutes: 5
+  - place: shinnecock-nation-cultural-center-and-museum
+    minutes: 5
+  - place: parrish-art-museum
+    minutes: 5
+  - place: ponquogue-beach
+    minutes: 15
+  - place: north-fork-wine-country
+    minutes: 20
+  - place: wickhams-fruit-farm
+    minutes: 20
+  - place: sag-harbor-village
+    minutes: 20
+  - place: the-big-duck
+    minutes: 25
+  - place: hallock-state-park-preserve
+    minutes: 25
+  - place: shelter-island-mashomack
+    minutes: 25
+  - place: briermere-farms
+    minutes: 25
+  - place: cedar-point-county-park
+    minutes: 25
+  - place: harbes-family-farm
+    minutes: 25
+  - place: iron-pier-beach
+    minutes: 30
+  - place: long-island-aquarium
+    minutes: 30
+  - place: greenport-village
+    minutes: 30
+  - place: dwarf-pine-plains-preserve
+    minutes: 30
+  - place: amagansett-main-beach
+    minutes: 30
+  - place: hallockville-museum-farm
+    minutes: 35
+  - place: orient-beach-state-park
+    minutes: 40
+  - place: orient-point-ferry
+    minutes: 40
+  - place: splish-splash
+    minutes: 40
+  - place: cupsogue-beach-county-park
+    minutes: 40
+  - place: napeague-state-park
+    minutes: 40
+  - place: wildwood-state-park
+    minutes: 45
+  - place: long-island-game-farm
+    minutes: 45
+  - place: hither-hills-state-park
+    minutes: 45
+  - place: deep-hollow-ranch
+    minutes: 45
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org
+  - type: official
+    label: Discover Long Island
+    url: https://www.discoverlongisland.com/

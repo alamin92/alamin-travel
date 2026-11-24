@@ -1,0 +1,39 @@
+name: The Long Island Museum
+state: NY
+region: long-island
+county: Suffolk
+area: Stony Brook
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://longislandmuseum.org/
+links:
+  - type: official
+    label: "The Long Island Museum: official page"
+    url: https://longislandmuseum.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=The%20Long%20Island%20Museum%2C%20Stony%20Brook%2C%20NY
+mapQuery: The Long Island Museum, Stony Brook, NY
+lat: 40.925
+lon: -73.141
+kind: museum
+interests:
+  - culture
+  - history
+  - family
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A museum of Long Island art, history and carriages in Stony Brook.
+details: It sits near the Stony Brook Village Center and the old grist mill.
+warnings:
+  - type: fees
+    text: Admission is charged. Check the museum site.
+    verify: true

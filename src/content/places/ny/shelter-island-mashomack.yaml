@@ -1,0 +1,45 @@
+name: Mashomack Preserve (Shelter Island)
+state: NY
+region: long-island
+county: Suffolk
+area: Shelter Island
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/long-island-mashomack/
+links:
+  - type: official
+    label: "Mashomack Preserve: official page"
+    url: https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/long-island-mashomack/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mashomack%20Preserve%2C%20Shelter%20Island%2C%20NY
+mapQuery: Mashomack Preserve, Shelter Island, NY
+lat: 41.06
+lon: -72.32
+kind: hike
+interests:
+  - nature
+  - family
+  - relax
+  - photo
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A large Nature Conservancy preserve on Shelter Island with trails through woods, fields and tidal creeks.
+details: You reach Shelter Island by a short ferry from the North or South Fork.
+warnings:
+  - type: reservation
+    text: The preserve may need a permit or reservation for some trails. Check The Nature Conservancy page.
+    verify: true
+  - type: fees
+    text: The island ferry charges a fare.
+    verify: true
+  - type: safety
+    text: Ticks are common on Long Island trails. Wear long pants, use repellent and check yourself afterward.
+    verify: false

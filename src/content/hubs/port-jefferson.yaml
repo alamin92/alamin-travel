@@ -1,0 +1,99 @@
+name: Port Jefferson and Stony Brook
+state: NY
+region: long-island
+county: Suffolk
+blurb: A harbor village and college town with the Connecticut ferry, nature preserves, history museums and Sound beaches.
+nearby:
+  - place: frank-melville-memorial-park
+    minutes: 5
+  - place: port-jefferson-village-and-harbor
+    minutes: 5
+  - place: bridgeport-port-jefferson-ferry
+    minutes: 5
+  - place: mcallister-county-park
+    minutes: 5
+  - place: west-meadow-wetlands-reserve
+    minutes: 10
+  - place: avalon-park-and-preserve
+    minutes: 10
+  - place: long-island-museum
+    minutes: 10
+  - place: rocky-point-pine-barrens
+    minutes: 15
+  - place: shoreham-beach
+    minutes: 15
+  - place: overton-preserve
+    minutes: 15
+  - place: bald-hill-amphitheater
+    minutes: 15
+  - place: prosser-pines
+    minutes: 15
+  - place: cathedral-pines-county-park
+    minutes: 15
+  - place: nissequogue-river-state-park
+    minutes: 20
+  - place: sunken-meadow-state-park
+    minutes: 20
+  - place: caleb-smith-state-park-preserve
+    minutes: 20
+  - place: sweetbriar-nature-center
+    minutes: 20
+  - place: kings-park-psychiatric-center
+    minutes: 20
+  - place: brookhaven-ecology-site
+    minutes: 20
+  - place: lake-ronkonkoma-county-park
+    minutes: 20
+  - place: blydenburgh-county-park
+    minutes: 25
+  - place: lakeland-county-park
+    minutes: 25
+  - place: crab-meadow-beach
+    minutes: 30
+  - place: wildwood-state-park
+    minutes: 30
+  - place: bayard-cutting-arboretum
+    minutes: 30
+  - place: connetquot-river-state-park-preserve
+    minutes: 30
+  - place: sayville-marina-park
+    minutes: 30
+  - place: shorefront-park-patchogue
+    minutes: 30
+  - place: wertheim-national-wildlife-refuge
+    minutes: 30
+  - place: southaven-county-park
+    minutes: 30
+  - place: vanderbilt-museum
+    minutes: 35
+  - place: hobart-beach-park
+    minutes: 35
+  - place: centerport-beach-park
+    minutes: 35
+  - place: heckscher-state-park
+    minutes: 35
+  - place: sagtikos-manor
+    minutes: 35
+  - place: william-floyd-estate
+    minutes: 35
+  - place: long-island-game-farm
+    minutes: 35
+  - place: splish-splash
+    minutes: 35
+  - place: heckscher-museum-of-art
+    minutes: 40
+  - place: belmont-lake-state-park
+    minutes: 40
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org
+  - type: official
+    label: Discover Long Island
+    url: https://www.discoverlongisland.com/
+  - type: official
+    label: "LIRR: train schedules (many places still need a car)"
+    url: https://www.mta.info/lirr

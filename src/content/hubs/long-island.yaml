@@ -12,6 +12,84 @@ nearby:
     minutes: 70
   - place: montauk-point
     minutes: 105
+  - place: bayard-cutting-arboretum
+    minutes: 5
+  - place: heckscher-state-park
+    minutes: 5
+  - place: benjamins-beach-bay-shore
+    minutes: 5
+  - place: sagtikos-manor
+    minutes: 5
+  - place: connetquot-river-state-park-preserve
+    minutes: 10
+  - place: lakeland-county-park
+    minutes: 10
+  - place: belmont-lake-state-park
+    minutes: 15
+  - place: blydenburgh-county-park
+    minutes: 15
+  - place: sayville-marina-park
+    minutes: 15
+  - place: lake-ronkonkoma-county-park
+    minutes: 15
+  - place: geiger-lake-memorial-park
+    minutes: 15
+  - place: sunken-forest-sailors-haven
+    minutes: 15
+  - place: cherry-grove-and-fire-island-pines
+    minutes: 15
+  - place: robert-moses-state-park
+    minutes: 15
+  - place: captree-state-park
+    minutes: 15
+  - place: caleb-smith-state-park-preserve
+    minutes: 20
+  - place: sweetbriar-nature-center
+    minutes: 20
+  - place: kings-park-psychiatric-center
+    minutes: 20
+  - place: shorefront-park-patchogue
+    minutes: 20
+  - place: brookhaven-ecology-site
+    minutes: 20
+  - place: pinelawn-memorial-park-and-arboretum
+    minutes: 20
+  - place: democrat-point
+    minutes: 20
+  - place: bethpage-state-park
+    minutes: 25
+  - place: old-bethpage-village-restoration
+    minutes: 25
+  - place: nissequogue-river-state-park
+    minutes: 25
+  - place: sunken-meadow-state-park
+    minutes: 25
+  - place: avalon-park-and-preserve
+    minutes: 25
+  - place: white-post-farms
+    minutes: 25
+  - place: walt-whitman-birthplace
+    minutes: 25
+  - place: west-hills-county-park
+    minutes: 25
+  - place: gilgo-state-park
+    minutes: 25
+  - place: tackapausha-preserve
+    minutes: 30
+  - place: tobay-beach
+    minutes: 30
+  - place: massapequa-preserve
+    minutes: 30
+  - place: heckscher-museum-of-art
+    minutes: 30
+  - place: vanderbilt-museum
+    minutes: 30
+  - place: crab-meadow-beach
+    minutes: 30
+  - place: centerport-beach-park
+    minutes: 30
+  - place: oheka-castle
+    minutes: 30
 checkBefore:
   - type: state-park
     label: "NY State Parks: park status and alerts"

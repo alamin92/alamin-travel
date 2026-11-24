@@ -1,0 +1,36 @@
+name: Iron Pier Beach
+state: NY
+region: long-island
+county: Suffolk
+area: Northville
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.townofriverheadny.gov/
+links:
+  - type: official
+    label: "Iron Pier Beach: official page"
+    url: https://www.townofriverheadny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Iron%20Pier%20Beach%2C%20Northville%2C%20NY
+mapQuery: Iron Pier Beach, Northville, NY
+lat: 40.9828
+lon: -72.6119
+kind: beach
+interests:
+  - beach
+  - relax
+  - views
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Riverhead town beach on Long Island Sound with a sandy shore.
+details: A quiet beach on the North Shore. Check the town for access rules.
+warnings:
+  - type: fees
+    text: Beach access can need a town permit or a non-resident fee. Check the town page.
+    verify: true

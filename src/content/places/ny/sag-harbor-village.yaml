@@ -1,0 +1,42 @@
+name: Sag Harbor Village
+state: NY
+region: long-island
+county: Suffolk
+area: Sag Harbor
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.sagharborny.gov/
+links:
+  - type: official
+    label: "Sag Harbor Village: official page"
+    url: https://www.sagharborny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Sag%20Harbor%20Village%2C%20Sag%20Harbor%2C%20NY
+mapQuery: Sag Harbor Village, Sag Harbor, NY
+lat: 41
+lon: -72.293
+kind: town
+interests:
+  - relax
+  - family
+  - photo
+  - history
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A former whaling port on the South Fork with a harbor, shops, historic buildings and a whaling museum.
+details: An easy village walk. The village has old streets, so parking is tight in summer.
+warnings:
+  - type: parking
+    text: Lots can fill on summer weekends. Go early or on a weekday.
+    verify: true
+  - type: crowds
+    text: Summer weekends are very busy.
+    verify: true

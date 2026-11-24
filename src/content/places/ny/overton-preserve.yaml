@@ -1,0 +1,41 @@
+name: Overton Preserve (Coram Ponds)
+state: NY
+region: long-island
+county: Suffolk
+area: Coram
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.brookhavenny.gov/
+links:
+  - type: official
+    label: "Overton Preserve: official page"
+    url: https://www.brookhavenny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Overton%20Preserve%2C%20Coram%2C%20NY
+mapQuery: Overton Preserve, Coram, NY
+lat: 40.864
+lon: -72.992
+kind: hike
+interests:
+  - adventure
+  - nature
+  - rough
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: false
+cost: free
+highlight: false
+summary: A pine-barrens preserve of about 450 acres between Coram and Medford, known for local mountain biking and rolling woodland trails.
+details: It connects to other trails nearby. It is popular with mountain bikers, so hikers should share the trail.
+warnings:
+  - type: safety
+    text: Ticks are common on Long Island trails. Wear long pants, use repellent and check yourself afterward.
+    verify: false
+  - type: safety
+    text: Trails are shared with fast mountain bikers. Stay alert and keep dogs under control.
+    verify: true

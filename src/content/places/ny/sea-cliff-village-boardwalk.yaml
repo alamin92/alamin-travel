@@ -1,0 +1,42 @@
+name: Sea Cliff Village and Boardwalk
+state: NY
+region: long-island
+county: Nassau
+area: Sea Cliff
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.seacliff-ny.gov/
+links:
+  - type: official
+    label: "Sea Cliff Village and Boardwalk: official page"
+    url: https://www.seacliff-ny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Sea%20Cliff%20Village%20and%20Boardwalk%2C%20Sea%20Cliff%2C%20NY
+mapQuery: Sea Cliff Village and Boardwalk, Sea Cliff, NY
+lat: 40.8445
+lon: -73.644
+kind: town
+interests:
+  - relax
+  - photo
+  - family
+  - short-time
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A hilly Victorian-era village on Hempstead Harbor with a small boardwalk, a beach and a walkable main street.
+details: A good short stop for a stroll, ice cream and harbor views. Many of the old houses are private, so enjoy them from the street.
+warnings:
+  - type: parking
+    text: Street parking in the village is limited and can have permit rules. Check posted signs.
+    verify: true
+  - type: fees
+    text: The village beach may be limited to residents or charge a fee. Check the village page.
+    verify: true

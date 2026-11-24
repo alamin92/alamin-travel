@@ -1,0 +1,36 @@
+name: Shoreham Beach
+state: NY
+region: long-island
+county: Suffolk
+area: Shoreham
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.brookhavenny.gov/
+links:
+  - type: official
+    label: "Shoreham Beach: official page"
+    url: https://www.brookhavenny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Shoreham%20Beach%2C%20Shoreham%2C%20NY
+mapQuery: Shoreham Beach, Shoreham, NY
+lat: 40.9469
+lon: -72.9278
+kind: beach
+interests:
+  - beach
+  - relax
+  - views
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Sound-side beach in Shoreham with water views and sunsets.
+details: Beach access can be limited to residents or permit holders, so check the town page first.
+warnings:
+  - type: fees
+    text: Many Long Island Sound beaches limit entry to residents or permit holders. Confirm access before you go.
+    verify: true

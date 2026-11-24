@@ -1,0 +1,40 @@
+name: Cherry Grove and Fire Island Pines
+state: NY
+region: long-island
+county: Suffolk
+area: Fire Island
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nps.gov/fiis/index.htm
+links:
+  - type: nps
+    label: "Cherry Grove and Fire Island Pines: official page"
+    url: https://www.nps.gov/fiis/index.htm
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Cherry%20Grove%20and%20Fire%20Island%20Pines%2C%20Fire%20Island%2C%20NY
+mapQuery: Cherry Grove and Fire Island Pines, Fire Island, NY
+lat: 40.651
+lon: -73.092
+kind: town
+interests:
+  - relax
+  - beach
+  - photo
+  - culture
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - summer
+familyFriendly: false
+cost: paid
+highlight: false
+summary: Two car-free Fire Island communities known for their beaches, boardwalks and long LGBTQ history, reached by ferry.
+details: They are mostly a summer destination. Many services close in the off-season.
+warnings:
+  - type: reservation
+    text: Ferries run seasonally and tickets are sold separately.
+    verify: true
+  - type: closure
+    text: Many businesses close outside the summer season.
+    verify: true

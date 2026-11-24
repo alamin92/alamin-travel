@@ -154,7 +154,9 @@ export function buildPlan(hub: HubData, places: Record<string, PlaceData>, o: Pl
     packing.push('For winter: traction devices (microspikes), warm waterproof boots, and extra time for snowy roads.');
 
   const oldestChecked = stops.map((p) => p.lastChecked).sort()[0] ?? '';
-  return { hub, options: o, days, extras: remaining, mustBook, packing, oldestChecked };
+  // Only the best few leftovers, so the "more time" list stays short in areas with many places.
+  const extras = [...remaining].sort((a, b) => Number(b.place.highlight) - Number(a.place.highlight) || a.minutes - b.minutes).slice(0, 8);
+  return { hub, options: o, days, extras, mustBook, packing, oldestChecked };
 }
 
 // ---------- Document model: one source of content for HTML, text and Word ----------

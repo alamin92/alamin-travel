@@ -1,0 +1,35 @@
+name: Hallockville Museum Farm
+state: NY
+region: long-island
+county: Suffolk
+area: Riverhead
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.hallockville.com/
+links:
+  - type: official
+    label: "Hallockville Museum Farm: official page"
+    url: https://www.hallockville.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Hallockville%20Museum%20Farm%2C%20Riverhead%2C%20NY
+mapQuery: Hallockville Museum Farm, Riverhead, NY
+lat: 40.958
+lon: -72.677
+kind: museum
+interests:
+  - history
+  - family
+  - seasonal
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A historic farm museum with restored buildings, animals and seasonal events like harvest days.
+details: A small, hands-on stop. Check the site for open days.
+warnings: []

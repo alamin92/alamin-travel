@@ -1,0 +1,36 @@
+name: Geiger Lake Memorial Park
+state: NY
+region: long-island
+county: Suffolk
+area: Wyandanch
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://townofbabylonny.gov/563/Geiger-Spray-Park
+links:
+  - type: official
+    label: "Geiger Lake Memorial Park: official page"
+    url: https://townofbabylonny.gov/563/Geiger-Spray-Park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Geiger%20Lake%20Memorial%20Park%2C%20Wyandanch%2C%20NY
+mapQuery: Geiger Lake Memorial Park, Wyandanch, NY
+lat: 40.7544
+lon: -73.3504
+kind: park
+interests:
+  - family
+  - relax
+  - short-time
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Town of Babylon park around a small lake with a spray park, playground and fishing.
+details: Mostly a local family park. The spray park is seasonal and may have a fee.
+warnings:
+  - type: fees
+    text: The spray park charges a daily fee in season. Check the town page.
+    verify: true

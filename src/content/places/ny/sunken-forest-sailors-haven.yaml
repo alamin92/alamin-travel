@@ -1,0 +1,42 @@
+name: Sunken Forest (Sailors Haven)
+state: NY
+region: long-island
+county: Suffolk
+area: Fire Island
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nps.gov/fiis/index.htm
+links:
+  - type: nps
+    label: "Sunken Forest: official page"
+    url: https://www.nps.gov/fiis/index.htm
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Sunken%20Forest%2C%20Fire%20Island%2C%20NY
+mapQuery: Sunken Forest, Fire Island, NY
+lat: 40.6557
+lon: -73.1134
+kind: hike
+interests:
+  - nature
+  - family
+  - beach
+  - photo
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: true
+summary: A rare maritime holly forest on Fire Island, reached by ferry from Sayville, with a boardwalk and a beach.
+details: A boardwalk trail winds through the unusual forest. It is a car-free island visit.
+warnings:
+  - type: reservation
+    text: The ferries run on a seasonal schedule, and tickets are sold separately. Check the ferry operator.
+    verify: true
+  - type: safety
+    text: Ticks are common on Long Island trails. Wear long pants, use repellent and check yourself afterward.
+    verify: false

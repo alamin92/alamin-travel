@@ -1,0 +1,99 @@
+name: Oyster Bay and the Gold Coast
+state: NY
+region: long-island
+county: Nassau
+blurb: The North Shore of Nassau, known for Gold Coast mansions and gardens, Theodore Roosevelt sites, and Long Island Sound beaches.
+nearby:
+  - place: bayville-adventure-park
+    minutes: 5
+  - place: theodore-roosevelt-memorial-park
+    minutes: 5
+  - place: planting-fields-arboretum
+    minutes: 5
+  - place: sagamore-hill
+    minutes: 5
+  - place: muttontown-preserve
+    minutes: 5
+  - place: theodore-roosevelt-sanctuary
+    minutes: 5
+  - place: raynham-hall-museum
+    minutes: 5
+  - place: bailey-arboretum
+    minutes: 5
+  - place: morgan-memorial-park
+    minutes: 10
+  - place: welwyn-preserve
+    minutes: 10
+  - place: cold-spring-harbor-state-park
+    minutes: 10
+  - place: caumsett-state-historic-park
+    minutes: 10
+  - place: heckscher-museum-of-art
+    minutes: 10
+  - place: oheka-castle
+    minutes: 10
+  - place: sea-cliff-village-boardwalk
+    minutes: 15
+  - place: old-westbury-gardens
+    minutes: 15
+  - place: north-hempstead-beach-park
+    minutes: 15
+  - place: garvies-point-museum-and-preserve
+    minutes: 15
+  - place: nassau-county-museum-of-art
+    minutes: 15
+  - place: hobart-beach-park
+    minutes: 15
+  - place: centerport-beach-park
+    minutes: 15
+  - place: walt-whitman-birthplace
+    minutes: 15
+  - place: west-hills-county-park
+    minutes: 15
+  - place: sands-point-preserve
+    minutes: 20
+  - place: bethpage-state-park
+    minutes: 20
+  - place: eisenhower-park
+    minutes: 20
+  - place: clark-botanic-garden
+    minutes: 20
+  - place: manorhaven-beach-park
+    minutes: 20
+  - place: old-bethpage-village-restoration
+    minutes: 20
+  - place: cradle-of-aviation-museum
+    minutes: 20
+  - place: long-island-childrens-museum
+    minutes: 20
+  - place: vanderbilt-museum
+    minutes: 20
+  - place: white-post-farms
+    minutes: 20
+  - place: crab-meadow-beach
+    minutes: 25
+  - place: geiger-lake-memorial-park
+    minutes: 25
+  - place: pinelawn-memorial-park-and-arboretum
+    minutes: 25
+  - place: hempstead-lake-state-park
+    minutes: 30
+  - place: wantagh-park
+    minutes: 30
+  - place: tackapausha-preserve
+    minutes: 30
+  - place: massapequa-preserve
+    minutes: 30
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org
+  - type: official
+    label: Discover Long Island
+    url: https://www.discoverlongisland.com/
+  - type: official
+    label: "LIRR: train schedules (many places still need a car)"
+    url: https://www.mta.info/lirr

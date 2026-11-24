@@ -1,0 +1,37 @@
+name: Sagtikos Manor
+state: NY
+region: long-island
+county: Suffolk
+area: Bay Shore
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://suffolkcountyny.gov/Departments/Parks/Historic-Sites/Sagtikos-Manor
+links:
+  - type: official
+    label: "Sagtikos Manor: official page"
+    url: https://suffolkcountyny.gov/Departments/Parks/Historic-Sites/Sagtikos-Manor
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Sagtikos%20Manor%2C%20Bay%20Shore%2C%20NY
+mapQuery: Sagtikos Manor, Bay Shore, NY
+lat: 40.739
+lon: -73.253
+kind: museum
+interests:
+  - history
+  - culture
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A historic manor house in Bay Shore tied to a long-running family estate and the American Revolution era.
+details: Opening is limited and often by tour. Check the county page.
+warnings:
+  - type: reservation
+    text: The manor opens for limited tours and events. Check the county page.
+    verify: true

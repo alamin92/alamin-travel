@@ -1,0 +1,41 @@
+name: Fort Tilden and Battery Harris
+state: NY
+region: nyc
+county: Queens
+alsoRegions:
+  - long-island
+area: Rockaway
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nps.gov/gate/index.htm
+links:
+  - type: nps
+    label: "Fort Tilden and Battery Harris: official page"
+    url: https://www.nps.gov/gate/index.htm
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Fort%20Tilden%20and%20Battery%20Harris%2C%20Rockaway%2C%20NY
+mapQuery: Fort Tilden and Battery Harris, Rockaway, NY
+lat: 40.558
+lon: -73.886
+kind: landmark
+interests:
+  - history
+  - views
+  - photo
+  - beach
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A former coastal defense base in Gateway National Recreation Area on the Rockaway peninsula, with old gun batteries, an observation tower and an ocean beach.
+details: Reach it by car or bike from the Rockaways. The beach is a quieter option than Rockaway Beach.
+warnings:
+  - type: safety
+    text: Stay out of closed buildings and tunnels. Check the NPS page for beach status.
+    verify: true

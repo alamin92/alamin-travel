@@ -1,0 +1,39 @@
+name: Lake Ronkonkoma County Park
+state: NY
+region: long-island
+county: Suffolk
+area: Lake Ronkonkoma
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://suffolkcountyny.gov/Departments/Parks/Our-Parks/Lake-Ronkonkoma-County-Park
+links:
+  - type: official
+    label: "Lake Ronkonkoma County Park: official page"
+    url: https://suffolkcountyny.gov/Departments/Parks/Our-Parks/Lake-Ronkonkoma-County-Park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Lake%20Ronkonkoma%20County%20Park%2C%20Lake%20Ronkonkoma%2C%20NY
+mapQuery: Lake Ronkonkoma County Park, Lake Ronkonkoma, NY
+lat: 40.8224
+lon: -73.1151
+kind: beach
+interests:
+  - relax
+  - family
+  - beach
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Suffolk County park on a large glacial lake with a swimming beach and a walking loop.
+details: The lake is known in local lore. Swimming depends on lifeguards and water quality.
+warnings:
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: true
+  - type: fees
+    text: Entry may need a county Green Key Card for residents or a fee. Check the county page.
+    verify: true

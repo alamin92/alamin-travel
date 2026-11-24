@@ -1,0 +1,41 @@
+name: West Hills County Park (Jayne's Hill)
+state: NY
+region: long-island
+county: Suffolk
+area: West Hills
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://suffolkcountyny.gov/Departments/Parks/Our-Parks/West-Hills-County-Park
+links:
+  - type: official
+    label: "West Hills County Park: official page"
+    url: https://suffolkcountyny.gov/Departments/Parks/Our-Parks/West-Hills-County-Park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=West%20Hills%20County%20Park%2C%20West%20Hills%2C%20NY
+mapQuery: West Hills County Park, West Hills, NY
+lat: 40.818
+lon: -73.429
+kind: hike
+interests:
+  - nature
+  - views
+  - adventure
+difficulty: moderate
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A county park on the Jayne's Hill ridge, the highest natural point on Long Island at about 400 feet, with wooded trails.
+details: The "summit" is a modest hill, but the trails are the island's best change of scenery.
+warnings:
+  - type: safety
+    text: Ticks are common on Long Island trails. Wear long pants, use repellent and check yourself afterward.
+    verify: false
+  - type: other
+    text: The summit is in the woods with limited views. Do not expect an open lookout.
+    verify: false

@@ -1,0 +1,35 @@
+name: Holtsville Ecology Site (Brookhaven)
+state: NY
+region: long-island
+county: Suffolk
+area: Holtsville
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.brookhavenny.gov/
+links:
+  - type: official
+    label: "Holtsville Ecology Site: official page"
+    url: https://www.brookhavenny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Holtsville%20Ecology%20Site%2C%20Holtsville%2C%20NY
+mapQuery: Holtsville Ecology Site, Holtsville, NY
+lat: 40.7995
+lon: -73.04
+kind: park
+interests:
+  - family
+  - nature
+  - relax
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Town of Brookhaven wildlife site with native and rescued animals, trails and a pond.
+details: It is a small, family-focused stop. Check the town page for current hours.
+warnings: []

@@ -1,0 +1,41 @@
+name: Orient Point Ferry (Cross Sound Ferry)
+state: NY
+region: long-island
+county: Suffolk
+area: Orient Point
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.longislandferry.com/
+links:
+  - type: official
+    label: "Orient Point Ferry: official page"
+    url: https://www.longislandferry.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Orient%20Point%20Ferry%2C%20Orient%20Point%2C%20NY
+mapQuery: Orient Point Ferry, Orient Point, NY
+lat: 41.155
+lon: -72.2416
+kind: activity
+interests:
+  - adventure
+  - family
+  - views
+difficulty: n/a
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A car and passenger ferry from the tip of the North Fork to New London, Connecticut.
+details: It is useful if you are driving between Long Island and New England, and a good scenic crossing.
+warnings:
+  - type: reservation
+    text: Vehicle spaces can fill on busy days. Check the site for booking.
+    verify: true
+  - type: fees
+    text: The fare is charged.
+    verify: true

@@ -1,0 +1,40 @@
+name: Westhampton Dwarf Pine Plains Preserve
+state: NY
+region: long-island
+county: Suffolk
+area: Westhampton Beach
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://dec.ny.gov/places/westhampton-dwarf-pine-plains-pine-barrens-state-forest
+links:
+  - type: official
+    label: "Westhampton Dwarf Pine Plains Preserve: official page"
+    url: https://dec.ny.gov/places/westhampton-dwarf-pine-plains-pine-barrens-state-forest
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Westhampton%20Dwarf%20Pine%20Plains%20Preserve%2C%20Westhampton%20Beach%2C%20NY
+mapQuery: Westhampton Dwarf Pine Plains Preserve, Westhampton Beach, NY
+lat: 40.8632
+lon: -72.646
+kind: hike
+interests:
+  - nature
+  - photo
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A rare dwarf pitch-pine forest in the Pine Barrens with a short marked trail.
+details: The trail is short and can be overgrown. It is one of a few dwarf pine plains in the world.
+warnings:
+  - type: safety
+    text: Ticks are common on Long Island trails. Wear long pants, use repellent and check yourself afterward.
+    verify: false
+  - type: safety
+    text: The trail can be overgrown. Wear long pants and check the DEC page for current notes.
+    verify: false

@@ -1,0 +1,37 @@
+name: Hobart Beach Park (Eatons Neck)
+state: NY
+region: long-island
+county: Suffolk
+area: Eatons Neck
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://huntingtonny.gov/
+links:
+  - type: official
+    label: "Hobart Beach Park: official page"
+    url: https://huntingtonny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Hobart%20Beach%20Park%2C%20Eatons%20Neck%2C%20NY
+mapQuery: Hobart Beach Park, Eatons Neck, NY
+lat: 40.9228
+lon: -73.4037
+kind: beach
+interests:
+  - beach
+  - relax
+  - family
+  - views
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Town of Huntington Sound beach on the Eatons Neck peninsula with views of the Sound.
+details: Beach access is usually by town resident permit or a daily fee for others.
+warnings:
+  - type: fees
+    text: Entry usually needs a town beach permit or a non-resident fee. Check the town page.
+    verify: true

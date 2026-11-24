@@ -50,6 +50,13 @@ const live = countries.flatMap((c) => c.states.map((s) => ({ ...s, country: c.id
     </a>
   </div>
 
+  <p class="start-guide">
+    <strong>Where to start?</strong>
+    Know where you're going? <a href="/planner">Go straight to the plan</a>.
+    New to an area? <a href="/explore">Explore</a> it first.
+    Want ideas before you plan? <a href="/browse">Browse</a>, then plan.
+  </p>
+
   <h2 id="days">I have X days in a place</h2>
   <form id="days-form" class="card form row" onsubmit="return false">
     <AreaPicker hubs={hubs} label="Where will you stay?" />

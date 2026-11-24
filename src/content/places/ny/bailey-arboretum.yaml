@@ -1,0 +1,36 @@
+name: Bailey Arboretum
+state: NY
+region: long-island
+county: Nassau
+area: Lattingtown
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nassaucountyny.gov/2818/Bailey-Arboretum
+links:
+  - type: official
+    label: "Bailey Arboretum: official page"
+    url: https://www.nassaucountyny.gov/2818/Bailey-Arboretum
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Bailey%20Arboretum%2C%20Lattingtown%2C%20NY
+mapQuery: Bailey Arboretum, Lattingtown, NY
+lat: 40.894
+lon: -73.583
+kind: park
+interests:
+  - relax
+  - nature
+  - photo
+  - family
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A small county arboretum with specimen trees, gardens and paths.
+details: A quiet short stop on the North Shore. Check hours, which can be limited.
+warnings: []

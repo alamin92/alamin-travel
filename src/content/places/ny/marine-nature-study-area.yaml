@@ -1,0 +1,39 @@
+name: Marine Nature Study Area
+state: NY
+region: long-island
+county: Nassau
+area: Oceanside
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.hempsteadny.gov/
+links:
+  - type: official
+    label: "Marine Nature Study Area: official page"
+    url: https://www.hempsteadny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Marine%20Nature%20Study%20Area%2C%20Oceanside%2C%20NY
+mapQuery: Marine Nature Study Area, Oceanside, NY
+lat: 40.619
+lon: -73.642
+kind: hike
+interests:
+  - nature
+  - family
+  - relax
+  - photo
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A salt marsh preserve in Oceanside with a flat trail, boardwalks and a nature center, good for birds.
+details: One of the best easy nature walks on the south shore. The nature center is open on limited days.
+warnings:
+  - type: safety
+    text: Ticks are common on Long Island trails. Wear long pants, use repellent and check yourself afterward.
+    verify: false

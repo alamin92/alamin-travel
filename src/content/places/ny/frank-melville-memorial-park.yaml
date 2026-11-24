@@ -1,0 +1,36 @@
+name: Frank Melville Memorial Park
+state: NY
+region: long-island
+county: Suffolk
+area: Setauket
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://frankmelvillepark.org/
+links:
+  - type: official
+    label: "Frank Melville Memorial Park: official page"
+    url: https://frankmelvillepark.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Frank%20Melville%20Memorial%20Park%2C%20Setauket%2C%20NY
+mapQuery: Frank Melville Memorial Park, Setauket, NY
+lat: 40.92
+lon: -73.11
+kind: park
+interests:
+  - relax
+  - nature
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A small nonprofit park in Setauket with a mill pond, a bridge, gardens and paths.
+details: A pretty stop for a short walk in the Three Village area.
+warnings: []

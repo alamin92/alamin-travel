@@ -1,0 +1,38 @@
+name: Shinnecock Nation Cultural Center and Museum
+state: NY
+region: long-island
+county: Suffolk
+area: Southampton
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.shinnecock-nsn.gov/cultural-resources
+links:
+  - type: official
+    label: "Shinnecock Nation Cultural Center and Museum: official page"
+    url: https://www.shinnecock-nsn.gov/cultural-resources
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Shinnecock%20Nation%20Cultural%20Center%20and%20Museum%2C%20Southampton%2C%20NY
+mapQuery: Shinnecock Nation Cultural Center and Museum, Southampton, NY
+lat: 40.9001
+lon: -72.3694
+kind: museum
+interests:
+  - culture
+  - history
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: low
+highlight: false
+summary: A cultural center and museum of the Shinnecock Nation, sharing the history and culture of the tribe on its homelands.
+details: Visit respectfully. Check with the tribe for visiting hours and rules, since sources disagree on the museum's own website.
+warnings:
+  - type: other
+    text: The museum is on Shinnecock Nation land. Confirm hours and visitor rules with the Nation, and respect posted guidance.
+    verify: true

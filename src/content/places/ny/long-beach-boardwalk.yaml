@@ -1,0 +1,43 @@
+name: Long Beach Boardwalk and Beach
+state: NY
+region: long-island
+county: Nassau
+area: Long Beach
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.longbeachny.gov/
+links:
+  - type: official
+    label: "Long Beach Boardwalk and Beach: official page"
+    url: https://www.longbeachny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Long%20Beach%20Boardwalk%20and%20Beach%2C%20Long%20Beach%2C%20NY
+mapQuery: Long Beach Boardwalk and Beach, Long Beach, NY
+lat: 40.588
+lon: -73.657
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+  - photo
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: true
+summary: A city on a barrier island with a wide ocean beach, a boardwalk of about two miles and a walkable downtown.
+details: You can get there by LIRR train, then walk to the beach. Beach access needs a beach pass in season.
+warnings:
+  - type: fees
+    text: Beach entry needs a daily or seasonal pass in season. Check the city page.
+    verify: true
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: true
+  - type: parking
+    text: Lots can fill on summer weekends. Go early or on a weekday.
+    verify: true

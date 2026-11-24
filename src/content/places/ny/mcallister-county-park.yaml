@@ -1,0 +1,42 @@
+name: McAllister County Park
+state: NY
+region: long-island
+county: Suffolk
+area: Mount Sinai
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://suffolkcountyny.gov/Departments/Parks/Our-Parks/McAllister-County-Park
+links:
+  - type: official
+    label: "McAllister County Park: official page"
+    url: https://suffolkcountyny.gov/Departments/Parks/Our-Parks/McAllister-County-Park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=McAllister%20County%20Park%2C%20Mount%20Sinai%2C%20NY
+mapQuery: McAllister County Park, Mount Sinai, NY
+lat: 40.9705
+lon: -73.0838
+kind: hike
+interests:
+  - nature
+  - views
+  - relax
+  - photo
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A Suffolk County park on Long Island Sound near Port Jefferson with trails through woods and dunes, and a salt marsh.
+details: Parking is limited. Park only in the marked lot to avoid tickets.
+warnings:
+  - type: parking
+    text: Parking is limited, and the county warns visitors to use only the marked lot.
+    verify: true
+  - type: safety
+    text: Ticks are common on Long Island trails. Wear long pants, use repellent and check yourself afterward.
+    verify: false

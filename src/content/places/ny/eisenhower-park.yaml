@@ -1,0 +1,35 @@
+name: Eisenhower Park
+state: NY
+region: long-island
+county: Nassau
+area: East Meadow
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nassaucountyny.gov/2797/Eisenhower-Park
+links:
+  - type: official
+    label: "Eisenhower Park: official page"
+    url: https://www.nassaucountyny.gov/2797/Eisenhower-Park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Eisenhower%20Park%2C%20East%20Meadow%2C%20NY
+mapQuery: Eisenhower Park, East Meadow, NY
+lat: 40.738
+lon: -73.575
+kind: park
+interests:
+  - family
+  - relax
+  - adventure
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A very large Nassau County park with walking and running paths, playgrounds, a lake, golf, a pool and concert and event spaces.
+details: A convenient family park in the middle of the island. Some facilities like the pool and golf charge fees.
+warnings: []
