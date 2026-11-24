@@ -40,6 +40,8 @@ nearby:
     minutes: 15
   - place: crab-meadow-beach
     minutes: 15
+  - place: gold-coast-mansions-drive
+    minutes: 15
   - place: bethpage-state-park
     minutes: 20
   - place: morgan-memorial-park
@@ -81,8 +83,6 @@ nearby:
   - place: nassau-county-museum-of-art
     minutes: 25
   - place: welwyn-preserve
-    minutes: 25
-  - place: massapequa-preserve
     minutes: 25
 checkBefore:
   - type: state-park

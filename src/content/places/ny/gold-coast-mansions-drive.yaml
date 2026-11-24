@@ -1,0 +1,39 @@
+name: Gold Coast Mansions of Long Island (self-guided route)
+state: NY
+region: long-island
+county: Nassau
+area: Oyster Bay and Huntington
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.discoverlongisland.com/
+links:
+  - type: official
+    label: "Gold Coast Mansions of Long Island: official page"
+    url: https://www.discoverlongisland.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Gold%20Coast%20Mansions%20of%20Long%20Island%2C%20Oyster%20Bay%20and%20Huntington%2C%20NY
+mapQuery: Gold Coast Mansions of Long Island, Oyster Bay and Huntington, NY
+lat: 40.86
+lon: -73.55
+kind: drive
+interests:
+  - history
+  - photo
+  - culture
+  - views
+difficulty: n/a
+timeMinutes: 360
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: varies
+highlight: true
+summary: "A theme for a day: the North Shore estates built in the early 1900s, several of which are open to the public."
+details: "Open to visit: Old Westbury Gardens, Planting Fields (Coe Hall), Sands Point Preserve (Hempstead House), the Vanderbilt Museum, Sagamore Hill and Oheka Castle by tour. Most other estates are private, so view them from public roads only."
+warnings:
+  - type: other
+    text: Most Gold Coast estates are private property. Visit only the ones open to the public, and check each one for tour times and tickets.
+    verify: false

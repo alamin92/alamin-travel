@@ -54,6 +54,8 @@ nearby:
     minutes: 20
   - place: massapequa-preserve
     minutes: 20
+  - place: gold-coast-mansions-drive
+    minutes: 20
   - place: bayville-adventure-park
     minutes: 25
   - place: theodore-roosevelt-memorial-park
@@ -81,8 +83,6 @@ nearby:
   - place: sagamore-hill
     minutes: 30
   - place: cold-spring-harbor-state-park
-    minutes: 30
-  - place: heckscher-museum-of-art
     minutes: 30
 checkBefore:
   - type: state-park

@@ -20,6 +20,8 @@ nearby:
     minutes: 5
   - place: bailey-arboretum
     minutes: 5
+  - place: gold-coast-mansions-drive
+    minutes: 5
   - place: morgan-memorial-park
     minutes: 10
   - place: welwyn-preserve
@@ -81,8 +83,6 @@ nearby:
   - place: wantagh-park
     minutes: 30
   - place: tackapausha-preserve
-    minutes: 30
-  - place: massapequa-preserve
     minutes: 30
 checkBefore:
   - type: state-park

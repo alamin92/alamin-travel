@@ -78,11 +78,11 @@ nearby:
     minutes: 40
   - place: democrat-point
     minutes: 40
+  - place: gold-coast-mansions-drive
+    minutes: 40
   - place: bayville-adventure-park
     minutes: 45
   - place: theodore-roosevelt-memorial-park
-    minutes: 45
-  - place: sagamore-hill
     minutes: 45
 checkBefore:
   - type: state-park
