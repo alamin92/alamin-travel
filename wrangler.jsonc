@@ -5,5 +5,8 @@
   "assets": {
     "directory": "./dist",
     "not_found_handling": "404-page"
-  }
+  },
+  // Serve the site on its own domain. Cloudflare creates the DNS record on deploy,
+  // because alaminh.com is already on this account.
+  "routes": [{ "pattern": "travel.alaminh.com", "custom_domain": true }]
 }
