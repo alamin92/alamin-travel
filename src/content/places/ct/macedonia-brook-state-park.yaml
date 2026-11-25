@@ -1,0 +1,38 @@
+name: Macedonia Brook State Park
+country: us
+state: CT
+region: western-connecticut
+county: Litchfield
+area: Kent
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://portal.ct.gov/deep/state-parks/macedonia-brook-state-park
+links:
+  - type: state-park
+    label: "Macedonia Brook State Park: official page"
+    url: https://portal.ct.gov/deep/state-parks/macedonia-brook-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Macedonia%20Brook%20State%20Park%2C%20Kent%2C%20CT
+mapQuery: Macedonia Brook State Park, Kent, CT
+lat: 41.757
+lon: -73.496
+kind: hike
+interests:
+  - nature
+  - adventure
+  - views
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A mountain park of ridge trails and viewpoints, with a campground.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

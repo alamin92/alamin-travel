@@ -1,0 +1,70 @@
+name: Hudson (Columbia County)
+country: us
+state: NY
+region: hudson-valley
+county: Columbia
+blurb: A small city with antique shops and restaurants on Warren Street, and Olana and Lindenwald nearby.
+nearby:
+  - place: hudson-warren-street
+    minutes: 5
+  - place: olana
+    minutes: 5
+  - place: thomas-cole-site
+    minutes: 10
+  - place: high-falls-claverack
+    minutes: 15
+  - place: martin-van-buren-nhs
+    minutes: 20
+  - place: artists-rock-and-marys-glen
+    minutes: 25
+  - place: clermont-state-historic-site
+    minutes: 25
+  - place: lake-taghkanic-state-park
+    minutes: 25
+  - place: north-south-lake
+    minutes: 25
+  - place: samascott-orchards
+    minutes: 25
+  - place: kaaterskill-falls
+    minutes: 30
+  - place: kaaterskill-wild-forest
+    minutes: 30
+  - place: saugerties-lighthouse
+    minutes: 30
+  - place: copake-iron-works
+    minutes: 35
+  - place: opus-40
+    minutes: 35
+  - place: plattekill-clove
+    minutes: 35
+  - place: taconic-state-park
+    minutes: 35
+  - place: zoom-flume
+    minutes: 35
+  - place: ferncliff-forest
+    minutes: 45
+  - place: overlook-mountain
+    minutes: 45
+  - place: woodstock-village
+    minutes: 45
+  - place: catskill-mountain-railroad
+    minutes: 50
+  - place: diamond-notch-falls
+    minutes: 50
+  - place: five-rivers-center
+    minutes: 50
+  - place: hudson-river-maritime-museum
+    minutes: 50
+  - place: hunter-mountain-fire-tower
+    minutes: 50
+  - place: hunter-mountain
+    minutes: 50
+  - place: windham-mountain
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

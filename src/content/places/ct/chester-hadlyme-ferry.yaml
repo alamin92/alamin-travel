@@ -1,0 +1,38 @@
+name: Chester-Hadlyme Ferry
+country: us
+state: CT
+region: central-connecticut
+county: Middlesex
+area: Hadlyme
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://portal.ct.gov/dot/
+links:
+  - type: official
+    label: "Chester-Hadlyme Ferry: official page"
+    url: https://portal.ct.gov/dot/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Chester-Hadlyme%20Ferry%2C%20Hadlyme%2C%20CT
+mapQuery: Chester-Hadlyme Ferry, Hadlyme, CT
+lat: 41.404
+lon: -72.429
+kind: activity
+interests:
+  - family
+  - views
+  - photo
+difficulty: n/a
+timeMinutes: 45
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A small ferry across the Connecticut River, one of the oldest in the country, near Gillette Castle.
+warnings:
+  - type: closure
+    text: Runs seasonally. Check the schedule.
+    verify: true

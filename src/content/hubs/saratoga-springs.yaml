@@ -10,6 +10,24 @@ nearby:
     minutes: 5
   - place: saratoga-national-historical-park
     minutes: 30
+  - place: congress-park
+    minutes: 5
+  - place: national-museum-of-racing
+    minutes: 5
+  - place: saratoga-automobile-museum
+    minutes: 5
+  - place: yaddo-gardens
+    minutes: 5
+  - place: moreau-lake-state-park
+    minutes: 25
+  - place: central-park-schenectady
+    minutes: 45
+  - place: cohoes-falls
+    minutes: 45
+  - place: hadley-mountain-fire-tower
+    minutes: 45
+  - place: peebles-island-state-park
+    minutes: 45
 checkBefore:
   - type: state-park
     label: "NY State Parks: park status and alerts"

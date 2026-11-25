@@ -1,0 +1,35 @@
+name: Sampson State Park
+country: us
+state: NY
+region: finger-lakes
+county: Seneca
+area: Romulus
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/sampson-state-park
+links:
+  - type: state-park
+    label: "Sampson State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/sampson-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Sampson%20State%20Park%2C%20Romulus%2C%20NY
+mapQuery: Sampson State Park, Romulus, NY
+lat: 42.7338
+lon: -76.8758
+kind: park
+interests:
+  - family
+  - relax
+  - history
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A former naval training base on Seneca Lake with a beach, marina, military museum and campground.
+warnings: []

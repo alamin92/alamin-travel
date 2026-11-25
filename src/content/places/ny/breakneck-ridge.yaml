@@ -1,0 +1,45 @@
+name: Breakneck Ridge
+country: us
+state: NY
+region: hudson-valley
+county: Putnam
+area: Cold Spring
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/hudson-highlands-state-park-preserve
+links:
+  - type: state-park
+    label: "Breakneck Ridge: official page"
+    url: https://parks.ny.gov/visit/state-parks/hudson-highlands-state-park-preserve
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Breakneck%20Ridge%2C%20Cold%20Spring%2C%20NY
+mapQuery: Breakneck Ridge, Cold Spring, NY
+lat: 41.4311
+lon: -73.9493
+kind: hike
+interests:
+  - adventure
+  - rough
+  - views
+difficulty: hard
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: false
+cost: free
+highlight: true
+summary: A steep, rocky scramble up a Hudson Highlands ridge with views over the river, one of the most popular hikes near New York City.
+details: The Wilkinson Memorial and Brook trailheads are nearby.
+warnings:
+  - type: safety
+    text: The route is a steep scramble with hand-over-hand sections. It is not for small children or wet weather.
+    verify: true
+  - type: crowds
+    text: "Very busy on weekends. Take the Metro-North train if you can: parking is limited."
+    verify: true
+  - type: parking
+    text: Parking on Route 9D is limited and enforced.
+    verify: true

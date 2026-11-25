@@ -150,3 +150,6 @@ button.chip.ghost { border-color: var(--line); color: var(--text); }
 .crumb a { text-decoration: none; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .start-guide { text-align: center; color: var(--muted); margin: 18px auto 0; max-width: 760px; font-size: .95rem; }
+header.site nav a small { display: block; font-size: .65rem; font-weight: 400; color: var(--muted); text-align: center; line-height: 1; margin-top: 2px; }
+@media (max-width: 720px) { header.site nav a small { display: none; } }
+header.site nav a { display: inline-block; vertical-align: top; }

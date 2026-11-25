@@ -1,0 +1,24 @@
+name: Bethel and Sullivan County
+country: us
+state: NY
+region: catskills
+county: Sullivan
+blurb: The Woodstock festival site and quiet Catskill lakes and rivers in Sullivan County.
+nearby:
+  - place: bethel-woods
+    minutes: 5
+  - place: lake-superior-state-park
+    minutes: 5
+  - place: roebling-delaware-aqueduct
+    minutes: 30
+  - place: hawks-nest
+    minutes: 45
+  - place: red-hill-fire-tower
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

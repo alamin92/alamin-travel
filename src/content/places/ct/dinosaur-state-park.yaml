@@ -1,0 +1,36 @@
+name: Dinosaur State Park
+country: us
+state: CT
+region: central-connecticut
+county: Hartford
+area: Rocky Hill
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://portal.ct.gov/deep/state-parks/dinosaur-state-park
+links:
+  - type: state-park
+    label: "Dinosaur State Park: official page"
+    url: https://portal.ct.gov/deep/state-parks/dinosaur-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Dinosaur%20State%20Park%2C%20Rocky%20Hill%2C%20CT
+mapQuery: Dinosaur State Park, Rocky Hill, CT
+lat: 41.656
+lon: -72.646
+kind: museum
+interests:
+  - family
+  - history
+  - nature
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: low
+highlight: false
+summary: A state park with a large trackway of real dinosaur footprints under a dome, and a nature trail.
+warnings: []

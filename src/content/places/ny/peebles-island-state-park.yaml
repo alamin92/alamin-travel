@@ -1,0 +1,35 @@
+name: Peebles Island State Park
+country: us
+state: NY
+region: capital-saratoga
+county: Saratoga
+area: Waterford
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/peebles-island-state-park
+links:
+  - type: state-park
+    label: "Peebles Island State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/peebles-island-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Peebles%20Island%20State%20Park%2C%20Waterford%2C%20NY
+mapQuery: Peebles Island State Park, Waterford, NY
+lat: 42.7811
+lon: -73.6844
+kind: park
+interests:
+  - relax
+  - family
+  - nature
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: An island park at the meeting of the Hudson and Mohawk with trails and river views.
+warnings: []

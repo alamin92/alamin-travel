@@ -1,0 +1,35 @@
+name: East Rock Park
+country: us
+state: CT
+region: central-connecticut
+county: New Haven
+area: New Haven
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.cityofnewhaven.com/
+links:
+  - type: official
+    label: "East Rock Park: official page"
+    url: https://www.cityofnewhaven.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=East%20Rock%20Park%2C%20New%20Haven%2C%20CT
+mapQuery: East Rock Park, New Haven, CT
+lat: 41.325
+lon: -72.9103
+kind: viewpoint
+interests:
+  - views
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A city park with a drive or hike up East Rock for views of New Haven and Long Island Sound.
+warnings: []

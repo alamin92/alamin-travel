@@ -1,0 +1,36 @@
+name: The Met Cloisters
+country: us
+state: NY
+region: nyc
+county: New York
+area: Fort Tryon Park
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.metmuseum.org/visit/plan-your-visit/met-cloisters
+links:
+  - type: official
+    label: "The Met Cloisters: official page"
+    url: https://www.metmuseum.org/visit/plan-your-visit/met-cloisters
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=The%20Met%20Cloisters%2C%20Fort%20Tryon%20Park%2C%20NY
+mapQuery: The Met Cloisters, Fort Tryon Park, NY
+lat: 40.8649
+lon: -73.9319
+kind: museum
+interests:
+  - culture
+  - history
+  - views
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A museum of medieval art in a castle-like building on a hilltop above the Hudson.
+warnings: []

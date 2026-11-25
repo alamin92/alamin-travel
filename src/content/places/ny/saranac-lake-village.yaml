@@ -1,0 +1,36 @@
+name: Saranac Lake Village
+country: us
+state: NY
+region: adirondacks
+county: Franklin
+area: Saranac Lake
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.saranaclake.com/
+links:
+  - type: official
+    label: "Saranac Lake Village: official page"
+    url: https://www.saranaclake.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Saranac%20Lake%20Village%2C%20Saranac%20Lake%2C%20NY
+mapQuery: Saranac Lake Village, Saranac Lake, NY
+lat: 44.3295
+lon: -74.1313
+kind: town
+interests:
+  - relax
+  - family
+  - history
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: free
+highlight: false
+summary: A mountain village with a lakeside trail, shops and the Robert Louis Stevenson cottage.
+warnings: []

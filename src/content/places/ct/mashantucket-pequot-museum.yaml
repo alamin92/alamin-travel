@@ -1,0 +1,36 @@
+name: Mashantucket Pequot Museum and Research Center
+country: us
+state: CT
+region: eastern-connecticut
+county: New London
+area: Mashantucket
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.pequotmuseum.org/
+links:
+  - type: official
+    label: "Mashantucket Pequot Museum and Research Center: official page"
+    url: https://www.pequotmuseum.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mashantucket%20Pequot%20Museum%20and%20Research%20Center%2C%20Mashantucket%2C%20CT
+mapQuery: Mashantucket Pequot Museum and Research Center, Mashantucket, CT
+lat: 41.473
+lon: -71.964
+kind: museum
+interests:
+  - culture
+  - history
+  - family
+difficulty: n/a
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A large museum of Native history and culture run by the Mashantucket Pequot Tribal Nation.
+warnings: []

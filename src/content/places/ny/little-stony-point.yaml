@@ -1,0 +1,36 @@
+name: Little Stony Point
+country: us
+state: NY
+region: hudson-valley
+county: Putnam
+area: Cold Spring
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/hudson-highlands-state-park-preserve
+links:
+  - type: state-park
+    label: "Little Stony Point: official page"
+    url: https://parks.ny.gov/visit/state-parks/hudson-highlands-state-park-preserve
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Little%20Stony%20Point%2C%20Cold%20Spring%2C%20NY
+mapQuery: Little Stony Point, Cold Spring, NY
+lat: 41.4264
+lon: -73.9656
+kind: park
+interests:
+  - relax
+  - views
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A small peninsula park on the Hudson with a short loop and river views.
+warnings: []

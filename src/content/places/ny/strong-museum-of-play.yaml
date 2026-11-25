@@ -1,0 +1,35 @@
+name: The Strong National Museum of Play
+country: us
+state: NY
+region: finger-lakes
+county: Monroe
+area: Rochester
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.museumofplay.org/
+links:
+  - type: official
+    label: "The Strong National Museum of Play: official page"
+    url: https://www.museumofplay.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=The%20Strong%20National%20Museum%20of%20Play%2C%20Rochester%2C%20NY
+mapQuery: The Strong National Museum of Play, Rochester, NY
+lat: 43.155
+lon: -77.607
+kind: museum
+interests:
+  - family
+  - culture
+difficulty: n/a
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A huge hands-on museum of toys and games, with a butterfly garden.
+warnings: []

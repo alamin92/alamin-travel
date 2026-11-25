@@ -1,0 +1,37 @@
+name: Barberville Falls
+country: us
+state: NY
+region: capital-saratoga
+county: Rensselaer
+area: Poestenkill
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.rensselaercounty.org/
+links:
+  - type: official
+    label: "Barberville Falls: official page"
+    url: https://www.rensselaercounty.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Barberville%20Falls%2C%20Poestenkill%2C%20NY
+mapQuery: Barberville Falls, Poestenkill, NY
+lat: 42.6856
+lon: -73.5375
+kind: waterfall
+interests:
+  - nature
+  - photo
+difficulty: easy
+timeMinutes: 60
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A small waterfall on a creek in Rensselaer County.
+warnings:
+  - type: other
+    text: Access and parking are not confirmed. Check local sources before you go.
+    verify: true

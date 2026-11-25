@@ -1,0 +1,44 @@
+name: Block Island
+country: us
+state: RI
+region: south-county-block-island
+county: Washington
+blurb: A small ferry island of bluffs, beaches and bike roads.
+nearby:
+  - place: block-island
+    minutes: 5
+  - place: burlingame-state-park
+    minutes: 30
+  - place: ninigret-nwr
+    minutes: 30
+  - place: point-judith-lighthouse
+    minutes: 30
+  - place: scarborough-state-beach
+    minutes: 30
+  - place: trustom-pond-nwr
+    minutes: 30
+  - place: misquamicut-state-beach
+    minutes: 35
+  - place: napatree-point
+    minutes: 40
+  - place: narragansett-beach
+    minutes: 40
+  - place: watch-hill-and-carousel
+    minutes: 40
+  - place: beavertail-state-park
+    minutes: 45
+  - place: brenton-point-state-park
+    minutes: 45
+  - place: fort-adams-state-park
+    minutes: 50
+  - place: newport-mansions
+    minutes: 50
+  - place: ocean-drive-newport
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: RI State Parks and Beaches
+    url: https://riparks.ri.gov/
+  - type: official
+    label: "Visit Rhode Island: official tourism"
+    url: https://www.visitrhodeisland.com/

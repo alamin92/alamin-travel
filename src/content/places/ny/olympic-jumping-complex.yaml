@@ -1,0 +1,35 @@
+name: Lake Placid Olympic Jumping Complex
+country: us
+state: NY
+region: adirondacks
+county: Essex
+area: Lake Placid
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.whiteface.com/
+links:
+  - type: official
+    label: "Lake Placid Olympic Jumping Complex: official page"
+    url: https://www.whiteface.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Lake%20Placid%20Olympic%20Jumping%20Complex%2C%20Lake%20Placid%2C%20NY
+mapQuery: Lake Placid Olympic Jumping Complex, Lake Placid, NY
+lat: 44.2318
+lon: -73.9535
+kind: activity
+interests:
+  - views
+  - family
+  - history
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: The ski-jump towers from the 1932 and 1980 Winter Olympics, with an elevator and a summer view.
+warnings: []

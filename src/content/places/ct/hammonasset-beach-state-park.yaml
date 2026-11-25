@@ -1,0 +1,42 @@
+name: Hammonasset Beach State Park
+country: us
+state: CT
+region: central-connecticut
+county: New Haven
+area: Madison
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://portal.ct.gov/deep/state-parks/hammonasset-beach-state-park
+links:
+  - type: state-park
+    label: "Hammonasset Beach State Park: official page"
+    url: https://portal.ct.gov/deep/state-parks/hammonasset-beach-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Hammonasset%20Beach%20State%20Park%2C%20Madison%2C%20CT
+mapQuery: Hammonasset Beach State Park, Madison, CT
+lat: 41.2698
+lon: -72.5591
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+  - nature
+difficulty: easy
+timeMinutes: 300
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: true
+summary: Connecticut's largest shoreline park, with two miles of beach, a boardwalk, a nature center and a campground.
+warnings:
+  - type: parking
+    text: The lots fill on summer weekends. Go early.
+    verify: true
+  - type: fees
+    text: An entry fee applies in season.
+    verify: true

@@ -1,0 +1,35 @@
+name: Mount Morris Dam and Hogsback Overlook
+country: us
+state: NY
+region: finger-lakes
+county: Livingston
+area: Mount Morris
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.lrb.usace.army.mil/Missions/Civil-Works/Mount-Morris-Dam/
+links:
+  - type: official
+    label: "Mount Morris Dam and Hogsback Overlook: official page"
+    url: https://www.lrb.usace.army.mil/Missions/Civil-Works/Mount-Morris-Dam/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mount%20Morris%20Dam%20and%20Hogsback%20Overlook%2C%20Mount%20Morris%2C%20NY
+mapQuery: Mount Morris Dam and Hogsback Overlook, Mount Morris, NY
+lat: 42.7337
+lon: -77.907
+kind: viewpoint
+interests:
+  - views
+  - family
+  - history
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A huge flood-control dam at the north end of Letchworth, with a visitor center and an overlook.
+warnings: []

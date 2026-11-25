@@ -1,0 +1,35 @@
+name: Taconic State Park and Bash Bish Falls (New York side)
+country: us
+state: NY
+region: hudson-valley
+county: Columbia
+area: Copake Falls
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/taconic-state-park-copake-falls-area
+links:
+  - type: state-park
+    label: "Taconic State Park and Bash Bish Falls: official page"
+    url: https://parks.ny.gov/visit/state-parks/taconic-state-park-copake-falls-area
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Taconic%20State%20Park%20and%20Bash%20Bish%20Falls%2C%20Copake%20Falls%2C%20NY
+mapQuery: Taconic State Park and Bash Bish Falls, Copake Falls, NY
+lat: 42.1208
+lon: -73.5205
+kind: park
+interests:
+  - nature
+  - family
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: true
+summary: A state park on the Taconic ridge that includes the New York approach to Bash Bish Falls.
+details: The falls are also reached from Massachusetts. Check which parking area and trail you want.
+warnings: []

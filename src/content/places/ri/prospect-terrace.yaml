@@ -1,0 +1,35 @@
+name: Prospect Terrace Park
+country: us
+state: RI
+region: providence-blackstone
+county: Providence
+area: Providence
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.providenceri.gov/
+links:
+  - type: official
+    label: "Prospect Terrace Park: official page"
+    url: https://www.providenceri.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Prospect%20Terrace%20Park%2C%20Providence%2C%20RI
+mapQuery: Prospect Terrace Park, Providence, RI
+lat: 41.834
+lon: -71.4
+kind: viewpoint
+interests:
+  - views
+  - photo
+  - short-time
+difficulty: easy
+timeMinutes: 30
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A small hilltop park with a statue of Roger Williams and a view over the city.
+warnings: []

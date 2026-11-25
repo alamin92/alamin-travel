@@ -1,0 +1,38 @@
+name: Dover Stone Church
+country: us
+state: NY
+region: hudson-valley
+county: Dutchess
+area: Dover Plains
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.dutchesstourism.com/
+links:
+  - type: official
+    label: "Dover Stone Church: official page"
+    url: https://www.dutchesstourism.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Dover%20Stone%20Church%2C%20Dover%20Plains%2C%20NY
+mapQuery: Dover Stone Church, Dover Plains, NY
+lat: 41.7384
+lon: -73.5792
+kind: waterfall
+interests:
+  - nature
+  - adventure
+  - photo
+difficulty: easy
+timeMinutes: 60
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A cave-like gorge with a small waterfall, reached on a short walk near Dover Plains.
+warnings:
+  - type: safety
+    text: The rocks are wet and slippery. Wear good shoes.
+    verify: true

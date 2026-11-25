@@ -1,0 +1,36 @@
+name: Wellesley Island State Park
+country: us
+state: NY
+region: thousand-islands-seaway
+county: Jefferson
+area: Fineview
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/wellesley-island-state-park
+links:
+  - type: state-park
+    label: "Wellesley Island State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/wellesley-island-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Wellesley%20Island%20State%20Park%2C%20Fineview%2C%20NY
+mapQuery: Wellesley Island State Park, Fineview, NY
+lat: 44.319
+lon: -76.003
+kind: park
+interests:
+  - family
+  - nature
+  - beach
+  - relax
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A large island park on the St. Lawrence with a beach, a nature center, trails and camping.
+warnings: []

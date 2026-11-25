@@ -8,6 +8,10 @@ nearby:
     minutes: 5
   - place: singer-castle
     minutes: 20
+  - place: wellesley-island-state-park
+    minutes: 10
+  - place: antique-boat-museum
+    minutes: 20
 checkBefore:
   - type: official
     label: "1000 Islands Region: official site"

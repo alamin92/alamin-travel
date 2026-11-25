@@ -1,0 +1,39 @@
+name: West Point (U.S. Military Academy)
+country: us
+state: NY
+region: hudson-valley
+county: Orange
+area: West Point
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.westpoint.edu/
+links:
+  - type: official
+    label: "West Point: official page"
+    url: https://www.westpoint.edu/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=West%20Point%2C%20West%20Point%2C%20NY
+mapQuery: West Point, West Point, NY
+lat: 41.395
+lon: -73.956
+kind: museum
+interests:
+  - history
+  - views
+  - family
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: free
+highlight: true
+summary: The U.S. Military Academy, with a museum, a visitor center and views over the Hudson from Trophy Point.
+warnings:
+  - type: reservation
+    text: Visitors need to follow the academy's security and entry rules. Check the visitor center site first.
+    verify: true

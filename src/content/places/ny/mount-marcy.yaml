@@ -1,0 +1,41 @@
+name: Mount Marcy
+country: us
+state: NY
+region: adirondacks
+county: Essex
+area: Keene Valley
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.adk.org/
+links:
+  - type: official
+    label: "Mount Marcy: official page"
+    url: https://www.adk.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mount%20Marcy%2C%20Keene%20Valley%2C%20NY
+mapQuery: Mount Marcy, Keene Valley, NY
+lat: 44.1126
+lon: -73.9235
+kind: hike
+interests:
+  - adventure
+  - rough
+  - views
+difficulty: hard
+timeMinutes: 720
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: false
+cost: free
+highlight: true
+summary: The highest peak in New York, a very long day hike or overnight.
+warnings:
+  - type: safety
+    text: This is a 14-mile or longer hike. Be prepared for weather changes and a long day.
+    verify: true
+  - type: reservation
+    text: Parking and wilderness use at the main trailheads can require a reservation. Check DEC.
+    verify: true

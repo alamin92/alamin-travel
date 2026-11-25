@@ -1,0 +1,35 @@
+name: Seward House Museum
+country: us
+state: NY
+region: finger-lakes
+county: Cayuga
+area: Auburn
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://sewardhouse.org/
+links:
+  - type: official
+    label: "Seward House Museum: official page"
+    url: https://sewardhouse.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Seward%20House%20Museum%2C%20Auburn%2C%20NY
+mapQuery: Seward House Museum, Auburn, NY
+lat: 42.933
+lon: -76.5672
+kind: museum
+interests:
+  - history
+  - culture
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: The home of William H. Seward, Lincoln's Secretary of State, in Auburn.
+warnings: []

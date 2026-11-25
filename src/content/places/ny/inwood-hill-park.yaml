@@ -1,0 +1,38 @@
+name: Inwood Hill Park
+country: us
+state: NY
+region: nyc
+county: New York
+area: Inwood
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.nycgovparks.org/parks/inwood-hill-park
+links:
+  - type: official
+    label: "Inwood Hill Park: official page"
+    url: https://www.nycgovparks.org/parks/inwood-hill-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Inwood%20Hill%20Park%2C%20Inwood%2C%20NY
+mapQuery: Inwood Hill Park, Inwood, NY
+lat: 40.8753
+lon: -73.9209
+kind: hike
+interests:
+  - nature
+  - relax
+  - family
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: Manhattan's last natural forest and salt marsh, with wooded trails and river views.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

@@ -1,0 +1,40 @@
+name: Hunter Mountain Fire Tower
+country: us
+state: NY
+region: catskills
+county: Greene
+alsoRegions:
+  - catskills
+area: Hunter
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://dec.ny.gov/things-to-do/hiking/catskills-fire-tower-challenge
+links:
+  - type: official
+    label: "Hunter Mountain Fire Tower: official page"
+    url: https://dec.ny.gov/things-to-do/hiking/catskills-fire-tower-challenge
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Hunter%20Mountain%20Fire%20Tower%2C%20Hunter%2C%20NY
+mapQuery: Hunter Mountain Fire Tower, Hunter, NY
+lat: 42.1987
+lon: -74.262
+kind: hike
+interests:
+  - adventure
+  - views
+  - rough
+difficulty: hard
+timeMinutes: 300
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: false
+cost: free
+highlight: true
+summary: A long hike to the second-highest Catskill peak and its fire tower, with views over the range.
+warnings:
+  - type: safety
+    text: This is a long, steep hike. Start early and carry water.
+    verify: true

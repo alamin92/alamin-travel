@@ -1,0 +1,35 @@
+name: Robert Moses State Park (Thousand Islands)
+country: us
+state: NY
+region: thousand-islands-seaway
+county: St. Lawrence
+area: Massena
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/robert-moses-state-park-thousand-islands
+links:
+  - type: state-park
+    label: "Robert Moses State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/robert-moses-state-park-thousand-islands
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Robert%20Moses%20State%20Park%2C%20Massena%2C%20NY
+mapQuery: Robert Moses State Park, Massena, NY
+lat: 44.976
+lon: -74.841
+kind: park
+interests:
+  - family
+  - relax
+  - beach
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A St. Lawrence River state park with a beach, a campground and river views, near Massena.
+warnings: []

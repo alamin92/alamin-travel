@@ -1,0 +1,38 @@
+name: Griffin Gorge and Waterfall
+country: us
+state: NY
+region: adirondacks
+county: Hamilton
+area: Griffin
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.visitadirondacks.com/
+links:
+  - type: official
+    label: "Griffin Gorge and Waterfall: official page"
+    url: https://www.visitadirondacks.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Griffin%20Gorge%20and%20Waterfall%2C%20Griffin%2C%20NY
+mapQuery: Griffin Gorge and Waterfall, Griffin, NY
+lat: 43.5164
+lon: -74.31
+kind: waterfall
+interests:
+  - nature
+  - adventure
+  - photo
+difficulty: moderate
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A gorge and waterfall on a small Adirondack stream.
+warnings:
+  - type: other
+    text: Access and parking are not confirmed. Check local sources before you go.
+    verify: true

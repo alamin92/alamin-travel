@@ -1,0 +1,40 @@
+name: Auburn
+country: us
+state: NY
+region: finger-lakes
+county: Cayuga
+blurb: A Finger Lakes city with Harriet Tubman's home and the Seward House.
+nearby:
+  - place: harriet-tubman-home
+    minutes: 5
+  - place: seward-house
+    minutes: 5
+  - place: cayuga-lake-state-park
+    minutes: 20
+  - place: montezuma-nwr
+    minutes: 20
+  - place: womens-rights-nhp
+    minutes: 25
+  - place: bucktail-falls
+    minutes: 40
+  - place: fillmore-glen-state-park
+    minutes: 40
+  - place: erie-canal-museum
+    minutes: 45
+  - place: everson-museum
+    minutes: 45
+  - place: rosamond-gifford-zoo
+    minutes: 45
+  - place: sampson-state-park
+    minutes: 45
+  - place: beak-and-skiff
+    minutes: 50
+  - place: clark-reservation
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

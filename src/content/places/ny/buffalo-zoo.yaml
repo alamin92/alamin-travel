@@ -1,0 +1,33 @@
+name: Buffalo Zoo
+country: us
+state: NY
+region: greater-niagara
+county: Erie
+area: Buffalo
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.buffalozoo.org/
+links:
+  - type: official
+    label: "Buffalo Zoo: official page"
+    url: https://www.buffalozoo.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Buffalo%20Zoo%2C%20Buffalo%2C%20NY
+mapQuery: Buffalo Zoo, Buffalo, NY
+lat: 42.933
+lon: -78.848
+kind: activity
+interests:
+  - family
+difficulty: n/a
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: One of the oldest zoos in the United States, in Delaware Park.
+warnings: []

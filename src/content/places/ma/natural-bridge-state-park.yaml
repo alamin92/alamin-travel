@@ -1,0 +1,38 @@
+name: Natural Bridge State Park
+country: us
+state: MA
+region: western-massachusetts
+county: Berkshire
+area: North Adams
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.mass.gov/locations/natural-bridge-state-park
+links:
+  - type: state-park
+    label: "Natural Bridge State Park: official page"
+    url: https://www.mass.gov/locations/natural-bridge-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Natural%20Bridge%20State%20Park%2C%20North%20Adams%2C%20MA
+mapQuery: Natural Bridge State Park, North Adams, MA
+lat: 42.7074
+lon: -73.0949
+kind: hike
+interests:
+  - nature
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A natural marble bridge over a gorge, with walkways and a small waterfall.
+warnings:
+  - type: closure
+    text: Open seasonally. Check the DCR page.
+    verify: true

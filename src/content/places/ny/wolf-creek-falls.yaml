@@ -1,0 +1,37 @@
+name: Wolf Creek Falls
+country: us
+state: NY
+region: finger-lakes
+county: Livingston
+area: Mount Morris
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.livingstoncounty.us/
+links:
+  - type: official
+    label: "Wolf Creek Falls: official page"
+    url: https://www.livingstoncounty.us/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Wolf%20Creek%20Falls%2C%20Mount%20Morris%2C%20NY
+mapQuery: Wolf Creek Falls, Mount Morris, NY
+lat: 42.5403
+lon: -77.9579
+kind: waterfall
+interests:
+  - nature
+  - photo
+difficulty: easy
+timeMinutes: 45
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A waterfall in the hills near Letchworth.
+warnings:
+  - type: other
+    text: Access and parking are not confirmed. Check local sources before you go.
+    verify: true

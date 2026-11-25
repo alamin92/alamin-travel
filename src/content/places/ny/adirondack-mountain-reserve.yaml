@@ -1,0 +1,42 @@
+name: "Adirondack Mountain Reserve: Indian Head and Rainbow Falls"
+country: us
+state: NY
+region: adirondacks
+county: Essex
+area: St. Huberts
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.adirondackmountainreserve.com/
+links:
+  - type: official
+    label: "Adirondack Mountain Reserve: Indian Head and Rainbow Falls: official page"
+    url: https://www.adirondackmountainreserve.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Adirondack%20Mountain%20Reserve%3A%20Indian%20Head%20and%20Rainbow%20Falls%2C%20St.%20Huberts%2C%20NY
+mapQuery: "Adirondack Mountain Reserve: Indian Head and Rainbow Falls, St. Huberts, NY"
+lat: 44.1117
+lon: -73.8242
+kind: hike
+interests:
+  - views
+  - nature
+  - adventure
+  - photo
+difficulty: moderate
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: Private-land access to Indian Head, Rainbow Falls and the Lower Ausable Lake dam, with some of the best views in the Adirondacks.
+warnings:
+  - type: reservation
+    text: Access to the Reserve is by advance reservation. Check the official site.
+    verify: true
+  - type: parking
+    text: Parking is limited and tied to your reservation.
+    verify: true

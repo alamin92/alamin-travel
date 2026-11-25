@@ -1,0 +1,35 @@
+name: Museum of Science
+country: us
+state: MA
+region: greater-boston
+county: Suffolk
+area: Boston
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.mos.org/
+links:
+  - type: official
+    label: "Museum of Science: official page"
+    url: https://www.mos.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Museum%20of%20Science%2C%20Boston%2C%20MA
+mapQuery: Museum of Science, Boston, MA
+lat: 42.368
+lon: -71.071
+kind: museum
+interests:
+  - family
+  - culture
+difficulty: n/a
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A large science museum on the Charles River.
+warnings: []

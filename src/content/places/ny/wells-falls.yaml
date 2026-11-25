@@ -1,0 +1,38 @@
+name: Wells Falls
+country: us
+state: NY
+region: finger-lakes
+county: Tompkins
+area: Ithaca
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.visitithaca.com/
+links:
+  - type: official
+    label: "Wells Falls: official page"
+    url: https://www.visitithaca.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Wells%20Falls%2C%20Ithaca%2C%20NY
+mapQuery: Wells Falls, Ithaca, NY
+lat: 42.4336
+lon: -76.4851
+kind: waterfall
+interests:
+  - nature
+  - photo
+  - short-time
+difficulty: easy
+timeMinutes: 45
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A waterfall on Six Mile Creek reached by a short trail from a city park.
+warnings:
+  - type: safety
+    text: Rocks near waterfalls are slippery. Stay on marked paths and out of the water above the falls.
+    verify: false

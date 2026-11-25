@@ -1,0 +1,38 @@
+name: Cascadilla Gorge Trail
+country: us
+state: NY
+region: finger-lakes
+county: Tompkins
+area: Ithaca
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.cornell.edu/
+links:
+  - type: official
+    label: "Cascadilla Gorge Trail: official page"
+    url: https://www.cornell.edu/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Cascadilla%20Gorge%20Trail%2C%20Ithaca%2C%20NY
+mapQuery: Cascadilla Gorge Trail, Ithaca, NY
+lat: 42.4455
+lon: -76.4851
+kind: waterfall
+interests:
+  - nature
+  - photo
+  - short-time
+difficulty: moderate
+timeMinutes: 60
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A stone stairway trail through a gorge with waterfalls, from downtown Ithaca to the Cornell campus.
+warnings:
+  - type: closure
+    text: The trail closes in winter. Check for closures.
+    verify: true

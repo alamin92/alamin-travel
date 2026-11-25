@@ -1,0 +1,35 @@
+name: Brenton Point State Park
+country: us
+state: RI
+region: newport-east-bay
+county: Newport
+area: Newport
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://riparks.ri.gov/parks/brenton-point-state-park
+links:
+  - type: state-park
+    label: "Brenton Point State Park: official page"
+    url: https://riparks.ri.gov/parks/brenton-point-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Brenton%20Point%20State%20Park%2C%20Newport%2C%20RI
+mapQuery: Brenton Point State Park, Newport, RI
+lat: 41.458
+lon: -71.355
+kind: park
+interests:
+  - views
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A big park on Ocean Drive, known for kite flying and ocean views.
+warnings: []

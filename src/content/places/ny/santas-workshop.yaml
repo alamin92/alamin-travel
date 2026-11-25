@@ -1,0 +1,34 @@
+name: Santa's Workshop
+country: us
+state: NY
+region: adirondacks
+county: Essex
+area: Wilmington
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.whiteface.org/
+links:
+  - type: official
+    label: "Santa's Workshop: official page"
+    url: https://www.whiteface.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Santa's%20Workshop%2C%20Wilmington%2C%20NY
+mapQuery: Santa's Workshop, Wilmington, NY
+lat: 44.3669
+lon: -73.859
+kind: activity
+interests:
+  - family
+  - seasonal
+difficulty: n/a
+timeMinutes: 180
+bestSeason:
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A long-running North Pole-themed park near Whiteface with rides and visits with Santa.
+warnings: []

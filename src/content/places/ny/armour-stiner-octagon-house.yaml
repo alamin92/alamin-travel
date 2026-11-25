@@ -1,0 +1,38 @@
+name: Armour-Stiner Octagon House
+country: us
+state: NY
+region: hudson-valley
+county: Westchester
+area: Irvington
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.visitwestchester.com/
+links:
+  - type: official
+    label: "Armour-Stiner Octagon House: official page"
+    url: https://www.visitwestchester.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Armour-Stiner%20Octagon%20House%2C%20Irvington%2C%20NY
+mapQuery: Armour-Stiner Octagon House, Irvington, NY
+lat: 41.0287
+lon: -73.8723
+kind: museum
+interests:
+  - history
+  - culture
+  - photo
+difficulty: n/a
+timeMinutes: 60
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: An unusual eight-sided Victorian house with a glass dome, open for tours.
+warnings:
+  - type: reservation
+    text: Tours are limited and may need booking. Check the site.
+    verify: true

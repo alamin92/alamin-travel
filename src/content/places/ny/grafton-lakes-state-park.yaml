@@ -1,0 +1,35 @@
+name: Grafton Lakes State Park
+country: us
+state: NY
+region: capital-saratoga
+county: Rensselaer
+area: Grafton
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/grafton-lakes-state-park
+links:
+  - type: state-park
+    label: "Grafton Lakes State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/grafton-lakes-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Grafton%20Lakes%20State%20Park%2C%20Grafton%2C%20NY
+mapQuery: Grafton Lakes State Park, Grafton, NY
+lat: 42.773
+lon: -73.4531
+kind: park
+interests:
+  - family
+  - nature
+  - relax
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A wooded state park with lakes, a beach, trails and cross-country skiing.
+warnings: []

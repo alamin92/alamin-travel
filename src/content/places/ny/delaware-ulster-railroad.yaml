@@ -1,0 +1,37 @@
+name: Delaware and Ulster Railroad
+country: us
+state: NY
+region: catskills
+county: Delaware
+area: Arkville
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.durr.org/
+links:
+  - type: official
+    label: "Delaware and Ulster Railroad: official page"
+    url: https://www.durr.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Delaware%20and%20Ulster%20Railroad%2C%20Arkville%2C%20NY
+mapQuery: Delaware and Ulster Railroad, Arkville, NY
+lat: 42.1431
+lon: -74.6209
+kind: activity
+interests:
+  - family
+  - seasonal
+difficulty: n/a
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: Scenic train rides through the Catskills from Arkville.
+warnings:
+  - type: reservation
+    text: Train rides run on a seasonal schedule and sell tickets in advance.
+    verify: true

@@ -1,0 +1,36 @@
+name: Orchard Beach and Pelham Bay Park
+country: us
+state: NY
+region: nyc
+county: Bronx
+area: Bronx
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.nycgovparks.org/parks/pelham-bay-park
+links:
+  - type: official
+    label: "Orchard Beach and Pelham Bay Park: official page"
+    url: https://www.nycgovparks.org/parks/pelham-bay-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Orchard%20Beach%20and%20Pelham%20Bay%20Park%2C%20Bronx%2C%20NY
+mapQuery: Orchard Beach and Pelham Bay Park, Bronx, NY
+lat: 40.8663
+lon: -73.7933
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - summer
+familyFriendly: true
+cost: free
+highlight: false
+summary: The Bronx's city beach, a long crescent in the largest park in New York City.
+warnings:
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: false

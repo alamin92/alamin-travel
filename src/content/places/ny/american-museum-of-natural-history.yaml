@@ -1,0 +1,36 @@
+name: American Museum of Natural History
+country: us
+state: NY
+region: nyc
+county: New York
+area: Manhattan
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.amnh.org/
+links:
+  - type: official
+    label: "American Museum of Natural History: official page"
+    url: https://www.amnh.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=American%20Museum%20of%20Natural%20History%2C%20Manhattan%2C%20NY
+mapQuery: American Museum of Natural History, Manhattan, NY
+lat: 40.7813
+lon: -73.974
+kind: museum
+interests:
+  - family
+  - culture
+  - history
+difficulty: n/a
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A huge museum of dinosaurs, space, ocean life and world cultures, on the west side of Central Park.
+warnings: []

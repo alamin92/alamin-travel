@@ -1,0 +1,38 @@
+name: People's State Forest
+country: us
+state: CT
+region: western-connecticut
+county: Litchfield
+area: Barkhamsted
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://portal.ct.gov/deep/state-parks/peoples-state-forest
+links:
+  - type: state-park
+    label: "People's State Forest: official page"
+    url: https://portal.ct.gov/deep/state-parks/peoples-state-forest
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=People's%20State%20Forest%2C%20Barkhamsted%2C%20CT
+mapQuery: People's State Forest, Barkhamsted, CT
+lat: 41.929
+lon: -73
+kind: hike
+interests:
+  - nature
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A state forest with trails, a river and a lookout tower.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

@@ -3,7 +3,6 @@ import Base from '../layouts/Base.astro';
 import Doors from '../components/Doors.astro';
 import AreaPicker from '../components/AreaPicker.astro';
 import { loadHubs, loadPlaces, SCENARIO_DAYS, scenarioSlug } from '../lib/data';
-import { interestLabels } from '../lib/labels';
 import { countries } from '../lib/areas';
 
 const hubs = await loadHubs();
@@ -27,7 +26,7 @@ const live = countries.flatMap((c) => c.states.map((s) => ({ ...s, country: c.id
     </div>
     <div class="hero-inner">
       <h1>Plan a trip, your way</h1>
-      <p class="lead">Free ideas, warnings and plan templates for places worth visiting. No sign-up, nothing saved. We're starting with New York State.</p>
+      <p class="lead">Free ideas, warnings and plan templates for places worth visiting. No sign-up, nothing saved. We're starting with New York, Connecticut, Massachusetts and Rhode Island.</p>
     </div>
     <span class="hero-caption" id="hero-caption">{slides[0].caption}</span>
   </section>
@@ -38,7 +37,7 @@ const live = countries.flatMap((c) => c.states.map((s) => ({ ...s, country: c.id
       <h3>I have X days in a place</h3>
       <p class="muted">Pick a base town and how many days. See what fits, with approximate drive times.</p>
     </a>
-    <a class="card entry" href="#interests">
+    <a class="card entry" href="/browse">
       <span class="num">2</span>
       <h3>Browse by interest</h3>
       <p class="muted">Family, adventure, relax, views, winter, farms and more.</p>
@@ -66,11 +65,6 @@ const live = countries.flatMap((c) => c.states.map((s) => ({ ...s, country: c.id
     <button type="submit" class="primary" id="go">Show me</button>
   </form>
   <p class="muted">Working in a city with a day free, or on vacation with kids? Start here. Need something longer or more specific? Use the <a href="/planner">planner</a>.</p>
-
-  <h2 id="interests">Browse by interest</h2>
-  <div class="tiles">
-    {Object.entries(interestLabels).map(([id, label]) => <a class="tile" href={`/browse?interest=${id}`}>{label}</a>)}
-  </div>
 
   <h2 id="areas">Explore by area</h2>
   <div class="card area-band">

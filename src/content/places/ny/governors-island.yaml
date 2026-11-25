@@ -1,0 +1,44 @@
+name: Governors Island
+country: us
+state: NY
+region: nyc
+county: New York
+area: New York Harbor
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.govisland.com/
+links:
+  - type: official
+    label: "Governors Island: official page"
+    url: https://www.govisland.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Governors%20Island%2C%20New%20York%20Harbor%2C%20NY
+mapQuery: Governors Island, New York Harbor, NY
+lat: 40.6887
+lon: -74.0205
+kind: park
+interests:
+  - family
+  - relax
+  - views
+  - history
+  - photo
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A car-free island in the harbor with historic forts, hills with skyline views, hammocks and a lavender field.
+details: Fort Jay, Castle Williams, Hammock Grove and Outlook Hill are the main sights. The Lavender Field blooms in early summer.
+warnings:
+  - type: closure
+    text: The island is open on a seasonal schedule. Check the site for dates and ferry times.
+    verify: true
+  - type: fees
+    text: The ferry charges a fare.
+    verify: true

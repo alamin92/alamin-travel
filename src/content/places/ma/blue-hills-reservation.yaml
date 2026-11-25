@@ -1,0 +1,39 @@
+name: Blue Hills Reservation
+country: us
+state: MA
+region: greater-boston
+county: Norfolk
+area: Milton
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.mass.gov/locations/blue-hills-reservation
+links:
+  - type: state-park
+    label: "Blue Hills Reservation: official page"
+    url: https://www.mass.gov/locations/blue-hills-reservation
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Blue%20Hills%20Reservation%2C%20Milton%2C%20MA
+mapQuery: Blue Hills Reservation, Milton, MA
+lat: 42.212
+lon: -71.11
+kind: hike
+interests:
+  - nature
+  - adventure
+  - family
+  - views
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A large wooded reservation south of Boston with trails and a summit tower with views of the skyline.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

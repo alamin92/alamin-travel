@@ -1,0 +1,36 @@
+name: Aquinnah Cliffs (Gay Head)
+country: us
+state: MA
+region: cape-cod-islands
+county: Dukes
+area: Aquinnah
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.mvy.com/
+links:
+  - type: official
+    label: "Aquinnah Cliffs: official page"
+    url: https://www.mvy.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Aquinnah%20Cliffs%2C%20Aquinnah%2C%20MA
+mapQuery: Aquinnah Cliffs, Aquinnah, MA
+lat: 41.351
+lon: -70.834
+kind: viewpoint
+interests:
+  - views
+  - photo
+  - nature
+  - family
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: Colorful clay cliffs and a lighthouse at the western end of Martha's Vineyard.
+warnings: []

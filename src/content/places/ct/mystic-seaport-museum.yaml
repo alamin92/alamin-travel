@@ -1,0 +1,36 @@
+name: Mystic Seaport Museum
+country: us
+state: CT
+region: eastern-connecticut
+county: New London
+area: Mystic
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.mysticseaport.org/
+links:
+  - type: official
+    label: "Mystic Seaport Museum: official page"
+    url: https://www.mysticseaport.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mystic%20Seaport%20Museum%2C%20Mystic%2C%20CT
+mapQuery: Mystic Seaport Museum, Mystic, CT
+lat: 41.3614
+lon: -71.9662
+kind: museum
+interests:
+  - history
+  - family
+  - culture
+difficulty: n/a
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A recreated 19th-century seafaring village with historic ships, and exhibits on the sea.
+warnings: []

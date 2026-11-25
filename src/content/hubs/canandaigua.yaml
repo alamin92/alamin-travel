@@ -1,0 +1,36 @@
+name: Canandaigua
+country: us
+state: NY
+region: finger-lakes
+county: Ontario
+blurb: A Finger Lakes lake city with gardens, a ski hill and Keuka Lake nearby.
+nearby:
+  - place: sonnenberg-gardens
+    minutes: 5
+  - place: ganondagan
+    minutes: 20
+  - place: bristol-mountain
+    minutes: 25
+  - place: mendon-ponds-park
+    minutes: 35
+  - place: corbetts-glen
+    minutes: 45
+  - place: ellison-park
+    minutes: 45
+  - place: george-eastman-museum
+    minutes: 50
+  - place: highland-park-rochester
+    minutes: 50
+  - place: sampson-state-park
+    minutes: 50
+  - place: strong-museum-of-play
+    minutes: 50
+  - place: womens-rights-nhp
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

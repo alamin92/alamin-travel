@@ -1,0 +1,35 @@
+name: Blithewold Mansion, Gardens and Arboretum
+country: us
+state: RI
+region: newport-east-bay
+county: Bristol
+area: Bristol
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.blithewold.org/
+links:
+  - type: official
+    label: "Blithewold Mansion, Gardens and Arboretum: official page"
+    url: https://www.blithewold.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Blithewold%20Mansion%2C%20Gardens%20and%20Arboretum%2C%20Bristol%2C%20RI
+mapQuery: Blithewold Mansion, Gardens and Arboretum, Bristol, RI
+lat: 41.654
+lon: -71.271
+kind: park
+interests:
+  - relax
+  - photo
+  - history
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A Bay-side estate with a mansion and gardens, known for spring bulbs.
+warnings: []

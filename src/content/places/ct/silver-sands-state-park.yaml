@@ -1,0 +1,39 @@
+name: Silver Sands State Park
+country: us
+state: CT
+region: central-connecticut
+county: New Haven
+area: Milford
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://portal.ct.gov/deep/state-parks/silver-sands-state-park
+links:
+  - type: state-park
+    label: "Silver Sands State Park: official page"
+    url: https://portal.ct.gov/deep/state-parks/silver-sands-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Silver%20Sands%20State%20Park%2C%20Milford%2C%20CT
+mapQuery: Silver Sands State Park, Milford, CT
+lat: 41.2035
+lon: -73.0702
+kind: beach
+interests:
+  - beach
+  - family
+  - nature
+  - relax
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Long Island Sound state park with a beach, a boardwalk to a sandbar and birdwatching.
+warnings:
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: false

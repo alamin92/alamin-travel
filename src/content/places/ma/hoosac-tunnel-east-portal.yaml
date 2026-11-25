@@ -1,0 +1,37 @@
+name: Hoosac Tunnel East Portal
+country: us
+state: MA
+region: western-massachusetts
+county: Franklin
+area: Florida
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.visitma.com/
+links:
+  - type: official
+    label: "Hoosac Tunnel East Portal: official page"
+    url: https://www.visitma.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Hoosac%20Tunnel%20East%20Portal%2C%20Florida%2C%20MA
+mapQuery: Hoosac Tunnel East Portal, Florida, MA
+lat: 42.6747
+lon: -72.9959
+kind: landmark
+interests:
+  - history
+  - photo
+difficulty: easy
+timeMinutes: 45
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: The eastern entrance of the 1800s railroad tunnel through Hoosac Mountain, visible from a viewing area.
+warnings:
+  - type: safety
+    text: The tunnel is an active rail line. Do not walk on the tracks.
+    verify: true

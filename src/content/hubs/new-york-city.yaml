@@ -13,6 +13,44 @@ nearby:
     minutes: 25
   - place: statue-of-liberty
     minutes: 40
+  - place: artechouse-nyc
+    minutes: 15
+  - place: central-park-landmarks
+    minutes: 15
+  - place: paley-and-greenacre-parks
+    minutes: 15
+  - place: american-museum-of-natural-history
+    minutes: 20
+  - place: little-island
+    minutes: 20
+  - place: the-met-museum
+    minutes: 20
+  - place: governors-island
+    minutes: 35
+  - place: planeview-park
+    minutes: 35
+  - place: brooklyn-botanic-garden
+    minutes: 40
+  - place: little-red-lighthouse
+    minutes: 40
+  - place: fort-tryon-park
+    minutes: 45
+  - place: bronx-zoo
+    minutes: 50
+  - place: inwood-hill-park
+    minutes: 50
+  - place: the-cloisters
+    minutes: 50
+  - place: new-york-botanical-garden
+    minutes: 55
+  - place: staten-island-ferry
+    minutes: 55
+  - place: little-bay-park
+    minutes: 60
+  - place: snug-harbor
+    minutes: 60
+  - place: wave-hill
+    minutes: 60
 checkBefore:
   - type: official
     label: "NYC: official tourism site"

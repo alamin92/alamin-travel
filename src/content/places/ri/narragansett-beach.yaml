@@ -1,0 +1,40 @@
+name: Narragansett Town Beach
+country: us
+state: RI
+region: south-county-block-island
+county: Washington
+area: Narragansett
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.narragansettri.gov/
+links:
+  - type: official
+    label: "Narragansett Town Beach: official page"
+    url: https://www.narragansettri.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Narragansett%20Town%20Beach%2C%20Narragansett%2C%20RI
+mapQuery: Narragansett Town Beach, Narragansett, RI
+lat: 41.4373
+lon: -71.4512
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+  - adventure
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: true
+summary: A popular surf and swim beach beside the Towers in Narragansett.
+warnings:
+  - type: parking
+    text: Parking fills on summer weekends.
+    verify: true
+  - type: fees
+    text: Daily fees apply in season.
+    verify: true

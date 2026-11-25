@@ -1,0 +1,40 @@
+name: Sleeping Giant State Park
+country: us
+state: CT
+region: central-connecticut
+county: New Haven
+area: Hamden
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://portal.ct.gov/deep/state-parks/sleeping-giant-state-park
+links:
+  - type: state-park
+    label: "Sleeping Giant State Park: official page"
+    url: https://portal.ct.gov/deep/state-parks/sleeping-giant-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Sleeping%20Giant%20State%20Park%2C%20Hamden%2C%20CT
+mapQuery: Sleeping Giant State Park, Hamden, CT
+lat: 41.4358
+lon: -72.8788
+kind: hike
+interests:
+  - adventure
+  - views
+  - nature
+  - family
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A ridge shaped like a sleeping giant, with a stone observation tower and many trail options.
+details: The Tower Trail is a wide, gentler path to the stone tower on the giant's head.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

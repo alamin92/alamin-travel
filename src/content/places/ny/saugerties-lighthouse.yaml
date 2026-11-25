@@ -1,0 +1,35 @@
+name: Saugerties Lighthouse
+country: us
+state: NY
+region: hudson-valley
+county: Ulster
+area: Saugerties
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.saugertieslighthouse.com/
+links:
+  - type: official
+    label: "Saugerties Lighthouse: official page"
+    url: https://www.saugertieslighthouse.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Saugerties%20Lighthouse%2C%20Saugerties%2C%20NY
+mapQuery: Saugerties Lighthouse, Saugerties, NY
+lat: 42.072
+lon: -73.939
+kind: landmark
+interests:
+  - photo
+  - views
+  - history
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A Hudson River lighthouse reached by a trail through the wetlands, with a bed-and-breakfast inside.
+warnings: []

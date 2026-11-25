@@ -1,0 +1,35 @@
+name: Hancock Shaker Village
+country: us
+state: MA
+region: western-massachusetts
+county: Berkshire
+area: Pittsfield
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://hancockshakervillage.org/
+links:
+  - type: official
+    label: "Hancock Shaker Village: official page"
+    url: https://hancockshakervillage.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Hancock%20Shaker%20Village%2C%20Pittsfield%2C%20MA
+mapQuery: Hancock Shaker Village, Pittsfield, MA
+lat: 42.428
+lon: -73.307
+kind: museum
+interests:
+  - history
+  - family
+  - culture
+difficulty: n/a
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A living-history museum of a former Shaker community, with a round stone barn and farm animals.
+warnings: []

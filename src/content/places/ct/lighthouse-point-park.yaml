@@ -1,0 +1,36 @@
+name: Lighthouse Point Park
+country: us
+state: CT
+region: central-connecticut
+county: New Haven
+area: New Haven
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.cityofnewhaven.com/
+links:
+  - type: official
+    label: "Lighthouse Point Park: official page"
+    url: https://www.cityofnewhaven.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Lighthouse%20Point%20Park%2C%20New%20Haven%2C%20CT
+mapQuery: Lighthouse Point Park, New Haven, CT
+lat: 41.25
+lon: -72.904
+kind: beach
+interests:
+  - beach
+  - family
+  - history
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: A city park with a beach, a carousel and a historic lighthouse on the Sound.
+warnings:
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: false

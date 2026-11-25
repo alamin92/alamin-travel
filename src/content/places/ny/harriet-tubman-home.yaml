@@ -1,0 +1,35 @@
+name: Harriet Tubman Home and National Historical Park
+country: us
+state: NY
+region: finger-lakes
+county: Cayuga
+area: Auburn
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nps.gov/hart/index.htm
+links:
+  - type: nps
+    label: "Harriet Tubman Home and National Historical Park: official page"
+    url: https://www.nps.gov/hart/index.htm
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Harriet%20Tubman%20Home%20and%20National%20Historical%20Park%2C%20Auburn%2C%20NY
+mapQuery: Harriet Tubman Home and National Historical Park, Auburn, NY
+lat: 42.919
+lon: -76.571
+kind: museum
+interests:
+  - history
+  - culture
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: low
+highlight: true
+summary: The home, church and grounds where Harriet Tubman lived in Auburn.
+warnings: []

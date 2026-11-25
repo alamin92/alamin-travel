@@ -1,0 +1,35 @@
+name: Sonnenberg Gardens and Mansion State Historic Park
+country: us
+state: NY
+region: finger-lakes
+county: Ontario
+area: Canandaigua
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/historic-sites/sonnenberg-gardens-mansion-state-historic-park
+links:
+  - type: state-park
+    label: "Sonnenberg Gardens and Mansion State Historic Park: official page"
+    url: https://parks.ny.gov/visit/historic-sites/sonnenberg-gardens-mansion-state-historic-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Sonnenberg%20Gardens%20and%20Mansion%20State%20Historic%20Park%2C%20Canandaigua%2C%20NY
+mapQuery: Sonnenberg Gardens and Mansion State Historic Park, Canandaigua, NY
+lat: 42.8982
+lon: -77.2721
+kind: park
+interests:
+  - relax
+  - photo
+  - history
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A historic mansion with several formal gardens in Canandaigua.
+warnings: []

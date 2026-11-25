@@ -1,0 +1,35 @@
+name: Purgatory Chasm (Middletown)
+country: us
+state: RI
+region: newport-east-bay
+county: Newport
+area: Middletown
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.middletownri.gov/
+links:
+  - type: official
+    label: "Purgatory Chasm: official page"
+    url: https://www.middletownri.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Purgatory%20Chasm%2C%20Middletown%2C%20RI
+mapQuery: Purgatory Chasm, Middletown, RI
+lat: 41.478
+lon: -71.276
+kind: viewpoint
+interests:
+  - adventure
+  - views
+  - photo
+difficulty: easy
+timeMinutes: 45
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A narrow cleft in the rocks above the sea, with a short walk and a viewing platform.
+warnings: []

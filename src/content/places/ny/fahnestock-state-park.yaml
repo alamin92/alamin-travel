@@ -1,0 +1,36 @@
+name: Fahnestock State Park
+country: us
+state: NY
+region: hudson-valley
+county: Putnam
+area: Carmel
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/fahnestock-state-park-clarence-fahnestock
+links:
+  - type: state-park
+    label: "Fahnestock State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/fahnestock-state-park-clarence-fahnestock
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Fahnestock%20State%20Park%2C%20Carmel%2C%20NY
+mapQuery: Fahnestock State Park, Carmel, NY
+lat: 41.4714
+lon: -73.8235
+kind: park
+interests:
+  - nature
+  - family
+  - relax
+  - adventure
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A forested state park with a lake, a beach, trails and a campground.
+warnings: []

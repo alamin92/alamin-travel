@@ -1,0 +1,36 @@
+name: Martin Van Buren National Historic Site (Lindenwald)
+country: us
+state: NY
+region: hudson-valley
+county: Columbia
+area: Kinderhook
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nps.gov/mava/index.htm
+links:
+  - type: nps
+    label: "Martin Van Buren National Historic Site: official page"
+    url: https://www.nps.gov/mava/index.htm
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Martin%20Van%20Buren%20National%20Historic%20Site%2C%20Kinderhook%2C%20NY
+mapQuery: Martin Van Buren National Historic Site, Kinderhook, NY
+lat: 42.3657
+lon: -73.7043
+kind: museum
+interests:
+  - history
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: The home of the eighth president, with tours and a visitor center.
+warnings:
+  - type: closure
+    text: Open seasonally. Check the NPS page for hours.
+    verify: true

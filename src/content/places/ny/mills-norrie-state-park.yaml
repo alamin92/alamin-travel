@@ -1,0 +1,35 @@
+name: Mills Norrie State Park
+country: us
+state: NY
+region: hudson-valley
+county: Dutchess
+area: Staatsburg
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/mills-norrie-state-park-margaret-lewis-norrie
+links:
+  - type: state-park
+    label: "Mills Norrie State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/mills-norrie-state-park-margaret-lewis-norrie
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mills%20Norrie%20State%20Park%2C%20Staatsburg%2C%20NY
+mapQuery: Mills Norrie State Park, Staatsburg, NY
+lat: 41.8649
+lon: -73.9187
+kind: park
+interests:
+  - family
+  - nature
+  - relax
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A state park on the Hudson with a campground, a marina, trails and a golf course.
+warnings: []

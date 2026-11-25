@@ -1,6 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
-import NYMap from '../../../components/NYMap.astro';
+import StateMap from '../../../components/StateMap.astro';
 import { countries, countryById } from '../../../lib/areas';
 import { loadPlaces } from '../../../lib/data';
 
@@ -11,16 +11,14 @@ const country = countryById[Astro.params.country!];
 const state = country.states.find((s) => s.id === Astro.params.state)!;
 const places = (await loadPlaces()).filter((p) => p.country === country.id && p.state === state.code);
 const counts = Object.fromEntries(state.regions.map((r) => [r.id, places.filter((p) => p.region === r.id).length]));
-// Only New York has a drawn map so far. Other states get the region list.
-const hasMap = state.id === 'ny';
 ---
 <Base title={`${state.name}: explore by region`} description={`The official tourism regions of ${state.name}, with places, base towns and plans.`}>
   <p class="crumb"><a href="/explore">Explore</a> › <a href={`/explore/${country.id}`}>{country.name}</a></p>
   <h1>{state.name}</h1>
-  <p class="lead">{state.regions.length} official tourism regions. Tap a region to see its places and base towns.{state.official && <> Official site: <a href={state.official} rel="noopener">I LOVE NY</a>.</>}</p>
+  <p class="lead">{state.regions.length} tourism {state.regions.length === 1 ? 'region' : 'regions'}. Tap a region to see its places and base towns.{state.official && <> Official tourism site: <a href={state.official} rel="noopener">{new URL(state.official).hostname.replace('www.', '')}</a>.</>}</p>
   <p><a class="btn" href={`/browse?country=${country.id}&state=${state.code}`}>Filter all {state.name} places</a></p>
   <div class="map-wrap">
-    {hasMap && <NYMap counts={counts} />}
+    <StateMap state={state.code} counts={counts} />
     <ul class="region-list">
       {state.regions.map((r) => (
         <li><a href={`/regions/${r.id}`}><strong>{r.name}</strong><span class="muted"> · {counts[r.id]} {counts[r.id] === 1 ? 'place' : 'places'}</span></a></li>

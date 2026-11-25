@@ -28,3 +28,5 @@ npm run build    # runs the privacy check, then builds to dist/
 ## Areas (country, state, region)
 
 `src/lib/areas.ts` holds the hierarchy: country > state > region > base town > place. Adding a state is data only (a new entry with its official tourism regions, then YAML places with `country` and `state`). Region ids must be unique site-wide. The area picker (planner and home page) and the browse filters read this tree, and hide any level that has only one choice.
+
+Current states: New York, Connecticut, Massachusetts and Rhode Island. Each state has its tourism regions in `src/lib/regions.ts` (by county), its map is drawn at build time by `src/lib/statemap.ts`, and places live in `src/content/places/<state>/`. To add a state: add its regions, an entry in `src/lib/areas.ts`, its FIPS code in `src/components/StateMap.astro`, then places and base towns (hubs).

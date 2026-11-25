@@ -32,6 +32,28 @@ nearby:
     minutes: 45
   - place: samascott-orchards
     minutes: 35
+  - place: schuyler-mansion
+    minutes: 5
+  - place: uss-slater
+    minutes: 5
+  - place: albany-pine-bush
+    minutes: 15
+  - place: five-rivers-center
+    minutes: 15
+  - place: june-farms
+    minutes: 15
+  - place: cohoes-falls
+    minutes: 20
+  - place: peebles-island-state-park
+    minutes: 20
+  - place: barberville-falls
+    minutes: 25
+  - place: central-park-schenectady
+    minutes: 25
+  - place: grafton-lakes-state-park
+    minutes: 35
+  - place: martin-van-buren-nhs
+    minutes: 40
 checkBefore:
   - type: state-park
     label: "NY State Parks: park status and alerts"

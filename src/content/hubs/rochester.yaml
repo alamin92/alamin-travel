@@ -1,0 +1,40 @@
+name: Rochester
+country: us
+state: NY
+region: finger-lakes
+county: Monroe
+blurb: A Lake Ontario city with a waterfall in its downtown and a string of parks and museums.
+nearby:
+  - place: george-eastman-museum
+    minutes: 5
+  - place: high-falls-rochester
+    minutes: 5
+  - place: highland-park-rochester
+    minutes: 5
+  - place: lower-falls-park
+    minutes: 5
+  - place: strong-museum-of-play
+    minutes: 5
+  - place: corbetts-glen
+    minutes: 10
+  - place: ellison-park
+    minutes: 10
+  - place: seneca-park-zoo
+    minutes: 10
+  - place: turning-point-park
+    minutes: 10
+  - place: durand-eastman-park
+    minutes: 15
+  - place: mendon-ponds-park
+    minutes: 20
+  - place: ganondagan
+    minutes: 35
+  - place: sonnenberg-gardens
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

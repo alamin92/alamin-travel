@@ -1,0 +1,40 @@
+name: Buck Mountain
+country: us
+state: NY
+region: adirondacks
+county: Warren
+alsoRegions:
+  - adirondacks
+area: Pilot Knob
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://dec.ny.gov/things-to-do/hiking
+links:
+  - type: official
+    label: "Buck Mountain: official page"
+    url: https://dec.ny.gov/things-to-do/hiking
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Buck%20Mountain%2C%20Pilot%20Knob%2C%20NY
+mapQuery: Buck Mountain, Pilot Knob, NY
+lat: 43.5093
+lon: -73.6306
+kind: hike
+interests:
+  - adventure
+  - views
+  - nature
+difficulty: hard
+timeMinutes: 300
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: false
+cost: free
+highlight: false
+summary: A long hike to a summit with a wide view of Lake George.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

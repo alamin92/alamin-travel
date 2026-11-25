@@ -1,0 +1,41 @@
+name: Block Island and Mohegan Bluffs
+country: us
+state: RI
+region: south-county-block-island
+county: Washington
+area: New Shoreham
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.blockislandinfo.com/
+links:
+  - type: official
+    label: "Block Island and Mohegan Bluffs: official page"
+    url: https://www.blockislandinfo.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Block%20Island%20and%20Mohegan%20Bluffs%2C%20New%20Shoreham%2C%20RI
+mapQuery: Block Island and Mohegan Bluffs, New Shoreham, RI
+lat: 41.171
+lon: -71.559
+kind: beach
+interests:
+  - beach
+  - nature
+  - views
+  - adventure
+  - family
+difficulty: easy
+timeMinutes: 480
+bestSeason:
+  - summer
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A small island reached by ferry from Point Judith, with high clay bluffs, beaches, a lighthouse and bike roads.
+warnings:
+  - type: reservation
+    text: Book the ferry ahead for summer, and book a car space far ahead if you bring a car.
+    verify: true
+  - type: fees
+    text: Ferry fares are charged.
+    verify: true

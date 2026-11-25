@@ -1,0 +1,35 @@
+name: Fort Adams State Park
+country: us
+state: RI
+region: newport-east-bay
+county: Newport
+area: Newport
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://riparks.ri.gov/parks/fort-adams-state-park
+links:
+  - type: state-park
+    label: "Fort Adams State Park: official page"
+    url: https://riparks.ri.gov/parks/fort-adams-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Fort%20Adams%20State%20Park%2C%20Newport%2C%20RI
+mapQuery: Fort Adams State Park, Newport, RI
+lat: 41.4769
+lon: -71.341
+kind: park
+interests:
+  - history
+  - family
+  - views
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: true
+summary: A large 1800s fort on Newport Harbor, with tours, a sailing center and festival grounds.
+warnings: []

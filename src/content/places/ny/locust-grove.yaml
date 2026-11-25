@@ -1,0 +1,35 @@
+name: Locust Grove Estate
+country: us
+state: NY
+region: hudson-valley
+county: Dutchess
+area: Poughkeepsie
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.lgny.org/
+links:
+  - type: official
+    label: "Locust Grove Estate: official page"
+    url: https://www.lgny.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Locust%20Grove%20Estate%2C%20Poughkeepsie%2C%20NY
+mapQuery: Locust Grove Estate, Poughkeepsie, NY
+lat: 41.6573
+lon: -73.9392
+kind: museum
+interests:
+  - history
+  - relax
+  - views
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A historic estate on a bluff above the Hudson with a mansion and walking trails.
+warnings: []

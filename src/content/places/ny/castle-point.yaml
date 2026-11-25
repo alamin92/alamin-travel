@@ -1,0 +1,39 @@
+name: Castle Point Carriage Road
+country: us
+state: NY
+region: hudson-valley
+county: Ulster
+area: New Paltz
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.mohonkpreserve.org/
+links:
+  - type: official
+    label: "Castle Point Carriage Road: official page"
+    url: https://www.mohonkpreserve.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Castle%20Point%20Carriage%20Road%2C%20New%20Paltz%2C%20NY
+mapQuery: Castle Point Carriage Road, New Paltz, NY
+lat: 41.7034
+lon: -74.274
+kind: hike
+interests:
+  - views
+  - relax
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A wide carriage road with views of the Shawangunks, part of the Mohonk Preserve trail network.
+warnings:
+  - type: fees
+    text: Mohonk Preserve charges a day-use fee for non-members. Check the preserve site.
+    verify: true

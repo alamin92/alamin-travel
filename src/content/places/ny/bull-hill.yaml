@@ -1,0 +1,38 @@
+name: Bull Hill (Mount Taurus)
+country: us
+state: NY
+region: hudson-valley
+county: Putnam
+area: Cold Spring
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/hudson-highlands-state-park-preserve
+links:
+  - type: state-park
+    label: "Bull Hill: official page"
+    url: https://parks.ny.gov/visit/state-parks/hudson-highlands-state-park-preserve
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Bull%20Hill%2C%20Cold%20Spring%2C%20NY
+mapQuery: Bull Hill, Cold Spring, NY
+lat: 41.4384
+lon: -73.9557
+kind: hike
+interests:
+  - adventure
+  - views
+  - nature
+difficulty: hard
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: false
+cost: free
+highlight: false
+summary: A strenuous loop over a Hudson Highlands summit, with views over the river and the old Cornish estate ruins.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

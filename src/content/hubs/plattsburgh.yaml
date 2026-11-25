@@ -1,0 +1,18 @@
+name: Plattsburgh and Lake Champlain
+country: us
+state: NY
+region: adirondacks
+county: Clinton
+blurb: A Lake Champlain city in the far northeast of the state, near the Vermont ferries.
+nearby:
+  - place: bluff-point-light
+    minutes: 10
+  - place: ausable-chasm
+    minutes: 25
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

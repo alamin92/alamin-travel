@@ -1,0 +1,37 @@
+name: USS Slater Destroyer Escort Museum
+country: us
+state: NY
+region: capital-saratoga
+county: Albany
+area: Albany
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://ussslater.org/
+links:
+  - type: official
+    label: "USS Slater Destroyer Escort Museum: official page"
+    url: https://ussslater.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=USS%20Slater%20Destroyer%20Escort%20Museum%2C%20Albany%2C%20NY
+mapQuery: USS Slater Destroyer Escort Museum, Albany, NY
+lat: 42.6419
+lon: -73.751
+kind: museum
+interests:
+  - history
+  - family
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A World War II destroyer escort docked on the Hudson in Albany and open for tours.
+warnings:
+  - type: closure
+    text: Open seasonally. Check the site.
+    verify: true

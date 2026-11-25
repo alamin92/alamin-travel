@@ -1,0 +1,36 @@
+name: MASS MoCA
+country: us
+state: MA
+region: western-massachusetts
+county: Berkshire
+area: North Adams
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://massmoca.org/
+links:
+  - type: official
+    label: "MASS MoCA: official page"
+    url: https://massmoca.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=MASS%20MoCA%2C%20North%20Adams%2C%20MA
+mapQuery: MASS MoCA, North Adams, MA
+lat: 42.7007
+lon: -73.118
+kind: museum
+interests:
+  - culture
+  - photo
+  - family
+difficulty: n/a
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: true
+summary: One of the largest contemporary art museums in the country, in a former factory complex.
+warnings: []

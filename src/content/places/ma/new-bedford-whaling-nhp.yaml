@@ -1,0 +1,36 @@
+name: New Bedford Whaling National Historical Park
+country: us
+state: MA
+region: south-of-boston
+county: Bristol
+area: New Bedford
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nps.gov/nebe/index.htm
+links:
+  - type: nps
+    label: "New Bedford Whaling National Historical Park: official page"
+    url: https://www.nps.gov/nebe/index.htm
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=New%20Bedford%20Whaling%20National%20Historical%20Park%2C%20New%20Bedford%2C%20MA
+mapQuery: New Bedford Whaling National Historical Park, New Bedford, MA
+lat: 41.635
+lon: -70.925
+kind: museum
+interests:
+  - history
+  - family
+  - culture
+difficulty: n/a
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: free
+highlight: false
+summary: A historic whaling port with cobblestone streets and the Whaling Museum.
+warnings: []

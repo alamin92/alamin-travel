@@ -1,0 +1,36 @@
+name: Silver Lake State Park
+country: us
+state: NY
+region: greater-niagara
+county: Wyoming
+area: Perry
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/silver-lake-state-park
+links:
+  - type: state-park
+    label: "Silver Lake State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/silver-lake-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Silver%20Lake%20State%20Park%2C%20Perry%2C%20NY
+mapQuery: Silver Lake State Park, Perry, NY
+lat: 42.6763
+lon: -78.0531
+kind: park
+interests:
+  - family
+  - relax
+  - nature
+  - beach
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A small state park on Silver Lake with a beach and picnic areas.
+warnings: []

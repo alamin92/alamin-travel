@@ -1,0 +1,38 @@
+name: Clark Reservation State Park
+country: us
+state: NY
+region: finger-lakes
+county: Onondaga
+area: Jamesville
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/clark-reservation-state-park
+links:
+  - type: state-park
+    label: "Clark Reservation State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/clark-reservation-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Clark%20Reservation%20State%20Park%2C%20Jamesville%2C%20NY
+mapQuery: Clark Reservation State Park, Jamesville, NY
+lat: 42.9858
+lon: -76.0872
+kind: hike
+interests:
+  - nature
+  - views
+  - family
+difficulty: moderate
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A glacial plunge basin with a lake and cliffs, with trails and views.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

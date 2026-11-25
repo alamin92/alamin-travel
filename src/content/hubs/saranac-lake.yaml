@@ -1,0 +1,68 @@
+name: Saranac Lake
+country: us
+state: NY
+region: adirondacks
+county: Franklin
+blurb: A mountain village near the Wild Center, lakes and the northern High Peaks.
+nearby:
+  - place: high-peaks-wilderness
+    minutes: 5
+  - place: saranac-lake-village
+    minutes: 5
+  - place: lake-placid-village
+    minutes: 15
+  - place: peninsula-nature-trails
+    minutes: 15
+  - place: monument-falls
+    minutes: 20
+  - place: paul-smiths-vic
+    minutes: 20
+  - place: stag-brook-falls
+    minutes: 20
+  - place: adirondak-loj
+    minutes: 25
+  - place: mount-jo
+    minutes: 25
+  - place: olympic-jumping-complex
+    minutes: 25
+  - place: whiteface-mountain
+    minutes: 25
+  - place: adirondack-wildlife-refuge
+    minutes: 30
+  - place: cascade-lakes
+    minutes: 30
+  - place: cascade-mountain
+    minutes: 30
+  - place: cloudsplitter-gondola
+    minutes: 30
+  - place: high-falls-gorge
+    minutes: 30
+  - place: mt-van-hoevenberg
+    minutes: 30
+  - place: santas-workshop
+    minutes: 30
+  - place: wilmington-notch
+    minutes: 30
+  - place: hulls-falls
+    minutes: 35
+  - place: mount-colden
+    minutes: 35
+  - place: wild-center
+    minutes: 35
+  - place: mount-marcy
+    minutes: 40
+  - place: adirondack-mountain-reserve
+    minutes: 45
+  - place: beaver-meadow-falls
+    minutes: 45
+  - place: roaring-brook-falls
+    minutes: 45
+  - place: mount-arab-fire-tower
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

@@ -1,0 +1,37 @@
+name: Anthony's Nose
+country: us
+state: NY
+region: hudson-valley
+county: Westchester
+area: Peekskill
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/hudson-highlands-state-park-preserve
+links:
+  - type: state-park
+    label: "Anthony's Nose: official page"
+    url: https://parks.ny.gov/visit/state-parks/hudson-highlands-state-park-preserve
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Anthony's%20Nose%2C%20Peekskill%2C%20NY
+mapQuery: Anthony's Nose, Peekskill, NY
+lat: 41.3195
+lon: -73.9776
+kind: hike
+interests:
+  - adventure
+  - views
+  - rough
+difficulty: hard
+timeMinutes: 180
+bestSeason:
+  - spring
+  - fall
+familyFriendly: false
+cost: free
+highlight: true
+summary: A steep hike to a rocky headland above the Hudson, with a view of the Bear Mountain Bridge.
+warnings:
+  - type: safety
+    text: The climb is steep and rocky. Carry water and watch the footing.
+    verify: true

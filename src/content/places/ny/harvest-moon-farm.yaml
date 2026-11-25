@@ -1,0 +1,37 @@
+name: Harvest Moon Farm and Orchard
+country: us
+state: NY
+region: hudson-valley
+county: Westchester
+area: Northern Westchester
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.harvestmoonfarm.org/
+links:
+  - type: official
+    label: "Harvest Moon Farm and Orchard: official page"
+    url: https://www.harvestmoonfarm.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Harvest%20Moon%20Farm%20and%20Orchard%2C%20Northern%20Westchester%2C%20NY
+mapQuery: Harvest Moon Farm and Orchard, Northern Westchester, NY
+lat: 41.3486
+lon: -73.6355
+kind: farm
+interests:
+  - seasonal
+  - family
+  - photo
+difficulty: n/a
+timeMinutes: 150
+bestSeason:
+  - summer
+  - fall
+familyFriendly: true
+cost: varies
+highlight: false
+summary: A farm and orchard with seasonal pick-your-own fruit and fall events.
+warnings:
+  - type: other
+    text: This is seasonal. Dates, hours and what you can pick change every year, so check the farm's own site before you go.
+    verify: true

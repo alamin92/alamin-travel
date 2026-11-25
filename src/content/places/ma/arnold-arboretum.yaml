@@ -1,0 +1,36 @@
+name: Arnold Arboretum
+country: us
+state: MA
+region: greater-boston
+county: Suffolk
+area: Jamaica Plain
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://arboretum.harvard.edu/
+links:
+  - type: official
+    label: "Arnold Arboretum: official page"
+    url: https://arboretum.harvard.edu/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Arnold%20Arboretum%2C%20Jamaica%20Plain%2C%20MA
+mapQuery: Arnold Arboretum, Jamaica Plain, MA
+lat: 42.295
+lon: -71.125
+kind: park
+interests:
+  - relax
+  - nature
+  - photo
+  - family
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A free Harvard arboretum of trees and shrubs, with paths over hills.
+warnings: []

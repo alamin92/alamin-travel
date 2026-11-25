@@ -1,0 +1,39 @@
+name: Kaaterskill Wild Forest
+country: us
+state: NY
+region: hudson-valley
+county: Ulster
+alsoRegions:
+  - catskills
+area: Woodstock
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://dec.ny.gov/places/kaaterskill-wild-forest
+links:
+  - type: official
+    label: "Kaaterskill Wild Forest: official page"
+    url: https://dec.ny.gov/places/kaaterskill-wild-forest
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Kaaterskill%20Wild%20Forest%2C%20Woodstock%2C%20NY
+mapQuery: Kaaterskill Wild Forest, Woodstock, NY
+lat: 42.1675
+lon: -74.0429
+kind: hike
+interests:
+  - nature
+  - adventure
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A large state forest in the eastern Catskills with trails, streams and waterfalls.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

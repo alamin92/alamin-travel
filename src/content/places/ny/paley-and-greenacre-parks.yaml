@@ -1,0 +1,36 @@
+name: Paley Park and Greenacre Park
+country: us
+state: NY
+region: nyc
+county: New York
+area: Midtown Manhattan
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.nycgovparks.org/
+links:
+  - type: official
+    label: "Paley Park and Greenacre Park: official page"
+    url: https://www.nycgovparks.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Paley%20Park%20and%20Greenacre%20Park%2C%20Midtown%20Manhattan%2C%20NY
+mapQuery: Paley Park and Greenacre Park, Midtown Manhattan, NY
+lat: 40.7603
+lon: -73.9751
+kind: park
+interests:
+  - relax
+  - short-time
+  - photo
+difficulty: easy
+timeMinutes: 30
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: free
+highlight: false
+summary: Two tiny vest-pocket parks in Midtown with waterfalls, trees and seating, good for a short rest.
+warnings: []

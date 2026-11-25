@@ -1,0 +1,36 @@
+name: Holiday Valley Resort
+country: us
+state: NY
+region: chautauqua-allegheny
+county: Cattaraugus
+area: Ellicottville
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.holidayvalley.com/
+links:
+  - type: official
+    label: "Holiday Valley Resort: official page"
+    url: https://www.holidayvalley.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Holiday%20Valley%20Resort%2C%20Ellicottville%2C%20NY
+mapQuery: Holiday Valley Resort, Ellicottville, NY
+lat: 42.261
+lon: -78.67
+kind: activity
+interests:
+  - winter
+  - adventure
+  - family
+difficulty: n/a
+timeMinutes: 300
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A large ski resort near the village of Ellicottville, with summer chairlift rides and a lively village.
+warnings: []

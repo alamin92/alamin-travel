@@ -1,0 +1,40 @@
+name: Rosendale Trestle and Wallkill Valley Rail Trail
+country: us
+state: NY
+region: hudson-valley
+county: Ulster
+area: Rosendale
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.visithudsonvalley.com/
+links:
+  - type: official
+    label: "Rosendale Trestle and Wallkill Valley Rail Trail: official page"
+    url: https://www.visithudsonvalley.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Rosendale%20Trestle%20and%20Wallkill%20Valley%20Rail%20Trail%2C%20Rosendale%2C%20NY
+mapQuery: Rosendale Trestle and Wallkill Valley Rail Trail, Rosendale, NY
+lat: 41.8433
+lon: -74.0883
+kind: bridge
+interests:
+  - views
+  - photo
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A rail trail that crosses the high Rosendale Trestle over the Rondout Creek, with long views down the gorge.
+details: Parking for the Wallkill Valley Rail Trail is at several trailheads along the line.
+warnings:
+  - type: safety
+    text: The trestle is high. Keep children close and stay on the deck.
+    verify: false

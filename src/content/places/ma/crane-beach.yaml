@@ -1,0 +1,40 @@
+name: Crane Beach
+country: us
+state: MA
+region: north-of-boston
+county: Essex
+area: Ipswich
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.thetrustees.org/place/crane-beach/
+links:
+  - type: official
+    label: "Crane Beach: official page"
+    url: https://www.thetrustees.org/place/crane-beach/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Crane%20Beach%2C%20Ipswich%2C%20MA
+mapQuery: Crane Beach, Ipswich, MA
+lat: 42.685
+lon: -70.769
+kind: beach
+interests:
+  - beach
+  - family
+  - nature
+  - relax
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: true
+summary: A long barrier beach with dunes, run by The Trustees of Reservations.
+warnings:
+  - type: reservation
+    text: Summer parking has needed a reservation in recent years. Check the Trustees page.
+    verify: true
+  - type: closure
+    text: Parts close for nesting plovers in spring and summer.
+    verify: true

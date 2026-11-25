@@ -1,0 +1,35 @@
+name: Little Bay Park
+country: us
+state: NY
+region: nyc
+county: Queens
+area: Bayside
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.nycgovparks.org/parks/little-bay-park
+links:
+  - type: official
+    label: "Little Bay Park: official page"
+    url: https://www.nycgovparks.org/parks/little-bay-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Little%20Bay%20Park%2C%20Bayside%2C%20NY
+mapQuery: Little Bay Park, Bayside, NY
+lat: 40.7902
+lon: -73.7865
+kind: park
+interests:
+  - relax
+  - views
+  - family
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A waterfront park on the East River under the Throgs Neck Bridge.
+warnings: []

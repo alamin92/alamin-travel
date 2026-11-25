@@ -1,0 +1,35 @@
+name: Mine Kill State Park and Falls
+country: us
+state: NY
+region: central-ny
+county: Schoharie
+area: North Blenheim
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/mine-kill-state-park
+links:
+  - type: state-park
+    label: "Mine Kill State Park and Falls: official page"
+    url: https://parks.ny.gov/visit/state-parks/mine-kill-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mine%20Kill%20State%20Park%20and%20Falls%2C%20North%20Blenheim%2C%20NY
+mapQuery: Mine Kill State Park and Falls, North Blenheim, NY
+lat: 42.4332
+lon: -74.4628
+kind: park
+interests:
+  - family
+  - nature
+  - beach
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A state park with a waterfall, a pool, trails and a view of the Blenheim-Gilboa reservoir.
+warnings: []

@@ -1,0 +1,49 @@
+---
+import { buildStateMap } from '../lib/statemap';
+interface Props { state: string; active?: string; counts?: Record<string, number>; small?: boolean }
+const { state, active, counts = {}, small = false } = Astro.props;
+const FIPS: Record<string, string> = { NY: '36', CT: '09', MA: '25', RI: '44' };
+const NAMES: Record<string, string> = { NY: 'New York', CT: 'Connecticut', MA: 'Massachusetts', RI: 'Rhode Island' };
+// New York keeps a fixed frame, so its hand-placed labels line up. Other states are fitted to their own shape.
+const map = state === 'NY' ? buildStateMap('NY', FIPS.NY, 900, 640) : buildStateMap(state, FIPS[state], 900, 520, true);
+// Label size in map units, so text looks about the same on every state.
+const font = state === 'NY' ? 15 : Math.round(map.vbWidth / (small ? 48 : 30));
+// Label lines and positions in map coordinates. Small and oddly shaped regions are placed by hand.
+const labels: Record<string, { lines: string[]; x?: number; y?: number }> = {
+  adirondacks: { lines: ['ADIRONDACKS'], x: 631, y: 105 },
+  'thousand-islands-seaway': { lines: ['THOUSAND', 'ISLANDS-', 'SEAWAY'], x: 505, y: 92 },
+  'capital-saratoga': { lines: ['CAPITAL-', 'SARATOGA'], x: 662, y: 322 },
+  'central-ny': { lines: ['CENTRAL', 'NEW YORK'], x: 500, y: 300 },
+  'finger-lakes': { lines: ['FINGER', 'LAKES'] },
+  'greater-niagara': { lines: ['GREATER', 'NIAGARA'] },
+  'chautauqua-allegheny': { lines: ['CHAUTAUQUA-', 'ALLEGHENY'] },
+  catskills: { lines: ['THE', 'CATSKILLS'], x: 533, y: 412 },
+  'hudson-valley': { lines: ['HUDSON', 'VALLEY'], x: 640, y: 466 },
+  'long-island': { lines: ['LONG ISLAND'], x: 772, y: 548 },
+  nyc: { lines: ['NEW YORK CITY'], x: 540, y: 640 },
+};
+// Other states: break long names into lines of roughly 14 characters.
+function wrap(name: string) {
+  const words = name.toUpperCase().split(' ');
+  const lines: string[] = [];
+  for (const w of words) {
+    if (lines.length && (lines[lines.length - 1] + ' ' + w).length <= 14) lines[lines.length - 1] += ' ' + w;
+    else lines.push(w);
+  }
+  return lines;
+}
+---
+<svg class="statemap nymap" viewBox={map.viewBox} role="group" aria-label={`Map of ${NAMES[state]} tourism regions`}>
+  {map.regions.map((r) => (
+    <a href={`/regions/${r.id}`} class={`region${active === r.id ? ' active' : ''}`} aria-label={`${r.name}${counts[r.id] ? `, ${counts[r.id]} places` : ''}`}>
+      <path d={r.d} />
+    </a>
+  ))}
+  <g class="labels" aria-hidden="true">
+    {map.regions.map((r) => {
+      const l = labels[r.id] ?? { lines: wrap(r.name) };
+      const x = l.x ?? r.cx, y = (l.y ?? r.cy) - ((l.lines.length - 1) * ((font + 2) / 2));
+      return <text text-anchor="middle" style={`font-size:${font}px`}>{l.lines.map((line, i) => <tspan x={x} y={y + i * (font + 2)}>{line}</tspan>)}</text>;
+    })}
+  </g>
+</svg>

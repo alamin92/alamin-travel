@@ -1,0 +1,37 @@
+name: Lake George Battlefield Park
+country: us
+state: NY
+region: adirondacks
+county: Warren
+alsoRegions:
+  - adirondacks
+area: Lake George
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.lakegeorge.com/
+links:
+  - type: state-park
+    label: "Lake George Battlefield Park: official page"
+    url: https://www.lakegeorge.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Lake%20George%20Battlefield%20Park%2C%20Lake%20George%2C%20NY
+mapQuery: Lake George Battlefield Park, Lake George, NY
+lat: 43.4158
+lon: -73.7048
+kind: park
+interests:
+  - history
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A state park at the south end of Lake George with historic ruins and a beach nearby.
+warnings: []

@@ -1,0 +1,35 @@
+name: Seneca Park and Seneca Park Zoo
+country: us
+state: NY
+region: finger-lakes
+county: Monroe
+area: Rochester
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://senecaparkzoo.org/
+links:
+  - type: official
+    label: "Seneca Park and Seneca Park Zoo: official page"
+    url: https://senecaparkzoo.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Seneca%20Park%20and%20Seneca%20Park%20Zoo%2C%20Rochester%2C%20NY
+mapQuery: Seneca Park and Seneca Park Zoo, Rochester, NY
+lat: 43.2345
+lon: -77.5922
+kind: park
+interests:
+  - family
+  - relax
+  - nature
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A park designed by Frederick Law Olmsted, with a zoo and riverside trails.
+warnings: []

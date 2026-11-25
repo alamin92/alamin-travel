@@ -1,0 +1,38 @@
+name: Seaside Park (Bridgeport)
+country: us
+state: CT
+region: western-connecticut
+county: Fairfield
+area: Bridgeport
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.bridgeportct.gov/
+links:
+  - type: official
+    label: "Seaside Park: official page"
+    url: https://www.bridgeportct.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Seaside%20Park%2C%20Bridgeport%2C%20CT
+mapQuery: Seaside Park, Bridgeport, CT
+lat: 41.16
+lon: -73.2044
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A large waterfront park in Bridgeport on Long Island Sound, with a beach and lawns.
+warnings:
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: false

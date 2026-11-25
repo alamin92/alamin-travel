@@ -1,0 +1,39 @@
+name: Sapsucker Woods
+country: us
+state: NY
+region: finger-lakes
+county: Tompkins
+area: Ithaca
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.birds.cornell.edu/visit/
+links:
+  - type: official
+    label: "Sapsucker Woods: official page"
+    url: https://www.birds.cornell.edu/visit/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Sapsucker%20Woods%2C%20Ithaca%2C%20NY
+mapQuery: Sapsucker Woods, Ithaca, NY
+lat: 42.48
+lon: -76.4508
+kind: hike
+interests:
+  - nature
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: free
+highlight: false
+summary: The Cornell Lab of Ornithology's sanctuary, with a pond, trails and a visitor center.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

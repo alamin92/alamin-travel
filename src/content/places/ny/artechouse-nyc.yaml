@@ -1,0 +1,39 @@
+name: ARTECHOUSE NYC
+country: us
+state: NY
+region: nyc
+county: New York
+area: Chelsea
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.artechouse.com/
+links:
+  - type: official
+    label: "ARTECHOUSE NYC: official page"
+    url: https://www.artechouse.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=ARTECHOUSE%20NYC%2C%20Chelsea%2C%20NY
+mapQuery: ARTECHOUSE NYC, Chelsea, NY
+lat: 40.7396
+lon: -73.9862
+kind: museum
+interests:
+  - culture
+  - photo
+  - family
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A digital art space in Chelsea with immersive installations.
+warnings:
+  - type: reservation
+    text: Timed tickets are required. Book online.
+    verify: true

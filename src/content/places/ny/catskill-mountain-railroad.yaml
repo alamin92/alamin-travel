@@ -1,0 +1,36 @@
+name: Catskill Mountain Railroad
+country: us
+state: NY
+region: hudson-valley
+county: Ulster
+alsoRegions:
+  - catskills
+area: Kingston and Mount Tremper
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://catskillsvisitorcenter.org/
+links:
+  - type: official
+    label: "Catskill Mountain Railroad: official page"
+    url: https://catskillsvisitorcenter.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Catskill%20Mountain%20Railroad%2C%20Kingston%20and%20Mount%20Tremper%2C%20NY
+mapQuery: Catskill Mountain Railroad, Kingston and Mount Tremper, NY
+lat: 41.942
+lon: -74.023
+kind: activity
+interests:
+  - family
+  - history
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: Scenic train rides on a short railroad in the Catskills.
+warnings: []

@@ -1,0 +1,30 @@
+name: Norwalk and Westport
+country: us
+state: CT
+region: western-connecticut
+county: Fairfield
+blurb: The Fairfield County coast, with an aquarium, a state park beach and an art-filled national park.
+nearby:
+  - place: maritime-aquarium-norwalk
+    minutes: 5
+  - place: sherwood-island-state-park
+    minutes: 5
+  - place: devils-den-preserve
+    minutes: 20
+  - place: seaside-park-bridgeport
+    minutes: 20
+  - place: weir-farm-nhp
+    minutes: 20
+  - place: beardsley-zoo
+    minutes: 25
+  - place: silver-sands-state-park
+    minutes: 40
+  - place: indian-well-state-park
+    minutes: 45
+checkBefore:
+  - type: state-park
+    label: "CT State Parks: status and alerts"
+    url: https://portal.ct.gov/deep/state-parks/state-parks-and-forests
+  - type: official
+    label: "CTvisit: official Connecticut tourism"
+    url: https://www.ctvisit.com/

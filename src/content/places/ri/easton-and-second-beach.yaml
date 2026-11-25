@@ -1,0 +1,36 @@
+name: Easton Beach and Second Beach
+country: us
+state: RI
+region: newport-east-bay
+county: Newport
+area: Newport and Middletown
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.cityofnewport.com/
+links:
+  - type: official
+    label: "Easton Beach and Second Beach: official page"
+    url: https://www.cityofnewport.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Easton%20Beach%20and%20Second%20Beach%2C%20Newport%20and%20Middletown%2C%20RI
+mapQuery: Easton Beach and Second Beach, Newport and Middletown, RI
+lat: 41.488
+lon: -71.297
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: Two popular sandy beaches near Newport, with parking fees in summer.
+warnings:
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: false

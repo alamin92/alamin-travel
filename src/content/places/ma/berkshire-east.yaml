@@ -1,0 +1,36 @@
+name: Berkshire East Mountain Resort
+country: us
+state: MA
+region: western-massachusetts
+county: Franklin
+area: Charlemont
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://berkshireeast.com/
+links:
+  - type: official
+    label: "Berkshire East Mountain Resort: official page"
+    url: https://berkshireeast.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Berkshire%20East%20Mountain%20Resort%2C%20Charlemont%2C%20MA
+mapQuery: Berkshire East Mountain Resort, Charlemont, MA
+lat: 42.6251
+lon: -72.8724
+kind: activity
+interests:
+  - adventure
+  - family
+  - winter
+difficulty: n/a
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A mountain resort with skiing in winter, and a zipline, rafting and mountain bike park in summer.
+warnings: []

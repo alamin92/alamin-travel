@@ -1,0 +1,40 @@
+name: Sleeping Beauty Mountain
+country: us
+state: NY
+region: capital-saratoga
+county: Washington
+alsoRegions:
+  - adirondacks
+area: Fort Ann
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://dec.ny.gov/things-to-do/hiking
+links:
+  - type: official
+    label: "Sleeping Beauty Mountain: official page"
+    url: https://dec.ny.gov/things-to-do/hiking
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Sleeping%20Beauty%20Mountain%2C%20Fort%20Ann%2C%20NY
+mapQuery: Sleeping Beauty Mountain, Fort Ann, NY
+lat: 43.5495
+lon: -73.556
+kind: hike
+interests:
+  - adventure
+  - views
+  - nature
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A hike to a summit with views over Lake George.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

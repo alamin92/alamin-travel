@@ -1,0 +1,35 @@
+name: Heart Lake and the ADK Loj
+country: us
+state: NY
+region: adirondacks
+county: Essex
+area: Lake Placid
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.adk.org/
+links:
+  - type: official
+    label: "Heart Lake and the ADK Loj: official page"
+    url: https://www.adk.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Heart%20Lake%20and%20the%20ADK%20Loj%2C%20Lake%20Placid%2C%20NY
+mapQuery: Heart Lake and the ADK Loj, Lake Placid, NY
+lat: 44.183
+lon: -73.961
+kind: park
+interests:
+  - nature
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: The main trailhead area for the High Peaks, with a lake and a public lodge.
+warnings: []

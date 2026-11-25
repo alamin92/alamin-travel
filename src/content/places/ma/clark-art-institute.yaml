@@ -1,0 +1,35 @@
+name: Clark Art Institute
+country: us
+state: MA
+region: western-massachusetts
+county: Berkshire
+area: Williamstown
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.clarkart.edu/
+links:
+  - type: official
+    label: "Clark Art Institute: official page"
+    url: https://www.clarkart.edu/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Clark%20Art%20Institute%2C%20Williamstown%2C%20MA
+mapQuery: Clark Art Institute, Williamstown, MA
+lat: 42.711
+lon: -73.202
+kind: museum
+interests:
+  - culture
+  - relax
+difficulty: n/a
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: An art museum with French Impressionist paintings, set among walking trails and ponds.
+warnings: []

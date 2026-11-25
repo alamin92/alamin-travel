@@ -1,0 +1,35 @@
+name: Harkness Memorial State Park
+country: us
+state: CT
+region: eastern-connecticut
+county: New London
+area: Waterford
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://portal.ct.gov/deep/state-parks/harkness-memorial-state-park
+links:
+  - type: state-park
+    label: "Harkness Memorial State Park: official page"
+    url: https://portal.ct.gov/deep/state-parks/harkness-memorial-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Harkness%20Memorial%20State%20Park%2C%20Waterford%2C%20CT
+mapQuery: Harkness Memorial State Park, Waterford, CT
+lat: 41.3076
+lon: -72.119
+kind: park
+interests:
+  - relax
+  - photo
+  - history
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A seaside estate with a mansion, formal gardens and lawns on Long Island Sound.
+warnings: []

@@ -1,0 +1,35 @@
+name: Crown Point State Historic Site
+country: us
+state: NY
+region: adirondacks
+county: Essex
+area: Crown Point
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/historic-sites/crown-point-state-historic-site
+links:
+  - type: state-park
+    label: "Crown Point State Historic Site: official page"
+    url: https://parks.ny.gov/visit/historic-sites/crown-point-state-historic-site
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Crown%20Point%20State%20Historic%20Site%2C%20Crown%20Point%2C%20NY
+mapQuery: Crown Point State Historic Site, Crown Point, NY
+lat: 44.026
+lon: -73.4269
+kind: museum
+interests:
+  - history
+  - views
+  - family
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: The ruins of two forts on Lake Champlain, with a visitor center and a lighthouse nearby.
+warnings: []

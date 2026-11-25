@@ -1,0 +1,35 @@
+name: Ellison Park
+country: us
+state: NY
+region: finger-lakes
+county: Monroe
+area: Penfield
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www2.monroecounty.gov/parks-ellison
+links:
+  - type: official
+    label: "Ellison Park: official page"
+    url: https://www2.monroecounty.gov/parks-ellison
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Ellison%20Park%2C%20Penfield%2C%20NY
+mapQuery: Ellison Park, Penfield, NY
+lat: 43.1544
+lon: -77.5202
+kind: park
+interests:
+  - family
+  - relax
+  - nature
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A county park along Irondequoit Creek with trails, a pond and a waterfall.
+warnings: []

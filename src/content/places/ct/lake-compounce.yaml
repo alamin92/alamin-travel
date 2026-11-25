@@ -1,0 +1,35 @@
+name: Lake Compounce
+country: us
+state: CT
+region: central-connecticut
+county: Hartford
+area: Bristol
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.lakecompounce.com/
+links:
+  - type: official
+    label: "Lake Compounce: official page"
+    url: https://www.lakecompounce.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Lake%20Compounce%2C%20Bristol%2C%20CT
+mapQuery: Lake Compounce, Bristol, CT
+lat: 41.636
+lon: -72.917
+kind: activity
+interests:
+  - family
+  - seasonal
+difficulty: n/a
+timeMinutes: 360
+bestSeason:
+  - summer
+familyFriendly: true
+cost: paid
+highlight: false
+summary: America's oldest continuously operating amusement park, with a water park.
+warnings:
+  - type: closure
+    text: Open seasonally.
+    verify: true

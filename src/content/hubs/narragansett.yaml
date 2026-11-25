@@ -1,0 +1,68 @@
+name: Narragansett and South County
+country: us
+state: RI
+region: south-county-block-island
+county: Washington
+blurb: Rhode Island's ocean beaches, with the Point Judith ferry to Block Island.
+nearby:
+  - place: beavertail-state-park
+    minutes: 5
+  - place: narragansett-beach
+    minutes: 5
+  - place: brenton-point-state-park
+    minutes: 10
+  - place: point-judith-lighthouse
+    minutes: 10
+  - place: scarborough-state-beach
+    minutes: 10
+  - place: fort-adams-state-park
+    minutes: 15
+  - place: international-tennis-hall-of-fame
+    minutes: 15
+  - place: newport-mansions
+    minutes: 15
+  - place: ocean-drive-newport
+    minutes: 15
+  - place: trustom-pond-nwr
+    minutes: 15
+  - place: cliff-walk-newport
+    minutes: 20
+  - place: easton-and-second-beach
+    minutes: 20
+  - place: purgatory-chasm-middletown
+    minutes: 20
+  - place: burlingame-state-park
+    minutes: 25
+  - place: ninigret-nwr
+    minutes: 25
+  - place: sachuest-point-nwr
+    minutes: 25
+  - place: rocky-point-state-park
+    minutes: 35
+  - place: warwick-light
+    minutes: 35
+  - place: arcadia-management-area
+    minutes: 40
+  - place: blithewold-mansion
+    minutes: 40
+  - place: block-island
+    minutes: 40
+  - place: colt-state-park
+    minutes: 40
+  - place: goddard-memorial-state-park
+    minutes: 40
+  - place: misquamicut-state-beach
+    minutes: 40
+  - place: napatree-point
+    minutes: 50
+  - place: rwp-zoo
+    minutes: 50
+  - place: watch-hill-and-carousel
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: RI State Parks and Beaches
+    url: https://riparks.ri.gov/
+  - type: official
+    label: "Visit Rhode Island: official tourism"
+    url: https://www.visitrhodeisland.com/

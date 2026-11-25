@@ -1,0 +1,35 @@
+name: Orange County Arboretum
+country: us
+state: NY
+region: hudson-valley
+county: Orange
+area: New Windsor
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.orangecountygov.com/
+links:
+  - type: official
+    label: "Orange County Arboretum: official page"
+    url: https://www.orangecountygov.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Orange%20County%20Arboretum%2C%20New%20Windsor%2C%20NY
+mapQuery: Orange County Arboretum, New Windsor, NY
+lat: 41.4817
+lon: -74.2681
+kind: park
+interests:
+  - relax
+  - family
+  - nature
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A county arboretum with gardens and trails.
+warnings: []

@@ -1,0 +1,39 @@
+name: Boston Harbor Islands
+country: us
+state: MA
+region: greater-boston
+county: Suffolk
+area: Boston Harbor
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nps.gov/boha/index.htm
+links:
+  - type: nps
+    label: "Boston Harbor Islands: official page"
+    url: https://www.nps.gov/boha/index.htm
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Boston%20Harbor%20Islands%2C%20Boston%20Harbor%2C%20MA
+mapQuery: Boston Harbor Islands, Boston Harbor, MA
+lat: 42.319
+lon: -70.966
+kind: park
+interests:
+  - family
+  - adventure
+  - views
+  - nature
+difficulty: easy
+timeMinutes: 300
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A national park area of islands reached by ferry, with forts, beaches and trails.
+warnings:
+  - type: reservation
+    text: The ferry runs on a seasonal schedule. Book ahead.
+    verify: true

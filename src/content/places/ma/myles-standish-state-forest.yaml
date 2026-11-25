@@ -1,0 +1,35 @@
+name: Myles Standish State Forest
+country: us
+state: MA
+region: south-of-boston
+county: Plymouth
+area: Plymouth
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.mass.gov/locations/myles-standish-state-forest
+links:
+  - type: state-park
+    label: "Myles Standish State Forest: official page"
+    url: https://www.mass.gov/locations/myles-standish-state-forest
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Myles%20Standish%20State%20Forest%2C%20Plymouth%2C%20MA
+mapQuery: Myles Standish State Forest, Plymouth, MA
+lat: 41.85
+lon: -70.73
+kind: park
+interests:
+  - nature
+  - family
+  - adventure
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A huge pine forest with ponds, trails, a campground and bike paths.
+warnings: []

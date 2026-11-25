@@ -1,0 +1,35 @@
+name: Tallman Mountain State Park
+country: us
+state: NY
+region: hudson-valley
+county: Rockland
+area: Sparkill
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/tallman-mountain-state-park
+links:
+  - type: state-park
+    label: "Tallman Mountain State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/tallman-mountain-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Tallman%20Mountain%20State%20Park%2C%20Sparkill%2C%20NY
+mapQuery: Tallman Mountain State Park, Sparkill, NY
+lat: 41.0269
+lon: -73.9109
+kind: park
+interests:
+  - relax
+  - family
+  - views
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A quiet park on the Palisades with a pool, a Hudson River shore path and wooded trails.
+warnings: []

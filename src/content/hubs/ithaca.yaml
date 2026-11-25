@@ -12,6 +12,38 @@ nearby:
     minutes: 15
   - place: watkins-glen-state-park
     minutes: 40
+  - place: cascadilla-gorge
+    minutes: 5
+  - place: cornell-botanic-gardens
+    minutes: 5
+  - place: fall-creek-gorge
+    minutes: 5
+  - place: ithaca-falls
+    minutes: 5
+  - place: lick-brook-gorge
+    minutes: 5
+  - place: stewart-park
+    minutes: 5
+  - place: wells-falls
+    minutes: 5
+  - place: sapsucker-woods
+    minutes: 10
+  - place: finger-lakes-national-forest
+    minutes: 35
+  - place: seneca-lake-scenic-byway
+    minutes: 35
+  - place: aunt-sarahs-falls
+    minutes: 40
+  - place: deckertown-falls
+    minutes: 40
+  - place: fillmore-glen-state-park
+    minutes: 40
+  - place: havana-glen
+    minutes: 40
+  - place: rainbow-falls-watkins
+    minutes: 40
+  - place: shequaga-falls
+    minutes: 40
 checkBefore:
   - type: state-park
     label: "NY State Parks: park status and alerts"

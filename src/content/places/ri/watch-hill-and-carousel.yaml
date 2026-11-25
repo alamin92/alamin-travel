@@ -1,0 +1,36 @@
+name: Watch Hill and the Flying Horse Carousel
+country: us
+state: RI
+region: south-county-block-island
+county: Washington
+area: Westerly
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.westerlyri.gov/
+links:
+  - type: official
+    label: "Watch Hill and the Flying Horse Carousel: official page"
+    url: https://www.westerlyri.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Watch%20Hill%20and%20the%20Flying%20Horse%20Carousel%2C%20Westerly%2C%20RI
+mapQuery: Watch Hill and the Flying Horse Carousel, Westerly, RI
+lat: 41.303
+lon: -71.859
+kind: town
+interests:
+  - family
+  - relax
+  - photo
+  - beach
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A seaside village with a historic carousel, beaches and Napatree Point.
+warnings: []

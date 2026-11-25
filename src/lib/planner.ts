@@ -87,7 +87,9 @@ export function buildPlan(hub: HubData, places: Record<string, PlaceData>, o: Pl
 
   const score = (c: Cand) => {
     const matches = o.interests.length ? c.place.interests.filter((i) => o.interests.includes(i)).length : 0;
-    return (c.place.highlight ? 3 : 0) + matches * 2 + (c.place.source === 'visited' ? 0.5 : 0) - c.minutes / 200;
+    // All-day expeditions (longer than the pace allows) go last, so they only fill a day when nothing else is left.
+    const tooLong = c.place.timeMinutes > pace.cap ? 6 : 0;
+    return (c.place.highlight ? 3 : 0) + matches * 2 + (c.place.source === 'visited' ? 0.5 : 0) - c.minutes / 200 - tooLong;
   };
   cands.sort((a, b) => score(b) - score(a));
   // With interests chosen, skip places that match none of them (unless nothing matches at all).
@@ -134,7 +136,7 @@ export function buildPlan(hub: HubData, places: Record<string, PlaceData>, o: Pl
     const back = route[route.length - 1].minutes;
     driveTotal += back;
     t += back;
-    const names = route.map((c) => c.place.name.replace(/\s*\(.*\)$/, '').split(' and ')[0]);
+    const names = route.map((c) => c.place.name.replace(/\s*\(.*\)$/, '').split(/ and |: /)[0]);
     const title = names.length === 1 ? names[0] : names.length === 2 ? `${names[0]} and ${names[1]}` : `${names[0]}, ${names[1]} and more`;
     days.push({ n, free: false, title, items, driveTotal, totalMinutes: t - pace.start, end: t });
   }

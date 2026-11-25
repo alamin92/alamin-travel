@@ -1,0 +1,35 @@
+name: Turning Point Park
+country: us
+state: NY
+region: finger-lakes
+county: Monroe
+area: Rochester
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.cityofrochester.gov/
+links:
+  - type: official
+    label: "Turning Point Park: official page"
+    url: https://www.cityofrochester.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Turning%20Point%20Park%2C%20Rochester%2C%20NY
+mapQuery: Turning Point Park, Rochester, NY
+lat: 43.2275
+lon: -77.6213
+kind: park
+interests:
+  - relax
+  - views
+  - family
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A riverside park on the lower Genesee River with a boat launch and paths.
+warnings: []

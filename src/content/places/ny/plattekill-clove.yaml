@@ -1,0 +1,40 @@
+name: Platte Clove and Plattekill Falls
+country: us
+state: NY
+region: catskills
+county: Greene
+alsoRegions:
+  - catskills
+area: Elka Park
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://dec.ny.gov/things-to-do/hiking
+links:
+  - type: official
+    label: "Platte Clove and Plattekill Falls: official page"
+    url: https://dec.ny.gov/things-to-do/hiking
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Platte%20Clove%20and%20Plattekill%20Falls%2C%20Elka%20Park%2C%20NY
+mapQuery: Platte Clove and Plattekill Falls, Elka Park, NY
+lat: 42.1457
+lon: -74.0795
+kind: waterfall
+interests:
+  - nature
+  - adventure
+  - photo
+difficulty: moderate
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A deep clove with waterfalls, reached from a rough mountain road.
+warnings:
+  - type: closure
+    text: Platte Clove Road is closed in winter. Check conditions.
+    verify: true

@@ -14,6 +14,50 @@ nearby:
     minutes: 20
   - place: ausable-chasm
     minutes: 60
+  - place: olympic-jumping-complex
+    minutes: 5
+  - place: peninsula-nature-trails
+    minutes: 5
+  - place: monument-falls
+    minutes: 10
+  - place: adirondak-loj
+    minutes: 15
+  - place: cascade-lakes
+    minutes: 15
+  - place: cascade-mountain
+    minutes: 15
+  - place: cloudsplitter-gondola
+    minutes: 15
+  - place: mount-jo
+    minutes: 15
+  - place: saranac-lake-village
+    minutes: 15
+  - place: stag-brook-falls
+    minutes: 15
+  - place: adirondack-wildlife-refuge
+    minutes: 20
+  - place: high-peaks-wilderness
+    minutes: 20
+  - place: hulls-falls
+    minutes: 20
+  - place: mount-colden
+    minutes: 20
+  - place: santas-workshop
+    minutes: 20
+  - place: wilmington-notch
+    minutes: 20
+  - place: beaver-meadow-falls
+    minutes: 25
+  - place: mount-marcy
+    minutes: 25
+  - place: adirondack-mountain-reserve
+    minutes: 30
+  - place: roaring-brook-falls
+    minutes: 30
+  - place: paul-smiths-vic
+    minutes: 35
+  - place: split-rock-falls
+    minutes: 40
 checkBefore:
   - type: official
     label: Lake Placid visitor site

@@ -1,0 +1,54 @@
+name: Providence
+country: us
+state: RI
+region: providence-blackstone
+county: Providence
+blurb: The capital, with a food and arts scene, river walks and museums.
+nearby:
+  - place: prospect-terrace
+    minutes: 5
+  - place: providence-college-hill
+    minutes: 5
+  - place: risd-museum
+    minutes: 5
+  - place: roger-williams-national-memorial
+    minutes: 5
+  - place: rwp-zoo
+    minutes: 5
+  - place: waterfire-providence
+    minutes: 5
+  - place: blackstone-river-valley-nhp
+    minutes: 10
+  - place: lincoln-woods-state-park
+    minutes: 10
+  - place: goddard-memorial-state-park
+    minutes: 20
+  - place: colt-state-park
+    minutes: 25
+  - place: rocky-point-state-park
+    minutes: 25
+  - place: warwick-light
+    minutes: 25
+  - place: blithewold-mansion
+    minutes: 30
+  - place: arcadia-management-area
+    minutes: 50
+  - place: cliff-walk-newport
+    minutes: 50
+  - place: easton-and-second-beach
+    minutes: 50
+  - place: fort-adams-state-park
+    minutes: 50
+  - place: international-tennis-hall-of-fame
+    minutes: 50
+  - place: purgatory-chasm-middletown
+    minutes: 50
+  - place: sachuest-point-nwr
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: RI State Parks and Beaches
+    url: https://riparks.ri.gov/
+  - type: official
+    label: "Visit Rhode Island: official tourism"
+    url: https://www.visitrhodeisland.com/

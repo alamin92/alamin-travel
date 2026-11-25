@@ -1,0 +1,52 @@
+name: Essex and the Lower Connecticut River
+country: us
+state: CT
+region: central-connecticut
+county: Middlesex
+blurb: River towns with a steam train, a castle and waterfall parks.
+nearby:
+  - place: essex-steam-train
+    minutes: 5
+  - place: chester-hadlyme-ferry
+    minutes: 10
+  - place: florence-griswold-museum
+    minutes: 10
+  - place: gillette-castle-state-park
+    minutes: 10
+  - place: goodspeed-opera-house
+    minutes: 15
+  - place: chatfield-hollow-state-park
+    minutes: 20
+  - place: devils-hopyard-state-park
+    minutes: 20
+  - place: hammonasset-beach-state-park
+    minutes: 20
+  - place: rocky-neck-state-park
+    minutes: 20
+  - place: machimoodus-state-park
+    minutes: 25
+  - place: comstock-covered-bridge
+    minutes: 30
+  - place: harkness-memorial-state-park
+    minutes: 30
+  - place: ocean-beach-park
+    minutes: 30
+  - place: bluff-point-state-park
+    minutes: 40
+  - place: wadsworth-falls-state-park
+    minutes: 40
+  - place: mystic-seaport-museum
+    minutes: 45
+  - place: dinosaur-state-park
+    minutes: 50
+  - place: mashantucket-pequot-museum
+    minutes: 50
+  - place: mystic-aquarium
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "CT State Parks: status and alerts"
+    url: https://portal.ct.gov/deep/state-parks/state-parks-and-forests
+  - type: official
+    label: "CTvisit: official Connecticut tourism"
+    url: https://www.ctvisit.com/

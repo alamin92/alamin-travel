@@ -1,0 +1,23 @@
+name: Martha's Vineyard
+country: us
+state: MA
+region: cape-cod-islands
+county: Dukes
+blurb: An island reached by ferry, with cliffs, beaches and villages.
+nearby:
+  - place: woods-hole-ferry
+    minutes: 25
+  - place: aquinnah-cliffs
+    minutes: 35
+  - place: nantucket-town
+    minutes: 45
+checkBefore:
+  - type: state-park
+    label: "Mass.gov DCR: state parks and alerts"
+    url: https://www.mass.gov/orgs/department-of-conservation-and-recreation
+  - type: official
+    label: "Visit Massachusetts: official tourism"
+    url: https://www.visitma.com/
+  - type: conditions
+    label: "Mass511: road conditions"
+    url: https://mass511.com/

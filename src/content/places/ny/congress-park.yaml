@@ -1,0 +1,35 @@
+name: Congress Park
+country: us
+state: NY
+region: capital-saratoga
+county: Saratoga
+area: Saratoga Springs
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.saratoga-springs.org/
+links:
+  - type: official
+    label: "Congress Park: official page"
+    url: https://www.saratoga-springs.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Congress%20Park%2C%20Saratoga%20Springs%2C%20NY
+mapQuery: Congress Park, Saratoga Springs, NY
+lat: 43.0786
+lon: -73.785
+kind: park
+interests:
+  - relax
+  - family
+  - history
+difficulty: easy
+timeMinutes: 60
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A historic downtown park with fountains, a spring pavilion and a small museum.
+warnings: []

@@ -1,0 +1,38 @@
+name: Devil's Den Preserve
+country: us
+state: CT
+region: western-connecticut
+county: Fairfield
+area: Weston
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.ctvisit.com/
+links:
+  - type: official
+    label: "Devil's Den Preserve: official page"
+    url: https://www.ctvisit.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Devil's%20Den%20Preserve%2C%20Weston%2C%20CT
+mapQuery: Devil's Den Preserve, Weston, CT
+lat: 41.257
+lon: -73.356
+kind: hike
+interests:
+  - nature
+  - adventure
+  - family
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: The largest nature preserve in southwestern Connecticut, with many trails through woods and ledges.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

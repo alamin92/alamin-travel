@@ -1,0 +1,36 @@
+name: Highland Park (Rochester)
+country: us
+state: NY
+region: finger-lakes
+county: Monroe
+area: Rochester
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.cityofrochester.gov/
+links:
+  - type: official
+    label: "Highland Park: official page"
+    url: https://www.cityofrochester.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Highland%20Park%2C%20Rochester%2C%20NY
+mapQuery: Highland Park, Rochester, NY
+lat: 43.13
+lon: -77.603
+kind: park
+interests:
+  - relax
+  - photo
+  - family
+  - seasonal
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: An Olmsted park famous for its lilacs, which bloom in May during the Lilac Festival.
+warnings: []

@@ -1,0 +1,26 @@
+name: Blue Mountain Lake
+country: us
+state: NY
+region: adirondacks
+county: Hamilton
+blurb: The central Adirondacks, with a major museum, a fire-tower hike and lakes.
+nearby:
+  - place: adirondack-experience
+    minutes: 5
+  - place: blue-mountain-fire-tower
+    minutes: 10
+  - place: griffin-gorge
+    minutes: 50
+  - place: mount-arab-fire-tower
+    minutes: 50
+  - place: revolution-rail
+    minutes: 50
+  - place: wild-center
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

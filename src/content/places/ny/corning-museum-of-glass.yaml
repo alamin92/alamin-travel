@@ -1,0 +1,36 @@
+name: Corning Museum of Glass
+country: us
+state: NY
+region: finger-lakes
+county: Steuben
+area: Corning
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.cmog.org/
+links:
+  - type: official
+    label: "Corning Museum of Glass: official page"
+    url: https://www.cmog.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Corning%20Museum%20of%20Glass%2C%20Corning%2C%20NY
+mapQuery: Corning Museum of Glass, Corning, NY
+lat: 42.1496
+lon: -77.0541
+kind: museum
+interests:
+  - culture
+  - family
+  - history
+difficulty: n/a
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: true
+summary: The world's largest museum of glass, with live glassmaking demonstrations and hands-on workshops.
+warnings: []

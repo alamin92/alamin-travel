@@ -1,0 +1,38 @@
+name: Cape Cod Rail Trail
+country: us
+state: MA
+region: cape-cod-islands
+county: Barnstable
+area: Dennis to Wellfleet
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.mass.gov/locations/cape-cod-rail-trail
+links:
+  - type: state-park
+    label: "Cape Cod Rail Trail: official page"
+    url: https://www.mass.gov/locations/cape-cod-rail-trail
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Cape%20Cod%20Rail%20Trail%2C%20Dennis%20to%20Wellfleet%2C%20MA
+mapQuery: Cape Cod Rail Trail, Dennis to Wellfleet, MA
+lat: 41.709
+lon: -70.172
+kind: hike
+interests:
+  - family
+  - relax
+  - nature
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A paved bike path of about 22 miles along a former railroad on the mid and outer Cape.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

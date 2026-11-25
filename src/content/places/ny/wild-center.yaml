@@ -1,0 +1,36 @@
+name: The Wild Center
+country: us
+state: NY
+region: adirondacks
+county: Franklin
+area: Tupper Lake
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.wildcenter.org/
+links:
+  - type: official
+    label: "The Wild Center: official page"
+    url: https://www.wildcenter.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=The%20Wild%20Center%2C%20Tupper%20Lake%2C%20NY
+mapQuery: The Wild Center, Tupper Lake, NY
+lat: 44.2194
+lon: -74.4392
+kind: museum
+interests:
+  - family
+  - nature
+  - culture
+difficulty: n/a
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A natural history museum of the Adirondacks, with indoor exhibits, outdoor trails and a treetop walkway.
+warnings: []

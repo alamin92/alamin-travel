@@ -1,0 +1,38 @@
+name: Trustom Pond National Wildlife Refuge
+country: us
+state: RI
+region: south-county-block-island
+county: Washington
+area: South Kingstown
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.fws.gov/refuge/trustom-pond
+links:
+  - type: official
+    label: "Trustom Pond National Wildlife Refuge: official page"
+    url: https://www.fws.gov/refuge/trustom-pond
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Trustom%20Pond%20National%20Wildlife%20Refuge%2C%20South%20Kingstown%2C%20RI
+mapQuery: Trustom Pond National Wildlife Refuge, South Kingstown, RI
+lat: 41.379
+lon: -71.553
+kind: hike
+interests:
+  - nature
+  - photo
+  - relax
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A quiet coastal refuge with a pond, trails and a beach, with no dogs allowed.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

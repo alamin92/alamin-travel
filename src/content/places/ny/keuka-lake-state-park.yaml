@@ -1,0 +1,36 @@
+name: Keuka Lake State Park
+country: us
+state: NY
+region: finger-lakes
+county: Yates
+area: Branchport
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/keuka-lake-state-park
+links:
+  - type: state-park
+    label: "Keuka Lake State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/keuka-lake-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Keuka%20Lake%20State%20Park%2C%20Branchport%2C%20NY
+mapQuery: Keuka Lake State Park, Branchport, NY
+lat: 42.5285
+lon: -77.1409
+kind: park
+interests:
+  - family
+  - relax
+  - nature
+  - beach
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A state park on Keuka Lake with a beach, a boat launch and a campground.
+warnings: []

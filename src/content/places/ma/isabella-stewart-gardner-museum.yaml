@@ -1,0 +1,35 @@
+name: Isabella Stewart Gardner Museum
+country: us
+state: MA
+region: greater-boston
+county: Suffolk
+area: Boston
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.gardnermuseum.org/
+links:
+  - type: official
+    label: "Isabella Stewart Gardner Museum: official page"
+    url: https://www.gardnermuseum.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Isabella%20Stewart%20Gardner%20Museum%2C%20Boston%2C%20MA
+mapQuery: Isabella Stewart Gardner Museum, Boston, MA
+lat: 42.338
+lon: -71.099
+kind: museum
+interests:
+  - culture
+  - relax
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A Venetian-style palace of art with a central garden courtyard.
+warnings: []

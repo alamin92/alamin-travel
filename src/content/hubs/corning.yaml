@@ -1,0 +1,32 @@
+name: Corning
+country: us
+state: NY
+region: finger-lakes
+county: Steuben
+blurb: A glass-making city in the southern Finger Lakes.
+nearby:
+  - place: corning-museum-of-glass
+    minutes: 5
+  - place: deckertown-falls
+    minutes: 35
+  - place: havana-glen
+    minutes: 35
+  - place: shequaga-falls
+    minutes: 35
+  - place: watkins-glen-state-park
+    minutes: 35
+  - place: rainbow-falls-watkins
+    minutes: 40
+  - place: aunt-sarahs-falls
+    minutes: 45
+  - place: seneca-lake-scenic-byway
+    minutes: 45
+  - place: finger-lakes-national-forest
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

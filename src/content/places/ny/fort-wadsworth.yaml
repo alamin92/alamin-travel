@@ -1,0 +1,35 @@
+name: Fort Wadsworth
+country: us
+state: NY
+region: nyc
+county: Richmond
+area: Staten Island
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nps.gov/gate/index.htm
+links:
+  - type: nps
+    label: "Fort Wadsworth: official page"
+    url: https://www.nps.gov/gate/index.htm
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Fort%20Wadsworth%2C%20Staten%20Island%2C%20NY
+mapQuery: Fort Wadsworth, Staten Island, NY
+lat: 40.5986
+lon: -74.0599
+kind: landmark
+interests:
+  - history
+  - views
+  - family
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: An old coastal fort at the Narrows with views of the Verrazzano Bridge and the harbor, part of Gateway National Recreation Area.
+warnings: []

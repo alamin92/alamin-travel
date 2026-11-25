@@ -1,0 +1,36 @@
+name: Sandwich Boardwalk and Heritage Museums
+country: us
+state: MA
+region: cape-cod-islands
+county: Barnstable
+area: Sandwich
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.sandwichmass.org/
+links:
+  - type: official
+    label: "Sandwich Boardwalk and Heritage Museums: official page"
+    url: https://www.sandwichmass.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Sandwich%20Boardwalk%20and%20Heritage%20Museums%2C%20Sandwich%2C%20MA
+mapQuery: Sandwich Boardwalk and Heritage Museums, Sandwich, MA
+lat: 41.769
+lon: -70.485
+kind: park
+interests:
+  - family
+  - relax
+  - photo
+  - history
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A long wooden boardwalk over marsh to a beach, with museums and gardens in the old town.
+warnings: []

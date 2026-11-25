@@ -1,0 +1,42 @@
+name: Kent Falls State Park
+country: us
+state: CT
+region: western-connecticut
+county: Litchfield
+area: Kent
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://portal.ct.gov/deep/state-parks/kent-falls-state-park
+links:
+  - type: state-park
+    label: "Kent Falls State Park: official page"
+    url: https://portal.ct.gov/deep/state-parks/kent-falls-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Kent%20Falls%20State%20Park%2C%20Kent%2C%20CT
+mapQuery: Kent Falls State Park, Kent, CT
+lat: 41.7754
+lon: -73.4106
+kind: waterfall
+interests:
+  - nature
+  - family
+  - photo
+  - short-time
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: true
+summary: A 250-foot cascading waterfall beside Route 7, with a short steep trail alongside it and a picnic area.
+warnings:
+  - type: fees
+    text: A parking fee may apply for out-of-state visitors on weekends in season.
+    verify: true
+  - type: parking
+    text: The lot can fill on summer and fall weekends.
+    verify: true

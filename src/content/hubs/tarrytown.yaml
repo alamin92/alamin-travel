@@ -1,0 +1,94 @@
+name: Tarrytown and Sleepy Hollow
+country: us
+state: NY
+region: hudson-valley
+county: Westchester
+blurb: Hudson River villages with historic estates, a riverfront path and the Legend of Sleepy Hollow.
+nearby:
+  - place: armour-stiner-octagon-house
+    minutes: 5
+  - place: kykuit
+    minutes: 5
+  - place: lyndhurst-mansion
+    minutes: 5
+  - place: piermont-pier
+    minutes: 5
+  - place: rockefeller-state-park-preserve
+    minutes: 5
+  - place: sleepy-hollow-cemetery
+    minutes: 5
+  - place: tarrytown-riverwalk-park
+    minutes: 5
+  - place: kensico-dam-plaza
+    minutes: 10
+  - place: nyack-beach-state-park
+    minutes: 10
+  - place: tallman-mountain-state-park
+    minutes: 10
+  - place: croton-point-park
+    minutes: 15
+  - place: rockland-lake-state-park
+    minutes: 15
+  - place: untermyer-gardens
+    minutes: 15
+  - place: bowline-point-park
+    minutes: 20
+  - place: croton-gorge-park
+    minutes: 20
+  - place: great-jack-o-lantern-blaze
+    minutes: 20
+  - place: teatown-reservation
+    minutes: 20
+  - place: tibbetts-brook-park
+    minutes: 20
+  - place: georges-island-park
+    minutes: 25
+  - place: playland-rye
+    minutes: 25
+  - place: stony-point-battlefield
+    minutes: 25
+  - place: wave-hill
+    minutes: 25
+  - place: blue-mountain-reservation
+    minutes: 30
+  - place: fort-tryon-park
+    minutes: 30
+  - place: glen-island-park
+    minutes: 30
+  - place: inwood-hill-park
+    minutes: 30
+  - place: muscoot-farm
+    minutes: 30
+  - place: new-york-botanical-garden
+    minutes: 30
+  - place: orchard-beach
+    minutes: 30
+  - place: the-cloisters
+    minutes: 30
+  - place: anthonys-nose
+    minutes: 35
+  - place: bear-mountain-zoo
+    minutes: 35
+  - place: bear-mountain
+    minutes: 35
+  - place: bronx-zoo
+    minutes: 35
+  - place: little-red-lighthouse
+    minutes: 35
+  - place: popolopen-gorge
+    minutes: 35
+  - place: sands-point-preserve
+    minutes: 35
+  - place: bailey-arboretum
+    minutes: 40
+  - place: bayville-adventure-park
+    minutes: 40
+  - place: garvies-point-museum-and-preserve
+    minutes: 40
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

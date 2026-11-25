@@ -1,0 +1,57 @@
+name: Boston
+country: us
+state: MA
+region: greater-boston
+county: Suffolk
+blurb: A walkable historic city with the Freedom Trail, museums, harbor islands and the Blue Hills nearby.
+nearby:
+  - place: boston-childrens-museum
+    minutes: 5
+  - place: boston-common-public-garden
+    minutes: 5
+  - place: freedom-trail
+    minutes: 5
+  - place: isabella-stewart-gardner-museum
+    minutes: 5
+  - place: museum-of-fine-arts-boston
+    minutes: 5
+  - place: museum-of-science-boston
+    minutes: 5
+  - place: new-england-aquarium
+    minutes: 5
+  - place: uss-constitution
+    minutes: 5
+  - place: arnold-arboretum
+    minutes: 10
+  - place: boston-harbor-islands
+    minutes: 10
+  - place: blue-hills-reservation
+    minutes: 20
+  - place: worlds-end
+    minutes: 25
+  - place: house-of-seven-gables
+    minutes: 30
+  - place: minute-man-nhp
+    minutes: 30
+  - place: peabody-essex-museum
+    minutes: 30
+  - place: salem-maritime-and-witch-sites
+    minutes: 30
+  - place: walden-pond
+    minutes: 30
+  - place: appleton-farms
+    minutes: 45
+  - place: borderland-state-park
+    minutes: 50
+  - place: lowell-nhp
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "Mass.gov DCR: state parks and alerts"
+    url: https://www.mass.gov/orgs/department-of-conservation-and-recreation
+  - type: official
+    label: "Visit Massachusetts: official tourism"
+    url: https://www.visitma.com/
+  - type: conditions
+    label: "Mass511: road conditions"
+    url: https://mass511.com/

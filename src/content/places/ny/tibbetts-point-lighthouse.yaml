@@ -1,0 +1,35 @@
+name: Tibbetts Point Lighthouse
+country: us
+state: NY
+region: thousand-islands-seaway
+county: Jefferson
+area: Cape Vincent
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.tibbettspointlighthouse.org/
+links:
+  - type: official
+    label: "Tibbetts Point Lighthouse: official page"
+    url: https://www.tibbettspointlighthouse.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Tibbetts%20Point%20Lighthouse%2C%20Cape%20Vincent%2C%20NY
+mapQuery: Tibbetts Point Lighthouse, Cape Vincent, NY
+lat: 44.1
+lon: -76.376
+kind: landmark
+interests:
+  - photo
+  - views
+  - history
+difficulty: easy
+timeMinutes: 60
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A lighthouse where Lake Ontario meets the St. Lawrence River.
+warnings: []

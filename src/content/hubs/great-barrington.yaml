@@ -1,0 +1,33 @@
+name: Great Barrington
+country: us
+state: MA
+region: western-massachusetts
+county: Berkshire
+blurb: The southern Berkshires, with Monument Mountain and Bash Bish Falls nearby.
+nearby:
+  - place: monument-mountain
+    minutes: 10
+  - place: norman-rockwell-museum
+    minutes: 15
+  - place: bash-bish-falls
+    minutes: 20
+  - place: mount-washington-state-forest
+    minutes: 20
+  - place: the-mount-lenox
+    minutes: 20
+  - place: tanglewood
+    minutes: 25
+  - place: hancock-shaker-village
+    minutes: 35
+  - place: berkshire-museum
+    minutes: 40
+checkBefore:
+  - type: state-park
+    label: "Mass.gov DCR: state parks and alerts"
+    url: https://www.mass.gov/orgs/department-of-conservation-and-recreation
+  - type: official
+    label: "Visit Massachusetts: official tourism"
+    url: https://www.visitma.com/
+  - type: conditions
+    label: "Mass511: road conditions"
+    url: https://mass511.com/

@@ -1,0 +1,35 @@
+name: Hudson River Maritime Museum
+country: us
+state: NY
+region: hudson-valley
+county: Ulster
+area: Kingston
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.hrmm.org/
+links:
+  - type: official
+    label: "Hudson River Maritime Museum: official page"
+    url: https://www.hrmm.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Hudson%20River%20Maritime%20Museum%2C%20Kingston%2C%20NY
+mapQuery: Hudson River Maritime Museum, Kingston, NY
+lat: 41.929
+lon: -73.961
+kind: museum
+interests:
+  - history
+  - family
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: low
+highlight: false
+summary: A museum of the Hudson River's boats and waterfront history, in Kingston.
+warnings: []

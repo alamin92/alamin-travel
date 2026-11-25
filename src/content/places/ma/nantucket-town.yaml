@@ -1,0 +1,39 @@
+name: Nantucket Town and Brant Point Light
+country: us
+state: MA
+region: cape-cod-islands
+county: Nantucket
+area: Nantucket
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://nantucketchamber.org/
+links:
+  - type: official
+    label: "Nantucket Town and Brant Point Light: official page"
+    url: https://nantucketchamber.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Nantucket%20Town%20and%20Brant%20Point%20Light%2C%20Nantucket%2C%20MA
+mapQuery: Nantucket Town and Brant Point Light, Nantucket, MA
+lat: 41.2835
+lon: -70.0995
+kind: town
+interests:
+  - relax
+  - photo
+  - history
+  - family
+difficulty: easy
+timeMinutes: 300
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A cobblestone harbor town on a small island, with shops, beaches and a historic lighthouse.
+warnings:
+  - type: reservation
+    text: The ferry needs advance booking for summer, and a car on the island is hard to book.
+    verify: true

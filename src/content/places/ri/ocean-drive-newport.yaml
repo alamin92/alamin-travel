@@ -1,0 +1,36 @@
+name: Ocean Drive
+country: us
+state: RI
+region: newport-east-bay
+county: Newport
+area: Newport
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.discovernewport.org/
+links:
+  - type: official
+    label: "Ocean Drive: official page"
+    url: https://www.discovernewport.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Ocean%20Drive%2C%20Newport%2C%20RI
+mapQuery: Ocean Drive, Newport, RI
+lat: 41.4546
+lon: -71.3351
+kind: drive
+interests:
+  - views
+  - photo
+  - family
+  - relax
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A ten-mile scenic road around the southern tip of Newport, past rocky coast and mansions.
+warnings: []

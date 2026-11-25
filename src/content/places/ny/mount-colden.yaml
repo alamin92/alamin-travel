@@ -1,0 +1,38 @@
+name: Mount Colden
+country: us
+state: NY
+region: adirondacks
+county: Essex
+area: Adirondack Loj
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.adk.org/
+links:
+  - type: official
+    label: "Mount Colden: official page"
+    url: https://www.adk.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mount%20Colden%2C%20Adirondack%20Loj%2C%20NY
+mapQuery: Mount Colden, Adirondack Loj, NY
+lat: 44.127
+lon: -73.9599
+kind: hike
+interests:
+  - adventure
+  - rough
+  - views
+difficulty: hard
+timeMinutes: 600
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: false
+cost: free
+highlight: false
+summary: A long, difficult High Peaks climb with a famous slide on its flank.
+warnings:
+  - type: safety
+    text: This is a full-day, backcountry hike. Only go with proper gear and experience.
+    verify: true

@@ -1,0 +1,35 @@
+name: Quassy Amusement Park
+country: us
+state: CT
+region: central-connecticut
+county: New Haven
+area: Middlebury
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.quassy.com/
+links:
+  - type: official
+    label: "Quassy Amusement Park: official page"
+    url: https://www.quassy.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Quassy%20Amusement%20Park%2C%20Middlebury%2C%20CT
+mapQuery: Quassy Amusement Park, Middlebury, CT
+lat: 41.516
+lon: -73.124
+kind: activity
+interests:
+  - family
+  - seasonal
+difficulty: n/a
+timeMinutes: 300
+bestSeason:
+  - summer
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A small family amusement park on Lake Quassapaug.
+warnings:
+  - type: closure
+    text: Open seasonally. Check dates.
+    verify: true

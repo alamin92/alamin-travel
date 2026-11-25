@@ -1,0 +1,35 @@
+name: Sodus Point Lighthouse
+country: us
+state: NY
+region: finger-lakes
+county: Wayne
+area: Sodus Point
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.sodusbaylighthouse.org/
+links:
+  - type: official
+    label: "Sodus Point Lighthouse: official page"
+    url: https://www.sodusbaylighthouse.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Sodus%20Point%20Lighthouse%2C%20Sodus%20Point%2C%20NY
+mapQuery: Sodus Point Lighthouse, Sodus Point, NY
+lat: 43.2733
+lon: -76.9669
+kind: landmark
+interests:
+  - history
+  - photo
+  - family
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A historic lighthouse and museum at the mouth of Sodus Bay on Lake Ontario.
+warnings: []

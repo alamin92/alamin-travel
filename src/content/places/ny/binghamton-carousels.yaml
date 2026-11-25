@@ -1,0 +1,34 @@
+name: Binghamton Carousels
+country: us
+state: NY
+region: central-ny
+county: Broome
+area: Binghamton
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.binghamton-ny.gov/
+links:
+  - type: official
+    label: "Binghamton Carousels: official page"
+    url: https://www.binghamton-ny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Binghamton%20Carousels%2C%20Binghamton%2C%20NY
+mapQuery: Binghamton Carousels, Binghamton, NY
+lat: 42.099
+lon: -75.911
+kind: activity
+interests:
+  - family
+  - history
+difficulty: n/a
+timeMinutes: 60
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: Six historic carousels in Binghamton parks that are free to ride.
+warnings: []

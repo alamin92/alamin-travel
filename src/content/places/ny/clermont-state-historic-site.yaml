@@ -1,0 +1,35 @@
+name: Clermont State Historic Site
+country: us
+state: NY
+region: hudson-valley
+county: Columbia
+area: Germantown
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/historic-sites/clermont-state-historic-site
+links:
+  - type: state-park
+    label: "Clermont State Historic Site: official page"
+    url: https://parks.ny.gov/visit/historic-sites/clermont-state-historic-site
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Clermont%20State%20Historic%20Site%2C%20Germantown%2C%20NY
+mapQuery: Clermont State Historic Site, Germantown, NY
+lat: 42.0976
+lon: -73.9045
+kind: museum
+interests:
+  - history
+  - views
+  - relax
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Livingston family estate on the Hudson with a mansion, gardens and river views.
+warnings: []

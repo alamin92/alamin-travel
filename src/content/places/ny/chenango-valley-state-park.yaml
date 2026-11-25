@@ -1,0 +1,35 @@
+name: Chenango Valley State Park
+country: us
+state: NY
+region: central-ny
+county: Broome
+area: Chenango Forks
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/chenango-valley-state-park
+links:
+  - type: state-park
+    label: "Chenango Valley State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/chenango-valley-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Chenango%20Valley%20State%20Park%2C%20Chenango%20Forks%2C%20NY
+mapQuery: Chenango Valley State Park, Chenango Forks, NY
+lat: 42.192
+lon: -75.847
+kind: park
+interests:
+  - family
+  - nature
+  - beach
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A state park with a swimming beach, a golf course, trails and a campground.
+warnings: []

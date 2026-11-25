@@ -1,0 +1,38 @@
+name: Arcadia Management Area
+country: us
+state: RI
+region: south-county-block-island
+county: Washington
+area: Exeter and Richmond
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://dem.ri.gov/natural-resources-bureau/forest-environment/arcadia
+links:
+  - type: state-park
+    label: "Arcadia Management Area: official page"
+    url: https://dem.ri.gov/natural-resources-bureau/forest-environment/arcadia
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Arcadia%20Management%20Area%2C%20Exeter%20and%20Richmond%2C%20RI
+mapQuery: Arcadia Management Area, Exeter and Richmond, RI
+lat: 41.59
+lon: -71.74
+kind: hike
+interests:
+  - nature
+  - adventure
+  - family
+difficulty: moderate
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: Rhode Island's largest management area, with hiking trails, mountain biking and ponds.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

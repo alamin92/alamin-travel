@@ -8,6 +8,26 @@ nearby:
     minutes: 25
   - place: beak-and-skiff
     minutes: 25
+  - place: erie-canal-museum
+    minutes: 5
+  - place: everson-museum
+    minutes: 5
+  - place: rosamond-gifford-zoo
+    minutes: 5
+  - place: clark-reservation
+    minutes: 10
+  - place: green-lakes-state-park
+    minutes: 20
+  - place: pratts-falls
+    minutes: 25
+  - place: bucktail-falls
+    minutes: 35
+  - place: cedar-point-state-park
+    minutes: 35
+  - place: seward-house
+    minutes: 45
+  - place: lorenzo-state-historic-site
+    minutes: 35
 checkBefore:
   - type: state-park
     label: "NY State Parks: park status and alerts"

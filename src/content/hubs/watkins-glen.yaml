@@ -12,6 +12,40 @@ nearby:
     minutes: 45
   - place: buttermilk-falls
     minutes: 45
+  - place: aunt-sarahs-falls
+    minutes: 5
+  - place: deckertown-falls
+    minutes: 5
+  - place: havana-glen
+    minutes: 5
+  - place: rainbow-falls-watkins
+    minutes: 5
+  - place: seneca-lake-scenic-byway
+    minutes: 5
+  - place: shequaga-falls
+    minutes: 5
+  - place: finger-lakes-national-forest
+    minutes: 10
+  - place: keuka-lake-state-park
+    minutes: 35
+  - place: lick-brook-gorge
+    minutes: 35
+  - place: cascadilla-gorge
+    minutes: 40
+  - place: corning-museum-of-glass
+    minutes: 40
+  - place: ithaca-falls
+    minutes: 40
+  - place: stewart-park
+    minutes: 40
+  - place: wells-falls
+    minutes: 40
+  - place: cornell-botanic-gardens
+    minutes: 45
+  - place: fall-creek-gorge
+    minutes: 45
+  - place: sapsucker-woods
+    minutes: 45
 checkBefore:
   - type: state-park
     label: "NY State Parks: Watkins Glen status"

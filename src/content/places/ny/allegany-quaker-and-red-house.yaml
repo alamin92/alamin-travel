@@ -1,0 +1,35 @@
+name: "Allegany State Park: Quaker and Red House areas"
+country: us
+state: NY
+region: chautauqua-allegheny
+county: Cattaraugus
+area: Salamanca
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/allegany-state-park-quaker-area
+links:
+  - type: state-park
+    label: "Allegany State Park: Quaker and Red House areas: official page"
+    url: https://parks.ny.gov/visit/state-parks/allegany-state-park-quaker-area
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Allegany%20State%20Park%3A%20Quaker%20and%20Red%20House%20areas%2C%20Salamanca%2C%20NY
+mapQuery: "Allegany State Park: Quaker and Red House areas, Salamanca, NY"
+lat: 42.0995
+lon: -78.7408
+kind: park
+interests:
+  - family
+  - nature
+  - beach
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: Beaches, lakes and a scenic spillway overlook in the two main areas of Allegany State Park.
+warnings: []

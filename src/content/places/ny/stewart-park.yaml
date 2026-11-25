@@ -1,0 +1,35 @@
+name: Stewart Park
+country: us
+state: NY
+region: finger-lakes
+county: Tompkins
+area: Ithaca
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.cityofithaca.org/
+links:
+  - type: official
+    label: "Stewart Park: official page"
+    url: https://www.cityofithaca.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Stewart%20Park%2C%20Ithaca%2C%20NY
+mapQuery: Stewart Park, Ithaca, NY
+lat: 42.4619
+lon: -76.5049
+kind: park
+interests:
+  - family
+  - relax
+  - views
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A lakefront city park at the south end of Cayuga Lake with a playground, a carousel and a duck pond.
+warnings: []

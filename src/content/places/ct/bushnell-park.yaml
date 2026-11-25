@@ -1,0 +1,34 @@
+name: Bushnell Park and the Carousel
+country: us
+state: CT
+region: central-connecticut
+county: Hartford
+area: Hartford
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.bushnellpark.org/
+links:
+  - type: official
+    label: "Bushnell Park and the Carousel: official page"
+    url: https://www.bushnellpark.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Bushnell%20Park%20and%20the%20Carousel%2C%20Hartford%2C%20CT
+mapQuery: Bushnell Park and the Carousel, Hartford, CT
+lat: 41.764
+lon: -72.682
+kind: park
+interests:
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 60
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A downtown park by the state capitol with a historic carousel.
+warnings: []

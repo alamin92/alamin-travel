@@ -1,0 +1,41 @@
+name: Historic Huguenot Street
+country: us
+state: NY
+region: hudson-valley
+county: Ulster
+area: New Paltz
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://huguenotstreet.org/
+links:
+  - type: official
+    label: "Historic Huguenot Street: official page"
+    url: https://huguenotstreet.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Historic%20Huguenot%20Street%2C%20New%20Paltz%2C%20NY
+mapQuery: Historic Huguenot Street, New Paltz, NY
+lat: 41.7516
+lon: -74.0886
+kind: museum
+interests:
+  - history
+  - culture
+  - family
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A historic street of stone houses from the 1600s and 1700s, with guided tours and a visitor center.
+warnings:
+  - type: reservation
+    text: House tours run on a schedule and may need tickets. Check the site.
+    verify: true
+  - type: fees
+    text: Tours are ticketed.
+    verify: true

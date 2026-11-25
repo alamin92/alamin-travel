@@ -1,0 +1,40 @@
+name: Tremper Mountain Fire Tower
+country: us
+state: NY
+region: hudson-valley
+county: Ulster
+alsoRegions:
+  - catskills
+area: Shandaken
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://dec.ny.gov/things-to-do/hiking/catskills-fire-tower-challenge
+links:
+  - type: official
+    label: "Tremper Mountain Fire Tower: official page"
+    url: https://dec.ny.gov/things-to-do/hiking/catskills-fire-tower-challenge
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Tremper%20Mountain%20Fire%20Tower%2C%20Shandaken%2C%20NY
+mapQuery: Tremper Mountain Fire Tower, Shandaken, NY
+lat: 42.0692
+lon: -74.218
+kind: hike
+interests:
+  - adventure
+  - views
+  - nature
+difficulty: moderate
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A long forest hike on an old road to a fire tower with views over the Catskills.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

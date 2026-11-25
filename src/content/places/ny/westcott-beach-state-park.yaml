@@ -1,0 +1,38 @@
+name: Westcott Beach State Park
+country: us
+state: NY
+region: thousand-islands-seaway
+county: Jefferson
+area: Sackets Harbor
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/westcott-beach-state-park
+links:
+  - type: state-park
+    label: "Westcott Beach State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/westcott-beach-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Westcott%20Beach%20State%20Park%2C%20Sackets%20Harbor%2C%20NY
+mapQuery: Westcott Beach State Park, Sackets Harbor, NY
+lat: 43.8969
+lon: -76.1179
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A state park on Lake Ontario with a beach and a campground.
+warnings:
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: false

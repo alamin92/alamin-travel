@@ -1,0 +1,67 @@
+name: Salem
+country: us
+state: MA
+region: north-of-boston
+county: Essex
+blurb: A harbor city known for its maritime history and the 1692 witch trials.
+nearby:
+  - place: house-of-seven-gables
+    minutes: 5
+  - place: peabody-essex-museum
+    minutes: 5
+  - place: salem-maritime-and-witch-sites
+    minutes: 5
+  - place: appleton-farms
+    minutes: 15
+  - place: uss-constitution
+    minutes: 25
+  - place: boston-childrens-museum
+    minutes: 30
+  - place: boston-common-public-garden
+    minutes: 30
+  - place: boston-harbor-islands
+    minutes: 30
+  - place: crane-beach
+    minutes: 30
+  - place: freedom-trail
+    minutes: 30
+  - place: museum-of-science-boston
+    minutes: 30
+  - place: new-england-aquarium
+    minutes: 30
+  - place: wingaersheek-beach
+    minutes: 30
+  - place: halibut-point-state-park
+    minutes: 35
+  - place: isabella-stewart-gardner-museum
+    minutes: 35
+  - place: museum-of-fine-arts-boston
+    minutes: 35
+  - place: plum-island-parker-river
+    minutes: 35
+  - place: rockport-bearskin-neck
+    minutes: 35
+  - place: worlds-end
+    minutes: 35
+  - place: arnold-arboretum
+    minutes: 40
+  - place: newburyport-waterfront
+    minutes: 40
+  - place: lowell-nhp
+    minutes: 45
+  - place: minute-man-nhp
+    minutes: 45
+  - place: blue-hills-reservation
+    minutes: 50
+  - place: walden-pond
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "Mass.gov DCR: state parks and alerts"
+    url: https://www.mass.gov/orgs/department-of-conservation-and-recreation
+  - type: official
+    label: "Visit Massachusetts: official tourism"
+    url: https://www.visitma.com/
+  - type: conditions
+    label: "Mass511: road conditions"
+    url: https://mass511.com/

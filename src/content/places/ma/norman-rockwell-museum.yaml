@@ -1,0 +1,35 @@
+name: Norman Rockwell Museum
+country: us
+state: MA
+region: western-massachusetts
+county: Berkshire
+area: Stockbridge
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nrm.org/
+links:
+  - type: official
+    label: "Norman Rockwell Museum: official page"
+    url: https://www.nrm.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Norman%20Rockwell%20Museum%2C%20Stockbridge%2C%20MA
+mapQuery: Norman Rockwell Museum, Stockbridge, MA
+lat: 42.286
+lon: -73.325
+kind: museum
+interests:
+  - culture
+  - family
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: The largest collection of Norman Rockwell's art, in Stockbridge.
+warnings: []

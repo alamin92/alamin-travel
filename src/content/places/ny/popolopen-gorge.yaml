@@ -1,0 +1,38 @@
+name: Popolopen Gorge and the Suspension Bridge
+country: us
+state: NY
+region: hudson-valley
+county: Orange
+area: Fort Montgomery
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/bear-mountain-state-park
+links:
+  - type: state-park
+    label: "Popolopen Gorge and the Suspension Bridge: official page"
+    url: https://parks.ny.gov/visit/state-parks/bear-mountain-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Popolopen%20Gorge%20and%20the%20Suspension%20Bridge%2C%20Fort%20Montgomery%2C%20NY
+mapQuery: Popolopen Gorge and the Suspension Bridge, Fort Montgomery, NY
+lat: 41.2955
+lon: -74.0218
+kind: hike
+interests:
+  - adventure
+  - nature
+  - views
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A gorge trail in Bear Mountain State Park with a narrow suspension bridge and wooded paths.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

@@ -1,0 +1,38 @@
+name: Staatsburgh State Historic Site (Mills Mansion)
+country: us
+state: NY
+region: hudson-valley
+county: Dutchess
+area: Staatsburg
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/historic-sites/staatsburgh-state-historic-site
+links:
+  - type: state-park
+    label: "Staatsburgh State Historic Site: official page"
+    url: https://parks.ny.gov/visit/historic-sites/staatsburgh-state-historic-site
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Staatsburgh%20State%20Historic%20Site%2C%20Staatsburg%2C%20NY
+mapQuery: Staatsburgh State Historic Site, Staatsburg, NY
+lat: 41.8466
+lon: -73.9394
+kind: museum
+interests:
+  - history
+  - culture
+  - views
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Gilded Age mansion on the Hudson, open for guided tours.
+warnings:
+  - type: closure
+    text: The mansion has had seasonal and construction closures. Check the site.
+    verify: true

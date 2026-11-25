@@ -1,0 +1,35 @@
+name: Warwick Light
+country: us
+state: RI
+region: warwick-west-bay
+county: Kent
+area: Warwick
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.warwickri.gov/
+links:
+  - type: official
+    label: "Warwick Light: official page"
+    url: https://www.warwickri.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Warwick%20Light%2C%20Warwick%2C%20RI
+mapQuery: Warwick Light, Warwick, RI
+lat: 41.67
+lon: -71.378
+kind: landmark
+interests:
+  - photo
+  - views
+  - short-time
+difficulty: easy
+timeMinutes: 30
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A lighthouse on Narragansett Bay at Warwick Neck, seen from a public path.
+warnings: []

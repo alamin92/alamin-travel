@@ -1,0 +1,38 @@
+name: Appleton Farms
+country: us
+state: MA
+region: north-of-boston
+county: Essex
+area: Ipswich
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.thetrustees.org/place/appleton-farms/
+links:
+  - type: official
+    label: "Appleton Farms: official page"
+    url: https://www.thetrustees.org/place/appleton-farms/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Appleton%20Farms%2C%20Ipswich%2C%20MA
+mapQuery: Appleton Farms, Ipswich, MA
+lat: 42.633
+lon: -70.848
+kind: farm
+interests:
+  - seasonal
+  - family
+  - nature
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: One of the oldest continuously operating farms in the country, with trails and a farm store.
+warnings:
+  - type: other
+    text: This is seasonal. Dates, hours and what you can pick change every year, so check the farm's own site before you go.
+    verify: true

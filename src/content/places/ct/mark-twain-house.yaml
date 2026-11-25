@@ -1,0 +1,35 @@
+name: Mark Twain House and Museum
+country: us
+state: CT
+region: central-connecticut
+county: Hartford
+area: Hartford
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://marktwainhouse.org/
+links:
+  - type: official
+    label: "Mark Twain House and Museum: official page"
+    url: https://marktwainhouse.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mark%20Twain%20House%20and%20Museum%2C%20Hartford%2C%20CT
+mapQuery: Mark Twain House and Museum, Hartford, CT
+lat: 41.767
+lon: -72.701
+kind: museum
+interests:
+  - history
+  - culture
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: The Victorian home where Mark Twain lived and wrote, now a museum.
+warnings: []

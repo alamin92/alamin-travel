@@ -1,0 +1,41 @@
+name: Lyndhurst Mansion
+country: us
+state: NY
+region: hudson-valley
+county: Westchester
+area: Tarrytown
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://lyndhurst.org/
+links:
+  - type: official
+    label: "Lyndhurst Mansion: official page"
+    url: https://lyndhurst.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Lyndhurst%20Mansion%2C%20Tarrytown%2C%20NY
+mapQuery: Lyndhurst Mansion, Tarrytown, NY
+lat: 41.0541
+lon: -73.8609
+kind: museum
+interests:
+  - history
+  - culture
+  - photo
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A Gothic Revival riverfront mansion, now run by the National Trust, with tours and gardens.
+warnings:
+  - type: fees
+    text: Admission is ticketed.
+    verify: true
+  - type: closure
+    text: Hours are seasonal.
+    verify: true

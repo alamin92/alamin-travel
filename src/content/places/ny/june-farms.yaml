@@ -1,0 +1,36 @@
+name: June Farms
+country: us
+state: NY
+region: capital-saratoga
+county: Rensselaer
+area: Brunswick
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.junefarms.com/
+links:
+  - type: official
+    label: "June Farms: official page"
+    url: https://www.junefarms.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=June%20Farms%2C%20Brunswick%2C%20NY
+mapQuery: June Farms, Brunswick, NY
+lat: 42.6299
+lon: -73.6241
+kind: farm
+interests:
+  - seasonal
+  - family
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - summer
+  - fall
+familyFriendly: true
+cost: varies
+highlight: false
+summary: A farm and orchard with seasonal pick-your-own produce.
+warnings:
+  - type: other
+    text: This is seasonal. Dates, hours and what you can pick change every year, so check the farm's own site before you go.
+    verify: true

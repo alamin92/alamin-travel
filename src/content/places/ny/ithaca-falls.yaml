@@ -1,0 +1,39 @@
+name: Ithaca Falls
+country: us
+state: NY
+region: finger-lakes
+county: Tompkins
+area: Ithaca
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.visitithaca.com/
+links:
+  - type: official
+    label: "Ithaca Falls: official page"
+    url: https://www.visitithaca.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Ithaca%20Falls%2C%20Ithaca%2C%20NY
+mapQuery: Ithaca Falls, Ithaca, NY
+lat: 42.4529
+lon: -76.4946
+kind: waterfall
+interests:
+  - nature
+  - photo
+  - family
+  - short-time
+difficulty: easy
+timeMinutes: 45
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A wide 150-foot waterfall at the end of a short, flat trail on Fall Creek.
+warnings:
+  - type: safety
+    text: Do not climb on the rocks or swim at the falls.
+    verify: true

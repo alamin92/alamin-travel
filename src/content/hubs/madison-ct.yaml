@@ -1,0 +1,54 @@
+name: Madison and the Connecticut Shoreline
+country: us
+state: CT
+region: central-connecticut
+county: New Haven
+blurb: A shoreline base near the state's biggest beach park and inland state parks.
+nearby:
+  - place: hammonasset-beach-state-park
+    minutes: 5
+  - place: chatfield-hollow-state-park
+    minutes: 15
+  - place: chester-hadlyme-ferry
+    minutes: 25
+  - place: essex-steam-train
+    minutes: 25
+  - place: florence-griswold-museum
+    minutes: 30
+  - place: gillette-castle-state-park
+    minutes: 30
+  - place: goodspeed-opera-house
+    minutes: 30
+  - place: east-rock-park
+    minutes: 35
+  - place: lighthouse-point-park
+    minutes: 35
+  - place: machimoodus-state-park
+    minutes: 35
+  - place: wadsworth-falls-state-park
+    minutes: 35
+  - place: yale-art-gallery
+    minutes: 35
+  - place: yale-center-british-art
+    minutes: 35
+  - place: devils-hopyard-state-park
+    minutes: 40
+  - place: rocky-neck-state-park
+    minutes: 40
+  - place: sleeping-giant-state-park
+    minutes: 40
+  - place: west-rock-ridge-state-park
+    minutes: 40
+  - place: comstock-covered-bridge
+    minutes: 45
+  - place: harkness-memorial-state-park
+    minutes: 50
+  - place: silver-sands-state-park
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "CT State Parks: status and alerts"
+    url: https://portal.ct.gov/deep/state-parks/state-parks-and-forests
+  - type: official
+    label: "CTvisit: official Connecticut tourism"
+    url: https://www.ctvisit.com/

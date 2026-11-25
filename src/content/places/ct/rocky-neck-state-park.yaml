@@ -1,0 +1,39 @@
+name: Rocky Neck State Park
+country: us
+state: CT
+region: eastern-connecticut
+county: New London
+area: East Lyme
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://portal.ct.gov/deep/state-parks/rocky-neck-state-park
+links:
+  - type: state-park
+    label: "Rocky Neck State Park: official page"
+    url: https://portal.ct.gov/deep/state-parks/rocky-neck-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Rocky%20Neck%20State%20Park%2C%20East%20Lyme%2C%20CT
+mapQuery: Rocky Neck State Park, East Lyme, CT
+lat: 41.303
+lon: -72.238
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+  - nature
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A shoreline state park with a beach, a salt marsh, a pavilion and a campground.
+warnings:
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: false

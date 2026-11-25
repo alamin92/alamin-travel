@@ -16,6 +16,50 @@ nearby:
     minutes: 20
   - place: belleayre-mountain
     minutes: 40
+  - place: diamond-notch-falls
+    minutes: 5
+  - place: hunter-mountain-fire-tower
+    minutes: 5
+  - place: plattekill-clove
+    minutes: 15
+  - place: artists-rock-and-marys-glen
+    minutes: 20
+  - place: kaaterskill-wild-forest
+    minutes: 20
+  - place: overlook-mountain
+    minutes: 20
+  - place: tremper-mountain-fire-tower
+    minutes: 20
+  - place: woodstock-village
+    minutes: 25
+  - place: ashokan-rail-trail
+    minutes: 30
+  - place: giant-ledge
+    minutes: 30
+  - place: clermont-state-historic-site
+    minutes: 35
+  - place: slide-mountain
+    minutes: 35
+  - place: thomas-cole-site
+    minutes: 40
+  - place: balsam-lake-mountain-fire-tower
+    minutes: 45
+  - place: delaware-ulster-railroad
+    minutes: 45
+  - place: ferncliff-forest
+    minutes: 45
+  - place: hudson-warren-street
+    minutes: 45
+  - place: mine-kill-state-park
+    minutes: 45
+  - place: zoom-flume
+    minutes: 20
+  - place: opus-40
+    minutes: 30
+  - place: saugerties-lighthouse
+    minutes: 35
+  - place: catskill-mountain-railroad
+    minutes: 45
 checkBefore:
   - type: conditions
     label: "NYS DEC: Catskill backcountry info"

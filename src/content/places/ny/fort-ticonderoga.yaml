@@ -1,0 +1,41 @@
+name: Fort Ticonderoga
+country: us
+state: NY
+region: adirondacks
+county: Essex
+area: Ticonderoga
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.fortticonderoga.org/
+links:
+  - type: official
+    label: "Fort Ticonderoga: official page"
+    url: https://www.fortticonderoga.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Fort%20Ticonderoga%2C%20Ticonderoga%2C%20NY
+mapQuery: Fort Ticonderoga, Ticonderoga, NY
+lat: 43.8489
+lon: -73.3936
+kind: museum
+interests:
+  - history
+  - family
+  - views
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A restored colonial fort on Lake Champlain with museums, gardens and living-history programs.
+warnings:
+  - type: closure
+    text: Open seasonally. Check dates before you go.
+    verify: true
+  - type: fees
+    text: Admission is charged.
+    verify: true

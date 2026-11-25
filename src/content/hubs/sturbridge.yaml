@@ -1,0 +1,25 @@
+name: Sturbridge
+country: us
+state: MA
+region: central-massachusetts
+county: Worcester
+blurb: A village with a large living-history museum, near the Quabbin area.
+nearby:
+  - place: old-sturbridge-village
+    minutes: 5
+  - place: purgatory-chasm
+    minutes: 40
+  - place: quabbin-observation-tower
+    minutes: 40
+  - place: worcester-art-museum
+    minutes: 40
+checkBefore:
+  - type: state-park
+    label: "Mass.gov DCR: state parks and alerts"
+    url: https://www.mass.gov/orgs/department-of-conservation-and-recreation
+  - type: official
+    label: "Visit Massachusetts: official tourism"
+    url: https://www.visitma.com/
+  - type: conditions
+    label: "Mass511: road conditions"
+    url: https://mass511.com/

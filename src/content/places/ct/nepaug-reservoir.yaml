@@ -1,0 +1,35 @@
+name: Nepaug Reservoir and Dam
+country: us
+state: CT
+region: central-connecticut
+county: Hartford
+area: New Hartford
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://portal.ct.gov/deep/state-parks/nepaug-state-forest
+links:
+  - type: state-park
+    label: "Nepaug Reservoir and Dam: official page"
+    url: https://portal.ct.gov/deep/state-parks/nepaug-state-forest
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Nepaug%20Reservoir%20and%20Dam%2C%20New%20Hartford%2C%20CT
+mapQuery: Nepaug Reservoir and Dam, New Hartford, CT
+lat: 41.8275
+lon: -72.9424
+kind: viewpoint
+interests:
+  - views
+  - nature
+  - photo
+difficulty: easy
+timeMinutes: 60
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A reservoir and dam in the Nepaug State Forest area.
+warnings: []

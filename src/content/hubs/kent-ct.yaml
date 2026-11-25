@@ -1,0 +1,38 @@
+name: Kent and the Housatonic Valley
+country: us
+state: CT
+region: western-connecticut
+county: Litchfield
+blurb: A Litchfield Hills village with a waterfall park, covered bridge and river trails.
+nearby:
+  - place: bulls-bridge
+    minutes: 5
+  - place: macedonia-brook-state-park
+    minutes: 5
+  - place: kent-falls-state-park
+    minutes: 10
+  - place: lake-waramaug-state-park
+    minutes: 10
+  - place: housatonic-meadows-state-park
+    minutes: 20
+  - place: mohawk-mountain-state-forest
+    minutes: 25
+  - place: white-memorial-conservation-center
+    minutes: 25
+  - place: lovers-leap-state-park
+    minutes: 30
+  - place: topsmead-state-forest
+    minutes: 35
+  - place: haystack-mountain-state-park
+    minutes: 50
+  - place: quassy-amusement-park
+    minutes: 50
+  - place: southford-falls-state-park
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "CT State Parks: status and alerts"
+    url: https://portal.ct.gov/deep/state-parks/state-parks-and-forests
+  - type: official
+    label: "CTvisit: official Connecticut tourism"
+    url: https://www.ctvisit.com/

@@ -1,0 +1,68 @@
+name: Keene and Keene Valley
+country: us
+state: NY
+region: adirondacks
+county: Essex
+blurb: A High Peaks base with waterfalls, big summit hikes and the Adirondack Mountain Reserve nearby.
+nearby:
+  - place: roaring-brook-falls
+    minutes: 5
+  - place: adirondack-mountain-reserve
+    minutes: 10
+  - place: beaver-meadow-falls
+    minutes: 10
+  - place: cascade-lakes
+    minutes: 10
+  - place: cascade-mountain
+    minutes: 10
+  - place: hulls-falls
+    minutes: 10
+  - place: mt-van-hoevenberg
+    minutes: 10
+  - place: mount-marcy
+    minutes: 15
+  - place: split-rock-falls
+    minutes: 15
+  - place: adirondak-loj
+    minutes: 20
+  - place: mount-colden
+    minutes: 20
+  - place: mount-jo
+    minutes: 20
+  - place: olympic-jumping-complex
+    minutes: 20
+  - place: cloudsplitter-gondola
+    minutes: 25
+  - place: high-falls-gorge
+    minutes: 25
+  - place: lake-placid-village
+    minutes: 25
+  - place: monument-falls
+    minutes: 25
+  - place: wilmington-notch
+    minutes: 25
+  - place: adirondack-wildlife-refuge
+    minutes: 30
+  - place: peninsula-nature-trails
+    minutes: 30
+  - place: santas-workshop
+    minutes: 30
+  - place: stag-brook-falls
+    minutes: 30
+  - place: whiteface-mountain
+    minutes: 30
+  - place: saranac-lake-village
+    minutes: 40
+  - place: crown-point
+    minutes: 45
+  - place: high-peaks-wilderness
+    minutes: 45
+  - place: essex-charlotte-ferry
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

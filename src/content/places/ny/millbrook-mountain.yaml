@@ -1,0 +1,39 @@
+name: Millbrook Mountain
+country: us
+state: NY
+region: hudson-valley
+county: Ulster
+area: Minnewaska
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/minnewaska-state-park-preserve
+links:
+  - type: state-park
+    label: "Millbrook Mountain: official page"
+    url: https://parks.ny.gov/visit/state-parks/minnewaska-state-park-preserve
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Millbrook%20Mountain%2C%20Minnewaska%2C%20NY
+mapQuery: Millbrook Mountain, Minnewaska, NY
+lat: 41.7084
+lon: -74.226
+kind: hike
+interests:
+  - adventure
+  - views
+  - nature
+  - photo
+difficulty: moderate
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A cliff-edge hike on the Shawangunk Ridge with sweeping views over the valley.
+warnings:
+  - type: safety
+    text: The cliff edge is unfenced. Stay back from it and keep children close.
+    verify: true

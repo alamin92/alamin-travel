@@ -1,0 +1,35 @@
+name: Borderland State Park
+country: us
+state: MA
+region: south-of-boston
+county: Bristol
+area: Easton
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.mass.gov/locations/borderland-state-park
+links:
+  - type: state-park
+    label: "Borderland State Park: official page"
+    url: https://www.mass.gov/locations/borderland-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Borderland%20State%20Park%2C%20Easton%2C%20MA
+mapQuery: Borderland State Park, Easton, MA
+lat: 42.03
+lon: -71.14
+kind: park
+interests:
+  - nature
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A state park with ponds, trails and a mansion on a former estate.
+warnings: []

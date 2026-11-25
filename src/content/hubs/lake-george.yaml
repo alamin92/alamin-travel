@@ -1,0 +1,46 @@
+name: Lake George Village
+country: us
+state: NY
+region: adirondacks
+county: Warren
+blurb: A lakeside resort village at the south end of Lake George, with boat tours, beaches and mountain views.
+nearby:
+  - place: lake-george-battlefield
+    minutes: 5
+  - place: lake-george-steamboat
+    minutes: 5
+  - place: lake-george-village
+    minutes: 5
+  - place: million-dollar-beach
+    minutes: 5
+  - place: prospect-mountain
+    minutes: 5
+  - place: buck-mountain
+    minutes: 15
+  - place: shelving-rock-falls
+    minutes: 20
+  - place: adirondack-extreme
+    minutes: 25
+  - place: hadley-mountain-fire-tower
+    minutes: 25
+  - place: moreau-lake-state-park
+    minutes: 25
+  - place: sleeping-beauty-mountain
+    minutes: 25
+  - place: congress-park
+    minutes: 50
+  - place: national-museum-of-racing
+    minutes: 50
+  - place: revolution-rail
+    minutes: 50
+  - place: saratoga-race-course
+    minutes: 50
+  - place: yaddo-gardens
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

@@ -1,0 +1,38 @@
+name: Tannery Falls
+country: us
+state: MA
+region: western-massachusetts
+county: Berkshire
+area: Adams
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.mass.gov/locations/mount-greylock-state-reservation
+links:
+  - type: state-park
+    label: "Tannery Falls: official page"
+    url: https://www.mass.gov/locations/mount-greylock-state-reservation
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Tannery%20Falls%2C%20Adams%2C%20MA
+mapQuery: Tannery Falls, Adams, MA
+lat: 42.6209
+lon: -73.0183
+kind: waterfall
+interests:
+  - nature
+  - photo
+  - adventure
+difficulty: moderate
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A waterfall in a small gorge near Adams, reached by a trail along a stream.
+warnings:
+  - type: safety
+    text: The final approach crosses rocks and water. Wear good shoes.
+    verify: true

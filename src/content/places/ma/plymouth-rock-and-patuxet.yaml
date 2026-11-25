@@ -1,0 +1,35 @@
+name: "Plymouth: Plymouth Rock, Mayflower II and Plimoth Patuxet"
+country: us
+state: MA
+region: south-of-boston
+county: Plymouth
+area: Plymouth
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.seeplymouth.com/
+links:
+  - type: official
+    label: "Plymouth: Plymouth Rock, Mayflower II and Plimoth Patuxet: official page"
+    url: https://www.seeplymouth.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Plymouth%3A%20Plymouth%20Rock%2C%20Mayflower%20II%20and%20Plimoth%20Patuxet%2C%20Plymouth%2C%20MA
+mapQuery: "Plymouth: Plymouth Rock, Mayflower II and Plimoth Patuxet, Plymouth, MA"
+lat: 41.9584
+lon: -70.662
+kind: museum
+interests:
+  - history
+  - family
+  - culture
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A harbor town with Plymouth Rock, the Mayflower II replica ship and a living-history museum of the Pilgrims and Wampanoag.
+warnings: []

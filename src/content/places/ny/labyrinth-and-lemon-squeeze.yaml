@@ -1,0 +1,41 @@
+name: Labyrinth Trail and Lemon Squeeze
+country: us
+state: NY
+region: hudson-valley
+county: Ulster
+area: Gardiner
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.mohonkpreserve.org/
+links:
+  - type: official
+    label: "Labyrinth Trail and Lemon Squeeze: official page"
+    url: https://www.mohonkpreserve.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Labyrinth%20Trail%20and%20Lemon%20Squeeze%2C%20Gardiner%2C%20NY
+mapQuery: Labyrinth Trail and Lemon Squeeze, Gardiner, NY
+lat: 41.7618
+lon: -74.1395
+kind: hike
+interests:
+  - adventure
+  - rough
+  - family
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A scrambling route through boulders and crevices in the Mohonk Preserve, for those who like climbing and squeezing.
+warnings:
+  - type: safety
+    text: Expect ladders and narrow gaps. Not for anyone afraid of tight spaces or heights.
+    verify: true
+  - type: fees
+    text: Mohonk Preserve charges a day-use fee for non-members.
+    verify: true

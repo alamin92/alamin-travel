@@ -24,6 +24,66 @@ nearby:
     minutes: 35
   - place: great-jack-o-lantern-blaze
     minutes: 50
+  - place: bannerman-castle
+    minutes: 5
+  - place: dia-beacon
+    minutes: 5
+  - place: fishkill-ridge-falls
+    minutes: 5
+  - place: long-dock-park
+    minutes: 5
+  - place: breakneck-ridge
+    minutes: 10
+  - place: bull-hill
+    minutes: 10
+  - place: donahue-memorial-park
+    minutes: 10
+  - place: little-stony-point
+    minutes: 10
+  - place: boscobel
+    minutes: 15
+  - place: cold-spring-village
+    minutes: 15
+  - place: constitution-island
+    minutes: 15
+  - place: fahnestock-state-park
+    minutes: 15
+  - place: hudson-highlands-state-park
+    minutes: 15
+  - place: locust-grove
+    minutes: 20
+  - place: schunnemunk-state-park
+    minutes: 20
+  - place: anthonys-nose
+    minutes: 25
+  - place: mine-dock-park
+    minutes: 25
+  - place: ninham-mountain-fire-tower
+    minutes: 25
+  - place: harriman-state-park
+    minutes: 30
+  - place: popolopen-gorge
+    minutes: 30
+  - place: blue-mountain-reservation
+    minutes: 35
+  - place: orange-county-arboretum
+    minutes: 35
+  - place: val-kill
+    minutes: 35
+  - place: croton-gorge-park
+    minutes: 40
+  - place: fdr-home-hyde-park
+    minutes: 40
+  - place: georges-island-park
+    minutes: 40
+  - place: huguenot-street
+    minutes: 40
+  - place: labyrinth-and-lemon-squeeze
+    minutes: 40
+  - place: millbrook-mountain
+    minutes: 40
+  - place: stony-point-battlefield
+    minutes: 40
 checkBefore:
   - type: state-park
     label: "NY State Parks: park status and alerts"

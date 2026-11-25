@@ -1,0 +1,35 @@
+name: USS Constitution and Museum
+country: us
+state: MA
+region: greater-boston
+county: Suffolk
+area: Charlestown
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://ussconstitutionmuseum.org/
+links:
+  - type: official
+    label: "USS Constitution and Museum: official page"
+    url: https://ussconstitutionmuseum.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=USS%20Constitution%20and%20Museum%2C%20Charlestown%2C%20MA
+mapQuery: USS Constitution and Museum, Charlestown, MA
+lat: 42.3725
+lon: -71.0566
+kind: museum
+interests:
+  - history
+  - family
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: free
+highlight: false
+summary: The oldest commissioned warship afloat in the world, open for free tours.
+warnings: []

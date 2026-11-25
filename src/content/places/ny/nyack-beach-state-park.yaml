@@ -1,0 +1,38 @@
+name: Nyack Beach State Park
+country: us
+state: NY
+region: hudson-valley
+county: Rockland
+area: Upper Nyack
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/nyack-beach-state-park
+links:
+  - type: state-park
+    label: "Nyack Beach State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/nyack-beach-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Nyack%20Beach%20State%20Park%2C%20Upper%20Nyack%2C%20NY
+mapQuery: Nyack Beach State Park, Upper Nyack, NY
+lat: 41.118
+lon: -73.9151
+kind: hike
+interests:
+  - relax
+  - views
+  - family
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: true
+summary: A flat riverside path under the Palisades cliffs, leading toward Hook Mountain.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

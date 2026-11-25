@@ -1,0 +1,38 @@
+name: Finger Lakes National Forest
+country: us
+state: NY
+region: finger-lakes
+county: Schuyler
+area: Hector
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.fs.usda.gov/gmfl
+links:
+  - type: official
+    label: "Finger Lakes National Forest: official page"
+    url: https://www.fs.usda.gov/gmfl
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Finger%20Lakes%20National%20Forest%2C%20Hector%2C%20NY
+mapQuery: Finger Lakes National Forest, Hector, NY
+lat: 42.46
+lon: -76.85
+kind: hike
+interests:
+  - nature
+  - adventure
+  - relax
+difficulty: moderate
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: The only national forest in New York, with hills, ponds and trails between Seneca and Cayuga lakes.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

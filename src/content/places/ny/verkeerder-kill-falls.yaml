@@ -1,0 +1,38 @@
+name: Verkeerder Kill Falls
+country: us
+state: NY
+region: hudson-valley
+county: Ulster
+area: Ellenville
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/minnewaska-state-park-preserve
+links:
+  - type: state-park
+    label: "Verkeerder Kill Falls: official page"
+    url: https://parks.ny.gov/visit/state-parks/minnewaska-state-park-preserve
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Verkeerder%20Kill%20Falls%2C%20Ellenville%2C%20NY
+mapQuery: Verkeerder Kill Falls, Ellenville, NY
+lat: 41.6843
+lon: -74.3288
+kind: waterfall
+interests:
+  - nature
+  - adventure
+  - photo
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A tall waterfall in the Shawangunk Mountains, reached by a trail from Sam's Point or Minnewaska.
+warnings:
+  - type: closure
+    text: Parts of the Sam's Point area have had access limits and closures. Check the park page.
+    verify: true

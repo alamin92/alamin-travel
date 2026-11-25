@@ -1,0 +1,35 @@
+name: New England Aquarium
+country: us
+state: MA
+region: greater-boston
+county: Suffolk
+area: Boston
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.neaq.org/
+links:
+  - type: official
+    label: "New England Aquarium: official page"
+    url: https://www.neaq.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=New%20England%20Aquarium%2C%20Boston%2C%20MA
+mapQuery: New England Aquarium, Boston, MA
+lat: 42.359
+lon: -71.0495
+kind: museum
+interests:
+  - family
+  - culture
+difficulty: n/a
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A waterfront aquarium with a giant ocean tank, penguins and whale watches.
+warnings: []

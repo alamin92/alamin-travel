@@ -1,0 +1,50 @@
+name: New Haven
+country: us
+state: CT
+region: central-connecticut
+county: New Haven
+blurb: A university city with free Yale museums and nearby ridge parks and beaches.
+nearby:
+  - place: east-rock-park
+    minutes: 5
+  - place: yale-art-gallery
+    minutes: 5
+  - place: yale-center-british-art
+    minutes: 5
+  - place: lighthouse-point-park
+    minutes: 10
+  - place: west-rock-ridge-state-park
+    minutes: 10
+  - place: indian-well-state-park
+    minutes: 20
+  - place: silver-sands-state-park
+    minutes: 20
+  - place: sleeping-giant-state-park
+    minutes: 20
+  - place: beardsley-zoo
+    minutes: 35
+  - place: quassy-amusement-park
+    minutes: 35
+  - place: seaside-park-bridgeport
+    minutes: 35
+  - place: southford-falls-state-park
+    minutes: 35
+  - place: chatfield-hollow-state-park
+    minutes: 40
+  - place: hammonasset-beach-state-park
+    minutes: 40
+  - place: wadsworth-falls-state-park
+    minutes: 40
+  - place: devils-den-preserve
+    minutes: 45
+  - place: lake-compounce
+    minutes: 45
+  - place: sherwood-island-state-park
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "CT State Parks: status and alerts"
+    url: https://portal.ct.gov/deep/state-parks/state-parks-and-forests
+  - type: official
+    label: "CTvisit: official Connecticut tourism"
+    url: https://www.ctvisit.com/

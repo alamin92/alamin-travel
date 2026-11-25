@@ -1,0 +1,41 @@
+name: Balloons Over Letchworth
+country: us
+state: NY
+region: greater-niagara
+county: Wyoming
+area: Castile
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.balloonsoverletchworth.com/
+links:
+  - type: official
+    label: "Balloons Over Letchworth: official page"
+    url: https://www.balloonsoverletchworth.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Balloons%20Over%20Letchworth%2C%20Castile%2C%20NY
+mapQuery: Balloons Over Letchworth, Castile, NY
+lat: 42.5762
+lon: -78.0668
+kind: activity
+interests:
+  - views
+  - adventure
+  - photo
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: Hot-air balloon flights over the Letchworth gorge.
+warnings:
+  - type: reservation
+    text: Flights depend on weather and need a booking.
+    verify: true
+  - type: fees
+    text: Flights are priced per person.
+    verify: true

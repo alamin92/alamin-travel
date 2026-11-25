@@ -1,0 +1,37 @@
+name: Cave of the Winds
+country: us
+state: NY
+region: greater-niagara
+county: Niagara
+area: Niagara Falls
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.niagarafallsstatepark.com/
+links:
+  - type: official
+    label: "Cave of the Winds: official page"
+    url: https://www.niagarafallsstatepark.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Cave%20of%20the%20Winds%2C%20Niagara%20Falls%2C%20NY
+mapQuery: Cave of the Winds, Niagara Falls, NY
+lat: 43.0804
+lon: -79.0714
+kind: activity
+interests:
+  - family
+  - adventure
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A walkway and boardwalks at the base of Bridal Veil Falls, where you get soaked by the spray.
+warnings:
+  - type: fees
+    text: Tickets are charged.
+    verify: true

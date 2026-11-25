@@ -1,0 +1,38 @@
+name: The Adirondack Experience
+country: us
+state: NY
+region: adirondacks
+county: Hamilton
+area: Blue Mountain Lake
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.theadkx.org/
+links:
+  - type: official
+    label: "The Adirondack Experience: official page"
+    url: https://www.theadkx.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=The%20Adirondack%20Experience%2C%20Blue%20Mountain%20Lake%2C%20NY
+mapQuery: The Adirondack Experience, Blue Mountain Lake, NY
+lat: 43.8664
+lon: -74.4306
+kind: museum
+interests:
+  - family
+  - history
+  - culture
+difficulty: n/a
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A large museum of Adirondack life on a lakeside campus.
+warnings:
+  - type: closure
+    text: Open seasonally. Check the site.
+    verify: true

@@ -1,0 +1,39 @@
+name: Adirondack Extreme Adventure Course
+country: us
+state: NY
+region: adirondacks
+county: Warren
+alsoRegions:
+  - adirondacks
+area: Bolton Landing
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.adirondackextreme.com/
+links:
+  - type: official
+    label: "Adirondack Extreme Adventure Course: official page"
+    url: https://www.adirondackextreme.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Adirondack%20Extreme%20Adventure%20Course%2C%20Bolton%20Landing%2C%20NY
+mapQuery: Adirondack Extreme Adventure Course, Bolton Landing, NY
+lat: 43.6087
+lon: -73.7208
+kind: activity
+interests:
+  - adventure
+  - family
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A treetop ropes course with ziplines near Lake George.
+warnings:
+  - type: reservation
+    text: Book ahead, especially on weekends.
+    verify: true

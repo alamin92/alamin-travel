@@ -1,0 +1,35 @@
+name: Long Dock Park (Beacon)
+country: us
+state: NY
+region: hudson-valley
+county: Dutchess
+area: Beacon
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.scenichudson.org/
+links:
+  - type: official
+    label: "Long Dock Park: official page"
+    url: https://www.scenichudson.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Long%20Dock%20Park%2C%20Beacon%2C%20NY
+mapQuery: Long Dock Park, Beacon, NY
+lat: 41.5035
+lon: -73.9861
+kind: park
+interests:
+  - relax
+  - views
+  - family
+difficulty: easy
+timeMinutes: 60
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A riverfront park in Beacon with a boardwalk, a kayak launch and a view over the Hudson.
+warnings: []

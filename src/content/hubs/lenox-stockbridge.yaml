@@ -1,0 +1,37 @@
+name: Lenox and Stockbridge
+country: us
+state: MA
+region: western-massachusetts
+county: Berkshire
+blurb: The heart of the Berkshires, with Tanglewood, Edith Wharton's home and the Norman Rockwell Museum.
+nearby:
+  - place: tanglewood
+    minutes: 5
+  - place: the-mount-lenox
+    minutes: 5
+  - place: monument-mountain
+    minutes: 10
+  - place: norman-rockwell-museum
+    minutes: 10
+  - place: hancock-shaker-village
+    minutes: 15
+  - place: berkshire-museum
+    minutes: 20
+  - place: bash-bish-falls
+    minutes: 40
+  - place: mount-washington-state-forest
+    minutes: 40
+  - place: mount-greylock
+    minutes: 45
+  - place: tannery-falls
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "Mass.gov DCR: state parks and alerts"
+    url: https://www.mass.gov/orgs/department-of-conservation-and-recreation
+  - type: official
+    label: "Visit Massachusetts: official tourism"
+    url: https://www.visitma.com/
+  - type: conditions
+    label: "Mass511: road conditions"
+    url: https://mass511.com/

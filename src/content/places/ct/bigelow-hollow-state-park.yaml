@@ -1,0 +1,39 @@
+name: Bigelow Hollow State Park
+country: us
+state: CT
+region: eastern-connecticut
+county: Tolland
+area: Union
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://portal.ct.gov/deep/state-parks/bigelow-hollow-state-park
+links:
+  - type: state-park
+    label: "Bigelow Hollow State Park: official page"
+    url: https://portal.ct.gov/deep/state-parks/bigelow-hollow-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Bigelow%20Hollow%20State%20Park%2C%20Union%2C%20CT
+mapQuery: Bigelow Hollow State Park, Union, CT
+lat: 42.005
+lon: -72.1354
+kind: hike
+interests:
+  - nature
+  - relax
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: true
+summary: A pond and forest in northeastern Connecticut, with a loop trail and paddling.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

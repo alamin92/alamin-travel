@@ -1,0 +1,38 @@
+name: Chestnut Ridge Park and Eternal Flame Falls
+country: us
+state: NY
+region: greater-niagara
+county: Erie
+area: Orchard Park
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.buffaloniagara.com/
+links:
+  - type: official
+    label: "Chestnut Ridge Park and Eternal Flame Falls: official page"
+    url: https://www.buffaloniagara.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Chestnut%20Ridge%20Park%20and%20Eternal%20Flame%20Falls%2C%20Orchard%20Park%2C%20NY
+mapQuery: Chestnut Ridge Park and Eternal Flame Falls, Orchard Park, NY
+lat: 42.712
+lon: -78.7593
+kind: hike
+interests:
+  - nature
+  - family
+  - adventure
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A county park with trails, and the short hike to Eternal Flame Falls, a waterfall with a small natural gas flame behind it.
+warnings:
+  - type: safety
+    text: The trail to the flame is steep and muddy. The flame may be out.
+    verify: true

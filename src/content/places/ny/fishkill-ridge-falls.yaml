@@ -1,0 +1,38 @@
+name: Fishkill Ridge and Fishkill Overlook Falls
+country: us
+state: NY
+region: hudson-valley
+county: Dutchess
+area: Beacon
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.scenichudson.org/
+links:
+  - type: official
+    label: "Fishkill Ridge and Fishkill Overlook Falls: official page"
+    url: https://www.scenichudson.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Fishkill%20Ridge%20and%20Fishkill%20Overlook%20Falls%2C%20Beacon%2C%20NY
+mapQuery: Fishkill Ridge and Fishkill Overlook Falls, Beacon, NY
+lat: 41.5031
+lon: -73.9626
+kind: waterfall
+interests:
+  - nature
+  - adventure
+  - photo
+difficulty: moderate
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A waterfall and ridge viewpoint in the hills above Beacon.
+warnings:
+  - type: safety
+    text: Rocks near waterfalls are slippery. Stay on marked paths and out of the water above the falls.
+    verify: false

@@ -1,0 +1,34 @@
+name: Fort Stanwix National Monument
+country: us
+state: NY
+region: central-ny
+county: Oneida
+area: Rome
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nps.gov/fost/index.htm
+links:
+  - type: nps
+    label: "Fort Stanwix National Monument: official page"
+    url: https://www.nps.gov/fost/index.htm
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Fort%20Stanwix%20National%20Monument%2C%20Rome%2C%20NY
+mapQuery: Fort Stanwix National Monument, Rome, NY
+lat: 43.212
+lon: -75.458
+kind: museum
+interests:
+  - history
+  - family
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A reconstructed Revolutionary War fort in downtown Rome.
+warnings: []

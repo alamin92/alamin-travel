@@ -1,0 +1,35 @@
+name: Cayuga Lake State Park
+country: us
+state: NY
+region: finger-lakes
+county: Seneca
+area: Seneca Falls
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/cayuga-lake-state-park
+links:
+  - type: state-park
+    label: "Cayuga Lake State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/cayuga-lake-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Cayuga%20Lake%20State%20Park%2C%20Seneca%20Falls%2C%20NY
+mapQuery: Cayuga Lake State Park, Seneca Falls, NY
+lat: 42.9071
+lon: -76.7364
+kind: park
+interests:
+  - family
+  - relax
+  - nature
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A lakeside state park with a beach, trails and a campground.
+warnings: []

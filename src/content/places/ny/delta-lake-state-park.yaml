@@ -1,0 +1,35 @@
+name: Delta Lake State Park
+country: us
+state: NY
+region: central-ny
+county: Oneida
+area: Rome
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/delta-lake-state-park
+links:
+  - type: state-park
+    label: "Delta Lake State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/delta-lake-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Delta%20Lake%20State%20Park%2C%20Rome%2C%20NY
+mapQuery: Delta Lake State Park, Rome, NY
+lat: 43.261
+lon: -75.422
+kind: park
+interests:
+  - family
+  - relax
+  - beach
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A lake state park with a beach and a campground near Rome.
+warnings: []

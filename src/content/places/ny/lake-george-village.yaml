@@ -1,0 +1,39 @@
+name: Lake George Village and the Lake
+country: us
+state: NY
+region: adirondacks
+county: Warren
+alsoRegions:
+  - adirondacks
+  - capital-saratoga
+area: Lake George
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.lakegeorge.com/
+links:
+  - type: official
+    label: "Lake George Village and the Lake: official page"
+    url: https://www.lakegeorge.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Lake%20George%20Village%20and%20the%20Lake%2C%20Lake%20George%2C%20NY
+mapQuery: Lake George Village and the Lake, Lake George, NY
+lat: 43.4256
+lon: -73.7123
+kind: town
+interests:
+  - family
+  - relax
+  - beach
+  - photo
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A busy lake resort village with shops, boat tours and beaches on a long, clear mountain lake.
+warnings: []

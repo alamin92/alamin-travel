@@ -1,0 +1,35 @@
+name: Antique Boat Museum
+country: us
+state: NY
+region: thousand-islands-seaway
+county: Jefferson
+area: Clayton
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.abm.org/
+links:
+  - type: official
+    label: "Antique Boat Museum: official page"
+    url: https://www.abm.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Antique%20Boat%20Museum%2C%20Clayton%2C%20NY
+mapQuery: Antique Boat Museum, Clayton, NY
+lat: 44.24
+lon: -76.081
+kind: museum
+interests:
+  - culture
+  - history
+  - family
+difficulty: n/a
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A museum of classic wooden boats on the river in Clayton.
+warnings: []

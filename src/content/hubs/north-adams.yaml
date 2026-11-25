@@ -1,0 +1,41 @@
+name: North Adams
+country: us
+state: MA
+region: western-massachusetts
+county: Berkshire
+blurb: A small city with a major contemporary art museum and Mount Greylock, the Mohawk Trail and Natural Bridge close by.
+nearby:
+  - place: mass-moca
+    minutes: 5
+  - place: natural-bridge-state-park
+    minutes: 5
+  - place: clark-art-institute
+    minutes: 10
+  - place: mount-greylock
+    minutes: 10
+  - place: hoosac-tunnel-east-portal
+    minutes: 15
+  - place: raycroft-lookout
+    minutes: 15
+  - place: tannery-falls
+    minutes: 15
+  - place: berkshire-east
+    minutes: 25
+  - place: mohawk-trail-drive
+    minutes: 25
+  - place: berkshire-museum
+    minutes: 40
+  - place: shelburne-falls-bridge-of-flowers
+    minutes: 40
+  - place: hancock-shaker-village
+    minutes: 45
+checkBefore:
+  - type: state-park
+    label: "Mass.gov DCR: state parks and alerts"
+    url: https://www.mass.gov/orgs/department-of-conservation-and-recreation
+  - type: official
+    label: "Visit Massachusetts: official tourism"
+    url: https://www.visitma.com/
+  - type: conditions
+    label: "Mass511: road conditions"
+    url: https://mass511.com/

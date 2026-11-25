@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Badge from '../../components/Badge.astro';
-import NYMap from '../../components/NYMap.astro';
+import StateMap from '../../components/StateMap.astro';
 import { loadPlaces, loadHubs, SCENARIO_DAYS, scenarioSlug } from '../../lib/data';
 import { regions, regionById } from '../../lib/regions';
 import { regionArea, findState } from '../../lib/areas';
@@ -19,7 +19,7 @@ const hubsAll = await loadHubs();
 const inRegion = (x: { region: string; alsoRegions: string[] }) => x.region === region.id || x.alsoRegions.includes(region.id);
 const places = all.filter(inRegion).sort((a, b) => Number(b.highlight) - Number(a.highlight) || a.name.localeCompare(b.name));
 const hubs = hubsAll.filter(inRegion);
-const MAX = 12; // a region can have hundreds of places, so show the major ones and link to the full filterable list
+const MAX = 6; // Explore shows a few top picks. Browse is the one place with the full filterable list.
 const farmsAll = places.filter((p) => p.interests.includes('seasonal'));
 const restAll = places.filter((p) => !p.interests.includes('seasonal'));
 const rest = restAll.slice(0, MAX);
@@ -32,10 +32,10 @@ const counts = Object.fromEntries(regions.map((r) => [r.id, all.filter((p) => p.
     <div>
       <h1>{region.name}</h1>
       <p class="lead">{region.blurb}</p>
-      <p class="muted">Regions follow the official <a href={region.official} rel="noopener">I LOVE NY vacation regions</a>. Counties: {region.counties.join(', ')}.</p>
+      <p class="muted">Regions follow the state's <a href={region.official} rel="noopener">official tourism regions</a>, drawn by county. Counties: {region.counties.join(', ')}.</p>
       <p><a class="btn" href={`/browse?region=${region.id}`}>Filter {region.name} places</a></p>
     </div>
-    <NYMap active={region.id} counts={counts} />
+    <StateMap state={region.state} active={region.id} counts={counts} small />
   </div>
 
   {hubs.length > 0 && (
@@ -54,7 +54,7 @@ const counts = Object.fromEntries(regions.map((r) => [r.id, all.filter((p) => p.
     </>
   )}
 
-  <h2>{restAll.length > MAX ? `Major places in ${region.name}` : `Places in ${region.name}`}</h2>
+  <h2>{restAll.length > MAX ? `Top picks in ${region.name}` : `Places in ${region.name}`}</h2>
   {rest.length === 0 && <p class="muted">No full guides here yet. Check the official site above, and the <a href="/my-lists">saved lists</a>.</p>}
   <div class="grid">
     {rest.map((p) => (

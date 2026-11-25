@@ -1,0 +1,36 @@
+name: Rocky Point State Park
+country: us
+state: RI
+region: warwick-west-bay
+county: Kent
+area: Warwick
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://riparks.ri.gov/parks/rocky-point-state-park
+links:
+  - type: state-park
+    label: "Rocky Point State Park: official page"
+    url: https://riparks.ri.gov/parks/rocky-point-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Rocky%20Point%20State%20Park%2C%20Warwick%2C%20RI
+mapQuery: Rocky Point State Park, Warwick, RI
+lat: 41.674
+lon: -71.357
+kind: park
+interests:
+  - relax
+  - views
+  - family
+  - history
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A former amusement park site, now a shoreline park with walking paths and bay views.
+warnings: []

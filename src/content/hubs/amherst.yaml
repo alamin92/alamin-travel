@@ -1,0 +1,35 @@
+name: Northampton and Amherst
+country: us
+state: MA
+region: western-massachusetts
+county: Hampshire
+blurb: College towns in the Pioneer Valley, with the Holyoke Range and Mount Tom nearby.
+nearby:
+  - place: mount-holyoke-range-skinner
+    minutes: 5
+  - place: mount-tom-state-reservation
+    minutes: 5
+  - place: mount-sugarloaf
+    minutes: 20
+  - place: basketball-hall-of-fame
+    minutes: 30
+  - place: historic-deerfield
+    minutes: 30
+  - place: quabbin-observation-tower
+    minutes: 30
+  - place: springfield-museums
+    minutes: 30
+  - place: shelburne-falls-bridge-of-flowers
+    minutes: 40
+  - place: berkshire-east
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "Mass.gov DCR: state parks and alerts"
+    url: https://www.mass.gov/orgs/department-of-conservation-and-recreation
+  - type: official
+    label: "Visit Massachusetts: official tourism"
+    url: https://www.visitma.com/
+  - type: conditions
+    label: "Mass511: road conditions"
+    url: https://mass511.com/

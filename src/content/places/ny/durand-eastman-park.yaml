@@ -1,0 +1,35 @@
+name: Durand Eastman Park
+country: us
+state: NY
+region: finger-lakes
+county: Monroe
+area: Rochester
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www2.monroecounty.gov/parks
+links:
+  - type: official
+    label: "Durand Eastman Park: official page"
+    url: https://www2.monroecounty.gov/parks
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Durand%20Eastman%20Park%2C%20Rochester%2C%20NY
+mapQuery: Durand Eastman Park, Rochester, NY
+lat: 43.24
+lon: -77.55
+kind: park
+interests:
+  - relax
+  - family
+  - views
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A lakefront park on Lake Ontario with a beach, trails and an arboretum.
+warnings: []

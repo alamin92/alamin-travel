@@ -1,0 +1,35 @@
+name: Boston Common and the Public Garden
+country: us
+state: MA
+region: greater-boston
+county: Suffolk
+area: Boston
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.boston.gov/parks
+links:
+  - type: official
+    label: "Boston Common and the Public Garden: official page"
+    url: https://www.boston.gov/parks
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Boston%20Common%20and%20the%20Public%20Garden%2C%20Boston%2C%20MA
+mapQuery: Boston Common and the Public Garden, Boston, MA
+lat: 42.355
+lon: -71.0656
+kind: park
+interests:
+  - relax
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: America's oldest public park and the adjoining garden with swan boats, in the middle of Boston.
+warnings: []

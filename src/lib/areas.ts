@@ -6,7 +6,8 @@
 // Region ids must be unique across the whole site, because /regions/<id> is one flat route.
 // Smaller levels (county, city) are already in the data: `county` on every place and hub,
 // and hubs are the "city" level used by the planner.
-import { regions as nyRegions, type Region } from './regions';
+import { regions, type Region } from './regions';
+const inState = (code: string) => regions.filter((r) => r.state === code);
 
 export interface StateArea { id: string; code: string; name: string; regions: Region[]; official?: string }
 export interface Country { id: string; name: string; states: StateArea[] }
@@ -16,7 +17,10 @@ export const countries: Country[] = [
     id: 'us',
     name: 'United States',
     states: [
-      { id: 'ny', code: 'NY', name: 'New York', regions: nyRegions, official: 'https://www.iloveny.com/' },
+      { id: 'ny', code: 'NY', name: 'New York', regions: inState('NY'), official: 'https://www.iloveny.com/' },
+      { id: 'ct', code: 'CT', name: 'Connecticut', regions: inState('CT'), official: 'https://www.ctvisit.com/' },
+      { id: 'ma', code: 'MA', name: 'Massachusetts', regions: inState('MA'), official: 'https://www.visitma.com/' },
+      { id: 'ri', code: 'RI', name: 'Rhode Island', regions: inState('RI'), official: 'https://www.visitrhodeisland.com/' },
     ],
   },
 ];

@@ -1,0 +1,39 @@
+name: Mount Jo
+country: us
+state: NY
+region: adirondacks
+county: Essex
+area: Lake Placid
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.adk.org/
+links:
+  - type: official
+    label: "Mount Jo: official page"
+    url: https://www.adk.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mount%20Jo%2C%20Lake%20Placid%2C%20NY
+mapQuery: Mount Jo, Lake Placid, NY
+lat: 44.1895
+lon: -73.9668
+kind: hike
+interests:
+  - family
+  - views
+  - nature
+  - short-time
+difficulty: moderate
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A short hike above Heart Lake to a rocky summit with a view of the High Peaks.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

@@ -1,0 +1,42 @@
+name: Niagara Falls
+country: us
+state: NY
+region: greater-niagara
+county: Niagara
+blurb: The city at the falls, with boat rides, the gorge, and forts and parks along the river.
+nearby:
+  - place: cave-of-the-winds
+    minutes: 5
+  - place: devils-hole-state-park
+    minutes: 5
+  - place: maid-of-the-mist
+    minutes: 5
+  - place: niagara-falls-state-park
+    minutes: 5
+  - place: whirlpool-state-park
+    minutes: 5
+  - place: artpark
+    minutes: 15
+  - place: old-fort-niagara
+    minutes: 20
+  - place: buffalo-akg-art-museum
+    minutes: 30
+  - place: buffalo-zoo
+    minutes: 30
+  - place: darwin-martin-house
+    minutes: 30
+  - place: buffalo-outer-harbor
+    minutes: 35
+  - place: lockport-cave
+    minutes: 40
+  - place: tifft-nature-preserve
+    minutes: 40
+  - place: buffalo-botanical-gardens
+    minutes: 45
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

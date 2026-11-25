@@ -1,0 +1,36 @@
+name: Saratoga Automobile Museum
+country: us
+state: NY
+region: capital-saratoga
+county: Saratoga
+area: Saratoga Springs
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://saratogaautomuseum.org/
+links:
+  - type: official
+    label: "Saratoga Automobile Museum: official page"
+    url: https://saratogaautomuseum.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Saratoga%20Automobile%20Museum%2C%20Saratoga%20Springs%2C%20NY
+mapQuery: Saratoga Automobile Museum, Saratoga Springs, NY
+lat: 43.0631
+lon: -73.79
+kind: museum
+interests:
+  - culture
+  - history
+  - family
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A car museum in the Saratoga Spa State Park.
+warnings: []

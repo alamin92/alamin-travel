@@ -1,0 +1,37 @@
+name: Thomas Cole National Historic Site
+country: us
+state: NY
+region: catskills
+county: Greene
+alsoRegions:
+  - catskills
+area: Catskill
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://thomascole.org/
+links:
+  - type: official
+    label: "Thomas Cole National Historic Site: official page"
+    url: https://thomascole.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Thomas%20Cole%20National%20Historic%20Site%2C%20Catskill%2C%20NY
+mapQuery: Thomas Cole National Historic Site, Catskill, NY
+lat: 42.2204
+lon: -73.8658
+kind: museum
+interests:
+  - culture
+  - history
+  - views
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: The home and studio of the founder of the Hudson River School of painting.
+warnings: []

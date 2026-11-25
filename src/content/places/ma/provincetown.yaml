@@ -1,0 +1,39 @@
+name: Provincetown and Pilgrim Monument
+country: us
+state: MA
+region: cape-cod-islands
+county: Barnstable
+area: Provincetown
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://ptownchamber.com/
+links:
+  - type: official
+    label: "Provincetown and Pilgrim Monument: official page"
+    url: https://ptownchamber.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Provincetown%20and%20Pilgrim%20Monument%2C%20Provincetown%2C%20MA
+mapQuery: Provincetown and Pilgrim Monument, Provincetown, MA
+lat: 42.0584
+lon: -70.1787
+kind: town
+interests:
+  - relax
+  - culture
+  - photo
+  - history
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A lively village at the tip of the Cape with art galleries, dunes, whale watches and the Pilgrim Monument.
+warnings:
+  - type: crowds
+    text: Summer weekends are very busy, and traffic backs up on Route 6.
+    verify: true

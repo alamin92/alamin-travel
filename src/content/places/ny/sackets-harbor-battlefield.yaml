@@ -1,0 +1,34 @@
+name: Sackets Harbor Battlefield State Historic Site
+country: us
+state: NY
+region: thousand-islands-seaway
+county: Jefferson
+area: Sackets Harbor
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/historic-sites/sackets-harbor-battlefield-state-historic-site
+links:
+  - type: state-park
+    label: "Sackets Harbor Battlefield State Historic Site: official page"
+    url: https://parks.ny.gov/visit/historic-sites/sackets-harbor-battlefield-state-historic-site
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Sackets%20Harbor%20Battlefield%20State%20Historic%20Site%2C%20Sackets%20Harbor%2C%20NY
+mapQuery: Sackets Harbor Battlefield State Historic Site, Sackets Harbor, NY
+lat: 43.946
+lon: -76.118
+kind: museum
+interests:
+  - history
+  - family
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A War of 1812 battlefield on Lake Ontario, with a visitor center.
+warnings: []

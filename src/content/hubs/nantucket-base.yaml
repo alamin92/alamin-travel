@@ -1,0 +1,19 @@
+name: Nantucket
+country: us
+state: MA
+region: cape-cod-islands
+county: Nantucket
+blurb: A cobblestone island town reached by ferry, with beaches and lighthouses.
+nearby:
+  - place: nantucket-town
+    minutes: 5
+checkBefore:
+  - type: state-park
+    label: "Mass.gov DCR: state parks and alerts"
+    url: https://www.mass.gov/orgs/department-of-conservation-and-recreation
+  - type: official
+    label: "Visit Massachusetts: official tourism"
+    url: https://www.visitma.com/
+  - type: conditions
+    label: "Mass511: road conditions"
+    url: https://mass511.com/

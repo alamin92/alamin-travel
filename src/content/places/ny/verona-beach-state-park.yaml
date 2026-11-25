@@ -1,0 +1,38 @@
+name: Verona Beach State Park
+country: us
+state: NY
+region: central-ny
+county: Oneida
+area: Verona Beach
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/verona-beach-state-park
+links:
+  - type: state-park
+    label: "Verona Beach State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/verona-beach-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Verona%20Beach%20State%20Park%2C%20Verona%20Beach%2C%20NY
+mapQuery: Verona Beach State Park, Verona Beach, NY
+lat: 43.1777
+lon: -75.7137
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A state park on Oneida Lake with a beach and campground.
+warnings:
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: false

@@ -1,0 +1,38 @@
+name: Sleepy Hollow Cemetery
+country: us
+state: NY
+region: hudson-valley
+county: Westchester
+area: Sleepy Hollow
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.sleepyhollowcemetery.org/
+links:
+  - type: official
+    label: "Sleepy Hollow Cemetery: official page"
+    url: https://www.sleepyhollowcemetery.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Sleepy%20Hollow%20Cemetery%2C%20Sleepy%20Hollow%2C%20NY
+mapQuery: Sleepy Hollow Cemetery, Sleepy Hollow, NY
+lat: 41.0956
+lon: -73.8592
+kind: landmark
+interests:
+  - history
+  - culture
+  - photo
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A historic cemetery linked to Washington Irving and the Legend of Sleepy Hollow, with notable graves.
+warnings:
+  - type: other
+    text: This is an active cemetery. Be quiet and respectful, and follow posted rules.
+    verify: false

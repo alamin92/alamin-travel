@@ -1,0 +1,38 @@
+name: Albany Pine Bush Preserve
+country: us
+state: NY
+region: capital-saratoga
+county: Albany
+area: Albany
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.albanypinebush.org/
+links:
+  - type: official
+    label: "Albany Pine Bush Preserve: official page"
+    url: https://www.albanypinebush.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Albany%20Pine%20Bush%20Preserve%2C%20Albany%2C%20NY
+mapQuery: Albany Pine Bush Preserve, Albany, NY
+lat: 42.691
+lon: -73.8615
+kind: hike
+interests:
+  - nature
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A rare inland pine barrens with sandy trails and a discovery center.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

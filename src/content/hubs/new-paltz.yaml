@@ -14,6 +14,76 @@ nearby:
     minutes: 30
   - place: mohonk-preserve
     minutes: 15
+  - place: high-falls-and-dh-canal
+    minutes: 5
+  - place: huguenot-street
+    minutes: 5
+  - place: labyrinth-and-lemon-squeeze
+    minutes: 5
+  - place: mohonk-mountain-house
+    minutes: 5
+  - place: awosting-falls
+    minutes: 15
+  - place: fdr-home-hyde-park
+    minutes: 15
+  - place: millbrook-mountain
+    minutes: 15
+  - place: rainbow-falls-minnewaska
+    minutes: 15
+  - place: rosendale-trestle
+    minutes: 15
+  - place: vanderbilt-mansion
+    minutes: 15
+  - place: castle-point
+    minutes: 20
+  - place: locust-grove
+    minutes: 20
+  - place: staatsburgh-state-historic-site
+    minutes: 20
+  - place: val-kill
+    minutes: 20
+  - place: mills-norrie-state-park
+    minutes: 25
+  - place: verkeerder-kill-falls
+    minutes: 30
+  - place: ashokan-rail-trail
+    minutes: 35
+  - place: dia-beacon
+    minutes: 35
+  - place: ferncliff-forest
+    minutes: 35
+  - place: innisfree-garden
+    minutes: 35
+  - place: long-dock-park
+    minutes: 35
+  - place: fishkill-ridge-falls
+    minutes: 40
+  - place: mount-beacon
+    minutes: 40
+  - place: woodstock-village
+    minutes: 40
+  - place: bannerman-castle
+    minutes: 45
+  - place: barton-orchards
+    minutes: 45
+  - place: bull-hill
+    minutes: 45
+  - place: donahue-memorial-park
+    minutes: 45
+  - place: fishkill-farms
+    minutes: 45
+  - place: orange-county-arboretum
+    minutes: 45
+  - place: overlook-mountain
+    minutes: 45
+  - place: storm-king-mountain
+    minutes: 45
+  - place: catskill-mountain-railroad
+    minutes: 30
+  - place: hudson-river-maritime-museum
+    minutes: 30
+  - place: opus-40
+    minutes: 45
 checkBefore:
   - type: state-park
     label: "NY State Parks: Minnewaska alerts and status"

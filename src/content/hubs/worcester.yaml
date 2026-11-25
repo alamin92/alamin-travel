@@ -1,0 +1,29 @@
+name: Worcester and Central Massachusetts
+country: us
+state: MA
+region: central-massachusetts
+county: Worcester
+blurb: A city with an art museum, near Wachusett Mountain and the Sutton chasm.
+nearby:
+  - place: worcester-art-museum
+    minutes: 5
+  - place: purgatory-chasm
+    minutes: 20
+  - place: barrett-park
+    minutes: 35
+  - place: wachusett-mountain
+    minutes: 35
+  - place: old-sturbridge-village
+    minutes: 40
+  - place: coggshall-park
+    minutes: 45
+checkBefore:
+  - type: state-park
+    label: "Mass.gov DCR: state parks and alerts"
+    url: https://www.mass.gov/orgs/department-of-conservation-and-recreation
+  - type: official
+    label: "Visit Massachusetts: official tourism"
+    url: https://www.visitma.com/
+  - type: conditions
+    label: "Mass511: road conditions"
+    url: https://mass511.com/

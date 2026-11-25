@@ -1,0 +1,39 @@
+name: World's End
+country: us
+state: MA
+region: south-of-boston
+county: Plymouth
+area: Hingham
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.thetrustees.org/place/worlds-end/
+links:
+  - type: official
+    label: "World's End: official page"
+    url: https://www.thetrustees.org/place/worlds-end/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=World's%20End%2C%20Hingham%2C%20MA
+mapQuery: World's End, Hingham, MA
+lat: 42.266
+lon: -70.88
+kind: hike
+interests:
+  - nature
+  - views
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Trustees peninsula with rolling hills, carriage roads and views of the Boston skyline.
+warnings:
+  - type: fees
+    text: A parking fee applies for non-members.
+    verify: true

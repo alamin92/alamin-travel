@@ -1,0 +1,36 @@
+name: Tanglewood
+country: us
+state: MA
+region: western-massachusetts
+county: Berkshire
+area: Lenox
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.bso.org/tanglewood
+links:
+  - type: official
+    label: "Tanglewood: official page"
+    url: https://www.bso.org/tanglewood
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Tanglewood%2C%20Lenox%2C%20MA
+mapQuery: Tanglewood, Lenox, MA
+lat: 42.35
+lon: -73.31
+kind: activity
+interests:
+  - culture
+  - relax
+  - family
+difficulty: n/a
+timeMinutes: 240
+bestSeason:
+  - summer
+familyFriendly: true
+cost: paid
+highlight: true
+summary: The summer home of the Boston Symphony Orchestra, with concerts on a big lawn.
+warnings:
+  - type: reservation
+    text: Popular concerts sell out. Book ahead.
+    verify: true

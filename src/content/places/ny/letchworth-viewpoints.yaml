@@ -1,0 +1,38 @@
+name: "Letchworth: Upper, Middle and Lower Falls and Overlooks"
+country: us
+state: NY
+region: greater-niagara
+county: Wyoming
+alsoRegions:
+  - finger-lakes
+area: Castile
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/letchworth-state-park
+links:
+  - type: state-park
+    label: "Letchworth: Upper, Middle and Lower Falls and Overlooks: official page"
+    url: https://parks.ny.gov/visit/state-parks/letchworth-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Letchworth%3A%20Upper%2C%20Middle%20and%20Lower%20Falls%20and%20Overlooks%2C%20Castile%2C%20NY
+mapQuery: "Letchworth: Upper, Middle and Lower Falls and Overlooks, Castile, NY"
+lat: 42.5789
+lon: -78.0487
+kind: viewpoint
+interests:
+  - views
+  - photo
+  - nature
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: The main waterfalls and rim overlooks of Letchworth State Park, including Inspiration Point and Great Bend.
+details: Archery Field and Eddy's Overlooks, the pedestrian bridge at the Lower Falls and the Genesee Arch Bridge are among the lookouts.
+warnings: []

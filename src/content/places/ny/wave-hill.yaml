@@ -1,0 +1,36 @@
+name: Wave Hill Public Garden
+country: us
+state: NY
+region: nyc
+county: Bronx
+area: Riverdale
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.wavehill.org/
+links:
+  - type: official
+    label: "Wave Hill Public Garden: official page"
+    url: https://www.wavehill.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Wave%20Hill%20Public%20Garden%2C%20Riverdale%2C%20NY
+mapQuery: Wave Hill Public Garden, Riverdale, NY
+lat: 40.9001
+lon: -73.9112
+kind: park
+interests:
+  - relax
+  - photo
+  - views
+  - family
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A small public garden and cultural center on the Hudson, with gardens and views of the Palisades.
+warnings: []

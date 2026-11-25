@@ -1,0 +1,35 @@
+name: George's Island Park
+country: us
+state: NY
+region: hudson-valley
+county: Westchester
+area: Montrose
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.westchestergov.com/
+links:
+  - type: official
+    label: "George's Island Park: official page"
+    url: https://parks.westchestergov.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=George's%20Island%20Park%2C%20Montrose%2C%20NY
+mapQuery: George's Island Park, Montrose, NY
+lat: 41.2387
+lon: -73.9439
+kind: park
+interests:
+  - relax
+  - family
+  - views
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Westchester County park on the Hudson with a fishing pier, picnic areas and river views.
+warnings: []

@@ -1,0 +1,38 @@
+name: Ninigret National Wildlife Refuge
+country: us
+state: RI
+region: south-county-block-island
+county: Washington
+area: Charlestown
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.fws.gov/refuge/ninigret
+links:
+  - type: official
+    label: "Ninigret National Wildlife Refuge: official page"
+    url: https://www.fws.gov/refuge/ninigret
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Ninigret%20National%20Wildlife%20Refuge%2C%20Charlestown%2C%20RI
+mapQuery: Ninigret National Wildlife Refuge, Charlestown, RI
+lat: 41.36
+lon: -71.66
+kind: hike
+interests:
+  - nature
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A refuge on a coastal salt pond with trails, kayaking and birdwatching.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

@@ -1,0 +1,37 @@
+name: Roebling Delaware Aqueduct
+country: us
+state: NY
+region: catskills
+county: Sullivan
+alsoRegions:
+  - catskills
+area: Minisink Ford
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nps.gov/upde/index.htm
+links:
+  - type: nps
+    label: "Roebling Delaware Aqueduct: official page"
+    url: https://www.nps.gov/upde/index.htm
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Roebling%20Delaware%20Aqueduct%2C%20Minisink%20Ford%2C%20NY
+mapQuery: Roebling Delaware Aqueduct, Minisink Ford, NY
+lat: 41.4806
+lon: -74.9156
+kind: bridge
+interests:
+  - history
+  - photo
+  - family
+difficulty: easy
+timeMinutes: 45
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: The oldest wire suspension bridge in the United States, built in 1848 as a canal aqueduct, now a toll bridge.
+warnings: []

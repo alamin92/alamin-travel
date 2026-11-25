@@ -1,0 +1,38 @@
+name: West Rock Ridge State Park
+country: us
+state: CT
+region: central-connecticut
+county: New Haven
+area: Hamden
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://portal.ct.gov/deep/state-parks/west-rock-ridge-state-park
+links:
+  - type: state-park
+    label: "West Rock Ridge State Park: official page"
+    url: https://portal.ct.gov/deep/state-parks/west-rock-ridge-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=West%20Rock%20Ridge%20State%20Park%2C%20Hamden%2C%20CT
+mapQuery: West Rock Ridge State Park, Hamden, CT
+lat: 41.36
+lon: -72.965
+kind: hike
+interests:
+  - nature
+  - views
+  - relax
+difficulty: moderate
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A traprock ridge with trails, a lake and views toward New Haven.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

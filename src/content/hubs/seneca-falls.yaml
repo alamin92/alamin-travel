@@ -1,0 +1,28 @@
+name: Seneca Falls and Cayuga Lake
+country: us
+state: NY
+region: finger-lakes
+county: Seneca
+blurb: A Finger Lakes village with the women's rights history sites, a wildlife refuge and Cayuga Lake.
+nearby:
+  - place: cayuga-lake-state-park
+    minutes: 5
+  - place: womens-rights-nhp
+    minutes: 5
+  - place: montezuma-nwr
+    minutes: 10
+  - place: harriet-tubman-home
+    minutes: 25
+  - place: sampson-state-park
+    minutes: 25
+  - place: seward-house
+    minutes: 25
+  - place: sonnenberg-gardens
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

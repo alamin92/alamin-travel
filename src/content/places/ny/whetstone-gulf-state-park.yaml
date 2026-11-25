@@ -1,0 +1,38 @@
+name: Whetstone Gulf State Park
+country: us
+state: NY
+region: thousand-islands-seaway
+county: Lewis
+area: Lowville
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/whetstone-gulf-state-park
+links:
+  - type: state-park
+    label: "Whetstone Gulf State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/whetstone-gulf-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Whetstone%20Gulf%20State%20Park%2C%20Lowville%2C%20NY
+mapQuery: Whetstone Gulf State Park, Lowville, NY
+lat: 43.7086
+lon: -75.482
+kind: hike
+interests:
+  - nature
+  - views
+  - adventure
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A gorge park with rim trails, waterfalls and a reservoir.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

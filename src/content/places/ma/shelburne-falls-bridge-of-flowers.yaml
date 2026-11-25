@@ -1,0 +1,38 @@
+name: "Shelburne Falls: Bridge of Flowers and Glacial Potholes"
+country: us
+state: MA
+region: western-massachusetts
+county: Franklin
+area: Shelburne Falls
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.shelburnefalls.com/
+links:
+  - type: official
+    label: "Shelburne Falls: Bridge of Flowers and Glacial Potholes: official page"
+    url: https://www.shelburnefalls.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Shelburne%20Falls%3A%20Bridge%20of%20Flowers%20and%20Glacial%20Potholes%2C%20Shelburne%20Falls%2C%20MA
+mapQuery: "Shelburne Falls: Bridge of Flowers and Glacial Potholes, Shelburne Falls, MA"
+lat: 42.603
+lon: -72.739
+kind: town
+interests:
+  - family
+  - relax
+  - photo
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A small village known for a bridge covered in flowers and a riverbed of huge glacial potholes.
+warnings:
+  - type: closure
+    text: The Bridge of Flowers blooms from spring to fall.
+    verify: true

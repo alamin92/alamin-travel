@@ -1,0 +1,42 @@
+name: Parker River National Wildlife Refuge (Plum Island)
+country: us
+state: MA
+region: north-of-boston
+county: Essex
+area: Newbury
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.fws.gov/refuge/parker-river
+links:
+  - type: official
+    label: "Parker River National Wildlife Refuge: official page"
+    url: https://www.fws.gov/refuge/parker-river
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Parker%20River%20National%20Wildlife%20Refuge%2C%20Newbury%2C%20MA
+mapQuery: Parker River National Wildlife Refuge, Newbury, MA
+lat: 42.745
+lon: -70.812
+kind: beach
+interests:
+  - nature
+  - family
+  - relax
+  - photo
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: true
+summary: A barrier island refuge with a beach, salt marsh and birdwatching, with limited parking.
+warnings:
+  - type: closure
+    text: Parts close for nesting piping plovers in spring and summer.
+    verify: true
+  - type: parking
+    text: The refuge closes its gate when the lots are full.
+    verify: true

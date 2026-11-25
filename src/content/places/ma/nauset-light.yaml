@@ -1,0 +1,35 @@
+name: Nauset Light
+country: us
+state: MA
+region: cape-cod-islands
+county: Barnstable
+area: Eastham
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nausetlight.org/
+links:
+  - type: official
+    label: "Nauset Light: official page"
+    url: https://www.nausetlight.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Nauset%20Light%2C%20Eastham%2C%20MA
+mapQuery: Nauset Light, Eastham, MA
+lat: 41.858
+lon: -69.953
+kind: landmark
+interests:
+  - photo
+  - views
+  - history
+difficulty: easy
+timeMinutes: 45
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: The red-and-white lighthouse that is the symbol of Cape Cod, beside a bluff and beach.
+warnings: []

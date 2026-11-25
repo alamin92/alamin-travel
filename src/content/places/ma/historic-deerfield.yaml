@@ -1,0 +1,34 @@
+name: Historic Deerfield
+country: us
+state: MA
+region: western-massachusetts
+county: Franklin
+area: Deerfield
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://historic-deerfield.org/
+links:
+  - type: official
+    label: "Historic Deerfield: official page"
+    url: https://historic-deerfield.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Historic%20Deerfield%2C%20Deerfield%2C%20MA
+mapQuery: Historic Deerfield, Deerfield, MA
+lat: 42.547
+lon: -72.606
+kind: museum
+interests:
+  - history
+  - culture
+difficulty: n/a
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A preserved 1700s village street with house museums.
+warnings: []

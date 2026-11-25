@@ -1,0 +1,35 @@
+name: Trailside Museums and Zoo at Bear Mountain
+country: us
+state: NY
+region: hudson-valley
+county: Rockland
+area: Bear Mountain
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/bear-mountain-state-park
+links:
+  - type: state-park
+    label: "Trailside Museums and Zoo at Bear Mountain: official page"
+    url: https://parks.ny.gov/visit/state-parks/bear-mountain-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Trailside%20Museums%20and%20Zoo%20at%20Bear%20Mountain%2C%20Bear%20Mountain%2C%20NY
+mapQuery: Trailside Museums and Zoo at Bear Mountain, Bear Mountain, NY
+lat: 41.311
+lon: -73.989
+kind: activity
+interests:
+  - family
+  - nature
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: low
+highlight: false
+summary: A small zoo and nature museums on the Appalachian Trail at Bear Mountain.
+warnings: []

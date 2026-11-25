@@ -1,0 +1,36 @@
+name: Sherwood Island State Park
+country: us
+state: CT
+region: western-connecticut
+county: Fairfield
+area: Westport
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://portal.ct.gov/deep/state-parks/sherwood-island-state-park
+links:
+  - type: state-park
+    label: "Sherwood Island State Park: official page"
+    url: https://portal.ct.gov/deep/state-parks/sherwood-island-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Sherwood%20Island%20State%20Park%2C%20Westport%2C%20CT
+mapQuery: Sherwood Island State Park, Westport, CT
+lat: 41.118
+lon: -73.338
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: Connecticut's first state park, with a long Sound beach and a nature center.
+warnings:
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: false

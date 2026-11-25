@@ -1,0 +1,20 @@
+name: Oswego and the Salmon River
+country: us
+state: NY
+region: thousand-islands-seaway
+county: Oswego
+blurb: A Lake Ontario port city, with Fort Ontario and a tall waterfall on the Salmon River nearby.
+nearby:
+  - place: fort-ontario
+    minutes: 5
+  - place: cedar-point-state-park
+    minutes: 50
+  - place: chimney-bluffs
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

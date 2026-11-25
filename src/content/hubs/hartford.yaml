@@ -1,0 +1,50 @@
+name: Hartford
+country: us
+state: CT
+region: central-connecticut
+county: Hartford
+blurb: The state capital, with historic houses, a rose garden and ridge parks within a short drive.
+nearby:
+  - place: bushnell-park
+    minutes: 5
+  - place: elizabeth-park-rose-garden
+    minutes: 5
+  - place: mark-twain-house
+    minutes: 5
+  - place: wadsworth-atheneum
+    minutes: 5
+  - place: dinosaur-state-park
+    minutes: 15
+  - place: hill-stead-museum
+    minutes: 15
+  - place: talcott-mountain-heublein-tower
+    minutes: 15
+  - place: penwood-state-park
+    minutes: 20
+  - place: gay-city-state-park
+    minutes: 30
+  - place: lake-compounce
+    minutes: 30
+  - place: nepaug-reservoir
+    minutes: 30
+  - place: wadsworth-falls-state-park
+    minutes: 35
+  - place: comstock-covered-bridge
+    minutes: 40
+  - place: peoples-state-forest
+    minutes: 40
+  - place: machimoodus-state-park
+    minutes: 45
+  - place: goodspeed-opera-house
+    minutes: 50
+  - place: sleeping-giant-state-park
+    minutes: 50
+  - place: topsmead-state-forest
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "CT State Parks: status and alerts"
+    url: https://portal.ct.gov/deep/state-parks/state-parks-and-forests
+  - type: official
+    label: "CTvisit: official Connecticut tourism"
+    url: https://www.ctvisit.com/

@@ -1,0 +1,39 @@
+name: Cold Spring Village and Dockside Park
+country: us
+state: NY
+region: hudson-valley
+county: Putnam
+area: Cold Spring
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.coldspringny.gov/
+links:
+  - type: official
+    label: "Cold Spring Village and Dockside Park: official page"
+    url: https://www.coldspringny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Cold%20Spring%20Village%20and%20Dockside%20Park%2C%20Cold%20Spring%2C%20NY
+mapQuery: Cold Spring Village and Dockside Park, Cold Spring, NY
+lat: 41.4178
+lon: -73.9621
+kind: town
+interests:
+  - relax
+  - family
+  - photo
+  - history
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A small Hudson River village with antique shops, cafes, a riverfront park and a Metro-North station.
+warnings:
+  - type: crowds
+    text: Weekends in fall are very busy. Take the train if you can.
+    verify: true

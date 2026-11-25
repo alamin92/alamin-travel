@@ -1,0 +1,33 @@
+name: Rosamond Gifford Zoo
+country: us
+state: NY
+region: finger-lakes
+county: Onondaga
+area: Syracuse
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.rosamondgiffordzoo.org/
+links:
+  - type: official
+    label: "Rosamond Gifford Zoo: official page"
+    url: https://www.rosamondgiffordzoo.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Rosamond%20Gifford%20Zoo%2C%20Syracuse%2C%20NY
+mapQuery: Rosamond Gifford Zoo, Syracuse, NY
+lat: 43.0451
+lon: -76.1769
+kind: activity
+interests:
+  - family
+difficulty: n/a
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A zoo in Burnet Park in Syracuse.
+warnings: []

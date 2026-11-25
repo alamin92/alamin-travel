@@ -1,0 +1,35 @@
+name: Chautauqua Lake and Mayville
+country: us
+state: NY
+region: chautauqua-allegheny
+county: Chautauqua
+area: Mayville
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.tourchautauqua.com/
+links:
+  - type: official
+    label: "Chautauqua Lake and Mayville: official page"
+    url: https://www.tourchautauqua.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Chautauqua%20Lake%20and%20Mayville%2C%20Mayville%2C%20NY
+mapQuery: Chautauqua Lake and Mayville, Mayville, NY
+lat: 42.256
+lon: -79.509
+kind: town
+interests:
+  - relax
+  - family
+  - beach
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A long lake with small towns, boat rentals and the lakeside community of Chautauqua.
+warnings: []

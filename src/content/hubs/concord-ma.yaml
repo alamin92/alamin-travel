@@ -1,0 +1,55 @@
+name: Concord and Lexington
+country: us
+state: MA
+region: greater-boston
+county: Middlesex
+blurb: Revolutionary War and literary history, with Walden Pond and the Battle Road.
+nearby:
+  - place: minute-man-nhp
+    minutes: 5
+  - place: walden-pond
+    minutes: 5
+  - place: lowell-nhp
+    minutes: 25
+  - place: isabella-stewart-gardner-museum
+    minutes: 30
+  - place: museum-of-fine-arts-boston
+    minutes: 30
+  - place: arnold-arboretum
+    minutes: 35
+  - place: boston-childrens-museum
+    minutes: 35
+  - place: boston-common-public-garden
+    minutes: 35
+  - place: freedom-trail
+    minutes: 35
+  - place: museum-of-science-boston
+    minutes: 35
+  - place: new-england-aquarium
+    minutes: 35
+  - place: uss-constitution
+    minutes: 35
+  - place: barrett-park
+    minutes: 45
+  - place: blue-hills-reservation
+    minutes: 45
+  - place: boston-harbor-islands
+    minutes: 45
+  - place: coggshall-park
+    minutes: 50
+  - place: house-of-seven-gables
+    minutes: 50
+  - place: peabody-essex-museum
+    minutes: 50
+  - place: salem-maritime-and-witch-sites
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "Mass.gov DCR: state parks and alerts"
+    url: https://www.mass.gov/orgs/department-of-conservation-and-recreation
+  - type: official
+    label: "Visit Massachusetts: official tourism"
+    url: https://www.visitma.com/
+  - type: conditions
+    label: "Mass511: road conditions"
+    url: https://mass511.com/

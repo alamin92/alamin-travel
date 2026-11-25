@@ -1,0 +1,37 @@
+name: Staten Island Ferry
+country: us
+state: NY
+region: nyc
+county: Richmond
+area: New York Harbor
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nyc.gov/html/dot/html/ferrybus/staten-island-ferry.shtml
+links:
+  - type: official
+    label: "Staten Island Ferry: official page"
+    url: https://www.nyc.gov/html/dot/html/ferrybus/staten-island-ferry.shtml
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Staten%20Island%20Ferry%2C%20New%20York%20Harbor%2C%20NY
+mapQuery: Staten Island Ferry, New York Harbor, NY
+lat: 40.6437
+lon: -74.0736
+kind: activity
+interests:
+  - views
+  - family
+  - photo
+  - short-time
+difficulty: n/a
+timeMinutes: 60
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: free
+highlight: true
+summary: A free ferry ride between Manhattan and Staten Island, passing the Statue of Liberty.
+warnings: []

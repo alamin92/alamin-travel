@@ -1,0 +1,42 @@
+name: Bash Bish Falls State Park
+country: us
+state: MA
+region: western-massachusetts
+county: Berkshire
+area: Mount Washington
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.mass.gov/locations/bash-bish-falls-state-park
+links:
+  - type: state-park
+    label: "Bash Bish Falls State Park: official page"
+    url: https://www.mass.gov/locations/bash-bish-falls-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Bash%20Bish%20Falls%20State%20Park%2C%20Mount%20Washington%2C%20MA
+mapQuery: Bash Bish Falls State Park, Mount Washington, MA
+lat: 42.1105
+lon: -73.4886
+kind: waterfall
+interests:
+  - nature
+  - photo
+  - adventure
+  - family
+difficulty: moderate
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: The tallest single-drop waterfall in Massachusetts, reached by a short, steep trail from the Massachusetts or New York side.
+warnings:
+  - type: parking
+    text: The Massachusetts lot is small and closes when full. The New York lot is larger.
+    verify: true
+  - type: safety
+    text: The rocks are slippery. Stay on the trail and out of the gorge.
+    verify: true

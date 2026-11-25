@@ -1,0 +1,38 @@
+name: Cascade Mountain
+country: us
+state: NY
+region: adirondacks
+county: Essex
+area: Keene
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.adk.org/
+links:
+  - type: official
+    label: "Cascade Mountain: official page"
+    url: https://www.adk.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Cascade%20Mountain%2C%20Keene%2C%20NY
+mapQuery: Cascade Mountain, Keene, NY
+lat: 44.219
+lon: -73.8876
+kind: hike
+interests:
+  - adventure
+  - views
+  - rough
+difficulty: hard
+timeMinutes: 300
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: false
+cost: free
+highlight: true
+summary: One of the easiest of the 46 High Peaks, with a bare summit and wide views.
+warnings:
+  - type: safety
+    text: The upper part is bare rock and exposed to wind. Check the weather first.
+    verify: true

@@ -1,0 +1,34 @@
+name: Boston Children's Museum
+country: us
+state: MA
+region: greater-boston
+county: Suffolk
+area: Boston
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://bostonchildrensmuseum.org/
+links:
+  - type: official
+    label: "Boston Children's Museum: official page"
+    url: https://bostonchildrensmuseum.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Boston%20Children's%20Museum%2C%20Boston%2C%20MA
+mapQuery: Boston Children's Museum, Boston, MA
+lat: 42.353
+lon: -71.05
+kind: museum
+interests:
+  - family
+difficulty: n/a
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A hands-on museum for young children on the Fort Point Channel.
+warnings: []

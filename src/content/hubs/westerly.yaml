@@ -1,0 +1,38 @@
+name: Westerly and Watch Hill
+country: us
+state: RI
+region: south-county-block-island
+county: Washington
+blurb: The western shore, with a seaside village, wildlife refuges and long beaches.
+nearby:
+  - place: misquamicut-state-beach
+    minutes: 10
+  - place: napatree-point
+    minutes: 10
+  - place: watch-hill-and-carousel
+    minutes: 10
+  - place: burlingame-state-park
+    minutes: 20
+  - place: ninigret-nwr
+    minutes: 20
+  - place: arcadia-management-area
+    minutes: 30
+  - place: trustom-pond-nwr
+    minutes: 30
+  - place: scarborough-state-beach
+    minutes: 35
+  - place: block-island
+    minutes: 40
+  - place: narragansett-beach
+    minutes: 40
+  - place: point-judith-lighthouse
+    minutes: 40
+  - place: beavertail-state-park
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: RI State Parks and Beaches
+    url: https://riparks.ri.gov/
+  - type: official
+    label: "Visit Rhode Island: official tourism"
+    url: https://www.visitrhodeisland.com/

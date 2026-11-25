@@ -1,0 +1,70 @@
+name: Newport
+country: us
+state: RI
+region: newport-east-bay
+county: Newport
+blurb: A seaside city with the Gilded Age mansions, the Cliff Walk, Ocean Drive and harbor forts.
+nearby:
+  - place: brenton-point-state-park
+    minutes: 5
+  - place: cliff-walk-newport
+    minutes: 5
+  - place: easton-and-second-beach
+    minutes: 5
+  - place: fort-adams-state-park
+    minutes: 5
+  - place: international-tennis-hall-of-fame
+    minutes: 5
+  - place: newport-mansions
+    minutes: 5
+  - place: ocean-drive-newport
+    minutes: 5
+  - place: purgatory-chasm-middletown
+    minutes: 5
+  - place: sachuest-point-nwr
+    minutes: 5
+  - place: beavertail-state-park
+    minutes: 10
+  - place: narragansett-beach
+    minutes: 15
+  - place: blithewold-mansion
+    minutes: 25
+  - place: point-judith-lighthouse
+    minutes: 25
+  - place: rocky-point-state-park
+    minutes: 25
+  - place: scarborough-state-beach
+    minutes: 25
+  - place: warwick-light
+    minutes: 25
+  - place: colt-state-park
+    minutes: 30
+  - place: goddard-memorial-state-park
+    minutes: 30
+  - place: trustom-pond-nwr
+    minutes: 30
+  - place: ninigret-nwr
+    minutes: 40
+  - place: burlingame-state-park
+    minutes: 45
+  - place: rwp-zoo
+    minutes: 45
+  - place: arcadia-management-area
+    minutes: 50
+  - place: prospect-terrace
+    minutes: 50
+  - place: providence-college-hill
+    minutes: 50
+  - place: risd-museum
+    minutes: 50
+  - place: roger-williams-national-memorial
+    minutes: 50
+  - place: waterfire-providence
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: RI State Parks and Beaches
+    url: https://riparks.ri.gov/
+  - type: official
+    label: "Visit Rhode Island: official tourism"
+    url: https://www.visitrhodeisland.com/

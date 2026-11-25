@@ -1,0 +1,39 @@
+name: "Salem: Maritime National Historic Site and Witch History"
+country: us
+state: MA
+region: north-of-boston
+county: Essex
+area: Salem
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nps.gov/sama/index.htm
+links:
+  - type: nps
+    label: "Salem: Maritime National Historic Site and Witch History: official page"
+    url: https://www.nps.gov/sama/index.htm
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Salem%3A%20Maritime%20National%20Historic%20Site%20and%20Witch%20History%2C%20Salem%2C%20MA
+mapQuery: "Salem: Maritime National Historic Site and Witch History, Salem, MA"
+lat: 42.5195
+lon: -70.8967
+kind: town
+interests:
+  - history
+  - family
+  - culture
+  - seasonal
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A historic harbor city known for its maritime history and the 1692 witch trials, busy in October.
+warnings:
+  - type: crowds
+    text: October is extremely busy. Book tours and parking ahead.
+    verify: true

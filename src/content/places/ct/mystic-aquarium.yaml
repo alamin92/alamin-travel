@@ -1,0 +1,35 @@
+name: Mystic Aquarium
+country: us
+state: CT
+region: eastern-connecticut
+county: New London
+area: Mystic
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.mysticaquarium.org/
+links:
+  - type: official
+    label: "Mystic Aquarium: official page"
+    url: https://www.mysticaquarium.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mystic%20Aquarium%2C%20Mystic%2C%20CT
+mapQuery: Mystic Aquarium, Mystic, CT
+lat: 41.3735
+lon: -71.9517
+kind: museum
+interests:
+  - family
+  - culture
+difficulty: n/a
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A large aquarium known for its beluga whales, sea lions and penguins.
+warnings: []

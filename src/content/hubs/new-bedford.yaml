@@ -1,0 +1,31 @@
+name: New Bedford and Fall River
+country: us
+state: MA
+region: south-of-boston
+county: Bristol
+blurb: Southcoast whaling and naval history, with beaches and parks.
+nearby:
+  - place: new-bedford-whaling-nhp
+    minutes: 5
+  - place: battleship-cove
+    minutes: 25
+  - place: woods-hole-ferry
+    minutes: 35
+  - place: aquinnah-cliffs
+    minutes: 40
+  - place: cranberry-bogs-south-shore
+    minutes: 40
+  - place: myles-standish-state-forest
+    minutes: 40
+  - place: sandwich-boardwalk-and-glass
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "Mass.gov DCR: state parks and alerts"
+    url: https://www.mass.gov/orgs/department-of-conservation-and-recreation
+  - type: official
+    label: "Visit Massachusetts: official tourism"
+    url: https://www.visitma.com/
+  - type: conditions
+    label: "Mass511: road conditions"
+    url: https://mass511.com/

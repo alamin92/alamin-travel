@@ -1,0 +1,39 @@
+name: Newburyport and Plum Island
+country: us
+state: MA
+region: north-of-boston
+county: Essex
+blurb: A harbor city next to a barrier-island wildlife refuge and the North Shore beaches.
+nearby:
+  - place: newburyport-waterfront
+    minutes: 5
+  - place: plum-island-parker-river
+    minutes: 10
+  - place: crane-beach
+    minutes: 20
+  - place: appleton-farms
+    minutes: 25
+  - place: halibut-point-state-park
+    minutes: 30
+  - place: wingaersheek-beach
+    minutes: 30
+  - place: rockport-bearskin-neck
+    minutes: 35
+  - place: house-of-seven-gables
+    minutes: 40
+  - place: peabody-essex-museum
+    minutes: 40
+  - place: salem-maritime-and-witch-sites
+    minutes: 40
+  - place: lowell-nhp
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "Mass.gov DCR: state parks and alerts"
+    url: https://www.mass.gov/orgs/department-of-conservation-and-recreation
+  - type: official
+    label: "Visit Massachusetts: official tourism"
+    url: https://www.visitma.com/
+  - type: conditions
+    label: "Mass511: road conditions"
+    url: https://mass511.com/

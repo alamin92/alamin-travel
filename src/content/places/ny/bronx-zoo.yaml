@@ -1,0 +1,33 @@
+name: Bronx Zoo
+country: us
+state: NY
+region: nyc
+county: Bronx
+area: Bronx
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://bronxzoo.com/
+links:
+  - type: official
+    label: "Bronx Zoo: official page"
+    url: https://bronxzoo.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Bronx%20Zoo%2C%20Bronx%2C%20NY
+mapQuery: Bronx Zoo, Bronx, NY
+lat: 40.8506
+lon: -73.877
+kind: activity
+interests:
+  - family
+difficulty: n/a
+timeMinutes: 300
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: One of the largest city zoos in the United States.
+warnings: []

@@ -1,0 +1,35 @@
+name: Opus 40
+country: us
+state: NY
+region: hudson-valley
+county: Ulster
+area: Saugerties
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.opus40.org/
+links:
+  - type: official
+    label: "Opus 40: official page"
+    url: https://www.opus40.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Opus%2040%2C%20Saugerties%2C%20NY
+mapQuery: Opus 40, Saugerties, NY
+lat: 42.068
+lon: -74.015
+kind: park
+interests:
+  - culture
+  - photo
+  - relax
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A huge hand-built stone sculpture environment in a former quarry.
+warnings: []

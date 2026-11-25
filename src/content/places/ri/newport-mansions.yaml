@@ -1,0 +1,39 @@
+name: Newport Mansions (The Breakers and more)
+country: us
+state: RI
+region: newport-east-bay
+county: Newport
+area: Newport
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.newportmansions.org/
+links:
+  - type: official
+    label: "Newport Mansions: official page"
+    url: https://www.newportmansions.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Newport%20Mansions%2C%20Newport%2C%20RI
+mapQuery: Newport Mansions, Newport, RI
+lat: 41.47
+lon: -71.298
+kind: museum
+interests:
+  - history
+  - culture
+  - family
+difficulty: n/a
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: true
+summary: The Preservation Society's collection of Gilded Age mansions, including The Breakers and Marble House.
+warnings:
+  - type: fees
+    text: Tickets are charged, and combined tickets save money.
+    verify: true

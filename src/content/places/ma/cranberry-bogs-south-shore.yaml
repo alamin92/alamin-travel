@@ -1,0 +1,36 @@
+name: Cranberry Bogs of the South Shore
+country: us
+state: MA
+region: south-of-boston
+county: Plymouth
+area: Carver
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.seeplymouth.com/
+links:
+  - type: official
+    label: "Cranberry Bogs of the South Shore: official page"
+    url: https://www.seeplymouth.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Cranberry%20Bogs%20of%20the%20South%20Shore%2C%20Carver%2C%20MA
+mapQuery: Cranberry Bogs of the South Shore, Carver, MA
+lat: 41.88
+lon: -70.76
+kind: farm
+interests:
+  - seasonal
+  - photo
+  - family
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: Cranberry farms around Carver and Plymouth that are red in the autumn harvest.
+warnings:
+  - type: closure
+    text: Harvest time is roughly late September to early November. Many bogs are private, so look from public roads.
+    verify: true

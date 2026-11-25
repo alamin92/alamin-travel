@@ -1,0 +1,35 @@
+name: Iroquois Indian Museum
+country: us
+state: NY
+region: central-ny
+county: Schoharie
+area: Howes Cave
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://iroquoismuseum.org/
+links:
+  - type: official
+    label: "Iroquois Indian Museum: official page"
+    url: https://iroquoismuseum.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Iroquois%20Indian%20Museum%2C%20Howes%20Cave%2C%20NY
+mapQuery: Iroquois Indian Museum, Howes Cave, NY
+lat: 42.7058
+lon: -74.4
+kind: museum
+interests:
+  - culture
+  - history
+  - family
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A museum of Iroquois art and culture, run by Native staff.
+warnings: []

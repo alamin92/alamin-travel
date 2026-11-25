@@ -1,0 +1,35 @@
+name: Maritime Aquarium at Norwalk
+country: us
+state: CT
+region: western-connecticut
+county: Fairfield
+area: Norwalk
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.maritimeaquarium.org/
+links:
+  - type: official
+    label: "Maritime Aquarium at Norwalk: official page"
+    url: https://www.maritimeaquarium.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Maritime%20Aquarium%20at%20Norwalk%2C%20Norwalk%2C%20CT
+mapQuery: Maritime Aquarium at Norwalk, Norwalk, CT
+lat: 41.098
+lon: -73.415
+kind: museum
+interests:
+  - family
+  - culture
+difficulty: n/a
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: An aquarium on the Norwalk River with seals, sharks and an IMAX theater.
+warnings: []

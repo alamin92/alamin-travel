@@ -1,0 +1,94 @@
+name: Cold Spring and the Hudson Highlands
+country: us
+state: NY
+region: hudson-valley
+county: Putnam
+blurb: A Hudson River village with Metro-North train service, a base for Breakneck Ridge, Bull Hill and other Highlands hikes.
+nearby:
+  - place: bannerman-castle
+    minutes: 5
+  - place: boscobel
+    minutes: 5
+  - place: breakneck-ridge
+    minutes: 5
+  - place: bull-hill
+    minutes: 5
+  - place: cold-spring-village
+    minutes: 5
+  - place: constitution-island
+    minutes: 5
+  - place: donahue-memorial-park
+    minutes: 5
+  - place: hudson-highlands-state-park
+    minutes: 5
+  - place: little-stony-point
+    minutes: 5
+  - place: storm-king-mountain
+    minutes: 5
+  - place: west-point
+    minutes: 5
+  - place: fishkill-ridge-falls
+    minutes: 10
+  - place: mount-beacon
+    minutes: 10
+  - place: storm-king-art-center
+    minutes: 10
+  - place: anthonys-nose
+    minutes: 15
+  - place: bear-mountain-zoo
+    minutes: 15
+  - place: bear-mountain
+    minutes: 15
+  - place: dia-beacon
+    minutes: 15
+  - place: fahnestock-state-park
+    minutes: 15
+  - place: long-dock-park
+    minutes: 15
+  - place: mine-dock-park
+    minutes: 15
+  - place: schunnemunk-state-park
+    minutes: 15
+  - place: fishkill-farms
+    minutes: 20
+  - place: harriman-state-park
+    minutes: 20
+  - place: popolopen-gorge
+    minutes: 20
+  - place: blue-mountain-reservation
+    minutes: 25
+  - place: georges-island-park
+    minutes: 25
+  - place: ninham-mountain-fire-tower
+    minutes: 25
+  - place: stony-point-battlefield
+    minutes: 25
+  - place: bowline-point-park
+    minutes: 30
+  - place: croton-gorge-park
+    minutes: 30
+  - place: great-jack-o-lantern-blaze
+    minutes: 30
+  - place: croton-point-park
+    minutes: 35
+  - place: harvest-moon-farm
+    minutes: 35
+  - place: locust-grove
+    minutes: 35
+  - place: muscoot-farm
+    minutes: 35
+  - place: orange-county-arboretum
+    minutes: 35
+  - place: teatown-reservation
+    minutes: 35
+  - place: barton-orchards
+    minutes: 40
+  - place: rockland-lake-state-park
+    minutes: 40
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

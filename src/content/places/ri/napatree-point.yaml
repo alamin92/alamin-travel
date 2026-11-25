@@ -1,0 +1,39 @@
+name: Napatree Point Conservation Area
+country: us
+state: RI
+region: south-county-block-island
+county: Washington
+area: Westerly
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.napatree.org/
+links:
+  - type: official
+    label: "Napatree Point Conservation Area: official page"
+    url: https://www.napatree.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Napatree%20Point%20Conservation%20Area%2C%20Westerly%2C%20RI
+mapQuery: Napatree Point Conservation Area, Westerly, RI
+lat: 41.303
+lon: -71.87
+kind: hike
+interests:
+  - nature
+  - views
+  - photo
+  - beach
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A narrow sand spit with a beach walk, dunes and birds, at the western end of Rhode Island.
+warnings:
+  - type: closure
+    text: Parts close for nesting shorebirds in spring.
+    verify: true

@@ -1,0 +1,36 @@
+name: Kensico Dam Plaza
+country: us
+state: NY
+region: hudson-valley
+county: Westchester
+area: Valhalla
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.westchestergov.com/
+links:
+  - type: official
+    label: "Kensico Dam Plaza: official page"
+    url: https://parks.westchestergov.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Kensico%20Dam%20Plaza%2C%20Valhalla%2C%20NY
+mapQuery: Kensico Dam Plaza, Valhalla, NY
+lat: 41.0709
+lon: -73.7668
+kind: park
+interests:
+  - relax
+  - family
+  - views
+  - photo
+difficulty: easy
+timeMinutes: 60
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A county park at the foot of the Kensico Dam, with picnic lawns and a walking path.
+warnings: []

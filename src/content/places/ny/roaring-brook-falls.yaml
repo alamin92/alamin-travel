@@ -1,0 +1,38 @@
+name: Roaring Brook Falls
+country: us
+state: NY
+region: adirondacks
+county: Essex
+area: Keene Valley
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.adk.org/
+links:
+  - type: official
+    label: "Roaring Brook Falls: official page"
+    url: https://www.adk.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Roaring%20Brook%20Falls%2C%20Keene%20Valley%2C%20NY
+mapQuery: Roaring Brook Falls, Keene Valley, NY
+lat: 44.1504
+lon: -73.7607
+kind: waterfall
+interests:
+  - nature
+  - adventure
+  - photo
+difficulty: moderate
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: One of the highest waterfalls in the Adirondacks, reached on a steep trail.
+warnings:
+  - type: safety
+    text: The trail is steep and slippery near the falls.
+    verify: true

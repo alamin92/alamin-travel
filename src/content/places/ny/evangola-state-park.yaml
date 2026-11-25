@@ -1,0 +1,36 @@
+name: Evangola State Park
+country: us
+state: NY
+region: greater-niagara
+county: Erie
+area: Irving
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/evangola-state-park
+links:
+  - type: state-park
+    label: "Evangola State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/evangola-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Evangola%20State%20Park%2C%20Irving%2C%20NY
+mapQuery: Evangola State Park, Irving, NY
+lat: 42.6055
+lon: -79.1057
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Lake Erie state park with a long sandy beach and a campground.
+warnings:
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: false

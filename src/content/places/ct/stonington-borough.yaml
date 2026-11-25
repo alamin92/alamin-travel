@@ -1,0 +1,36 @@
+name: Stonington Borough and Old Lighthouse Museum
+country: us
+state: CT
+region: eastern-connecticut
+county: New London
+area: Stonington
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.stoningtonhistory.org/
+links:
+  - type: official
+    label: "Stonington Borough and Old Lighthouse Museum: official page"
+    url: https://www.stoningtonhistory.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Stonington%20Borough%20and%20Old%20Lighthouse%20Museum%2C%20Stonington%2C%20CT
+mapQuery: Stonington Borough and Old Lighthouse Museum, Stonington, CT
+lat: 41.335
+lon: -71.906
+kind: town
+interests:
+  - history
+  - relax
+  - photo
+  - family
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A fishing village on a narrow peninsula with a lighthouse museum and old streets.
+warnings: []

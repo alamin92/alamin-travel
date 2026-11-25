@@ -1,0 +1,38 @@
+name: Havana Glen Park
+country: us
+state: NY
+region: finger-lakes
+county: Schuyler
+area: Montour Falls
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.schuylercounty.us/
+links:
+  - type: official
+    label: "Havana Glen Park: official page"
+    url: https://www.schuylercounty.us/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Havana%20Glen%20Park%2C%20Montour%20Falls%2C%20NY
+mapQuery: Havana Glen Park, Montour Falls, NY
+lat: 42.3374
+lon: -76.8336
+kind: waterfall
+interests:
+  - nature
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A town park with a gorge trail to a waterfall and a campground.
+warnings:
+  - type: closure
+    text: The park is seasonal. Check hours.
+    verify: true

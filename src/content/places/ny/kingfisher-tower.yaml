@@ -1,0 +1,36 @@
+name: Kingfisher Tower
+country: us
+state: NY
+region: central-ny
+county: Otsego
+area: Cooperstown
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://thisiscooperstown.com/
+links:
+  - type: official
+    label: "Kingfisher Tower: official page"
+    url: https://thisiscooperstown.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Kingfisher%20Tower%2C%20Cooperstown%2C%20NY
+mapQuery: Kingfisher Tower, Cooperstown, NY
+lat: 42.7283
+lon: -74.9061
+kind: landmark
+interests:
+  - photo
+  - views
+  - family
+  - short-time
+difficulty: easy
+timeMinutes: 30
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A small castle-like tower on Otsego Lake, seen from the road or from a boat.
+warnings: []

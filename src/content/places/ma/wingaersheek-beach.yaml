@@ -1,0 +1,37 @@
+name: Wingaersheek Beach
+country: us
+state: MA
+region: north-of-boston
+county: Essex
+area: Gloucester
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.gloucester-ma.gov/
+links:
+  - type: official
+    label: "Wingaersheek Beach: official page"
+    url: https://www.gloucester-ma.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Wingaersheek%20Beach%2C%20Gloucester%2C%20MA
+mapQuery: Wingaersheek Beach, Gloucester, MA
+lat: 42.657
+lon: -70.682
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+  - photo
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: A calm beach on Ipswich Bay with a lighthouse view and tide flats.
+warnings:
+  - type: parking
+    text: The lot fills early on summer weekends and closes when full.
+    verify: true

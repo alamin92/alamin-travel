@@ -1,0 +1,35 @@
+name: Skinner State Park and Summit House
+country: us
+state: MA
+region: western-massachusetts
+county: Hampshire
+area: Hadley
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.mass.gov/locations/skinner-state-park
+links:
+  - type: state-park
+    label: "Skinner State Park and Summit House: official page"
+    url: https://www.mass.gov/locations/skinner-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Skinner%20State%20Park%20and%20Summit%20House%2C%20Hadley%2C%20MA
+mapQuery: Skinner State Park and Summit House, Hadley, MA
+lat: 42.329
+lon: -72.58
+kind: viewpoint
+interests:
+  - views
+  - family
+  - nature
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A summit road and trails with a view over the Connecticut River Valley.
+warnings: []

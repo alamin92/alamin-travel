@@ -1,0 +1,37 @@
+name: Hudson and Warren Street
+country: us
+state: NY
+region: hudson-valley
+county: Columbia
+area: Hudson
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.visithudsonvalley.com/
+links:
+  - type: official
+    label: "Hudson and Warren Street: official page"
+    url: https://www.visithudsonvalley.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Hudson%20and%20Warren%20Street%2C%20Hudson%2C%20NY
+mapQuery: Hudson and Warren Street, Hudson, NY
+lat: 42.2529
+lon: -73.791
+kind: town
+interests:
+  - relax
+  - culture
+  - photo
+  - history
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: free
+highlight: false
+summary: A small Hudson River city with a mile of antique shops, galleries and restaurants on Warren Street.
+warnings: []

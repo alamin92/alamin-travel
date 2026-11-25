@@ -1,0 +1,34 @@
+name: Wadsworth Atheneum Museum of Art
+country: us
+state: CT
+region: central-connecticut
+county: Hartford
+area: Hartford
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.thewadsworth.org/
+links:
+  - type: official
+    label: "Wadsworth Atheneum Museum of Art: official page"
+    url: https://www.thewadsworth.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Wadsworth%20Atheneum%20Museum%20of%20Art%2C%20Hartford%2C%20CT
+mapQuery: Wadsworth Atheneum Museum of Art, Hartford, CT
+lat: 41.764
+lon: -72.673
+kind: museum
+interests:
+  - culture
+difficulty: n/a
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: America's oldest continuously operating public art museum.
+warnings: []

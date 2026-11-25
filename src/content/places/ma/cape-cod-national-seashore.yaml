@@ -1,0 +1,42 @@
+name: Cape Cod National Seashore
+country: us
+state: MA
+region: cape-cod-islands
+county: Barnstable
+area: Eastham
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nps.gov/caco/index.htm
+links:
+  - type: nps
+    label: "Cape Cod National Seashore: official page"
+    url: https://www.nps.gov/caco/index.htm
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Cape%20Cod%20National%20Seashore%2C%20Eastham%2C%20MA
+mapQuery: Cape Cod National Seashore, Eastham, MA
+lat: 41.83
+lon: -69.956
+kind: beach
+interests:
+  - beach
+  - nature
+  - family
+  - views
+difficulty: easy
+timeMinutes: 300
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: true
+summary: Forty miles of Atlantic beach, dunes and trails on the outer Cape, with lighthouses and visitor centers.
+warnings:
+  - type: fees
+    text: Beach parking fees apply in summer.
+    verify: true
+  - type: safety
+    text: Ocean swimming has rip currents and sharks. Swim only at guarded beaches.
+    verify: true

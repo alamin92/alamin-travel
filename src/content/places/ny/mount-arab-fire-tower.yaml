@@ -1,0 +1,41 @@
+name: Mount Arab Fire Tower
+country: us
+state: NY
+region: thousand-islands-seaway
+county: St. Lawrence
+alsoRegions:
+  - adirondacks
+area: Piercefield
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.adk.org/
+links:
+  - type: official
+    label: "Mount Arab Fire Tower: official page"
+    url: https://www.adk.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mount%20Arab%20Fire%20Tower%2C%20Piercefield%2C%20NY
+mapQuery: Mount Arab Fire Tower, Piercefield, NY
+lat: 44.2046
+lon: -74.5879
+kind: hike
+interests:
+  - family
+  - views
+  - nature
+  - short-time
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A short hike to a fire tower with views over lakes and forest.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

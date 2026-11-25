@@ -1,0 +1,35 @@
+name: Stony Point Battlefield State Historic Site
+country: us
+state: NY
+region: hudson-valley
+county: Rockland
+area: Stony Point
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/historic-sites/stony-point-battlefield-state-historic-site
+links:
+  - type: state-park
+    label: "Stony Point Battlefield State Historic Site: official page"
+    url: https://parks.ny.gov/visit/historic-sites/stony-point-battlefield-state-historic-site
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Stony%20Point%20Battlefield%20State%20Historic%20Site%2C%20Stony%20Point%2C%20NY
+mapQuery: Stony Point Battlefield State Historic Site, Stony Point, NY
+lat: 41.2415
+lon: -73.9728
+kind: museum
+interests:
+  - history
+  - views
+  - family
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A Revolutionary War battlefield on a Hudson River headland, with a museum, a lighthouse and river views.
+warnings: []

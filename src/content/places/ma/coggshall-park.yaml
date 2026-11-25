@@ -1,0 +1,35 @@
+name: Coggshall Park
+country: us
+state: MA
+region: central-massachusetts
+county: Worcester
+area: Fitchburg
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.fitchburgma.gov/
+links:
+  - type: official
+    label: "Coggshall Park: official page"
+    url: https://www.fitchburgma.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Coggshall%20Park%2C%20Fitchburg%2C%20MA
+mapQuery: Coggshall Park, Fitchburg, MA
+lat: 42.5631
+lon: -71.7987
+kind: park
+interests:
+  - relax
+  - family
+  - nature
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A city park with trails and a pond in Fitchburg.
+warnings: []

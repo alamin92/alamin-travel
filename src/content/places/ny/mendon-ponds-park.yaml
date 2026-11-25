@@ -1,0 +1,39 @@
+name: Mendon Ponds Park
+country: us
+state: NY
+region: finger-lakes
+county: Monroe
+area: Mendon
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www2.monroecounty.gov/parks
+links:
+  - type: official
+    label: "Mendon Ponds Park: official page"
+    url: https://www2.monroecounty.gov/parks
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mendon%20Ponds%20Park%2C%20Mendon%2C%20NY
+mapQuery: Mendon Ponds Park, Mendon, NY
+lat: 43.03
+lon: -77.56
+kind: hike
+interests:
+  - nature
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: free
+highlight: false
+summary: A large county park with glacial kettle ponds, trails and cross-country skiing.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

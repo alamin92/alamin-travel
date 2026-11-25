@@ -1,0 +1,36 @@
+name: Lowell National Historical Park
+country: us
+state: MA
+region: greater-boston
+county: Middlesex
+area: Lowell
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nps.gov/lowe/index.htm
+links:
+  - type: nps
+    label: "Lowell National Historical Park: official page"
+    url: https://www.nps.gov/lowe/index.htm
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Lowell%20National%20Historical%20Park%2C%20Lowell%2C%20MA
+mapQuery: Lowell National Historical Park, Lowell, MA
+lat: 42.6466
+lon: -71.3112
+kind: museum
+interests:
+  - history
+  - family
+  - culture
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: free
+highlight: false
+summary: A national park in the old mill city of Lowell, with mill tours, canal boat rides and a visitor center.
+warnings: []

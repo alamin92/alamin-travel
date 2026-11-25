@@ -1,0 +1,43 @@
+name: Mohonk Mountain House and Sky Top Tower
+country: us
+state: NY
+region: hudson-valley
+county: Ulster
+area: New Paltz
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.mohonk.com/
+links:
+  - type: official
+    label: "Mohonk Mountain House and Sky Top Tower: official page"
+    url: https://www.mohonk.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mohonk%20Mountain%20House%20and%20Sky%20Top%20Tower%2C%20New%20Paltz%2C%20NY
+mapQuery: Mohonk Mountain House and Sky Top Tower, New Paltz, NY
+lat: 41.7736
+lon: -74.1454
+kind: landmark
+interests:
+  - views
+  - history
+  - relax
+  - photo
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A historic Victorian mountain resort on a clifftop lake, with gardens, trails and the Sky Top Tower viewpoint.
+details: Day passes are sold, but only on some days. Check the resort site before you go.
+warnings:
+  - type: reservation
+    text: Day-visitor access is limited and needs a pass. Check the resort site.
+    verify: true
+  - type: fees
+    text: Day passes and parking are charged.
+    verify: true

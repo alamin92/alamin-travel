@@ -1,0 +1,34 @@
+name: Zoom Flume Water Park
+country: us
+state: NY
+region: catskills
+county: Greene
+alsoRegions:
+  - catskills
+area: East Durham
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.zoomflume.com/
+links:
+  - type: official
+    label: "Zoom Flume Water Park: official page"
+    url: https://www.zoomflume.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Zoom%20Flume%20Water%20Park%2C%20East%20Durham%2C%20NY
+mapQuery: Zoom Flume Water Park, East Durham, NY
+lat: 42.319
+lon: -74.1
+kind: activity
+interests:
+  - family
+  - seasonal
+difficulty: n/a
+timeMinutes: 300
+bestSeason:
+  - summer
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A family water park in the northern Catskills.
+warnings: []

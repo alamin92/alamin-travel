@@ -1,0 +1,42 @@
+name: High Peaks Wilderness
+country: us
+state: NY
+region: adirondacks
+county: Essex
+area: Keene Valley
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.adk.org/
+links:
+  - type: official
+    label: "High Peaks Wilderness: official page"
+    url: https://www.adk.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=High%20Peaks%20Wilderness%2C%20Keene%20Valley%2C%20NY
+mapQuery: High Peaks Wilderness, Keene Valley, NY
+lat: 44.3529
+lon: -74.1448
+kind: hike
+interests:
+  - adventure
+  - rough
+  - views
+  - nature
+difficulty: hard
+timeMinutes: 600
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: false
+cost: free
+highlight: true
+summary: The heart of the Adirondacks, with the 46 High Peaks, lakes and remote trails.
+warnings:
+  - type: reservation
+    text: Some High Peaks trailheads need a parking reservation. Check DEC.
+    verify: true
+  - type: safety
+    text: Conditions can change quickly. Carry the Ten Essentials.
+    verify: true

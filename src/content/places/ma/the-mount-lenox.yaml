@@ -1,0 +1,35 @@
+name: The Mount (Edith Wharton's Home)
+country: us
+state: MA
+region: western-massachusetts
+county: Berkshire
+area: Lenox
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.edithwharton.org/
+links:
+  - type: official
+    label: "The Mount: official page"
+    url: https://www.edithwharton.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=The%20Mount%2C%20Lenox%2C%20MA
+mapQuery: The Mount, Lenox, MA
+lat: 42.335
+lon: -73.286
+kind: museum
+interests:
+  - history
+  - culture
+  - relax
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: The country home of the author Edith Wharton, with formal gardens.
+warnings: []

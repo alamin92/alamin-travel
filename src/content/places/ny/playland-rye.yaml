@@ -1,0 +1,39 @@
+name: Playland (Rye)
+country: us
+state: NY
+region: hudson-valley
+county: Westchester
+area: Rye
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.westchestergov.com/
+links:
+  - type: official
+    label: "Playland: official page"
+    url: https://parks.westchestergov.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Playland%2C%20Rye%2C%20NY
+mapQuery: Playland, Rye, NY
+lat: 40.9686
+lon: -73.6717
+kind: activity
+interests:
+  - family
+  - seasonal
+  - beach
+difficulty: n/a
+timeMinutes: 240
+bestSeason:
+  - summer
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A historic seaside amusement park on Long Island Sound with rides and a beach.
+warnings:
+  - type: closure
+    text: The park is seasonal. Check the site for dates.
+    verify: true
+  - type: fees
+    text: Rides and parking are charged.
+    verify: true

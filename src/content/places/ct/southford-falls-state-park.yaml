@@ -1,0 +1,38 @@
+name: Southford Falls State Park
+country: us
+state: CT
+region: central-connecticut
+county: New Haven
+area: Southbury
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://portal.ct.gov/deep/state-parks/southford-falls-state-park
+links:
+  - type: state-park
+    label: "Southford Falls State Park: official page"
+    url: https://portal.ct.gov/deep/state-parks/southford-falls-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Southford%20Falls%20State%20Park%2C%20Southbury%2C%20CT
+mapQuery: Southford Falls State Park, Southbury, CT
+lat: 41.4541
+lon: -73.1596
+kind: waterfall
+interests:
+  - nature
+  - family
+  - photo
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A small park with a waterfall, a covered bridge and an old mill pond.
+warnings:
+  - type: safety
+    text: Rocks near waterfalls are slippery. Stay on marked paths and out of the water above the falls.
+    verify: false

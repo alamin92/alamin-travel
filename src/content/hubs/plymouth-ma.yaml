@@ -1,0 +1,29 @@
+name: Plymouth
+country: us
+state: MA
+region: south-of-boston
+county: Plymouth
+blurb: The Pilgrim town, with Plymouth Rock, the Mayflower II and a big state forest.
+nearby:
+  - place: plymouth-rock-and-patuxet
+    minutes: 5
+  - place: cranberry-bogs-south-shore
+    minutes: 15
+  - place: myles-standish-state-forest
+    minutes: 15
+  - place: sandwich-boardwalk-and-glass
+    minutes: 35
+  - place: borderland-state-park
+    minutes: 50
+  - place: worlds-end
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "Mass.gov DCR: state parks and alerts"
+    url: https://www.mass.gov/orgs/department-of-conservation-and-recreation
+  - type: official
+    label: "Visit Massachusetts: official tourism"
+    url: https://www.visitma.com/
+  - type: conditions
+    label: "Mass511: road conditions"
+    url: https://mass511.com/

@@ -1,0 +1,35 @@
+name: Elizabeth Park Rose Garden
+country: us
+state: CT
+region: central-connecticut
+county: Hartford
+area: West Hartford
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://elizabethpark.org/
+links:
+  - type: official
+    label: "Elizabeth Park Rose Garden: official page"
+    url: https://elizabethpark.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Elizabeth%20Park%20Rose%20Garden%2C%20West%20Hartford%2C%20CT
+mapQuery: Elizabeth Park Rose Garden, West Hartford, CT
+lat: 41.7743
+lon: -72.7189
+kind: park
+interests:
+  - relax
+  - photo
+  - family
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: The country's oldest municipal rose garden, with thousands of rose bushes that bloom in June.
+warnings: []

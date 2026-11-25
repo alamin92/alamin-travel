@@ -26,6 +26,66 @@ nearby:
     minutes: 30
   - place: samascott-orchards
     minutes: 45
+  - place: ferncliff-forest
+    minutes: 10
+  - place: mills-norrie-state-park
+    minutes: 10
+  - place: rosendale-trestle
+    minutes: 15
+  - place: staatsburgh-state-historic-site
+    minutes: 15
+  - place: woodstock-village
+    minutes: 20
+  - place: ashokan-rail-trail
+    minutes: 25
+  - place: clermont-state-historic-site
+    minutes: 25
+  - place: fdr-home-hyde-park
+    minutes: 25
+  - place: high-falls-and-dh-canal
+    minutes: 25
+  - place: huguenot-street
+    minutes: 25
+  - place: mohonk-mountain-house
+    minutes: 25
+  - place: val-kill
+    minutes: 25
+  - place: labyrinth-and-lemon-squeeze
+    minutes: 30
+  - place: mohonk-preserve
+    minutes: 30
+  - place: tremper-mountain-fire-tower
+    minutes: 30
+  - place: innisfree-garden
+    minutes: 35
+  - place: kaaterskill-wild-forest
+    minutes: 35
+  - place: plattekill-clove
+    minutes: 35
+  - place: artists-rock-and-marys-glen
+    minutes: 40
+  - place: awosting-falls
+    minutes: 40
+  - place: lake-taghkanic-state-park
+    minutes: 40
+  - place: locust-grove
+    minutes: 40
+  - place: millbrook-mountain
+    minutes: 40
+  - place: rainbow-falls-minnewaska
+    minutes: 40
+  - place: castle-point
+    minutes: 45
+  - place: diamond-notch-falls
+    minutes: 45
+  - place: giant-ledge
+    minutes: 45
+  - place: slide-mountain
+    minutes: 45
+  - place: thomas-cole-site
+    minutes: 45
+  - place: catskill-mountain-railroad
+    minutes: 5
 checkBefore:
   - type: state-park
     label: "NY State Parks: park status and alerts"

@@ -1,0 +1,39 @@
+name: Revolution Rail Co.
+country: us
+state: NY
+region: adirondacks
+county: Warren
+alsoRegions:
+  - capital-saratoga
+area: North Creek
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.visitadirondacks.com/
+links:
+  - type: official
+    label: "Revolution Rail Co.: official page"
+    url: https://www.visitadirondacks.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Revolution%20Rail%20Co.%2C%20North%20Creek%2C%20NY
+mapQuery: Revolution Rail Co., North Creek, NY
+lat: 43.7035
+lon: -73.99
+kind: activity
+interests:
+  - adventure
+  - family
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: Pedal-powered rail bikes along a scenic railroad line.
+warnings:
+  - type: reservation
+    text: Rides need a reservation.
+    verify: true

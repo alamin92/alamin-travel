@@ -1,0 +1,36 @@
+name: Ocean Beach Park
+country: us
+state: CT
+region: eastern-connecticut
+county: New London
+area: New London
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.ocean-beach-park.com/
+links:
+  - type: official
+    label: "Ocean Beach Park: official page"
+    url: https://www.ocean-beach-park.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Ocean%20Beach%20Park%2C%20New%20London%2C%20CT
+mapQuery: Ocean Beach Park, New London, CT
+lat: 41.32
+lon: -72.094
+kind: beach
+interests:
+  - beach
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: A city beach with a boardwalk, a pool, mini golf and an arcade.
+warnings:
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: false

@@ -1,0 +1,30 @@
+name: Letchworth and Castile
+country: us
+state: NY
+region: greater-niagara
+county: Wyoming
+blurb: A base at the Letchworth State Park gorge, the "Grand Canyon of the East".
+nearby:
+  - place: balloons-over-letchworth
+    minutes: 5
+  - place: letchworth-viewpoints
+    minutes: 5
+  - place: letchworth
+    minutes: 5
+  - place: silver-lake-state-park
+    minutes: 10
+  - place: wiscoy-falls
+    minutes: 10
+  - place: wolf-creek-falls
+    minutes: 15
+  - place: mount-morris-dam
+    minutes: 20
+  - place: stony-brook-state-park
+    minutes: 40
+checkBefore:
+  - type: state-park
+    label: "NY State Parks: park status and alerts"
+    url: https://parks.ny.gov/
+  - type: conditions
+    label: "511NY: road conditions"
+    url: https://511ny.org

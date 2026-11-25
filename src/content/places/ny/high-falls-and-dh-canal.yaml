@@ -1,0 +1,39 @@
+name: High Falls and the D&H Canal
+country: us
+state: NY
+region: hudson-valley
+county: Ulster
+area: High Falls
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.canalmuseum.org/
+links:
+  - type: official
+    label: "High Falls and the D&H Canal: official page"
+    url: https://www.canalmuseum.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=High%20Falls%20and%20the%20D%26H%20Canal%2C%20High%20Falls%2C%20NY
+mapQuery: High Falls and the D&H Canal, High Falls, NY
+lat: 41.7827
+lon: -74.1241
+kind: waterfall
+interests:
+  - history
+  - family
+  - photo
+  - relax
+difficulty: easy
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A small hamlet with a waterfall on the Rondout Creek and a museum on the Delaware and Hudson Canal, plus the old Roebling aqueduct bridge.
+warnings:
+  - type: safety
+    text: Rocks near waterfalls are slippery. Stay on marked paths and out of the water above the falls.
+    verify: false

@@ -1,0 +1,35 @@
+name: Lake Erie State Park
+country: us
+state: NY
+region: chautauqua-allegheny
+county: Chautauqua
+area: Brocton
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/lake-erie-state-park
+links:
+  - type: state-park
+    label: "Lake Erie State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/lake-erie-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Lake%20Erie%20State%20Park%2C%20Brocton%2C%20NY
+mapQuery: Lake Erie State Park, Brocton, NY
+lat: 42.4191
+lon: -79.4374
+kind: park
+interests:
+  - family
+  - nature
+  - beach
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A bluff-top state park on Lake Erie with a campground and trails.
+warnings: []

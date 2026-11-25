@@ -1,0 +1,40 @@
+name: Walden Pond State Reservation
+country: us
+state: MA
+region: greater-boston
+county: Middlesex
+area: Concord
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.mass.gov/locations/walden-pond-state-reservation
+links:
+  - type: state-park
+    label: "Walden Pond State Reservation: official page"
+    url: https://www.mass.gov/locations/walden-pond-state-reservation
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Walden%20Pond%20State%20Reservation%2C%20Concord%2C%20MA
+mapQuery: Walden Pond State Reservation, Concord, MA
+lat: 42.441
+lon: -71.341
+kind: park
+interests:
+  - family
+  - relax
+  - nature
+  - history
+  - beach
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: true
+summary: The pond made famous by Thoreau, with a swimming beach, a loop path and a replica cabin site.
+warnings:
+  - type: parking
+    text: The lot fills early on summer weekends and closes when full.
+    verify: true

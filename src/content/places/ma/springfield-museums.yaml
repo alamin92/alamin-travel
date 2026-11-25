@@ -1,0 +1,35 @@
+name: Springfield Museums and the Dr. Seuss National Memorial
+country: us
+state: MA
+region: western-massachusetts
+county: Hampden
+area: Springfield
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.springfieldmuseums.org/
+links:
+  - type: official
+    label: "Springfield Museums and the Dr. Seuss National Memorial: official page"
+    url: https://www.springfieldmuseums.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Springfield%20Museums%20and%20the%20Dr.%20Seuss%20National%20Memorial%2C%20Springfield%2C%20MA
+mapQuery: Springfield Museums and the Dr. Seuss National Memorial, Springfield, MA
+lat: 42.106
+lon: -72.585
+kind: museum
+interests:
+  - family
+  - culture
+difficulty: n/a
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: Four museums around a quadrangle, including the Dr. Seuss sculpture garden.
+warnings: []

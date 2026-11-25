@@ -1,0 +1,37 @@
+name: "Central Park landmarks: Bethesda Terrace, Bow Bridge and Belvedere Castle"
+country: us
+state: NY
+region: nyc
+county: New York
+area: Manhattan
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.centralparknyc.org/
+links:
+  - type: official
+    label: "Central Park landmarks: Bethesda Terrace, Bow Bridge and Belvedere Castle: official page"
+    url: https://www.centralparknyc.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Central%20Park%20landmarks%3A%20Bethesda%20Terrace%2C%20Bow%20Bridge%20and%20Belvedere%20Castle%2C%20Manhattan%2C%20NY
+mapQuery: "Central Park landmarks: Bethesda Terrace, Bow Bridge and Belvedere Castle, Manhattan, NY"
+lat: 40.7738
+lon: -73.971
+kind: landmark
+interests:
+  - photo
+  - relax
+  - views
+  - family
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: "Three classic Central Park spots: the Bethesda Terrace and fountain, the Bow Bridge across the lake, and Belvedere Castle with a view of the park."
+details: They are within a short walk of each other, so you can see all three in one stroll.
+warnings: []

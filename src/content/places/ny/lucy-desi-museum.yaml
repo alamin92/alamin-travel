@@ -1,0 +1,35 @@
+name: Lucy-Desi Museum
+country: us
+state: NY
+region: chautauqua-allegheny
+county: Chautauqua
+area: Jamestown
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://lucydesi.com/
+links:
+  - type: official
+    label: "Lucy-Desi Museum: official page"
+    url: https://lucydesi.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Lucy-Desi%20Museum%2C%20Jamestown%2C%20NY
+mapQuery: Lucy-Desi Museum, Jamestown, NY
+lat: 42.097
+lon: -79.236
+kind: museum
+interests:
+  - culture
+  - family
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A museum about Lucille Ball in her hometown of Jamestown.
+warnings: []

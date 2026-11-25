@@ -1,0 +1,38 @@
+name: Hawk's Nest and the Upper Delaware Scenic Byway
+country: us
+state: NY
+region: hudson-valley
+county: Orange
+area: Port Jervis
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.nps.gov/upde/index.htm
+links:
+  - type: nps
+    label: "Hawk's Nest and the Upper Delaware Scenic Byway: official page"
+    url: https://www.nps.gov/upde/index.htm
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Hawk's%20Nest%20and%20the%20Upper%20Delaware%20Scenic%20Byway%2C%20Port%20Jervis%2C%20NY
+mapQuery: Hawk's Nest and the Upper Delaware Scenic Byway, Port Jervis, NY
+lat: 41.4187
+lon: -74.7321
+kind: drive
+interests:
+  - views
+  - photo
+  - adventure
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A winding cliffside road above the Delaware River with lookouts, part of the Upper Delaware scenic route.
+warnings:
+  - type: safety
+    text: The road is narrow and winding, with a cliff on one side. Drive slowly and use the pull-offs.
+    verify: true

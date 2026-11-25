@@ -1,0 +1,35 @@
+name: Minute Man National Historical Park
+country: us
+state: MA
+region: greater-boston
+county: Middlesex
+area: Concord and Lexington
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nps.gov/mima/index.htm
+links:
+  - type: nps
+    label: "Minute Man National Historical Park: official page"
+    url: https://www.nps.gov/mima/index.htm
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Minute%20Man%20National%20Historical%20Park%2C%20Concord%20and%20Lexington%2C%20MA
+mapQuery: Minute Man National Historical Park, Concord and Lexington, MA
+lat: 42.464
+lon: -71.316
+kind: museum
+interests:
+  - history
+  - family
+  - nature
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: The sites of the first battles of the American Revolution, with a walking trail along the Battle Road.
+warnings: []

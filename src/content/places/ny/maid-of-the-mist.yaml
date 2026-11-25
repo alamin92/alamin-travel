@@ -1,0 +1,41 @@
+name: Maid of the Mist
+country: us
+state: NY
+region: greater-niagara
+county: Niagara
+area: Niagara Falls
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.maidofthemist.com/
+links:
+  - type: official
+    label: "Maid of the Mist: official page"
+    url: https://www.maidofthemist.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Maid%20of%20the%20Mist%2C%20Niagara%20Falls%2C%20NY
+mapQuery: Maid of the Mist, Niagara Falls, NY
+lat: 43.0867
+lon: -79.0643
+kind: activity
+interests:
+  - family
+  - adventure
+  - views
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: true
+summary: A boat ride right up to the base of the Horseshoe Falls.
+warnings:
+  - type: closure
+    text: Runs from spring to fall, weather permitting.
+    verify: true
+  - type: fees
+    text: Tickets are charged.
+    verify: true

@@ -1,0 +1,35 @@
+name: Donahue Memorial Park
+country: us
+state: NY
+region: hudson-valley
+county: Orange
+area: Cornwall-on-Hudson
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.cornwallny.gov/
+links:
+  - type: official
+    label: "Donahue Memorial Park: official page"
+    url: https://www.cornwallny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Donahue%20Memorial%20Park%2C%20Cornwall-on-Hudson%2C%20NY
+mapQuery: Donahue Memorial Park, Cornwall-on-Hudson, NY
+lat: 41.4443
+lon: -74.0015
+kind: park
+interests:
+  - relax
+  - family
+  - views
+difficulty: easy
+timeMinutes: 60
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A small town park on the Hudson with a river view and picnic spots.
+warnings: []

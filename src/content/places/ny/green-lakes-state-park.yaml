@@ -1,0 +1,36 @@
+name: Green Lakes State Park
+country: us
+state: NY
+region: finger-lakes
+county: Onondaga
+area: Fayetteville
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/green-lakes-state-park
+links:
+  - type: state-park
+    label: "Green Lakes State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/green-lakes-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Green%20Lakes%20State%20Park%2C%20Fayetteville%2C%20NY
+mapQuery: Green Lakes State Park, Fayetteville, NY
+lat: 43.0508
+lon: -75.971
+kind: park
+interests:
+  - family
+  - nature
+  - beach
+  - relax
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: true
+summary: A state park with two rare, deep green lakes, a beach, trails and a golf course.
+warnings: []

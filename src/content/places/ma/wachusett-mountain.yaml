@@ -1,0 +1,41 @@
+name: Wachusett Mountain State Reservation
+country: us
+state: MA
+region: central-massachusetts
+county: Worcester
+area: Princeton
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.mass.gov/locations/wachusett-mountain-state-reservation
+links:
+  - type: state-park
+    label: "Wachusett Mountain State Reservation: official page"
+    url: https://www.mass.gov/locations/wachusett-mountain-state-reservation
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Wachusett%20Mountain%20State%20Reservation%2C%20Princeton%2C%20MA
+mapQuery: Wachusett Mountain State Reservation, Princeton, MA
+lat: 42.488
+lon: -71.886
+kind: hike
+interests:
+  - views
+  - adventure
+  - nature
+  - family
+  - winter
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: free
+highlight: true
+summary: A mountain with trails, a summit road and a ski area, with views to Boston on a clear day.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

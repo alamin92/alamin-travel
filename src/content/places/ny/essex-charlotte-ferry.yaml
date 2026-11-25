@@ -1,0 +1,37 @@
+name: Essex-Charlotte Ferry
+country: us
+state: NY
+region: adirondacks
+county: Essex
+area: Essex
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://ferries.com/
+links:
+  - type: official
+    label: "Essex-Charlotte Ferry: official page"
+    url: https://ferries.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Essex-Charlotte%20Ferry%2C%20Essex%2C%20NY
+mapQuery: Essex-Charlotte Ferry, Essex, NY
+lat: 44.3055
+lon: -73.324
+kind: activity
+interests:
+  - family
+  - views
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A short car and passenger ferry crossing of Lake Champlain between New York and Vermont.
+warnings:
+  - type: closure
+    text: Operates seasonally. Check the schedule.
+    verify: true

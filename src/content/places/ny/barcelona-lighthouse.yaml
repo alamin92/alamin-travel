@@ -1,0 +1,36 @@
+name: Barcelona Lighthouse
+country: us
+state: NY
+region: chautauqua-allegheny
+county: Chautauqua
+area: Westfield
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.chautauquacountyny.gov/
+links:
+  - type: official
+    label: "Barcelona Lighthouse: official page"
+    url: https://www.chautauquacountyny.gov/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Barcelona%20Lighthouse%2C%20Westfield%2C%20NY
+mapQuery: Barcelona Lighthouse, Westfield, NY
+lat: 42.327
+lon: -79.629
+kind: landmark
+interests:
+  - photo
+  - history
+  - views
+  - short-time
+difficulty: easy
+timeMinutes: 45
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A historic stone lighthouse on Lake Erie, in a small waterfront park.
+warnings: []

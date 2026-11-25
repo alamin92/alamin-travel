@@ -1,0 +1,25 @@
+name: Provincetown
+country: us
+state: MA
+region: cape-cod-islands
+county: Barnstable
+blurb: The lively tip of Cape Cod, with dunes, galleries and whale watches.
+nearby:
+  - place: provincetown
+    minutes: 5
+  - place: cape-cod-national-seashore
+    minutes: 40
+  - place: nauset-light
+    minutes: 40
+  - place: cape-cod-rail-trail
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "Mass.gov DCR: state parks and alerts"
+    url: https://www.mass.gov/orgs/department-of-conservation-and-recreation
+  - type: official
+    label: "Visit Massachusetts: official tourism"
+    url: https://www.visitma.com/
+  - type: conditions
+    label: "Mass511: road conditions"
+    url: https://mass511.com/

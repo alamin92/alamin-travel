@@ -1,0 +1,41 @@
+name: Giant Ledge and Panther Mountain
+country: us
+state: NY
+region: hudson-valley
+county: Ulster
+alsoRegions:
+  - catskills
+area: Shandaken
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://dec.ny.gov/things-to-do/hiking
+links:
+  - type: official
+    label: "Giant Ledge and Panther Mountain: official page"
+    url: https://dec.ny.gov/things-to-do/hiking
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Giant%20Ledge%20and%20Panther%20Mountain%2C%20Shandaken%2C%20NY
+mapQuery: Giant Ledge and Panther Mountain, Shandaken, NY
+lat: 42.0401
+lon: -74.3946
+kind: hike
+interests:
+  - adventure
+  - views
+  - nature
+  - photo
+difficulty: moderate
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A short, steep climb to a series of rock ledges with some of the best views in the Catskills.
+warnings:
+  - type: safety
+    text: The ledges have steep drop-offs. Keep children and dogs close.
+    verify: false

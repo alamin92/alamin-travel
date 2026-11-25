@@ -1,0 +1,36 @@
+name: "Providence: College Hill and Benefit Street"
+country: us
+state: RI
+region: providence-blackstone
+county: Providence
+area: Providence
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.goprovidence.com/
+links:
+  - type: official
+    label: "Providence: College Hill and Benefit Street: official page"
+    url: https://www.goprovidence.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Providence%3A%20College%20Hill%20and%20Benefit%20Street%2C%20Providence%2C%20RI
+mapQuery: "Providence: College Hill and Benefit Street, Providence, RI"
+lat: 41.826
+lon: -71.401
+kind: town
+interests:
+  - history
+  - relax
+  - photo
+difficulty: easy
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: free
+highlight: false
+summary: A hill of colonial and Federal houses with museums and views.
+warnings: []

@@ -62,8 +62,7 @@ const data = JSON.stringify({ index, tree, labels: { interest: interestLabels, k
 
   <section id="start" class="card start">
     <h2>Where to start?</h2>
-    <p class="muted">Choose an area or an interest above and press <strong>Show places</strong>, or try one of these.</p>
-    <div class="chips" id="start-areas"></div>
+    <p class="muted">Choose an area or an interest above and press <strong>Show places</strong>, or try one of these interests. Not sure where to go? <a href="/explore">Explore by area</a> first.</p>
     <div class="chips" id="start-interests"></div>
   </section>
 
@@ -253,12 +252,7 @@ const data = JSON.stringify({ index, tree, labels: { interest: interestLabels, k
     }
 
     // ----- quick starts -----
-    const startAreas = $('start-areas'), startInterests = $('start-interests');
-    for (const c of tree) for (const s of c.states) {
-      const b = document.createElement('button'); b.type = 'button'; b.className = 'chip big'; b.textContent = s.name;
-      b.addEventListener('click', () => { areas({ country: c.id, state: s.code, region: '' }); run(); });
-      startAreas.append(b);
-    }
+    const startInterests = $('start-interests');
     for (const [id, label] of Object.entries(labels.interest)) {
       const b = document.createElement('button'); b.type = 'button'; b.className = 'chip big ghost'; b.textContent = label;
       b.addEventListener('click', () => { boxes.forEach((x) => (x.checked = x.value === id)); run(); });

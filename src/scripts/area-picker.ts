@@ -30,7 +30,7 @@ export function wireAreaPicker(root: HTMLElement) {
     const rs = (s?.regions ?? []).filter((r) => scope.some((h) => inRegion(h, r.id)));
     fill(region, rs.map((r) => ({ value: r.id, label: r.name })), want.region ?? region.value, 'Any region');
     const list = region.value ? scope.filter((h) => inRegion(h, region.value)) : scope;
-    hub.replaceChildren();
+    hub.replaceChildren(new Option('Choose a base town', ''));
     if (region.value) {
       list.forEach((h) => hub.append(new Option(h.name, h.id)));
     } else {

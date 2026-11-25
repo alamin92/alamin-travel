@@ -1,0 +1,39 @@
+name: Paul Smith's College Visitor Interpretive Center
+country: us
+state: NY
+region: adirondacks
+county: Franklin
+area: Paul Smiths
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.adirondack.org/
+links:
+  - type: official
+    label: "Paul Smith's College Visitor Interpretive Center: official page"
+    url: https://www.adirondack.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Paul%20Smith's%20College%20Visitor%20Interpretive%20Center%2C%20Paul%20Smiths%2C%20NY
+mapQuery: Paul Smith's College Visitor Interpretive Center, Paul Smiths, NY
+lat: 44.433
+lon: -74.248
+kind: hike
+interests:
+  - nature
+  - family
+  - relax
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: free
+highlight: false
+summary: A nature center with easy trails, a boardwalk and cross-country ski routes.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

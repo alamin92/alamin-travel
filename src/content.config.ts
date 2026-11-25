@@ -58,7 +58,7 @@ const places = defineCollection({
     .refine((p) => p.source === 'visited' || p.tips.length === 0, {
       message: 'tips are first-hand notes and are only allowed on "visited" places',
     })
-    .refine((p) => regionOfCounty[p.county] === p.region, {
+    .refine((p) => regionOfCounty[`${p.state}:${p.county}`] === p.region, {
       message: 'region does not match the county (see src/lib/regions.ts)',
     }),
 });
@@ -78,7 +78,7 @@ const hubs = defineCollection({
     // Approximate typical drive times from the hub, in minutes (labeled "about").
     nearby: z.array(z.object({ place: z.string(), minutes: z.number().int().positive() })),
     checkBefore: z.array(link).default([]),
-  }).refine((h) => regionOfCounty[h.county] === h.region, { message: 'hub region does not match its county' }),
+  }).refine((h) => regionOfCounty[`${h.state}:${h.county}`] === h.region, { message: 'hub region does not match its county' }),
 });
 
 export const collections = { places, hubs };

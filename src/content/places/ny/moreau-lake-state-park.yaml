@@ -1,0 +1,36 @@
+name: Moreau Lake State Park
+country: us
+state: NY
+region: capital-saratoga
+county: Saratoga
+area: Gansevoort
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/moreau-lake-state-park
+links:
+  - type: state-park
+    label: "Moreau Lake State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/moreau-lake-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Moreau%20Lake%20State%20Park%2C%20Gansevoort%2C%20NY
+mapQuery: Moreau Lake State Park, Gansevoort, NY
+lat: 43.244
+lon: -73.7254
+kind: park
+interests:
+  - family
+  - nature
+  - beach
+  - relax
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: low
+highlight: false
+summary: A lake state park with a beach, trails and a campground, south of the Adirondacks.
+warnings: []

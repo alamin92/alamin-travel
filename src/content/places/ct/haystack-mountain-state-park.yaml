@@ -1,0 +1,38 @@
+name: Haystack Mountain State Park
+country: us
+state: CT
+region: western-connecticut
+county: Litchfield
+area: Norfolk
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://portal.ct.gov/deep/state-parks/haystack-mountain-state-park
+links:
+  - type: state-park
+    label: "Haystack Mountain State Park: official page"
+    url: https://portal.ct.gov/deep/state-parks/haystack-mountain-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Haystack%20Mountain%20State%20Park%2C%20Norfolk%2C%20CT
+mapQuery: Haystack Mountain State Park, Norfolk, CT
+lat: 42.0055
+lon: -73.2131
+kind: hike
+interests:
+  - views
+  - nature
+  - family
+difficulty: moderate
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A short climb to a stone tower on a summit, with views across the Litchfield Hills toward the Berkshires.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

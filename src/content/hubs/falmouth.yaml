@@ -1,0 +1,29 @@
+name: Falmouth and Woods Hole
+country: us
+state: MA
+region: cape-cod-islands
+county: Barnstable
+blurb: The Upper Cape, with ferries to Martha's Vineyard and the Shining Sea bike path.
+nearby:
+  - place: woods-hole-ferry
+    minutes: 5
+  - place: new-bedford-whaling-nhp
+    minutes: 35
+  - place: sandwich-boardwalk-and-glass
+    minutes: 35
+  - place: aquinnah-cliffs
+    minutes: 40
+  - place: myles-standish-state-forest
+    minutes: 45
+  - place: cranberry-bogs-south-shore
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "Mass.gov DCR: state parks and alerts"
+    url: https://www.mass.gov/orgs/department-of-conservation-and-recreation
+  - type: official
+    label: "Visit Massachusetts: official tourism"
+    url: https://www.visitma.com/
+  - type: conditions
+    label: "Mass511: road conditions"
+    url: https://mass511.com/

@@ -1,0 +1,40 @@
+name: Slide Mountain
+country: us
+state: NY
+region: hudson-valley
+county: Ulster
+alsoRegions:
+  - catskills
+area: Oliverea
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://dec.ny.gov/things-to-do/hiking
+links:
+  - type: official
+    label: "Slide Mountain: official page"
+    url: https://dec.ny.gov/things-to-do/hiking
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Slide%20Mountain%2C%20Oliverea%2C%20NY
+mapQuery: Slide Mountain, Oliverea, NY
+lat: 42.0166
+lon: -74.3989
+kind: hike
+interests:
+  - adventure
+  - views
+  - rough
+difficulty: hard
+timeMinutes: 360
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: false
+cost: free
+highlight: true
+summary: The highest peak in the Catskills, reached by a steep trail with views from an overlook near the top.
+warnings:
+  - type: safety
+    text: The climb is steep and long. It can be icy into spring.
+    verify: true

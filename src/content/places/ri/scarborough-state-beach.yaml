@@ -1,0 +1,35 @@
+name: Scarborough State Beach
+country: us
+state: RI
+region: south-county-block-island
+county: Washington
+area: Narragansett
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://riparks.ri.gov/beaches/scarborough-state-beach
+links:
+  - type: state-park
+    label: "Scarborough State Beach: official page"
+    url: https://riparks.ri.gov/beaches/scarborough-state-beach
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Scarborough%20State%20Beach%2C%20Narragansett%2C%20RI
+mapQuery: Scarborough State Beach, Narragansett, RI
+lat: 41.383
+lon: -71.51
+kind: beach
+interests:
+  - beach
+  - family
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - summer
+familyFriendly: true
+cost: low
+highlight: false
+summary: A wide state beach on the south shore with a pavilion.
+warnings:
+  - type: safety
+    text: Swim only where lifeguards are on duty. Rip currents are possible on ocean beaches.
+    verify: false

@@ -1,0 +1,34 @@
+name: Cloudsplitter Gondola at Whiteface
+country: us
+state: NY
+region: adirondacks
+county: Essex
+area: Wilmington
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://whiteface.com/
+links:
+  - type: official
+    label: "Cloudsplitter Gondola at Whiteface: official page"
+    url: https://whiteface.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Cloudsplitter%20Gondola%20at%20Whiteface%2C%20Wilmington%2C%20NY
+mapQuery: Cloudsplitter Gondola at Whiteface, Wilmington, NY
+lat: 44.3535
+lon: -73.8613
+kind: activity
+interests:
+  - views
+  - family
+  - adventure
+difficulty: n/a
+timeMinutes: 90
+bestSeason:
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: A summer and fall gondola ride up Little Whiteface with mountain views.
+warnings: []

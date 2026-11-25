@@ -1,0 +1,38 @@
+name: Devil's Hole State Park
+country: us
+state: NY
+region: greater-niagara
+county: Niagara
+area: Niagara Falls
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/devils-hole-state-park
+links:
+  - type: state-park
+    label: "Devil's Hole State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/devils-hole-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Devil's%20Hole%20State%20Park%2C%20Niagara%20Falls%2C%20NY
+mapQuery: Devil's Hole State Park, Niagara Falls, NY
+lat: 43.134
+lon: -79.0466
+kind: hike
+interests:
+  - nature
+  - adventure
+  - views
+difficulty: moderate
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A gorge park on the Niagara River with a steep stairway trail down to the water.
+warnings:
+  - type: safety
+    text: The stairs are steep and the riverbank is rocky. The climb back up is strenuous.
+    verify: true

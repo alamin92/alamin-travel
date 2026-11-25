@@ -1,0 +1,70 @@
+name: Warwick
+country: us
+state: RI
+region: warwick-west-bay
+county: Kent
+blurb: A bay-side city near the airport, with lighthouses and shoreline parks.
+nearby:
+  - place: goddard-memorial-state-park
+    minutes: 5
+  - place: warwick-light
+    minutes: 5
+  - place: rocky-point-state-park
+    minutes: 10
+  - place: blithewold-mansion
+    minutes: 15
+  - place: colt-state-park
+    minutes: 15
+  - place: rwp-zoo
+    minutes: 15
+  - place: prospect-terrace
+    minutes: 20
+  - place: providence-college-hill
+    minutes: 20
+  - place: risd-museum
+    minutes: 20
+  - place: roger-williams-national-memorial
+    minutes: 20
+  - place: waterfire-providence
+    minutes: 20
+  - place: blackstone-river-valley-nhp
+    minutes: 25
+  - place: lincoln-woods-state-park
+    minutes: 25
+  - place: beavertail-state-park
+    minutes: 35
+  - place: brenton-point-state-park
+    minutes: 35
+  - place: cliff-walk-newport
+    minutes: 35
+  - place: easton-and-second-beach
+    minutes: 35
+  - place: fort-adams-state-park
+    minutes: 35
+  - place: international-tennis-hall-of-fame
+    minutes: 35
+  - place: newport-mansions
+    minutes: 35
+  - place: ocean-drive-newport
+    minutes: 35
+  - place: purgatory-chasm-middletown
+    minutes: 35
+  - place: sachuest-point-nwr
+    minutes: 35
+  - place: arcadia-management-area
+    minutes: 40
+  - place: narragansett-beach
+    minutes: 40
+  - place: scarborough-state-beach
+    minutes: 45
+  - place: point-judith-lighthouse
+    minutes: 50
+  - place: trustom-pond-nwr
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: RI State Parks and Beaches
+    url: https://riparks.ri.gov/
+  - type: official
+    label: "Visit Rhode Island: official tourism"
+    url: https://www.visitrhodeisland.com/

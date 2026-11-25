@@ -1,0 +1,38 @@
+name: Mohawk Trail Scenic Drive (Route 2)
+country: us
+state: MA
+region: western-massachusetts
+county: Franklin
+area: Charlemont
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.mohawktrail.com/
+links:
+  - type: official
+    label: "Mohawk Trail Scenic Drive: official page"
+    url: https://www.mohawktrail.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mohawk%20Trail%20Scenic%20Drive%2C%20Charlemont%2C%20MA
+mapQuery: Mohawk Trail Scenic Drive, Charlemont, MA
+lat: 42.64
+lon: -72.9
+kind: drive
+interests:
+  - views
+  - photo
+  - relax
+  - seasonal
+difficulty: n/a
+timeMinutes: 180
+bestSeason:
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A historic scenic road across northern Massachusetts, famous for fall foliage.
+warnings:
+  - type: crowds
+    text: Peak foliage weekends are busy. Go early.
+    verify: true

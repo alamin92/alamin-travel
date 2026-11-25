@@ -1,0 +1,36 @@
+name: Goddard Memorial State Park
+country: us
+state: RI
+region: warwick-west-bay
+county: Kent
+area: Warwick
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://riparks.ri.gov/parks/goddard-memorial-state-park
+links:
+  - type: state-park
+    label: "Goddard Memorial State Park: official page"
+    url: https://riparks.ri.gov/parks/goddard-memorial-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Goddard%20Memorial%20State%20Park%2C%20Warwick%2C%20RI
+mapQuery: Goddard Memorial State Park, Warwick, RI
+lat: 41.69
+lon: -71.43
+kind: park
+interests:
+  - family
+  - relax
+  - nature
+  - beach
+difficulty: easy
+timeMinutes: 180
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A bay-side state park with a beach, carriage trails and a view over Greenwich Bay.
+warnings: []

@@ -1,0 +1,41 @@
+name: Kykuit, the Rockefeller Estate
+country: us
+state: NY
+region: hudson-valley
+county: Westchester
+area: Sleepy Hollow
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.hudsonvalley.org/historic-sites/kykuit/
+links:
+  - type: official
+    label: "Kykuit, the Rockefeller Estate: official page"
+    url: https://www.hudsonvalley.org/historic-sites/kykuit/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Kykuit%2C%20the%20Rockefeller%20Estate%2C%20Sleepy%20Hollow%2C%20NY
+mapQuery: Kykuit, the Rockefeller Estate, Sleepy Hollow, NY
+lat: 41.0857
+lon: -73.8585
+kind: museum
+interests:
+  - history
+  - culture
+  - views
+difficulty: n/a
+timeMinutes: 150
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: The Rockefeller family home, a hilltop mansion with gardens and sculpture, open on guided tours.
+warnings:
+  - type: reservation
+    text: Visits are by guided tour only, and tickets sell out. Book ahead.
+    verify: true
+  - type: closure
+    text: Open in the warm months only.
+    verify: true

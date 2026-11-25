@@ -1,0 +1,36 @@
+name: The Freedom Trail
+country: us
+state: MA
+region: greater-boston
+county: Suffolk
+area: Boston
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.thefreedomtrail.org/
+links:
+  - type: official
+    label: "The Freedom Trail: official page"
+    url: https://www.thefreedomtrail.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=The%20Freedom%20Trail%2C%20Boston%2C%20MA
+mapQuery: The Freedom Trail, Boston, MA
+lat: 42.3601
+lon: -71.0589
+kind: drive
+interests:
+  - history
+  - family
+  - culture
+difficulty: easy
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A red-brick line through downtown Boston past 16 historic sites, from Boston Common to the Bunker Hill Monument.
+details: Plan on a half day to see most of it on foot.
+warnings: []

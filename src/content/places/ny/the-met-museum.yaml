@@ -1,0 +1,36 @@
+name: The Metropolitan Museum of Art
+country: us
+state: NY
+region: nyc
+county: New York
+area: Manhattan
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.metmuseum.org/
+links:
+  - type: official
+    label: "The Metropolitan Museum of Art: official page"
+    url: https://www.metmuseum.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=The%20Metropolitan%20Museum%20of%20Art%2C%20Manhattan%2C%20NY
+mapQuery: The Metropolitan Museum of Art, Manhattan, NY
+lat: 40.7794
+lon: -73.9632
+kind: museum
+interests:
+  - culture
+  - history
+  - family
+difficulty: n/a
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+  - winter
+familyFriendly: true
+cost: paid
+highlight: true
+summary: One of the largest art museums in the world, on the east side of Central Park.
+warnings: []

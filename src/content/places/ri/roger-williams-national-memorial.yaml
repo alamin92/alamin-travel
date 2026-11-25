@@ -1,0 +1,34 @@
+name: Roger Williams National Memorial
+country: us
+state: RI
+region: providence-blackstone
+county: Providence
+area: Providence
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.nps.gov/rowi/index.htm
+links:
+  - type: nps
+    label: "Roger Williams National Memorial: official page"
+    url: https://www.nps.gov/rowi/index.htm
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Roger%20Williams%20National%20Memorial%2C%20Providence%2C%20RI
+mapQuery: Roger Williams National Memorial, Providence, RI
+lat: 41.8314
+lon: -71.4108
+kind: museum
+interests:
+  - history
+  - family
+difficulty: easy
+timeMinutes: 60
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A small national park in Providence honoring the founder of Rhode Island.
+warnings: []

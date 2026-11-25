@@ -1,0 +1,37 @@
+name: Woods Hole and the Martha's Vineyard Ferry
+country: us
+state: MA
+region: cape-cod-islands
+county: Barnstable
+area: Falmouth
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.steamshipauthority.com/
+links:
+  - type: official
+    label: "Woods Hole and the Martha's Vineyard Ferry: official page"
+    url: https://www.steamshipauthority.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Woods%20Hole%20and%20the%20Martha's%20Vineyard%20Ferry%2C%20Falmouth%2C%20MA
+mapQuery: Woods Hole and the Martha's Vineyard Ferry, Falmouth, MA
+lat: 41.523
+lon: -70.669
+kind: activity
+interests:
+  - family
+  - views
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: paid
+highlight: false
+summary: The ferry port for Martha's Vineyard, with an ocean science community on the water.
+warnings:
+  - type: reservation
+    text: Car reservations sell out far ahead for summer. Passenger tickets are easier.
+    verify: true

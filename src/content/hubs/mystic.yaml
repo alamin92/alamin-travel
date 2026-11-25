@@ -1,0 +1,40 @@
+name: Mystic
+country: us
+state: CT
+region: eastern-connecticut
+county: New London
+blurb: A seaport village with a seaport museum, an aquarium, lighthouses and coastal reserves.
+nearby:
+  - place: mystic-aquarium
+    minutes: 5
+  - place: mystic-seaport-museum
+    minutes: 5
+  - place: stonington-borough
+    minutes: 5
+  - place: bluff-point-state-park
+    minutes: 10
+  - place: mashantucket-pequot-museum
+    minutes: 15
+  - place: ocean-beach-park
+    minutes: 15
+  - place: harkness-memorial-state-park
+    minutes: 20
+  - place: rocky-neck-state-park
+    minutes: 30
+  - place: florence-griswold-museum
+    minutes: 40
+  - place: devils-hopyard-state-park
+    minutes: 45
+  - place: essex-steam-train
+    minutes: 45
+  - place: chester-hadlyme-ferry
+    minutes: 50
+  - place: gillette-castle-state-park
+    minutes: 50
+checkBefore:
+  - type: state-park
+    label: "CT State Parks: status and alerts"
+    url: https://portal.ct.gov/deep/state-parks/state-parks-and-forests
+  - type: official
+    label: "CTvisit: official Connecticut tourism"
+    url: https://www.ctvisit.com/

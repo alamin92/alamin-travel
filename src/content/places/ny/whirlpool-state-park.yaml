@@ -1,0 +1,38 @@
+name: Whirlpool State Park
+country: us
+state: NY
+region: greater-niagara
+county: Niagara
+area: Niagara Falls
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/whirlpool-state-park
+links:
+  - type: state-park
+    label: "Whirlpool State Park: official page"
+    url: https://parks.ny.gov/visit/state-parks/whirlpool-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Whirlpool%20State%20Park%2C%20Niagara%20Falls%2C%20NY
+mapQuery: Whirlpool State Park, Niagara Falls, NY
+lat: 43.1197
+lon: -79.0306
+kind: hike
+interests:
+  - nature
+  - views
+  - adventure
+difficulty: moderate
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A park on the rim of the Niagara Gorge, with a view of the Whirlpool and trails to the river.
+warnings:
+  - type: safety
+    text: Check trail conditions and weather before you go, carry water, and turn back if conditions worsen.
+    verify: false

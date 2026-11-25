@@ -1,0 +1,35 @@
+name: Seneca Lake Scenic Byway
+country: us
+state: NY
+region: finger-lakes
+county: Schuyler
+area: Watkins Glen
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.senecalake.com/
+links:
+  - type: official
+    label: "Seneca Lake Scenic Byway: official page"
+    url: https://www.senecalake.com/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Seneca%20Lake%20Scenic%20Byway%2C%20Watkins%20Glen%2C%20NY
+mapQuery: Seneca Lake Scenic Byway, Watkins Glen, NY
+lat: 42.4092
+lon: -76.8277
+kind: drive
+interests:
+  - views
+  - photo
+  - relax
+difficulty: n/a
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A scenic road along Seneca Lake lined with wineries and viewpoints.
+warnings: []

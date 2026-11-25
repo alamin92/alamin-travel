@@ -1,0 +1,35 @@
+name: Hudson Highlands State Park Preserve
+country: us
+state: NY
+region: hudson-valley
+county: Orange
+area: Cornwall
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://parks.ny.gov/visit/state-parks/hudson-highlands-state-park-preserve
+links:
+  - type: state-park
+    label: "Hudson Highlands State Park Preserve: official page"
+    url: https://parks.ny.gov/visit/state-parks/hudson-highlands-state-park-preserve
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Hudson%20Highlands%20State%20Park%20Preserve%2C%20Cornwall%2C%20NY
+mapQuery: Hudson Highlands State Park Preserve, Cornwall, NY
+lat: 41.3912
+lon: -73.9585
+kind: park
+interests:
+  - nature
+  - adventure
+  - views
+difficulty: moderate
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A large park of ridge trails over the Hudson, including some of the most popular hikes in the region.
+warnings: []

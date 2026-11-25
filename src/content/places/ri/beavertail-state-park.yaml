@@ -1,0 +1,36 @@
+name: Beavertail State Park
+country: us
+state: RI
+region: newport-east-bay
+county: Newport
+area: Jamestown
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://riparks.ri.gov/parks/beavertail-state-park
+links:
+  - type: state-park
+    label: "Beavertail State Park: official page"
+    url: https://riparks.ri.gov/parks/beavertail-state-park
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Beavertail%20State%20Park%2C%20Jamestown%2C%20RI
+mapQuery: Beavertail State Park, Jamestown, RI
+lat: 41.45
+lon: -71.398
+kind: landmark
+interests:
+  - views
+  - photo
+  - family
+  - nature
+difficulty: easy
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A lighthouse and rocky headland at the tip of Conanicut Island, with tide pools and a small museum.
+warnings: []

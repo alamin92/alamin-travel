@@ -1,0 +1,39 @@
+name: Mount Greylock State Reservation
+country: us
+state: MA
+region: western-massachusetts
+county: Berkshire
+area: Adams
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.mass.gov/locations/mount-greylock-state-reservation
+links:
+  - type: state-park
+    label: "Mount Greylock State Reservation: official page"
+    url: https://www.mass.gov/locations/mount-greylock-state-reservation
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Mount%20Greylock%20State%20Reservation%2C%20Adams%2C%20MA
+mapQuery: Mount Greylock State Reservation, Adams, MA
+lat: 42.6376
+lon: -73.1662
+kind: hike
+interests:
+  - adventure
+  - views
+  - nature
+  - family
+difficulty: moderate
+timeMinutes: 240
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: The highest point in Massachusetts, with a war memorial tower, a summit road and many trails.
+warnings:
+  - type: closure
+    text: The summit road closes in winter. Check the DCR page for status.
+    verify: true

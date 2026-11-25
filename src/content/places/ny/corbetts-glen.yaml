@@ -1,0 +1,38 @@
+name: Corbett's Glen Nature Park
+country: us
+state: NY
+region: finger-lakes
+county: Monroe
+area: Brighton
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www2.monroecounty.gov/parks
+links:
+  - type: official
+    label: "Corbett's Glen Nature Park: official page"
+    url: https://www2.monroecounty.gov/parks
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Corbett's%20Glen%20Nature%20Park%2C%20Brighton%2C%20NY
+mapQuery: Corbett's Glen Nature Park, Brighton, NY
+lat: 43.1336
+lon: -77.5227
+kind: waterfall
+interests:
+  - nature
+  - family
+  - photo
+difficulty: moderate
+timeMinutes: 90
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A small gorge park with a trail and a waterfall near Rochester.
+warnings:
+  - type: safety
+    text: Rocks near waterfalls are slippery. Stay on marked paths and out of the water above the falls.
+    verify: false

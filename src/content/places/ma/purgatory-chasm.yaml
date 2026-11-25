@@ -1,0 +1,38 @@
+name: Purgatory Chasm State Reservation
+country: us
+state: MA
+region: central-massachusetts
+county: Worcester
+area: Sutton
+source: researched
+lastChecked: 2026-11-24
+officialUrl: https://www.mass.gov/locations/purgatory-chasm-state-reservation
+links:
+  - type: state-park
+    label: "Purgatory Chasm State Reservation: official page"
+    url: https://www.mass.gov/locations/purgatory-chasm-state-reservation
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Purgatory%20Chasm%20State%20Reservation%2C%20Sutton%2C%20MA
+mapQuery: Purgatory Chasm State Reservation, Sutton, MA
+lat: 42.122
+lon: -71.719
+kind: hike
+interests:
+  - adventure
+  - nature
+  - family
+difficulty: moderate
+timeMinutes: 120
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: true
+summary: A narrow granite chasm with a boulder-hopping trail through it.
+warnings:
+  - type: safety
+    text: The chasm trail has steep, rocky scrambles. It closes when wet or icy.
+    verify: true

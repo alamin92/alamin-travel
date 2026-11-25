@@ -1,0 +1,39 @@
+name: Austin Falls
+country: us
+state: NY
+region: adirondacks
+county: Hamilton
+alsoRegions:
+  - adirondacks
+area: Wells
+source: visited
+lastChecked: 2026-11-24
+officialUrl: https://www.adirondackexperience.org/
+links:
+  - type: official
+    label: "Austin Falls: official page"
+    url: https://www.adirondackexperience.org/
+  - type: reviews
+    label: Reviews and photos on Google Maps
+    url: https://www.google.com/maps/search/?api=1&query=Austin%20Falls%2C%20Wells%2C%20NY
+mapQuery: Austin Falls, Wells, NY
+lat: 43.5015
+lon: -74.2793
+kind: waterfall
+interests:
+  - nature
+  - photo
+difficulty: easy
+timeMinutes: 45
+bestSeason:
+  - spring
+  - summer
+  - fall
+familyFriendly: true
+cost: free
+highlight: false
+summary: A small waterfall on a creek in the southern Adirondacks.
+warnings:
+  - type: other
+    text: Access and parking are not confirmed. Check local sources before you go.
+    verify: true
